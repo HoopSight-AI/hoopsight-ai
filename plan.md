@@ -5,7 +5,6 @@ Each NBA team plays 82 games per season, and we are developing a predictive mode
 **Data Structures**:
 
 
-
 * **Lists**: To store game results and team statistics.
 * **HashMaps**: For quick lookups of team-specific data (points scored, wins, losses).
 * **Queues**: These are for handling real-time game result inputs and updating predictions.
@@ -13,8 +12,6 @@ Each NBA team plays 82 games per season, and we are developing a predictive mode
 * **2D Arrays**: To represent game-by-game results or head-to-head comparisons.
 
 **Topics from CS146**:
-
-
 
 * **Heap Sort**: To maintain rankings of the teams.
 * **Recurrence Relations**: For analyzing the growth and complexity of the algorithm.
@@ -25,8 +22,6 @@ Each NBA team plays 82 games per season, and we are developing a predictive mode
 
 
 **Project Plan:**
-
-
 
 1. **Data Collection**: Gather historical NBA game data and current season stats.
 2. **Data Structure Setup**: Implement structures like Lists, HashMaps, and Priority Queues to manage game results.
