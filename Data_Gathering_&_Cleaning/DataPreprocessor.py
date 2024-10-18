@@ -2,8 +2,12 @@ import os
 import pandas as pd
 import numpy as np
 
+# change for each user
 input_dir = '/Users/adarsh/Desktop/vscode-workspace/nba-prediction-model/nba-java-predictions/October_15_Data'
-output_dir = '/Users/adarsh/Desktop/vscode-workspace/nba-prediction-model/nba-java-predictions/Cleaned_Data'
+# input_dir can most likely be changed to = '../October_15_Data'
+output_dir = '/Users/adarsh/Desktop/vscode-workspace/nba-prediction-model/nba-java-predictions/Cleaned_Data' 
+# output_dir can most likely be changed to = '../Cleaned_Data
+
 os.makedirs(output_dir, exist_ok=True)
 column = 'Statistic'
 
