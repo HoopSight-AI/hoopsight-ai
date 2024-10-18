@@ -2,11 +2,10 @@ import os
 import pandas as pd
 import numpy as np
 
-# change for each user
-input_dir = '/Users/adarsh/Desktop/vscode-workspace/nba-prediction-model/nba-java-predictions/October_15_Data'
-# input_dir can most likely be changed to = '../October_15_Data'
-output_dir = '/Users/adarsh/Desktop/vscode-workspace/nba-prediction-model/nba-java-predictions/Cleaned_Data' 
-# output_dir can most likely be changed to = '../Cleaned_Data
+# make sure you run the file in terminal from directory "Data_Gathering_&_Cleaning"
+# otherwise the relative path won't work
+input_dir = '../October_15_Data'
+output_dir = '../Cleaned_Data' 
 
 os.makedirs(output_dir, exist_ok=True)
 column = 'Statistic'
@@ -35,17 +34,11 @@ for metric_type in os.listdir(input_dir):
                     # for each entry in the column, check if it is an outlier (defined as having a z-score > 3)
                     outlier_mask = abs(z_scores) > 3
 
-                    outliers = df.loc[outlier_mask, column]
-                    if not outliers.empty:
-                        print(f"Outliers in {filename}:")
-                        print(outliers)
-                    else:
-                        print(f"No outliers found in {filename}.")
-                    # df.loc[outlier_mask, column] = median
+                    df.loc[outlier_mask, column] = median
                     df[column] = df[column].round(3)
 
-                    #output_file_path = os.path.join(metric_output_dir, filename)
-                    #df.to_csv(output_file_path, index=False)
+                    output_file_path = os.path.join(metric_output_dir, filename)
+                    df.to_csv(output_file_path, index=False)
 print("DONE")
                         
                     
