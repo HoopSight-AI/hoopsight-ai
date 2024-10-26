@@ -1,0 +1,255 @@
+/************* GLOBAL VARIABLES ***************/
+:root {
+	/* Light Mode Colors */
+	--background-color: #e5e5e5;
+	/* Existing body background-color */
+	--foreground-color: #000000;
+	/* Default text color */
+	--primary-color: #3540CA;
+	/* Existing --pDarkBlue */
+	--secondary-color: #cff8fd;
+	/* Existing --pLightBlue */
+	--accent-color: #F2E16C;
+	/* Existing --pYellow */
+	--link-color: var(--primary-color);
+	--link-hover-color: #c9dcca;
+	--link-active-color: #000000;
+	--nav-background-color: var(--secondary-color);
+	--glow-color: #00ff00;
+	--glow-background-color: var(--secondary-color);
+	--shadow-color: black;
+	--shadow-background: rgba(0, 0, 0, 0.5);
+
+	/* Other Colors */
+	--pDarkGreen: #0E1B05;
+	--coral: #FF6F61;
+	--peach: #FFDAB9;
+	--light-purple: #D1C4E9;
+	--lavender: #E6E6FA;
+	--triadic-yellow: #FFD700;
+	--triadic-green: #3CB371;
+
+	/* Fonts */
+	--font-heading-family: 'brother-1816', sans-serif;
+	--font-body-family: 'bilo', sans-serif;
+
+	--ease2: cubic-bezier(0.64, 0.11, 0.1, 1.015);
+}
+
+/* Dark Mode Variables */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-color: #121212;
+		/* Existing --dark-background */
+		--foreground-color: #FFFFFF;
+		/* Existing --dark-foreground */
+		--primary-color: #03DAC6;
+		/* Existing --dark-primary */
+		--secondary-color: #BB86FC;
+		/* Existing --dark-accent */
+		--accent-color: var(--triadic-green);
+		/* #3CB371 */
+		--link-color: var(--primary-color);
+		--link-hover-color: var(--secondary-color);
+		--link-active-color: var(--foreground-color);
+		--nav-background-color: #1F1F1F;
+		/* Slightly lighter than background */
+		--glow-color: #BB86FC;
+		/* Adjusted for better visibility in dark mode */
+		--glow-background-color: var(--secondary-color);
+		--shadow-color: white;
+		--shadow-background: rgba(255, 255, 255, 0.5);
+	}
+}
+
+/************ GLOBAL STYLING *****************/
+body {
+	background-color: var(--background-color);
+	color: var(--foreground-color);
+}
+
+body * {
+	/* animation: fall-in 0.75s ease; */
+}
+
+/* Apply the fade-out animation to all elements with a specific class */
+body.fade-out * {
+	animation: fade-out 0.5s ease-in-out;
+}
+
+/************ GENERAL ANIMATIONS *************/
+@keyframes active-glow {
+
+	0%,
+	100% {
+		box-shadow: 10px 0 10px var(--glow-color), 15px 0 15px var(--glow-color),
+			inset -4px 0 4px var(--glow-color), inset 100px 0 10px var(--glow-background-color);
+	}
+
+	50% {
+		box-shadow: 3px 0 3px var(--glow-color), 5px 0 8px var(--glow-color),
+			inset -1px 0 1px var(--glow-color), inset 1px 0 1px var(--glow-background-color);
+	}
+}
+
+@keyframes glow-full {
+
+	0%,
+	100% {
+		box-shadow: 0px 0 3px var(--glow-color), 0px 0 8px var(--glow-color),
+			inset 0px 0 1px var(--glow-color);
+	}
+
+	50% {
+		box-shadow: 0px 0 25px var(--glow-color), 0px 0 30px var(--glow-color),
+			inset 0px 0 5px var(--glow-color);
+	}
+}
+
+@keyframes blink {
+	50% {
+		opacity: 0;
+	}
+}
+
+/* Keyframes for the falling effect */
+@keyframes fall-in {
+	from {
+		opacity: 0;
+		transform: translateY(-5px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Define keyframes for the fade-out effect */
+@keyframes fade-out {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+/************* BASIC HTML RESET ***************/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	font-family: var(--font-body-family);
+}
+
+/************* NAV BAR STYLING ***************/
+#top-spacing {
+	height: 65px;
+}
+
+.nav {
+	display: flex;
+	background-color: var(--nav-background-color);
+	justify-content: space-between;
+	align-items: center;
+	height: 65px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	z-index: 1000;
+
+	overflow: hidden;
+}
+
+.home-link {
+	height: 80%;
+}
+
+.nav-logo {
+	max-width: 100%;
+	height: 95%;
+	max-height: 100%;
+	border-radius: 50%;
+	object-fit: contain;
+	transition: background-color 0.2s var(--ease2), box-shadow 0.2s var(--ease2);
+}
+
+.nav-logo:hover {
+	background-color: var(--shadow-background);
+	box-shadow: 0 0 15px 1px var(--shadow-color);
+	transition: background-color 0.3s var(--ease2), box-shadow 0.35s var(--ease2);
+}
+
+.nav-text {
+	margin-left: auto;
+	display: flex;
+	padding: 5px;
+}
+
+.nav-text li {
+	list-style: none;
+}
+
+.nav-text a {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	text-decoration: none;
+	color: var(--link-color);
+	margin-left: 20px;
+}
+
+.nav-text a:visited {
+	color: var(--link-color);
+}
+
+.nav-text a:hover {
+	color: var(--link-hover-color);
+	text-decoration: underline;
+}
+
+.nav-text a:active {
+	color: var(--link-active-color);
+}
+
+.account-button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	color: var(--link-color);
+	margin-left: 10px;
+}
+
+.account-button:visited {
+	color: var(--link-color);
+}
+
+.account-button:hover {
+	color: var(--link-hover-color);
+}
+
+.account-button:active {
+	color: var(--link-active-color);
+}
+
+.account-button .profile-picture {
+	height: 30px;
+	width: 30px;
+	position: relative;
+}
+
+.account-button span {
+	color: inherit;
+}
