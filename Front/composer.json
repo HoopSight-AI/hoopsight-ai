@@ -1,0 +1,7 @@
+{
+  "name": "hoopsight-ai",
+  "description": "HoopSight AI Website",
+  "require": {
+    "php": "^8.0"
+  }
+}
