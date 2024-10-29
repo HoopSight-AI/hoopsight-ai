@@ -2,18 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "Front/Front/index.php",
+      "src": "Front/index.php",
       "use": "@vercel/php"
     }
   ],
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/Front/Front/api/index.php" },
-    { "source": "/Assets/:path*", "destination": "/Front/Front/Assets/:path*" },
-    { "source": "/CSS/:path*", "destination": "/Front/Front/CSS/:path*" },
-    { "source": "/JS/:path*", "destination": "/Front/Front/JS/:path*" },
-    { "source": "/favicon.ico", "destination": "/Front/Front/Assets/ball-icon.ico" },
-    { "source": "/", "destination": "/Front/Front/index.php" },
-    { "source": "/(.*)", "destination": "/Front/Front/index.php" }
+    { "source": "/api/(.*)", "destination": "/Front/api/index.php" },
+    { "source": "/Assets/:path*", "destination": "/Front/Assets/:path*" },
+    { "source": "/CSS/:path*", "destination": "/Front/CSS/:path*" },
+    { "source": "/JS/:path*", "destination": "/Front/JS/:path*" },
+    { "source": "/favicon.ico", "destination": "/Front/Assets/ball-icon.ico" },
+    { "source": "/", "destination": "/Front/index.php" },
+    { "source": "/(.*)", "destination": "/Front/index.php" }
   ],
   "cleanUrls": true,
   "trailingSlash": false
