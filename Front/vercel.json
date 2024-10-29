@@ -1,16 +1,18 @@
 {
-  "functions": {
-    "api/*.php": {
-      "runtime": "vercel-php@0.7.3"
+  "version": 2,
+  "builds": [
+    {
+      "src": "Front/Front/index.php",
+      "use": "@vercel/php"
     }
-  },
-  "rewrites": [
-    { "source": "/", "destination": "/api/index.php" },
-    { "source": "/Front/Assets/:path*", "destination": "/Front/Assets/:path*" },
-    { "source": "/Front/CSS/:path*", "destination": "/Front/CSS/:path*" },
-    { "source": "/Front/JS/:path*", "destination": "/Front/JS/:path*" },
-    { "source": "/Front/Content/:path*", "destination": "/Front/Content/:path*" },
-    { "source": "/(.*)", "destination": "/api/index.php" }
+  ],
+  "routes": [
+    { "source": "/api/(.*)", "destination": "/Front/api/index.php" },
+    { "source": "/Front/Assets/:path*", "destination": "/Front/Front/Assets/:path*" },
+    { "source": "/Front/CSS/:path*", "destination": "/Front/Front/CSS/:path*" },
+    { "source": "/Front/JS/:path*", "destination": "/Front/Front/JS/:path*" },
+    { "source": "/", "destination": "/Front/Front/index.php" },
+    { "source": "/(.*)", "destination": "/Front/Front/index.php" }
   ],
   "cleanUrls": true,
   "trailingSlash": false
