@@ -1,16 +1,16 @@
 {
   "version": 2,
   "functions": {
-    "Front/*.php": {
+    "api/*.php": {
       "runtime": "vercel-php@0.6.0"
     }
   },
   "routes": [
-    { "src": "/api/(.*)", "dest": "/Front/api/index.php" },
+    { "src": "/api/(.*)", "dest": "/api/index.php" },
     { "src": "/Assets/(.*)", "dest": "/Front/Assets/$1" },
     { "src": "/CSS/(.*)", "dest": "/Front/CSS/$1" },
     { "src": "/JS/(.*)", "dest": "/Front/JS/$1" },
     { "src": "/favicon.ico", "dest": "/Front/Assets/ball-icon.ico" },
-    { "src": "/(.*)", "dest": "/Front/index.php" }
+    { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
