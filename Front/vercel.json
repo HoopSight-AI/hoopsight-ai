@@ -7,10 +7,11 @@
     }
   ],
   "routes": [
-    { "source": "/api/(.*)", "destination": "/Front/api/index.php" },
-    { "source": "/Front/Assets/:path*", "destination": "/Front/Front/Assets/:path*" },
-    { "source": "/Front/CSS/:path*", "destination": "/Front/Front/CSS/:path*" },
-    { "source": "/Front/JS/:path*", "destination": "/Front/Front/JS/:path*" },
+    { "source": "/api/(.*)", "destination": "/Front/Front/api/index.php" },
+    { "source": "/Assets/:path*", "destination": "/Front/Front/Assets/:path*" },
+    { "source": "/CSS/:path*", "destination": "/Front/Front/CSS/:path*" },
+    { "source": "/JS/:path*", "destination": "/Front/Front/JS/:path*" },
+    { "source": "/favicon.ico", "destination": "/Front/Front/Assets/ball-icon.ico" },
     { "source": "/", "destination": "/Front/Front/index.php" },
     { "source": "/(.*)", "destination": "/Front/Front/index.php" }
   ],
