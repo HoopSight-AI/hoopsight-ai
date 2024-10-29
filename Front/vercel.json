@@ -4,13 +4,13 @@
       "runtime": "vercel-php@0.7.3"
     }
   },
-  "routes": [
-    { "src": "/Front/Assets/(.*)", "dest": "/Front/Assets/$1" },
-    { "src": "/Front/CSS/(.*)", "dest": "/Front/CSS/$1" },
-    { "src": "/Front/JS/(.*)", "dest": "/Front/JS/$1" },
-    { "src": "/Front/Content/(.*)", "dest": "/Front/Content/$1" },
-    { "src": "/test.txt", "dest": "/test.txt" },
-    { "src": "/(.*)", "dest": "/api/index.php" }
+  "rewrites": [
+    { "source": "/", "destination": "/api/index.php" },
+    { "source": "/Front/Assets/:path*", "destination": "/Front/Assets/:path*" },
+    { "source": "/Front/CSS/:path*", "destination": "/Front/CSS/:path*" },
+    { "source": "/Front/JS/:path*", "destination": "/Front/JS/:path*" },
+    { "source": "/Front/Content/:path*", "destination": "/Front/Content/:path*" },
+    { "source": "/(.*)", "destination": "/api/index.php" }
   ],
   "cleanUrls": true,
   "trailingSlash": false
