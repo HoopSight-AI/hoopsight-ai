@@ -7,13 +7,13 @@
     }
   ],
   "routes": [
-    { "source": "/api/(.*)", "destination": "/Front/Front/api/index.php" },
-    { "source": "/Assets/:path*", "destination": "/Front/Front/Assets/:path*" },
-    { "source": "/CSS/:path*", "destination": "/Front/Front/CSS/:path*" },
-    { "source": "/JS/:path*", "destination": "/Front/Front/JS/:path*" },
-    { "source": "/favicon.ico", "destination": "/Front/Front/Assets/ball-icon.ico" },
-    { "source": "/", "destination": "/Front/Front/index.php" },
-    { "source": "/(.*)", "destination": "/Front/Front/index.php" }
+    { "src": "/api/(.*)", "dest": "/Front/Front/api/index.php" },
+    { "src": "/Assets/:path*", "dest": "/Front/Front/Assets/:path*" },
+    { "src": "/CSS/:path*", "dest": "/Front/Front/CSS/:path*" },
+    { "src": "/JS/:path*", "dest": "/Front/Front/JS/:path*" },
+    { "src": "/favicon.ico", "dest": "/Front/Front/Assets/ball-icon.ico" },
+    { "src": "/", "dest": "/Front/Front/index.php" },
+    { "src": "/(.*)", "dest": "/Front/Front/index.php" }
   ],
   "cleanUrls": true,
   "trailingSlash": false
