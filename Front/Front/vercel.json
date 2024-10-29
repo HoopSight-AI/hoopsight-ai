@@ -5,7 +5,10 @@
     }
   },
   "routes": [
-    { "src": "/(css|js|images|assets)(.*)", "dest": "/Front/$1$2" },
+    { "src": "/Front/CSS/(.*)", "dest": "/Front/CSS/$1" },
+    { "src": "/Front/JS/(.*)", "dest": "/Front/JS/$1" },
+    { "src": "/Front/Assets/(.*)", "dest": "/Front/Assets/$1" },
+    { "src": "/Front/Content/(.*)", "dest": "/Front/Content/$1" },
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
