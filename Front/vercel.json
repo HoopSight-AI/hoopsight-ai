@@ -1,20 +1,16 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "Front/index.php",
-      "use": "vercel-php@0.6.0"
+  "functions": {
+    "Front/*.php": {
+      "runtime": "vercel-php@0.6.0"
     }
-  ],
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/Front/api/index.php" },
-    { "source": "/Assets/:path*", "destination": "/Front/Assets/:path*" },
-    { "source": "/CSS/:path*", "destination": "/Front/CSS/:path*" },
-    { "source": "/JS/:path*", "destination": "/Front/JS/:path*" },
-    { "source": "/favicon.ico", "destination": "/Front/Assets/ball-icon.ico" },
-    { "source": "/", "destination": "/Front/index.php" },
-    { "source": "/(.*)", "destination": "/Front/index.php" }
-  ],
-  "cleanUrls": true,
-  "trailingSlash": false
+  },
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/Front/api/index.php" },
+    { "src": "/Assets/(.*)", "dest": "/Front/Assets/$1" },
+    { "src": "/CSS/(.*)", "dest": "/Front/CSS/$1" },
+    { "src": "/JS/(.*)", "dest": "/Front/JS/$1" },
+    { "src": "/favicon.ico", "dest": "/Front/Assets/ball-icon.ico" },
+    { "src": "/(.*)", "dest": "/Front/index.php" }
+  ]
 }
