@@ -1,0 +1,24 @@
+.team-portrait-container {
+	background-image: url(../Assets/top-view-photo-of-basketball-court.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	height: 38vw;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.team-portrait-container img {
+	width: 40%;
+	border-radius: 93px;
+
+	overflow: visible;
+
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 0 33px 5px rgba(255, 255, 255, 1);
+
+}
+}
