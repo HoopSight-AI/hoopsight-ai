@@ -1,0 +1,53 @@
+/* Parallax Container */
+.parallax-container {
+	position: relative;
+	height: 100vh; /* Set height as needed */
+	overflow: hidden;
+  }
+  
+  /* Background Image */
+  .parallax-background {
+	background-image: url('../Assets/SlamDunk.png');
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 150%; /* Extend height for the parallax effect */
+	transform: translateY(0);
+	z-index: -1;
+  }
+  
+  /* Overlay Content */
+  .overlay-content {
+	position: sticky;
+	top: 30vh; /* Adjust this value for the start of the sticky effect */
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+	max-width: 600px;
+	margin: auto;
+	z-index: 1;
+  }
+
+/* Member Section */
+.member {
+	display: flex;
+	align-items: center;
+	width: 100%;
+
+}
+
+/* Member Image */
+.member img {
+	max-width: 200px;
+	margin-right: 20px;
+}
+
+/* Member Text */
+.member-text {
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
