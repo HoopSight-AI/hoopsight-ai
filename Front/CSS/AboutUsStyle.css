@@ -1,0 +1,84 @@
+/* Parallax Container */
+.parallax-container {
+	position: relative;
+	height: 100vh;
+	/* Set height as needed */
+	overflow: hidden;
+}
+
+/* Background Image */
+.parallax-background {
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 150%;
+	/* Extend height for the parallax effect */
+	transform: translateY(0);
+	z-index: -1;
+}
+
+/* Overlay Content */
+.overlay-content {
+	position: sticky;
+	top: 30vh;
+	/* Adjust this value for the start of the sticky effect */
+	padding: 20px;
+	/*
+	border: solid 1px blue;
+	box-shadow: 0 0 50px 0px rgb(20, 20, 255);
+	*/
+	background: rgba(255, 255, 255, 0.8);
+	/* Semi-transparent background */
+	margin: auto;
+	z-index: 1;
+
+	opacity: 0;
+	transform: translateY(50px);
+	transition: transform 1s ease, opacity 1.2s ease;
+}
+
+/* Member Section */
+.member {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+/* Container for the h1 and h3 elements */
+.title {
+	display: flex;
+	align-items: center;
+	/* Centers h1 and h3 vertically */
+	gap: 8px;
+	/* Optional: space between h1 and h3 */
+}
+
+/* Reset margins for headings */
+.title h1,
+.title h3 {
+	margin: 0;
+}
+
+/* Member Image */
+.member img {
+	max-width: 200px;
+	margin-right: 20px;
+}
+
+/* Member Text */
+.member-text {
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	font-size: clamp(0.5rem, 1vw, 1rem);
+}
+
+.divider {
+	background-color: white;
+	height: 30px;
+	width: 100%;
+}
