@@ -1,5 +1,4 @@
 :root {
-    /* NBA-inspired color palette */
     --primary-dark: #1d1d1d;
     --secondary-dark: #2c2c2c;
     --accent-color: #0076b7; /* NBA blue */
@@ -21,6 +20,7 @@ body {
     animation: fadeIn 1s ease-in-out;
 }
 
+/* change this since it is the same in the other one */ 
 .table-container h2 {
     font-size: 28px;
     font-weight: 700;
@@ -125,7 +125,8 @@ table tbody tr:hover {
 }
 
 table tbody tr:hover td {
-    color: var(--text-light);
+    filter: brightness(1.9);
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }
 
 /* Responsive adjustments */

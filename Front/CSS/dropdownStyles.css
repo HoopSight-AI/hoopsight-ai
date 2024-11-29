@@ -55,14 +55,26 @@ button {
 button:hover {
     background-color: var(--secondary-color);
 }
-/* Shared container styling */
-.table-container,
+
+.table-container {
+    margin-top: 40px; 
+    position: relative;
+    overflow: hidden;
+}
+
+.table-container h2 {
+    margin-bottom: 50px; 
+    margin-top: 0; 
+    font-size: 28px; 
+    color: var(--text-light); 
+    text-align: center; /* corresponds to Predictions for ___ text */
+}
+
 .dropdown-container {
     margin-top: 60px; 
     position: relative;
     overflow: hidden;
 }
-
 .dropdown-container h2 {
     font-size: 28px;
     font-weight: 700;
