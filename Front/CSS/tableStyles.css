@@ -1,0 +1,163 @@
+:root {
+    /* NBA-inspired color palette */
+    --primary-dark: #1d1d1d;
+    --secondary-dark: #2c2c2c;
+    --accent-color: #0076b7; /* NBA blue */
+    --highlight-color: #c41e3a; /* NBA red */
+    --text-light: #f4f4f4;
+    --text-subtle: #b0b0b0;
+    --green-win: #28a745; /* Green for wins */
+    --red-loss: #dc3545; /* Red for losses */
+    --hss-highlight: #f1c40f; /* Gold for HSS */
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Arial', 'Helvetica Neue', sans-serif;
+}
+
+.table-container {
+    margin-top: 40px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.table-container h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--text-light);
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, var(--accent-color), var(--highlight-color));
+    background-size: 200%; /* For fade-in effect */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientShift 2s ease-in-out infinite alternate;
+}
+
+table {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: var(--secondary-dark);
+    box-shadow: 
+        0 15px 30px rgba(0, 0, 0, 0.4),
+        0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+table:hover {
+    transform: scale(1.02);
+    box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.5),
+        0 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+table thead {
+    background: linear-gradient(to right, var(--accent-color), var(--highlight-color));
+    color: var(--text-light);
+}
+
+table th {
+    padding: 18px 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+table tbody tr {
+    background-color: var(--secondary-dark);
+    transition: all 0.3s ease-in-out;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #252525;
+}
+
+table td {
+    padding: 16px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/* Wins and Losses colors */
+table tbody tr td:nth-child(2) {
+    color: var(--green-win); /* Green for Wins */
+    font-weight: 700;
+}
+
+table tbody tr td:nth-child(3) {
+    color: var(--red-loss); /* Red for Losses */
+    font-weight: 700;
+}
+
+/* Highlight HSS text instead of background */
+table tbody tr td:last-child {
+    color: var(--hss-highlight);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Team name styling */
+table tbody tr td:first-child {
+    color: var(--text-light);
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+table tbody tr:hover {
+    background-color: #303030;
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+table tbody tr:hover td {
+    color: var(--text-light);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+    
+    table th, table td {
+        padding: 12px 10px;
+        font-size: 14px;
+    }
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Keyframes for gradient shift */
+@keyframes gradientShift {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: 100%;
+    }
+}
