@@ -27,7 +27,7 @@ jobs:
 
     - name: Compile Java Files
       run: |
-        javac -cp "./weka/weka.jar:." DataStore.java RandomForestPrediction.java
+        javac -cp "./weka/weka.jar:." JavaImplementation/DataStore.java JavaImplementation/RandomForestPrediction.java
 
     - name: Run Predictions
       run: |
