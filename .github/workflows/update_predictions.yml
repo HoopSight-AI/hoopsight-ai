@@ -27,11 +27,11 @@ jobs:
     
     - name: Compile Java Files
       run: |
-        javac -cp "./weka/weka.jar:." JavaImplementation/DataStore.java JavaImplementation/RandomForestPrediction.java
+        javac -cp "./weka/weka.jar:." DataStore.java RandomForestPrediction.java
     
     - name: Run Predictions
       run: |
-        java --add-opens java.base/java.lang=ALL-UNNAMED -cp "./weka/weka.jar:./JavaImplementation" RandomForestPrediction
+        java --add-opens java.base/java.lang=ALL-UNNAMED -cp "./weka/weka.jar:." RandomForestPrediction
     
     - name: Commit and Push CSV Updates
       run: |
