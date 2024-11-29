@@ -24,15 +24,15 @@ jobs:
       run: |
         wget https://prdownloads.sourceforge.net/weka/weka-3-8-6.zip
         unzip -j weka-3-8-6.zip weka-3-8-6/weka.jar -d ./weka
-
+    
     - name: Compile Java Files
       run: |
         javac -cp "./weka/weka.jar:." JavaImplementation/DataStore.java JavaImplementation/RandomForestPrediction.java
-
+    
     - name: Run Predictions
       run: |
-        java --add-opens java.base/java.lang=ALL-UNNAMED -cp "./weka/weka.jar:." JavaImplementation.RandomForestPrediction
-
+        java --add-opens java.base/java.lang=ALL-UNNAMED -cp "./weka/weka.jar:./JavaImplementation" RandomForestPrediction
+    
     - name: Commit and Push CSV Updates
       run: |
         git config --local user.name "github-actions[bot]"
