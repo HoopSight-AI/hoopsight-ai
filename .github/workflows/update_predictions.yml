@@ -36,28 +36,17 @@ jobs:
       run: |
         java --add-opens java.base/java.lang=ALL-UNNAMED -cp "./weka/weka.jar:." RandomForestPrediction
     
-    - name: Debug file content
-      run: |
-        ls -l Front/CSVFiles/
-        cat Front/CSVFiles/prediction_results.csv || echo "prediction_results.csv not found"
-        cat Front/CSVFiles/win_loss_records.csv || echo "win_loss_records.csv not found"
-
     - name: Commit and Push CSV Updates
       run: |
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
-
-        git pull origin main --rebase
-
-        # Force Git to Detect Changes
-        touch Front/CSVFiles/prediction_results.csv Front/CSVFiles/win_loss_records.csv
-
+        
         # Check if there are changes to commit
         if git diff-index --quiet HEAD --; then
           echo "No changes to commit. Exiting."
           exit 0
         fi
-
+        
         git add Front/CSVFiles/prediction_results.csv Front/CSVFiles/win_loss_records.csv
         git commit -m "Update predictions and win-loss records CSVs (automated)"
         git push
