@@ -79,7 +79,7 @@ for (int i = 0; i < games.size(); i++) {
     hssCount += homeHSS;
     double awayHSS = loadHSS(game.opponent, opponentDataPath, game.year);
     if (game.location.equals("H")) {
-        double homeAdvantageBoost = Math.max(2.75, awayHSS * 0.01425);
+        double homeAdvantageBoost = Math.max(3.0, awayHSS * 0.0165725);
         homeHSS += homeAdvantageBoost;
     }
     double weightedStat = homeHSS - awayHSS;
