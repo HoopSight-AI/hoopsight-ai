@@ -37,6 +37,13 @@ jobs:
       run: |
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # Check if there are changes to commit
+        if git diff-index --quiet HEAD --; then
+          echo "No changes to commit. Exiting."
+          exit 0
+        fi
+        
         git add prediction_results.csv win_loss_records.csv
         git commit -m "Update predictions and win-loss records CSVs (automated)"
         git push
