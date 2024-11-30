@@ -43,19 +43,12 @@ table {
     border-collapse: separate;
     border-spacing: 0;
     border-radius: 12px;
-    overflow: hidden;
+    overflow: hidden; /* This helps with forcing the border-radius property from the container */
     background-color: var(--secondary-dark);
     box-shadow: 
         0 15px 30px rgba(0, 0, 0, 0.4),
         0 10px 20px rgba(0, 0, 0, 0.3);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-table:hover {
-    transform: scale(1.02);
-    box-shadow: 
-        0 20px 40px rgba(0, 0, 0, 0.5),
-        0 15px 25px rgba(0, 0, 0, 0.4);
 }
 
 table thead {
@@ -75,7 +68,7 @@ table th {
 
 table tbody tr {
     background-color: var(--secondary-dark);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 table tbody tr:nth-child(even) {
