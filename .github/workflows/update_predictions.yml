@@ -6,6 +6,9 @@ on:
     - cron: "49 22 * * *" # 10:49 PM UTC
   workflow_dispatch: 
 
+permissions:
+  contents: write
+
 jobs:
   run-predictions:
     runs-on: ubuntu-latest
