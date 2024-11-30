@@ -2,7 +2,7 @@
 :root {
 	--background-color: #121212;
 	/* Existing --dark-background */
-	--foreground-color: #861414;
+	--foreground-color: white;
 	/* Existing --dark-foreground */
 	--primary-color: #03DAC6;
 	/* Existing --dark-primary */
@@ -21,18 +21,9 @@
 	--shadow-color: white;
 	--shadow-background: rgba(255, 255, 255, 0.5);
 
-	/* Other Colors */
-	--pDarkGreen: #0E1B05;
-	--coral: #FF6F61;
-	--peach: #FFDAB9;
-	--light-purple: #D1C4E9;
-	--lavender: #E6E6FA;
-	--triadic-yellow: #FFD700;
-	--triadic-green: #3CB371;
-
 	/* Fonts */
-	--font-heading-family: 'brother-1816', sans-serif;
-	--font-body-family: 'bilo', sans-serif;
+	--font-heading-family: 'aria', sans-serif;
+	--font-body-family: 'aria', sans-serif;
 
 	--ease2: cubic-bezier(0.64, 0.11, 0.1, 1.015);
 }
@@ -130,22 +121,43 @@ body {
 	height: 65px;
 }
 
+.nav-container {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	z-index: 1000;
+	/* transition: top 0.03s ease; */
+}
+
 .nav {
 	display: flex;
 	background-color: var(--nav-background-color);
 	justify-content: space-between;
 	align-items: center;
-	height: 80px;
-	width: 100%;
-	position: fixed;
+	height: 60px;
+	width: clamp(800px, 15vw + 600px, 95%);
+	max-width: 90%;
 	top: 0;
 	left: 0;
 	padding: 0 20px;
 	z-index: 1000;
-	border-bottom: solid 2px rgba(125, 125, 255, .9);
-	box-shadow: 0 0 30px 0px rgb(50, 50, 255);
-
+	border: solid 0.5px rgba(125, 125, 255, .9);
+	box-shadow: 0 0 10px 0px rgb(50, 50, 255);
 	overflow: hidden;
+	/* margin: auto; */
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.cursor-glow {
+	position: absolute;
+	height: 1px;
+	width: 1px;
+	box-shadow: 10px 10px 30px 10px rgb(255, 255, 255);
 }
 
 .home-link {
@@ -401,8 +413,16 @@ body {
 	height: 45px;
 	padding: 0px 10px 0px 10px;
 	background-color: #275dc5;
+	border: solid var(--background-color) 1px;
 	border-radius: 12px;
 	color: white;
+	cursor: pointer;
+	transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.submit-button:hover {
+	background-color: #4a80f8;
+	border-color: black;
 }
 
 .button-disabled {

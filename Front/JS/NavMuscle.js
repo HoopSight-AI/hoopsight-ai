@@ -1,3 +1,4 @@
+// Main functionality
 function handleNavBarAnimation() {
 	console.log("Running");
 	console.log("");
@@ -46,7 +47,9 @@ function handleNavBarAnimation() {
 			navbar.style.top = `${navBarTop + (lastScrollTop - scrollTop)}px`;
 		} else if (isFullyVisible && !isScrollUp) {
 			// Can only move back up
-			navbar.style.top = `${navBarTop + Math.min(0, lastScrollTop - scrollTop)}px`;
+			navbar.style.top = `${
+				navBarTop + Math.min(0, lastScrollTop - scrollTop)
+			}px`;
 		}
 
 		// Correct Navbar placement if it goes out of bounds
@@ -63,12 +66,15 @@ function handleNavBarAnimation() {
 	});
 }
 
+/**
+ * Adjusts the space under the navigation bar to make sure the main page doesnt get covered.
+ */
 function adjustTopSpacing() {
 	const navBarElement = document.getElementById("nav-bar");
 	const navBarComputedStyle = window.getComputedStyle(navBarElement); // Leverage nav-bar reference to retrieve a reference to its CSS
 	const navBarHeight = navBarComputedStyle.getPropertyValue("height"); // Retrieve 'height' styling data
 	const spacingElement = document.getElementById("top-spacing"); // Get reference to the top-spacing element
-	spacingElement.style.height = (parseFloat(navBarHeight) + 20) + "px"; // Set the margin-top of the top-spacing element to the height of the nav-bar. This line will style using px
+	spacingElement.style.height = parseFloat(navBarHeight) + 10 + "px"; // Set the margin-top of the top-spacing element to the height of the nav-bar. This line will style using px
 }
 
 // Add event listeners for DOMContentLoaded
@@ -76,3 +82,45 @@ document.addEventListener("DOMContentLoaded", function () {
 	handleNavBarAnimation();
 	adjustTopSpacing();
 });
+
+class CursorTracker {
+	/**
+	 * Constructor
+	 * @param {string} glowElement - The string that will be used to query the HTML element.
+	 */
+	constructor(glowElement) {
+		// Query the div element using the provided CSS selector
+		this.glowElement = document.getElementById(glowElement);
+
+		// Throw an error if the element is not found
+		if (!this.glowElement) {
+			throw new Error(`Element not found: ${glowElement}`);
+		}
+
+		// Initialize x and y coordinates - These are arbitrary values
+		this.x = 0;
+		this.y = 0;
+
+		// Add an event listener to track mouse movements
+		window.addEventListener("mousemove", this.updatePosition.bind(this));
+	}
+
+	/**
+	 * updatePosition
+	 * Updates the x and y coordinates based on the mousemove event
+	 * and applies the new position to the target element.
+	 *
+	 * @param {MouseEvent} mouseMoveEvent - The mousemove event object.
+	 */
+	updatePosition(mouseMoveEvent) {
+		// Update the x and y coordinates from the mouse event
+		this.x = mouseMoveEvent.clientX;
+		this.y = mouseMoveEvent.clientY;
+
+		// Apply the coordinates to the glowElement
+		this.glowElement.style.left = `${this.x - 10}px`;
+		this.glowElement.style.top = `${this.y - 5}px`;
+	}
+}
+
+//const cursorGlow = new CursorTracker('cursor-glow-nav');

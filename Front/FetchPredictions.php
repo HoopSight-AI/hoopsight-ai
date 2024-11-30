@@ -6,7 +6,7 @@ if (!isset($_GET['team'])) {
 }
 
 $team = $_GET['team'];
-$dataFile = "./prediction_results.csv"; //make sure file paths are right if u are ediitng this
+$dataFile = "CSVFiles/prediction_results.csv"; //make sure file paths are right if u are ediitng this
 
 error_log("Selected team: $team");
 
@@ -18,7 +18,8 @@ if (!file_exists($dataFile)) {
 }
 
 // Generate table for the selected team
-function fetchPredictionsForTeam(string $team, string $csvFilePath): string {
+function fetchPredictionsForTeam(string $team, string $csvFilePath): string
+{
     error_log("Opening CSV file: $csvFilePath");
 
     // Read the CSV file
@@ -57,7 +58,7 @@ function fetchPredictionsForTeam(string $team, string $csvFilePath): string {
                 $tableHTML .= "<td style='color: #00ff00; font-weight: bold;'>" . htmlspecialchars($cell) . "%</td>";
             } elseif ($i === 2 || $i === 3) { // HSS Home/Away
                 $tableHTML .= "<td style='color: #0076b7;'>" . htmlspecialchars($cell) . "</td>";
-            } else { 
+            } else {
                 $tableHTML .= "<td>" . htmlspecialchars($cell) . "</td>";
             }
         }
@@ -71,4 +72,3 @@ function fetchPredictionsForTeam(string $team, string $csvFilePath): string {
 
 
 echo fetchPredictionsForTeam($team, $dataFile);
-?>

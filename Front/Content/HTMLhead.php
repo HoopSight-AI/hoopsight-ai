@@ -11,6 +11,5 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="CSS/style.css">
-	<link rel="stylesheet" href="CSS/tableStyles.css">
-	<link rel="stylesheet" href="CSS/dropdownStyles.css"> <!-- add any new css files here-->
+	<link rel="stylesheet" href="CSS/DropdownStyles.css"> <!-- add any new css files here-->
 </head>
