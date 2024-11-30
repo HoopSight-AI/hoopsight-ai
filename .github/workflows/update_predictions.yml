@@ -44,6 +44,6 @@ jobs:
           exit 0
         fi
         
-        git add prediction_results.csv win_loss_records.csv
+        git add Front/CSVFiles/prediction_results.csv Front/CSVFiles/win_loss_records.csv
         git commit -m "Update predictions and win-loss records CSVs (automated)"
         git push
