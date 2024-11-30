@@ -45,11 +45,11 @@ public class RandomForestPrediction {
     }
 public static void predictOutcomes(String teamName, String schedulePath, String opponentDataPath, RandomForest model) throws Exception {
     if (predictionWriter == null) {
-        predictionWriter = new FileWriter("prediction_results.csv");
+        predictionWriter = new FileWriter("Front/CSVFiles/prediction_results.csv");
         predictionWriter.append("Team,Opponent,HSS Home,HSS Away,Win%\n"); 
     }
     if (winLossWriter == null) {
-        winLossWriter = new FileWriter("win_loss_records.csv");
+        winLossWriter = new FileWriter("Front/CSVFiles/win_loss_records.csv");
         winLossWriter.append("Team,Wins,Losses,HSS\n"); 
     }
     File scheduleFile = new File(schedulePath);
