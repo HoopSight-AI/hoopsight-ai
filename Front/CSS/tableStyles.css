@@ -16,7 +16,7 @@ body {
 }
 
 .table-container {
-    margin-top: 40px;
+    margin: 40px 5px 0 5px;
     animation: fadeIn 1s ease-in-out;
 }
 
@@ -57,9 +57,9 @@ table thead {
 }
 
 table th {
-    padding: 18px 15px;
+    padding: 18px 8px;
     text-align: center;
-    font-size: 16px;
+    font-size: clamp(0.6rem, 1.6vw, 1.5rem);
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -82,24 +82,45 @@ table td {
     font-weight: 500;
     text-align: center;
     transition: all 0.3s ease;
+    vertical-align: middle; /* Ensures table cell content is vertically centered */
 }
 
+.table-team-title {
+    display: flex;
+    align-items: center; /* Vertically aligns items within the flex container */
+    gap: 10px;
+    /* justify-content: center; */
+    text-align: left; /* Ensures text alignment stays consistent */
+}
+
+.table-team-title img {
+    height: clamp(16px, 3vw + 5px, 30px);
+    vertical-align: middle; /* Ensures the image aligns with the text */
+}
+
+.table-team-title div {
+    display: inline-block; /* Keeps the text inline with the image */
+    font-size: clamp(0.5rem, 1.6vw, 1.3rem);
+}
+
+table tbody tr td:nth-child(2),
+table tbody tr td:nth-child(3),
+table tbody tr td:last-child{
+    font-weight: 700;
+    font-size: clamp(0.8rem, 1.6vw, 1.2rem);
+}
 /* Wins and Losses colors */
 table tbody tr td:nth-child(2) {
     color: var(--green-win); /* Green for Wins */
-    font-weight: 700;
 }
 
 table tbody tr td:nth-child(3) {
     color: var(--red-loss); /* Red for Losses */
-    font-weight: 700;
 }
 
 /* Highlight HSS text instead of background */
 table tbody tr td:last-child {
     color: var(--hss-highlight);
-    font-weight: 700;
-    font-size: 16px;
 }
 
 /* Team name styling */
@@ -122,15 +143,14 @@ table tbody tr:hover td {
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }
 
+table tbody tr:hover td img{
+    filter: brightness(0.7);
+}
+
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     table {
         width: 95%;
-    }
-    
-    table th, table td {
-        padding: 12px 10px;
-        font-size: 14px;
     }
 }
 
@@ -154,4 +174,25 @@ table tbody tr:hover td {
     to {
         background-position: 100%;
     }
+}
+
+.table-header {
+    display: flex;
+    align-items: center; /* Vertically centers items */
+    justify-content: center; /* Centers the header content */
+    gap: 15px; /* Adds spacing between the image and text */
+    margin-bottom: 15px;
+}
+
+.table-header img {
+    height: clamp(20px, 3vw + 5px, 40px);; /* Adjust as needed */
+    vertical-align: middle;
+    animation: glow-full 0.5s ease-in-out;
+
+}
+
+.table-header h2 {
+    font-size: 24px;
+    margin: 0;
+    vertical-align: middle;
 }

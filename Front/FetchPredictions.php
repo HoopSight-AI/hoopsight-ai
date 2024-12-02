@@ -43,7 +43,11 @@ function fetchPredictionsForTeam(string $team, string $csvFilePath): string
 
     // Build the table
     $tableHTML = "<div class='table-container'>";
-    $tableHTML .= "<h2>Predictions for $team</h2>";
+    $tableHTML .= "
+    <div class='table-header'>
+        <h2>Predictions for " . htmlspecialchars($team) . "</h2>
+        <img src='Assets/Logos/{$team}.png' alt='{$team} Logo'/>
+    </div>";
     $tableHTML .= "<table>";
     $tableHTML .= "<thead><tr>";
     foreach ($header as $col) {

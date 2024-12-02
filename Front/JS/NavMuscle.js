@@ -1,7 +1,5 @@
 // Main functionality
 function handleNavBarAnimation() {
-	console.log("Running");
-	console.log("");
 	let lastScrollTop = 0; // This will keep track of how far the user has scrolled to the top
 
 	const navbar = document.querySelector("#nav-bar"); // Get reference to the main <nav> element

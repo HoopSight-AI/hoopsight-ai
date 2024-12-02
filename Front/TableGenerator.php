@@ -110,7 +110,7 @@ class PredictionTable
 		// Load CSV file and parse it
 		$rows = array_map('str_getcsv', file($csvFilePath));
 		$header = array_shift($rows); // Extract header
-		$header[3] = "HoopSight Strength Score"; // Rename the last column
+		$header[3] = "HoopSight Score"; // Rename the last column
 
 		// Sort rows by the last column (HoopSight Strength Score) in descending order
 		usort($rows, function ($a, $b) {
@@ -134,10 +134,13 @@ class PredictionTable
 			// Map the team name (first column)
 			$teamShortName = $row[0];
 			$teamFullName = $this->teamManager->getFullTeamName($teamShortName);
-			$tableHTML .= "<td class='table-team-title'>" . htmlspecialchars($teamFullName) . "</td>";
-
+			$tableHTML .= "<td class='table-team-title'>
+				<img src='Assets/Logos/{$teamShortName}.png' alt='{$teamFullName} Logo' />
+				<div>" . htmlspecialchars($teamFullName) . "</div>
+			</td>";
 			// Add the rest of the columns
 			for ($i = 1; $i < count($row); $i++) {
+				if ($i == 3) $row[$i] = substr($row[$i], 0, -2); // Cut off the last two digits since its always 00
 				$tableHTML .= "<td>" . htmlspecialchars($row[$i]) . "</td>";
 			}
 
@@ -176,7 +179,7 @@ class PredictionTable
         <div id="prediction-table"></div>
     
         <script>
-            // Team data provided by PHP
+            // Team data provided by PHP. TODO: This data does not transfer over to the javascript
             const teams = $teamDataJSON;
         </script>
     HTML;
