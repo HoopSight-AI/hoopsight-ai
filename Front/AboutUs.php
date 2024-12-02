@@ -4,7 +4,7 @@ include_once "Content/HTMLhead.php";
 include_once "Content/HTMLheader.php";
 
 $teamMembers = [
-    ["Aditya Rao", "Assets/Baskimg_Ball.png", "Project Lead/Machine-Learning Engineer", "As an aspiring leader and computer scientist, I have a passion for innovation which I fuel through my programming skills and dreams.", "Assets/TeamMembers/AR.png"],
+    ["Aditya Rao", "Assets/Baskimg_Ball.png", "Project Lead", "As an aspiring leader and computer scientist, I have a passion for innovation which I fuel through my programming skills and dreams.", "Assets/TeamMembers/AR.png"],
     ["Alexander Adams", "Assets/Advanced_Court.png", "Full-Stack Engineer", "As an aspiring leader and computer scientist, I have a passion for innovation which I fuel through my programming skills and dreams.", "Assets/TeamMembers/AA.jpg"],
     ["Bushra Naveed", "Assets/Baskimg_Ball.png", "Machine-Learning Engineer", "As an aspiring leader and computer scientist, I have a passion for innovation which I fuel through my programming skills and dreams.", "Assets/TeamMembers/BN.jpg"],
     ["Alex Navarro", "Assets/Advanced_Court.png", "Machine-Learning Engineer", "As an aspiring leader and computer scientist, I have a passion for innovation which I fuel through my programming skills and dreams.", "Assets/TeamMembers/AN.jpeg"],
@@ -32,8 +32,9 @@ function createTeamMember($name, $src, $role, $description, $imagePath, $index)
             <img src='{$imagePath}' alt='Member Photo' id='member-image-{$index}'>
             <div class='member-text' id='member-text-{$index}'>
                 <div class='title' id='title-{$index}'>
-                    <h1 id='member-name-{$index}'>{$name}</h1>
-                    <h2 id='member-role-{$index}'>-- {$role}</h2>
+                    <h1 id='member-name-{$index}'>{$name} </h1>
+                    <h4>-</h4>
+                    <h2 id='member-role-{$index}'>{$role}</h2>
                 </div>
                 <span id='member-description-{$index}'>{$description}</span>
             </div>

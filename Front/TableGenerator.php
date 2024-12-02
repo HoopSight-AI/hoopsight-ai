@@ -134,7 +134,7 @@ class PredictionTable
 			// Map the team name (first column)
 			$teamShortName = $row[0];
 			$teamFullName = $this->teamManager->getFullTeamName($teamShortName);
-			$tableHTML .= "<td>" . htmlspecialchars($teamFullName) . "</td>";
+			$tableHTML .= "<td class='table-team-title'>" . htmlspecialchars($teamFullName) . "</td>";
 
 			// Add the rest of the columns
 			for ($i = 1; $i < count($row); $i++) {
