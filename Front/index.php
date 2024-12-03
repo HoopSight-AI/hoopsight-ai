@@ -3,6 +3,7 @@ include_once "Content/HTMLhead.php";
 include_once "Content/HTMLheader.php";
 
 echo greetUser();
+echo createVideoParallax($videoSrc = 'Assets/Lebone.mp4', $index = 1);
 
 // Include the necessary classes
 include_once "TableGenerator.php";
@@ -30,4 +31,24 @@ function greetUser(): string
     <h1>Welcome to the HoopSight AI prototype website</h1>
     </div>
     HTML;
+}
+
+function createVideoParallax($videoSrc, $index)
+{
+    return <<<HTML
+<link rel="stylesheet" href="CSS/VideoStyle.css">
+<div class='video-container' id='parallax-container-{$index}'>
+    <video class='video-background' id='parallax-background-{$index}' autoplay muted loop>
+        <source src='{$videoSrc}' type='video/mp4'>
+        Your browser does not support the video tag.
+    </video>
+    <div class='overlay-content' id='overlay-content-{$index}'>
+        <div class='member' id='member-{$index}'>
+            <h1>Have the foresight to use HoopSight</h1>
+            
+        </div>
+    </div>
+</div>
+<div class='divider' id='divider-{$index}'></div>
+HTML;
 }
