@@ -4,6 +4,7 @@
 	height: 100vh;
 	/* Set height as needed */
 	overflow: hidden;
+	align-content: center;
 }
 
 /* Background Image */
@@ -23,7 +24,6 @@
 /* Overlay Content */
 .overlay-content {
 	position: sticky;
-	top: 30vh;
 	padding: 40px;
 	/* background: var(--background-color); */
 	margin: auto;
@@ -79,7 +79,7 @@
 	padding: 20px;
 	font-size: clamp(0.5rem, 1vw, 1rem);
 	border-radius: 10px;
-	box-shadow: 0 0 29px -8px black;
+	box-shadow: 0 0 29px -5px black;
 }
 
 .divider {

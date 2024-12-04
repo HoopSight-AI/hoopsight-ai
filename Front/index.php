@@ -42,13 +42,11 @@ function createVideoParallax($videoSrc, $index)
         <source src='{$videoSrc}' type='video/mp4'>
         Your browser does not support the video tag.
     </video>
-    <div class='overlay-content' id='overlay-content-{$index}'>
-        <div class='member' id='member-{$index}'>
-            <h1>Have the foresight to use HoopSight</h1>
-            
-        </div>
-    </div>
 </div>
+<div class='overlay-content' id='overlay-content-{$index}'>
+        <h1>Have the foresight... use HoopSight!</h1>
+    </div>
+
 <div class='divider' id='divider-{$index}'></div>
 HTML;
 }
