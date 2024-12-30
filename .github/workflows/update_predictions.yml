@@ -3,7 +3,7 @@ name: Update Predictions CSV
 on:
   schedule:
     - cron: "49 22 * * *" # 10:49 PM UTC
-  workflow_dispatch: 
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -16,25 +16,20 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Java
-      uses: actions/setup-java@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
       with:
-        distribution: 'temurin'
-        java-version: '11'
+        python-version: '3.11'
 
-    - name: Install Weka library
+    - name: Install Python Dependencies
       run: |
-        wget https://prdownloads.sourceforge.net/weka/weka-3-8-6.zip
-        unzip -j weka-3-8-6.zip weka-3-8-6/weka.jar -d ./weka
-    
-    - name: Compile Java Files
-      run: |
-        javac -cp "./weka/weka.jar:." DataStore.java RandomForestPrediction.java
-    
+        python -m pip install --upgrade pip
+        pip install scikit-learn numpy pandas
+
     - name: Run Predictions
       run: |
-        java --add-opens java.base/java.lang=ALL-UNNAMED -cp "./weka/weka.jar:." RandomForestPrediction
-    
+        python models/RandomForest.py 
+
     - name: Commit and Push CSV Updates
       run: |
         git config --local user.name "github-actions[bot]"
@@ -47,5 +42,5 @@ jobs:
         fi
         
         git add Front/CSVFiles/prediction_results.csv Front/CSVFiles/win_loss_records.csv
-        git commit -m "Update predictions and win-loss records CSVs (automated)"
+        git commit -m "Update predictions and win-loss records CSVs [automated]"
         git push
