@@ -28,6 +28,7 @@ jobs:
 
     - name: Run Predictions
       run: |
+        cd Models
         python Models/RandomForest.py 
 
     - name: Commit and Push CSV Updates
