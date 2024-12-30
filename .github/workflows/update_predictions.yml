@@ -28,7 +28,7 @@ jobs:
 
     - name: Run Predictions
       run: |
-        python models/RandomForest.py 
+        python Models/RandomForest.py 
 
     - name: Commit and Push CSV Updates
       run: |
