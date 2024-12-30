@@ -19,7 +19,7 @@ Date,Start Time (ET),Opponent,Location (Home/Away),Arena,Notes
 "Wed, Nov 27, 2024",9:00p,Denver,H,Delta Center,
 "Sat, Nov 30, 2024",9:30p,Dallas,H,Delta Center,
 "Sun, Dec 1, 2024",8:00p,LA Lakers,H,Delta Center,
-"Tue, Dec 3, 2024",8:00p,Okla City,A,Paycom Center,In-Season Tournament
+"Tue, Dec 3, 2024",8:00p,Oklahoma City,A,Paycom Center,In-Season Tournament
 "Fri, Dec 6, 2024",10:00p,Portland,A,Moda Center,
 "Sun, Dec 8, 2024",9:00p,Sacramento,A,Golden 1 Center,
 "Thu, Dec 19, 2024",7:00p,Detroit,A,Little Caesars Arena,
@@ -38,7 +38,7 @@ Date,Start Time (ET),Opponent,Location (Home/Away),Arena,Notes
 "Wed, Jan 15, 2025",9:00p,Charlotte,H,Delta Center,
 "Fri, Jan 17, 2025",8:00p,New Orleans,A,Smoothie King Center,
 "Mon, Jan 20, 2025",8:00p,New Orleans,A,Smoothie King Center,
-"Wed, Jan 22, 2025",8:00p,Okla City,A,Paycom Center,
+"Wed, Jan 22, 2025",8:00p,Oklahoma City,A,Paycom Center,
 "Thu, Jan 23, 2025",9:00p,Washington,H,Delta Center,
 "Sat, Jan 25, 2025",8:00p,Memphis,A,FedEx Forum,
 "Mon, Jan 27, 2025",9:00p,Milwaukee,H,Delta Center,
@@ -51,7 +51,7 @@ Date,Start Time (ET),Opponent,Location (Home/Away),Arena,Notes
 "Sat, Feb 8, 2025",10:30p,LA Clippers,A,Intuit Dome,
 "Tue, Feb 11, 2025",10:30p,LA Lakers,A,Crypto.com Arena,
 "Wed, Feb 12, 2025",9:00p,LA Lakers,H,Delta Center,
-"Fri, Feb 21, 2025",9:30p,Okla City,H,Delta Center,
+"Fri, Feb 21, 2025",9:30p,Oklahoma City,H,Delta Center,
 "Sat, Feb 22, 2025",9:30p,Houston,H,Delta Center,
 "Mon, Feb 24, 2025",9:00p,Portland,H,Delta Center,
 "Wed, Feb 26, 2025",9:00p,Sacramento,H,Delta Center,
@@ -77,5 +77,5 @@ Date,Start Time (ET),Opponent,Location (Home/Away),Arena,Notes
 "Fri, Apr 4, 2025",7:00p,Indiana,A,Gainbridge Fieldhouse,
 "Sun, Apr 6, 2025",6:00p,Atlanta,A,State Farm Arena,
 "Wed, Apr 9, 2025",9:00p,Portland,H,Delta Center,
-"Fri, Apr 11, 2025",9:30p,Okla City,H,Delta Center,
+"Fri, Apr 11, 2025",9:30p,Oklahoma City,H,Delta Center,
 "Sun, Apr 13, 2025",3:30p,Minnesota,A,Target Center,

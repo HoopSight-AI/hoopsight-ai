@@ -8,7 +8,7 @@ Date,Start Time (ET),Opponent,Location (Home/Away),Arena,Notes
 "Mon, Nov 4, 2024",7:15p,Washington,A,Capital One Arena,
 "Wed, Nov 6, 2024",7:30p,Boston,A,TD Garden,
 "Fri, Nov 8, 2024",7:30p,Cleveland,A,Rocket Mortgage Fieldhouse,
-"Sun, Nov 10, 2024",7:00p,Okla City,A,Paycom Center,
+"Sun, Nov 10, 2024",7:00p,Oklahoma City,A,Paycom Center,
 "Tue, Nov 12, 2024",10:00p,Dallas,H,Chase Center,In-Season Tournament
 "Fri, Nov 15, 2024",10:00p,Memphis,H,Chase Center,In-Season Tournament
 "Mon, Nov 18, 2024",10:30p,LA Clippers,A,Intuit Dome,
@@ -16,7 +16,7 @@ Date,Start Time (ET),Opponent,Location (Home/Away),Arena,Notes
 "Fri, Nov 22, 2024",8:00p,New Orleans,A,Smoothie King Center,In-Season Tournament
 "Sat, Nov 23, 2024",8:30p,San Antonio,A,Frost Bank Center,
 "Mon, Nov 25, 2024",10:00p,Brooklyn,H,Chase Center,
-"Wed, Nov 27, 2024",10:00p,Okla City,H,Chase Center,
+"Wed, Nov 27, 2024",10:00p,Oklahoma City,H,Chase Center,
 "Sat, Nov 30, 2024",9:00p,Phoenix,A,Footprint Center,
 "Tue, Dec 3, 2024",10:00p,Denver,A,Ball Arena,In-Season Tournament
 "Thu, Dec 5, 2024",10:00p,Houston,H,Chase Center,
@@ -43,7 +43,7 @@ Date,Start Time (ET),Opponent,Location (Home/Away),Arena,Notes
 "Thu, Jan 23, 2025",10:00p,Chicago,H,Chase Center,
 "Sat, Jan 25, 2025",8:30p,LA Lakers,H,Chase Center,
 "Tue, Jan 28, 2025",10:00p,Utah,H,Chase Center,
-"Wed, Jan 29, 2025",10:00p,Okla City,H,Chase Center,
+"Wed, Jan 29, 2025",10:00p,Oklahoma City,H,Chase Center,
 "Fri, Jan 31, 2025",10:00p,Phoenix,H,Chase Center,
 "Mon, Feb 3, 2025",10:00p,Orlando,H,Chase Center,
 "Wed, Feb 5, 2025",9:00p,Utah,A,Delta Center,

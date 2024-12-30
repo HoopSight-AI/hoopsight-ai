@@ -16,7 +16,7 @@ const stuff = [
 	{ shortName: "New Orleans", fullName: "New Orleans Pelicans" },
 	{ shortName: "Memphis", fullName: "Memphis Grizzlies" },
 	{ shortName: "Denver", fullName: "Denver Nuggets" },
-	{ shortName: "Okla City", fullName: "Oklahoma City Thunder" },
+	{ shortName: "Oklahoma City", fullName: "Oklahoma City Thunder" },
 	{ shortName: "Dallas", fullName: "Dallas Mavericks" },
 	{ shortName: "Boston", fullName: "Boston Celtics" },
 	{ shortName: "New York", fullName: "New York Knicks" },

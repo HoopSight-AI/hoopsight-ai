@@ -36,7 +36,7 @@ class TeamManager
 			"New Orleans" => "New Orleans Pelicans",
 			"Memphis" => "Memphis Grizzlies",
 			"Denver" => "Denver Nuggets",
-			"Okla City" => "Oklahoma City Thunder",
+			"Oklahoma City" => "Oklahoma City Thunder",
 			"Dallas" => "Dallas Mavericks",
 			"Boston" => "Boston Celtics",
 			"New York" => "New York Knicks",

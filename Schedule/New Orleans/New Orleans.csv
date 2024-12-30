@@ -10,7 +10,7 @@ Date,Start Time (ET),Opponent,Location (Home/Away),Arena,Notes
 "Wed, Nov 6, 2024",8:00p,Cleveland,H,Smoothie King Center,
 "Fri, Nov 8, 2024",7:00p,Orlando,A,Kia Center,
 "Mon, Nov 11, 2024",8:00p,Brooklyn,H,Smoothie King Center,
-"Wed, Nov 13, 2024",7:30p,Okla City,A,Paycom Center,
+"Wed, Nov 13, 2024",7:30p,Oklahoma City,A,Paycom Center,
 "Fri, Nov 15, 2024",8:00p,Denver,H,Smoothie King Center,In-Season Tournament
 "Sat, Nov 16, 2024",8:00p,LA Lakers,H,Smoothie King Center,
 "Tue, Nov 19, 2024",8:30p,Dallas,A,American Airlines Center,In-Season Tournament
@@ -22,7 +22,7 @@ Date,Start Time (ET),Opponent,Location (Home/Away),Arena,Notes
 "Sun, Dec 1, 2024",6:00p,New York,A,Madison Square Garden (IV),
 "Mon, Dec 2, 2024",7:30p,Atlanta,A,State Farm Arena,
 "Thu, Dec 5, 2024",8:00p,Phoenix,H,Smoothie King Center,
-"Sat, Dec 7, 2024",7:00p,Okla City,H,Smoothie King Center,
+"Sat, Dec 7, 2024",7:00p,Oklahoma City,H,Smoothie King Center,
 "Sun, Dec 8, 2024",7:00p,San Antonio,A,Frost Bank Center,
 "Thu, Dec 19, 2024",8:00p,Houston,A,Toyota Center,
 "Sat, Dec 21, 2024",8:00p,New York,H,Smoothie King Center,
@@ -50,7 +50,7 @@ Date,Start Time (ET),Opponent,Location (Home/Away),Arena,Notes
 "Mon, Feb 3, 2025",9:00p,Denver,A,Ball Arena,
 "Wed, Feb 5, 2025",10:00p,Denver,A,Ball Arena,
 "Sat, Feb 8, 2025",10:00p,Sacramento,A,Golden 1 Center,
-"Mon, Feb 10, 2025",8:00p,Okla City,A,Paycom Center,
+"Mon, Feb 10, 2025",8:00p,Oklahoma City,A,Paycom Center,
 "Wed, Feb 12, 2025",8:00p,Sacramento,H,Smoothie King Center,
 "Thu, Feb 13, 2025",8:00p,Sacramento,H,Smoothie King Center,
 "Fri, Feb 21, 2025",9:30p,Dallas,A,American Airlines Center,
@@ -78,4 +78,4 @@ Date,Start Time (ET),Opponent,Location (Home/Away),Arena,Notes
 "Tue, Apr 8, 2025",7:30p,Brooklyn,A,Barclays Center,
 "Wed, Apr 9, 2025",8:00p,Milwaukee,A,Fiserv Forum,
 "Fri, Apr 11, 2025",8:00p,Miami,H,Smoothie King Center,
-"Sun, Apr 13, 2025",3:30p,Okla City,H,Smoothie King Center,
+"Sun, Apr 13, 2025",3:30p,Oklahoma City,H,Smoothie King Center,
