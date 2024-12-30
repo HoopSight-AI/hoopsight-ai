@@ -28,7 +28,7 @@ team_name_formatter = {
     'Minnesota Timberwolves': 'Minnesota',
     'New Orleans Pelicans': 'New Orleans',
     'New York Knicks': 'New York',
-    'Oklahoma City Thunder': 'Okla City',
+    'Oklahoma City Thunder': 'Oklahoma City',
     'Orlando Magic': 'Orlando',
     'Philadelphia 76ers': 'Philadelphia',
     'Phoenix Suns': 'Phoenix',
