@@ -2,38 +2,38 @@
 
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
+#/.pnp
+#.pnp.js
 
 # Database
-*.db
+#*.db
 
 # testing
-/coverage
+#/coverage
 
 # storybook
-storybook-static
-*storybook.log
+#storybook-static
+#*storybook.log
 
 # playwright
-/test-results/
-/playwright-report/
-/playwright/.cache/
+#/test-results/
+#/playwright-report/
+#/playwright/.cache/
 
 # next.js
 /.next
-/out
+#/out
 
 # cache
-.swc/
+/.swc/
 
 # production
 /build
 
 # misc
 .DS_Store
-*.pem
-Thumbs.db
+#*.pem
+#Thumbs.db
 
 # debug
 npm-debug.log*
@@ -45,7 +45,7 @@ yarn-error.log*
 .env*.local
 
 # local folder
-local
+#local
 
 # vercel
-.vercel
+#.vercel
