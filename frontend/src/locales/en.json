@@ -1,0 +1,166 @@
+{
+  "Index": {
+    "meta_title": "HoopSight AI - Computer Vision & AI-Powered Basketball Analytics",
+    "meta_description": "Transform your game with AI-powered basketball analytics. Automated player tracking, performance insights, and game predictions powered by computer vision and machine learning."
+  },
+  "Navbar": {
+    "sign_in": "Sign In",
+    "sign_up": "Sign Up",
+    "product": "Solutions",
+    "docs": "How It Works",
+    "blog": "Insights",
+    "community": "Community",
+    "company": "About Us"
+  },
+  "Hero": {
+    "follow_twitter": "Follow @HoopSightAI on BlueSky",
+    "title": "Transform your game with <important>AI-powered analytics</important>",
+    "description": "Automated player tracking, performance analysis, and game predictions using computer vision and machine learning technology.",
+    "primary_button": "Get Started",
+    "secondary_button": "Watch Demo"
+  },
+  "Sponsors": {
+    "title": "Sponsored by"
+  },
+  "Features": {
+    "section_subtitle": "Platform Features",
+    "section_title": "Complete Basketball Analytics Suite",
+    "section_description": "Comprehensive tools for players, coaches, and analysts powered by computer vision and machine learning.",
+    "feature1_title": "Player Tracking (Beta)",
+    "feature2_title": "Auto-Generated Highlights",
+    "feature3_title": "Performance Analytics",
+    "feature4_title": "Training Recommendations",
+    "feature5_title": "Game/Player Predictions",
+    "feature6_title": "Team/Player Insights",
+    "feature_description": "Transform raw game footage into actionable insights with our AI-powered platform."
+  },
+  "Pricing": {
+    "section_subtitle": "Plans",
+    "section_title": "Choose Your Analytics Package",
+    "section_description": "Scalable solutions for fans, players, teams, and organizations",
+    "button_text": "Get Started"
+  },
+  "PricingPlan": {
+    "free_plan_name": "Basic",
+    "premium_plan_name": "Pro",
+    "enterprise_plan_name": "Elite",
+    "free_plan_description": "For casual fans",
+    "premium_plan_description": "For serious analysts",
+    "enterprise_plan_description": "For professionals",
+    "feature_team_member": "{number} User Accounts",
+    "feature_website": "Daily Update NBA Standings",
+    "feature_storage": "Wins and Losses for all teams",
+    "feature_transfer": "All game predictions for {number} teams",
+    "feature_email_support": "Priority Support",
+    "plan_interval_month": "month",
+    "plan_interval_year": "year",
+    "next_renew_date": "Your subscription renews on {date}"
+  },
+  "FAQ": {
+    "question": "How accurate are your NBA predictions?",
+    "answer": "Our machine learning models achieve consistently high accuracy rates by analyzing multiple data points including historical performance, player statistics, team dynamics, and current form. We continuously refine our models to improve prediction accuracy."
+  },
+  "CTA": {
+    "title": "Ready to revolutionize your basketball analytics?",
+    "description": "Join fans, teams, and players already using HoopSight AI to gain a competitive edge.",
+    "button_text": "Start Your Free Trial"
+  },
+  "Footer": {
+    "product": "Predictions",
+    "docs": "Documentation",
+    "blog": "Insights",
+    "community": "Community",
+    "company": "About Us",
+    "terms_of_service": "Terms Of Service",
+    "privacy_policy": "Privacy Policy",
+    "designed_by": "Powered by HoopSight AI"
+  },
+  "ProtectFallback": {
+    "not_enough_permission": "You do not have the permissions to perform this action"
+  },
+  "SignIn": {
+    "meta_title": "Sign in",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+  },
+  "SignUp": {
+    "meta_title": "Sign up",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "DashboardLayout": {
+    "home": "Home",
+    "todos": "Todos",
+    "members": "Members",
+    "billing": "Billing",
+    "settings": "Settings"
+  },
+  "Dashboard": {
+    "meta_title": "SaaS Template Dashboard",
+    "meta_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
+  },
+  "DashboardIndex": {
+    "title_bar": "Dashboard",
+    "title_bar_description": "Welcome to your dashboard",
+    "message_state_title": "Let's get started",
+    "message_state_description": "You can customize this page by editing the file at <code>dashboard/page.tsx</code>",
+    "message_state_button": "Star on GitHub",
+    "message_state_alternative": "Want more features using the same stack? Try <url></url>."
+  },
+  "UserProfile": {
+    "title_bar": "User Profile",
+    "title_bar_description": "View and manage your user profile"
+  },
+  "OrganizationProfile": {
+    "title_bar": "Organization Management",
+    "title_bar_description": "Manage your organization"
+  },
+  "Billing": {
+    "title_bar": "Billing",
+    "title_bar_description": "Manage your billing and subscription",
+    "current_section_title": "Current Plan",
+    "current_section_description": "Adjust your payment plan to best suit your requirements",
+    "manage_subscription_button": "Manage Subscription"
+  },
+  "BillingOptions": {
+    "current_plan": "Current Plan",
+    "upgrade_plan": "Get Started"
+  },
+  "CheckoutConfirmation": {
+    "title_bar": "Payment Confirmation",
+    "message_state_title": "Payment successful",
+    "message_state_description": "Your payment has been successfully processed. Thank you for your purchase!",
+    "message_state_button": "Go back to Billing"
+  },
+  "DataTable": {
+    "no_results": "No results."
+  },
+  "Todos": {
+    "title_bar": "Todo List",
+    "title_bar_description": "View and manage your todo list",
+    "add_todo_button": "New todo"
+  },
+  "TodoTableColumns": {
+    "open_menu": "Open menu",
+    "edit": "Edit",
+    "delete": "Delete",
+    "title_header": "Title",
+    "message_header": "Message",
+    "created_at_header": "Created at"
+  },
+  "AddTodo": {
+    "title_bar": "Add Todo",
+    "add_todo_section_title": "Create a new todo",
+    "add_todo_section_description": "Fill in the form below to create a new todo"
+  },
+  "EditTodo": {
+    "title_bar": "Edit todo",
+    "edit_todo_section_title": "Modify todo",
+    "edit_todo_section_description": "Fill in the form below to edit the todo"
+  },
+  "TodoForm": {
+    "title_label": "Title",
+    "title_description": "Enter a descriptive title for your todo.",
+    "message_title": "Message",
+    "message_description": "Enter a detailed message for your todo.",
+    "submit_button": "Submit"
+  }
+}
