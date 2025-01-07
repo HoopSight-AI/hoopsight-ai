@@ -2,7 +2,7 @@ import os
 import csv
 from sklearn.ensemble import RandomForestRegressor
 from DataStore import DataStore
-import math
+from datetime import date, datetime
 
 # Global variables to mimic static fields in Java
 dataStore = None
@@ -53,24 +53,27 @@ def loadTrainingData(cleanedDataPath):
                             y.append(winPercentage)
     return X, y
 
-def predictOutcomes(teamName, schedulePath, opponentDataPath, model):
+def predictOutcomes(teamName, schedulePath, historicalDataPath, model, currentDate):
     """
     Predicts outcomes for each game in 'schedulePath' using the trained RandomForest model.
     Writes results to 'prediction_results.csv' and aggregated W/L to 'win_loss_records.csv'.
     """
+
+    # create fileWriter objects to write game-by-game predictions, final predicted win-loss records
     global predictionWriter, winLossWriter, dataStore
     if predictionWriter is None:
         predictionWriter = open("../Front/CSVFiles/prediction_results.csv", "w", encoding="utf-8-sig", newline="")
-        predictionWriter.write("Team,Opponent,HSS Home,HSS Away,Win%\n")
+        predictionWriter.write("Date,Team,Opponent,HSS Home,HSS Away,Win%\n")
     if winLossWriter is None:
         winLossWriter = open("../Front/CSVFiles/win_loss_records.csv", "w", encoding="utf-8-sig", newline="")
         winLossWriter.write("Team,Wins,Losses,HSS\n")
 
+    # if we can't find the team's schedule, break the program
     if not os.path.exists(schedulePath):
         print(f"Schedule file not found for {teamName}: {schedulePath}")
         return
 
-    # Read the schedule CSV
+    # Read the schedule CSV, convert into Game objects
     games = []
     with open(schedulePath, "r", encoding="utf-8-sig") as f:
         reader = csv.reader(f)
@@ -84,6 +87,7 @@ def predictOutcomes(teamName, schedulePath, opponentDataPath, model):
             opponent = row[2].strip()
             location = row[3].strip()
 
+            # Dates are formatted as Day, Month Date, Year
             date_parts = date.split(",")
             year = 0
             if len(date_parts) > 2:
@@ -100,17 +104,26 @@ def predictOutcomes(teamName, schedulePath, opponentDataPath, model):
     hssSum = 0.0
 
     for i, game in enumerate(games):
-        homeHSS = loadHSS(teamName, opponentDataPath, game.year)
-        hssSum += homeHSS
-        awayHSS = loadHSS(game.opponent, opponentDataPath, game.year)
+        
+        """
+        # make sure the game being evaluted has not already happened
+        gameDate = datetime.strptime(game.date, '%a, %b %d, %Y').date()
+        if gameDate < currentDate:
+            
+            continue
+        """
+
+        teamHSS = loadHSS(teamName, historicalDataPath, game.year)
+        hssSum += teamHSS
+        opponentHSS = loadHSS(game.opponent, historicalDataPath, game.year)
 
         # If home, add a home advantage
         if game.location == "H":
             # Scales with opponent strength. 2.75 is a min boost, or 1.425% of the awayHSS
-            homeAdvantageBoost = max(2.75, awayHSS * 0.01425)
-            homeHSS += homeAdvantageBoost
+            homeAdvantageBoost = max(2.75, opponentHSS * 0.01425)
+            teamHSS += homeAdvantageBoost
 
-        weightedStat = homeHSS - awayHSS
+        weightedStat = teamHSS - opponentHSS
         # Model expects [ [WeightedStat], ... ]
         # TODO: #This is a single float. we'll need to add mor features and information to the model. This is why preditions arre not as accurate as they could be.
             
@@ -128,27 +141,26 @@ def predictOutcomes(teamName, schedulePath, opponentDataPath, model):
         dataStore.addGameResult(f"Game #{i+1}: {teamName} vs {game.opponent}, Winner: {predictedWinner}")
 
         # Write row to prediction file
-        predictionWriter.write(f"{teamName},{game.opponent},{homeHSS:.5f},{awayHSS:.5f},{predictedWinPercentage*100:.5f}\n")
+        predictionWriter.write(f"{teamName},{game.opponent},{teamHSS:.5f},{opponentHSS:.5f},{predictedWinPercentage*100:.5f}\n")
 
         # Update head-to-head in dataStore
-        homeTeamIndex = getTeamIndex(teamName)
-        awayTeamIndex = getTeamIndex(game.opponent)
+        currentTeamIndex = getTeamIndex(teamName)
+        opponentTeamIndex = getTeamIndex(game.opponent)
         if predictedWinner == teamName:
-            dataStore.updateHeadToHead(homeTeamIndex, awayTeamIndex, 1)
-            dataStore.updateHeadToHead(awayTeamIndex, homeTeamIndex, 0)
+            dataStore.updateHeadToHead(currentTeamIndex, opponentTeamIndex, 1)
+            dataStore.updateHeadToHead(opponentTeamIndex, currentTeamIndex, 0)
             winCount += 1
         else:
-            dataStore.updateHeadToHead(homeTeamIndex, awayTeamIndex, 0)
-            dataStore.updateHeadToHead(awayTeamIndex, homeTeamIndex, 1)
+            dataStore.updateHeadToHead(currentTeamIndex, opponentTeamIndex, 0)
+            dataStore.updateHeadToHead(opponentTeamIndex, currentTeamIndex, 1)
             lossCount += 1
 
         # Print outcome to console
-        printOutcomes(i+1, teamName, game.opponent, homeHSS, awayHSS, predictedWinPercentage*100, predictedWinner)
+        printOutcomes(i+1, teamName, game.opponent, teamHSS, opponentHSS, predictedWinPercentage*100, predictedWinner)
 
     # Finally, write W/L record
     avgHSS = (hssSum / len(games)) if games else 0.0
     winLossWriter.write(f"{teamName},{winCount},{lossCount},{avgHSS:.5f}\n")
-
 
 def getTeamIndex(teamName):
     """
@@ -176,6 +188,7 @@ def loadHSS(team, dataPath, year):
             reader = csv.reader(f)
             next(reader, None)  # Skip header
             for row in reader:
+                # Stat files are formatted as Rank,Statistic,Year,Win Percentage
                 if len(row) > 2:
                     try:
                         stat_year = int(row[2].strip())
@@ -222,18 +235,17 @@ def loadHSS(team, dataPath, year):
         print(f"No stats found for team: {team}, Year: {year}")
         return 0.0
 
-
-
-def printOutcomes(gameNumber, homeTeam, awayTeam, homeHSS, awayHSS, predictedWinPercentage, predictedWinner):
+def printOutcomes(gameNumber, team, opponentTeam, teamHSS, opponentHSS, predictedWinPercentage, predictedWinner):
     """
     Prints outcomes of each game prediction, mimicking the Java 'System.out.printf' style.
     """
     BOLD = "\033[1m"
     RESET = "\033[0m"
-    print(f"{BOLD}GAME #{gameNumber}: {RESET}{homeTeam} vs {awayTeam}")
-    print(f"HSS {homeTeam}: {homeHSS:.5f}")
-    print(f"HSS {awayTeam}: {awayHSS:.5f}")
-    print(f"Predicted Win Percentage for {homeTeam}: {predictedWinPercentage:.5f}%\n")
+    print(f"{BOLD}GAME #{gameNumber}: {RESET}{team} vs {opponentTeam}")
+    print(f"HSS {team}: {teamHSS:.5f}")
+    print(f"HSS {opponentTeam}: {opponentHSS:.5f}")
+    print(f"Predicted Win Percentage for {team}: {predictedWinPercentage:.5f}%\n")
+    print(f"Predicted Winner: {predictedWinner}")
 
 def queryWinsAndLosses(dataStore):
     """
@@ -260,12 +272,12 @@ def main():
     global dataStore, predictionWriter, winLossWriter
 
     dataStore = DataStore(30)
-    cleanedDataPath = "../Cleaned_Data"
     schedulePath = "../Schedule"
-    opponentDataPath = "../Cleaned_Data"
+    historicalDataPath = "../Cleaned_Data"
+    currentDate = date.today()
 
     # 1) Load training data
-    X, y = loadTrainingData(cleanedDataPath)
+    X, y = loadTrainingData(historicalDataPath)
 
     # 2) Train RandomForestRegressor
     rf = RandomForestRegressor(n_estimators=100, random_state=42)
@@ -275,7 +287,7 @@ def main():
     teamsList = dataStore.getTeamsList()
     for team in teamsList:
         teamScheduleFile = os.path.join(schedulePath, team, f"{team}.csv")
-        predictOutcomes(team, teamScheduleFile, opponentDataPath, rf)
+        predictOutcomes(team, teamScheduleFile, historicalDataPath, rf, currentDate)
 
     # Close CSV writers if open
     if predictionWriter is not None:
@@ -298,7 +310,6 @@ def main():
                 losses = row[2].strip()
                 hss = row[3].strip()
                 print(f"{team} had a predicted record of {wins}-{losses} and a HoopSight Strength Score of {hss}")
-
 
 #Python class to represent game details
 class Game:
