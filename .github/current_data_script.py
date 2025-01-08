@@ -44,7 +44,9 @@ def scrape_team_rankings(metric):
         for row in table.find_all('tr')[1:]:
             cols = row.find_all('td')
             if len(cols) >= 7: 
-                team = clean_team_name(cols[1].text.strip())
+                team = cols[1].text.strip()
+                if team == 'Okla City':
+                    team = 'Oklahoma City'
                 rank = int(cols[0].text.strip())
                 
                 current = float(cols[2].text.strip().replace('%', ''))
@@ -71,41 +73,6 @@ def scrape_team_rankings(metric):
     except Exception as e:
         print(f"Error scraping {metric}: {str(e)}")
         return None
-
-def clean_team_name(team):
-    team_mapping = {
-        'Atlanta Hawks': 'Atlanta',
-        'Boston Celtics': 'Boston',
-        'Brooklyn Nets': 'Brooklyn',
-        'Charlotte Hornets': 'Charlotte',
-        'Chicago Bulls': 'Chicago',
-        'Cleveland Cavaliers': 'Cleveland',
-        'Dallas Mavericks': 'Dallas',
-        'Denver Nuggets': 'Denver',
-        'Detroit Pistons': 'Detroit',
-        'Golden State Warriors': 'Golden State',
-        'Houston Rockets': 'Houston',
-        'Indiana Pacers': 'Indiana',
-        'Los Angeles Clippers': 'LA Clippers',
-        'Los Angeles Lakers': 'LA Lakers',
-        'Memphis Grizzlies': 'Memphis',
-        'Miami Heat': 'Miami',
-        'Milwaukee Bucks': 'Milwaukee',
-        'Minnesota Timberwolves': 'Minnesota',
-        'New Orleans Pelicans': 'New Orleans',
-        'New York Knicks': 'New York',
-        'Oklahoma City Thunder': 'Oklahoma City',
-        'Orlando Magic': 'Orlando',
-        'Philadelphia 76ers': 'Philadelphia',
-        'Phoenix Suns': 'Phoenix',
-        'Portland Trail Blazers': 'Portland',
-        'Sacramento Kings': 'Sacramento',
-        'San Antonio Spurs': 'San Antonio',
-        'Toronto Raptors': 'Toronto',
-        'Utah Jazz': 'Utah',
-        'Washington Wizards': 'Washington'
-    }
-    return team_mapping.get(team, team)
 
 def create_current_stats():
     metrics = [

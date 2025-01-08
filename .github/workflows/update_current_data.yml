@@ -25,7 +25,7 @@ jobs:
 
     - name: Run scraping script
       run: |
-        python current_data_script.py
+        python ./.github/current_data_script.py
 
     - name: Commit and push changes
       run: |
