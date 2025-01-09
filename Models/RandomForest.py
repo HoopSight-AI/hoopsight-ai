@@ -5,11 +5,11 @@ from DataStore import DataStore
 from datetime import date, datetime
 
 # Global variables to mimic static fields in Java
-dataStore = None
-predictionWriter = None
-winLossWriter = None
+data_store = None
+prediction_writer = None
+win_loss_writer = None
 
-def loadTrainingData(cleanedDataPath):
+def load_training_data(cleaned_data_path):
     """
     Loads training data from CSV files in the provided directory (and sub-directories).
     - WeightedStat is the feature (X)
@@ -19,63 +19,63 @@ def loadTrainingData(cleanedDataPath):
     X = []
     y = []
 
-    # Prepare the dataStore if it hasn't been initialized
-    global dataStore
-    if dataStore is None:
-        dataStore = DataStore(30)
+    # Prepare the data_store if it hasn't been initialized
+    global data_store
+    if data_store is None:
+        data_store = DataStore(30)
 
-    teamIndex = 0
-    # Traverse the 'cleanedDataPath' directory
-    for statFolder in os.listdir(cleanedDataPath):
-        statFolderPath = os.path.join(cleanedDataPath, statFolder)
-        if os.path.isdir(statFolderPath):
-            for teamFile in os.listdir(statFolderPath):
-                if teamFile.endswith(".csv"):
-                    filePath = os.path.join(statFolderPath, teamFile)
-                    team = teamFile.split(".")[0]
+    team_index = 0
+    # Traverse the 'cleaned_data_path' directory
+    for stat_folder in os.listdir(cleaned_data_path):
+        stat_folder_path = os.path.join(cleaned_data_path, stat_folder)
+        if os.path.isdir(stat_folder):
+            for team_file in os.listdir(stat_folder_path):
+                if team_file.endswith(".csv"):
+                    file_path = os.path.join(stat_folder_path, team_file)
+                    team = team_file.split(".")[0]
                     # Map the team to an index if we have space
-                    if teamIndex < 30 and team not in dataStore.teamIndexMap:
-                        dataStore.addTeamToIndexMap(team, teamIndex)
-                        teamIndex += 1
+                    if team_index < 30 and team not in data_store.team_index_map:
+                        data_store.add_team_to_index_map(team, team_index)
+                        team_index += 1
 
                     # Read the CSV
-                    with open(filePath, "r", encoding="utf-8-sig") as f:
+                    with open(file_path, "r", encoding="utf-8-sig") as f:
                         reader = csv.reader(f)
                         # Skip header
                         next(reader, None)
                         for row in reader:
-                            # 0 -> rank, 1 -> WeightedStat, 2 -> year, 3 -> WinPercentage
+                            # 0 -> rank, 1 -> weighted stat, 2 -> year, 3 -> win percentage
                             if len(row) < 4:
                                 continue
-                            weightedStat = float(row[1].strip())
-                            winPercentage = float(row[3].strip())
-                            X.append([weightedStat])
-                            y.append(winPercentage)
+                            weighted_stat = float(row[1].strip())
+                            win_percentage = float(row[3].strip())
+                            X.append([weighted_stat])
+                            y.append(win_percentage)
     return X, y
 
-def predictOutcomes(teamName, schedulePath, historicalDataPath, model, currentDate):
+def predict_outcomes(team_name, schedule_path, historical_data_path, model, current_date):
     """
-    Predicts outcomes for each game in 'schedulePath' using the trained RandomForest model.
+    Predicts outcomes for each game in 'schedule_path' using the trained Random Forest model.
     Writes results to 'prediction_results.csv' and aggregated W/L to 'win_loss_records.csv'.
     """
 
-    # create fileWriter objects to write game-by-game predictions, final predicted win-loss records
-    global predictionWriter, winLossWriter, dataStore
-    if predictionWriter is None:
-        predictionWriter = open("../Front/CSVFiles/prediction_results.csv", "w", encoding="utf-8-sig", newline="")
-        predictionWriter.write("Date,Team,Opponent,HSS Home,HSS Away,Win%\n")
-    if winLossWriter is None:
-        winLossWriter = open("../Front/CSVFiles/win_loss_records.csv", "w", encoding="utf-8-sig", newline="")
-        winLossWriter.write("Team,Wins,Losses,HSS\n")
+    # create file writer objects to write game-by-game predictions, final predicted win-loss records
+    global prediction_writer, win_loss_writer, data_store
+    if prediction_writer is None:
+        prediction_writer = open("../Front/CSVFiles/prediction_results.csv", "w", encoding="utf-8-sig", newline="")
+        prediction_writer.write("Date,Team,Opponent,HSS Home,HSS Away,Win%\n")
+    if win_loss_writer is None:
+        win_loss_writer = open("../Front/CSVFiles/win_loss_records.csv", "w", encoding="utf-8-sig", newline="")
+        win_loss_writer.write("Team,Wins,Losses,HSS\n")
 
     # if we can't find the team's schedule, break the program
-    if not os.path.exists(schedulePath):
-        print(f"Schedule file not found for {teamName}: {schedulePath}")
+    if not os.path.exists(schedule_path):
+        print(f"Schedule file not found for {team_name}: {schedule_path}")
         return
 
     # Read the schedule CSV, convert into Game objects
     games = []
-    with open(schedulePath, "r", encoding="utf-8-sig") as f:
+    with open(schedule_path, "r", encoding="utf-8-sig") as f:
         reader = csv.reader(f)
         # Skip header if present
         next(reader, None)
@@ -99,9 +99,9 @@ def predictOutcomes(teamName, schedulePath, historicalDataPath, model, currentDa
 
     # Prepare an Instances-like structure in Python
     # We'll only store WeightedStat as X
-    winCount = 0
-    lossCount = 0
-    hssSum = 0.0
+    win_count = 0
+    loss_count = 0
+    hss_sum = 0.0
 
     for i, game in enumerate(games):
         
@@ -113,70 +113,70 @@ def predictOutcomes(teamName, schedulePath, historicalDataPath, model, currentDa
             continue
         """
 
-        teamHSS = loadHSS(teamName, historicalDataPath, game.year)
-        hssSum += teamHSS
-        opponentHSS = loadHSS(game.opponent, historicalDataPath, game.year)
+        team_hss = load_hss(team_name, historical_data_path, game.year)
+        hss_sum += team_hss
+        opponent_hss = load_hss(game.opponent, historical_data_path, game.year)
 
         # If home, add a home advantage
         if game.location == "H":
             # Scales with opponent strength. 2.75 is a min boost, or 1.425% of the awayHSS
-            homeAdvantageBoost = max(2.75, opponentHSS * 0.01425)
-            teamHSS += homeAdvantageBoost
+            home_advantage_boost = max(2.75, opponent_hss * 0.01425)
+            team_hss += home_advantage_boost
 
-        weightedStat = teamHSS - opponentHSS
+        weighted_stat = team_hss - opponent_hss
         # Model expects [ [WeightedStat], ... ]
-        # TODO: #This is a single float. we'll need to add mor features and information to the model. This is why preditions arre not as accurate as they could be.
+        # TODO: #This is a single float. we'll need to add mor features and information to the model. This is why predictions are not as accurate as they could be.
             
-        predictedWinPercentage = model.predict([[weightedStat]])[0]  # single float
+        predicted_win_percentage = model.predict([[weighted_stat]])[0]  # single float
 
-        if predictedWinPercentage > 0.5:
-            predictedWinner = teamName
-        elif predictedWinPercentage < 0.5:
-            predictedWinner = game.opponent
+        if predicted_win_percentage > 0.5:
+            predicted_winner = team_name
+        elif predicted_win_percentage < 0.5:
+            predicted_winner = game.opponent
         else:
             # tie-breaker if 0.5
-            predictedWinner = teamName if game.location == "H" else game.opponent
+            predicted_winner = team_name if game.location == "H" else game.opponent
 
-        # Add result to dataStore
-        dataStore.addGameResult(f"Game #{i+1}: {teamName} vs {game.opponent}, Winner: {predictedWinner}")
+        # Add result to data_store
+        data_store.add_game_result(f"Game #{i+1}: {team_name} vs {game.opponent}, Winner: {predicted_winner}")
 
         # Write row to prediction file
-        predictionWriter.write(f"{teamName},{game.opponent},{teamHSS:.5f},{opponentHSS:.5f},{predictedWinPercentage*100:.5f}\n")
+        prediction_writer.write(f"{team_name},{game.opponent},{team_hss:.5f},{opponent_hss:.5f},{predicted_win_percentage*100:.5f}\n")
 
-        # Update head-to-head in dataStore
-        currentTeamIndex = getTeamIndex(teamName)
-        opponentTeamIndex = getTeamIndex(game.opponent)
-        if predictedWinner == teamName:
-            dataStore.updateHeadToHead(currentTeamIndex, opponentTeamIndex, 1)
-            dataStore.updateHeadToHead(opponentTeamIndex, currentTeamIndex, 0)
-            winCount += 1
+        # Update head-to-head in data_store
+        current_team_index = get_team_index(team_name)
+        opponent_team_index = get_team_index(game.opponent)
+        if predicted_winner == team_name:
+            data_store.update_head_to_head(current_team_index, opponent_team_index, 1)
+            data_store.update_head_to_head(opponent_team_index, current_team_index, 0)
+            win_count += 1
         else:
-            dataStore.updateHeadToHead(currentTeamIndex, opponentTeamIndex, 0)
-            dataStore.updateHeadToHead(opponentTeamIndex, currentTeamIndex, 1)
-            lossCount += 1
+            data_store.update_head_to_head(current_team_index, opponent_team_index, 0)
+            data_store.update_head_to_head(opponent_team_index, current_team_index, 1)
+            loss_count += 1
 
         # Print outcome to console
-        printOutcomes(i+1, teamName, game.opponent, teamHSS, opponentHSS, predictedWinPercentage*100, predictedWinner)
+        print_outcomes(i+1, team_name, game.opponent, team_hss, opponent_hss, predicted_win_percentage*100, predicted_winner)
 
     # Finally, write W/L record
-    avgHSS = (hssSum / len(games)) if games else 0.0
-    winLossWriter.write(f"{teamName},{winCount},{lossCount},{avgHSS:.5f}\n")
+    avgHSS = (hss_sum / len(games)) if games else 0.0
+    win_loss_writer.write(f"{team_name},{win_count},{loss_count},{avgHSS:.5f}\n")
 
-def getTeamIndex(teamName):
+def get_team_index(team_name):
     """
-    Retrieves a team's index from the DataStore.
+    Retrieves a team's index from the Data_Store.
     """
-    return dataStore.getTeamIndex(teamName)
+    return data_store.get_team_index(team_name)
 
-def loadHSS(team, dataPath, year):
+def load_hss(team, data_path, year):
     """
     Loads HoopSight Strength (HSS) for a given team and year:
     1. Checks `../Current_Data` for the exact year or most recent past year.
-    2. Falls back to historical data in `dataPath` if no current data is found.
+    2. Falls back to historical data in `data_path` if no current data is found.
     Returns the total WeightedStat (HSS) for the team.
     """
-    currentDataDir = os.path.join("..", "Current_Data")
-    historicalDataDir = dataPath
+    current_data_dir = os.path.join("..", "Current_Data")
+    historical_data_dir = data_path
 
     total_stat = 0.0
     stat_count = 0
@@ -200,27 +200,27 @@ def loadHSS(team, dataPath, year):
                         continue
 
     # 1. Check Current Data for the exact year
-    if os.path.exists(currentDataDir) and os.path.isdir(currentDataDir):
-        for folder in os.listdir(currentDataDir):
-            folder_path = os.path.join(currentDataDir, folder)
+    if os.path.exists(current_data_dir) and os.path.isdir(current_data_dir):
+        for folder in os.listdir(current_data_dir):
+            folder_path = os.path.join(current_data_dir, folder)
             if os.path.isdir(folder_path):
                 team_file = os.path.join(folder_path, f"{team}.csv")
                 if os.path.exists(team_file):
                     process_file(team_file, year_filter=year)
 
     # If no stats found for the exact year, check most recent past year in current data
-    if stat_count == 0 and os.path.exists(currentDataDir):
-        for folder in os.listdir(currentDataDir):
-            folder_path = os.path.join(currentDataDir, folder)
+    if stat_count == 0 and os.path.exists(current_data_dir):
+        for folder in os.listdir(current_data_dir):
+            folder_path = os.path.join(current_data_dir, folder)
             if os.path.isdir(folder_path):
                 team_file = os.path.join(folder_path, f"{team}.csv")
                 if os.path.exists(team_file):
                     process_file(team_file)  # Process all years in current data, which wil lkely be last year if the year above has no data
 
     # 2. Check Historical Data if no stats found in Current Data
-    if stat_count == 0 and os.path.exists(historicalDataDir) and os.path.isdir(historicalDataDir):
-        for folder in os.listdir(historicalDataDir):
-            folder_path = os.path.join(historicalDataDir, folder)
+    if stat_count == 0 and os.path.exists(historical_data_dir) and os.path.isdir(historical_data_dir):
+        for folder in os.listdir(historical_data_dir):
+            folder_path = os.path.join(historical_data_dir, folder)
             if os.path.isdir(folder_path):
                 team_file = os.path.join(folder_path, f"{team}.csv")
                 if os.path.exists(team_file):
@@ -235,67 +235,67 @@ def loadHSS(team, dataPath, year):
         print(f"No stats found for team: {team}, Year: {year}")
         return 0.0
 
-def printOutcomes(gameNumber, team, opponentTeam, teamHSS, opponentHSS, predictedWinPercentage, predictedWinner):
+def print_outcomes(game_number, team, opponent_team, team_hss, opponent_hss, predicted_win_percentage, predicted_winner):
     """
     Prints outcomes of each game prediction, mimicking the Java 'System.out.printf' style.
     """
     BOLD = "\033[1m"
     RESET = "\033[0m"
-    print(f"{BOLD}GAME #{gameNumber}: {RESET}{team} vs {opponentTeam}")
-    print(f"HSS {team}: {teamHSS:.5f}")
-    print(f"HSS {opponentTeam}: {opponentHSS:.5f}")
-    print(f"Predicted Win Percentage for {team}: {predictedWinPercentage:.5f}%\n")
-    print(f"Predicted Winner: {predictedWinner}")
+    print(f"{BOLD}GAME #{game_number}: {RESET}{team} vs {opponent_team}")
+    print(f"HSS {team}: {team_hss:.5f}")
+    print(f"HSS {opponent_team}: {opponent_hss:.5f}")
+    print(f"Predicted Win Percentage for {team}: {predicted_win_percentage:.5f}%\n")
+    print(f"Predicted Winner: {predicted_winner}")
 
-def queryWinsAndLosses(dataStore):
+def query_wins_and_losses(data_store):
     """
     Queries the user for two teams, then prints their head-to-head record.
     """
     team1 = input("Enter the name of the first team: ").strip()
     team2 = input("Enter the name of the second team: ").strip()
 
-    team1Index = dataStore.getTeamIndex(team1)
-    team2Index = dataStore.getTeamIndex(team2)
+    team_1_index = data_store.get_team_index(team1)
+    team_2_index = data_store.get_team_index(team2)
 
-    if team1Index == -1 or team2Index == -1:
+    if team_1_index == -1 or team_2_index == -1:
         print("One or both team names are invalid.")
         return
 
-    winsAgainst = dataStore.getHeadToHeadResult(team1Index, team2Index)
-    lossesAgainst = dataStore.getHeadToHeadResult(team2Index, team1Index)
+    wins_against = data_store.get_head_to_head_result(team_1_index, team_2_index)
+    losses_against = data_store.get_head_to_head_result(team_2_index, team_1_index)
 
     print(f"{team1} vs {team2}:")
-    print(f"{team1} wins: {winsAgainst}")
-    print(f"{team1} losses: {lossesAgainst}")
+    print(f"{team1} wins: {wins_against}")
+    print(f"{team1} losses: {losses_against}")
 
 def main():
-    global dataStore, predictionWriter, winLossWriter
+    global data_store, prediction_writer, win_loss_writer
 
-    dataStore = DataStore(30)
-    schedulePath = "../Schedule"
-    historicalDataPath = "../Cleaned_Data"
-    currentDate = date.today()
+    data_store = DataStore(30)
+    schedule_path = "../Schedule"
+    historical_data_path = "../Cleaned_Data"
+    current_date = date.today()
 
     # 1) Load training data
-    X, y = loadTrainingData(historicalDataPath)
+    X, y = load_training_data(historical_data_path)
 
     # 2) Train RandomForestRegressor
     rf = RandomForestRegressor(n_estimators=100, random_state=42)
     rf.fit(X, y)
 
     # 3) Run predictions for every known team
-    teamsList = dataStore.getTeamsList()
+    teamsList = data_store.get_teams_list()
     for team in teamsList:
-        teamScheduleFile = os.path.join(schedulePath, team, f"{team}.csv")
-        predictOutcomes(team, teamScheduleFile, historicalDataPath, rf, currentDate)
+        team_schedule_file = os.path.join(schedule_path, team, f"{team}.csv")
+        predict_outcomes(team, team_schedule_file, historical_data_path, rf, current_date)
 
     # Close CSV writers if open
-    if predictionWriter is not None:
-        predictionWriter.flush()
-        predictionWriter.close()
-    if winLossWriter is not None:
-        winLossWriter.flush()
-        winLossWriter.close()
+    if prediction_writer is not None:
+        prediction_writer.flush()
+        prediction_writer.close()
+    if win_loss_writer is not None:
+        win_loss_writer.flush()
+        win_loss_writer.close()
 
     # 4) Read back the 'win_loss_records.csv' and print
     if os.path.exists("../Front/CSVFiles/win_loss_records.csv"):
@@ -320,7 +320,7 @@ class Game:
         self.year = year
         self.result = None
 
-    def setResult(self, result):
+    def set_result(self, result):
         self.result = result
 
 if __name__ == "__main__":

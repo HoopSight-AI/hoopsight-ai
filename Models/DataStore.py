@@ -7,124 +7,124 @@ class DataStore:
     """
     A Python adaptation of the Java DataStore class.
     It maintains:
-      - gameResults: list of strings describing games
-      - teamStatistics: list of strings describing stats
-      - teamDataMap: dict mapping 'teamName' -> list of TeamRecord
-      - gameResultQueue: queue for game results (like LinkedList in Java)
-      - teamRanking: a max-heap by seedingScore (in Java was a reversed PriorityQueue)
-      - headToHead: 2D matrix storing wins/losses among teams
-      - teamIndexMap: maps a team name to an integer index
+      - game_results: list of strings describing games
+      - team_statistics: list of strings describing stats
+      - team_data_map: dict mapping 'team_name' -> list of TeamRecord
+      - game_result_queue: queue for game results (like LinkedList in Java)
+      - team_ranking: a max-heap by seeding_score (in Java was a reversed PriorityQueue)
+      - head_to_head: 2D matrix storing wins/losses among teams
+      - team_index_map: maps a team name to an integer index
     """
 
     def __init__(self, num_teams):
-        self.gameResults = []
-        self.teamStatistics = []
-        self.teamDataMap = {}
-        self.gameResultQueue = deque()
+        self.game_results = []
+        self.team_statistics = []
+        self.team_data_map = {}
+        self.game_result_queue = deque()
 
         # We can replicate a 'max-heap' by storing negative seeding scores in a min-heap
         # we'll store ( -seedingScore, TeamData ) in a list
-        self._teamRanking_heap = []
+        self.team_ranking_heap = []
 
-        self.headToHead = [[0]*num_teams for _ in range(num_teams)]
-        self.teamIndexMap = {}
+        self.head_to_head = [[0]*num_teams for _ in range(num_teams)]
+        self.team_index_map = {}
 
 
-    def addTeamToIndexMap(self, team, index):
+    def add_team_to_index_map(self, team, index):
         """
         Adds a team to the index map, associating it with an integer index.
         """
-        if team not in self.teamIndexMap:
-            self.teamIndexMap[team] = index
+        if team not in self.team_index_map:
+            self.team_index_map[team] = index
 
-    def getTeamsList(self):
+    def get_teams_list(self):
         """
         Returns a list of all teams that have been registered in the index map.
         """
-        return list(self.teamIndexMap.keys())
+        return list(self.team_index_map.keys())
 
-    def getTeamIndex(self, teamName):
+    def get_team_index(self, team_name):
         """
         Retrieves the numeric index of a team, or -1 if not found.
         """
-        return self.teamIndexMap.get(teamName, -1)
+        return self.team_index_map.get(team_name, -1)
 
 
-    def addGameResult(self, result):
+    def add_game_result(self, result):
         """
         Adds a game result string to both a list and a queue structure.
         """
-        self.gameResults.append(result)
-        self.gameResultQueue.append(result)
+        self.game_results.append(result)
+        self.game_result_queue.append(result)
 
-    def addTeamStatistic(self, statistic):
+    def add_team_statistic(self, statistic):
         """
         Adds a single statistic for a team (stored in a simple list).
         """
-        self.teamStatistics.append(statistic)
+        self.team_statistics.append(statistic)
 
     def clear(self):
         """
         Clears all stored data.
         """
-        self.teamIndexMap.clear()
-        self.gameResults.clear()
-        self.teamStatistics.clear()
-        self.teamDataMap.clear()
-        self.gameResultQueue.clear()
-        self._teamRanking_heap.clear()
-        for row in self.headToHead:
+        self.team_index_map.clear()
+        self.game_results.clear()
+        self.team_statistics.clear()
+        self.team_data_map.clear()
+        self.game_result_queue.clear()
+        self.team_ranking_heap.clear()
+        for row in self.head_to_head:
             for i in range(len(row)):
                 row[i] = 0
                 
-    def addTeamRecord(self, teamName, record):
+    def add_team_record(self, team_name, record):
         """
-        Associates a TeamRecord instance with a given team in the teamDataMap.
+        Associates a TeamRecord instance with a given team in the team_data_map.
         """
-        if teamName not in self.teamDataMap:
-            self.teamDataMap[teamName] = []
-        self.teamDataMap[teamName].append(record)
+        if team_name not in self.team_data_map:
+            self.team_data_map[team_name] = []
+        self.team_data_map[team_name].append(record)
 
-    def updateHeadToHead(self, teamIndex1, teamIndex2, result):
+    def update_head_to_head(self, team_index_1, team_index_2, result):
         """
         Updates the head-to-head matrix with 'result' (1 for a win, 0 for a loss, etc.).
         """
-        if teamIndex1 < 0 or teamIndex2 < 0 or teamIndex1 >= len(self.headToHead) or teamIndex2 >= len(self.headToHead):
-            print(f"Invalid team indices: {teamIndex1}, {teamIndex2}")
+        if team_index_1 < 0 or team_index_2 < 0 or team_index_1 >= len(self.head_to_head) or team_index_2 >= len(self.head_to_head):
+            print(f"Invalid team indices: {team_index_1}, {team_index_2}")
             return
-        self.headToHead[teamIndex1][teamIndex2] += result
+        self.head_to_head[team_index_1][team_index_2] += result
 
-    def getHeadToHeadResult(self, teamIndex1, teamIndex2):
+    def get_head_to_head_result(self, team_index_1, team_index_2):
         """
-        Retrieves the number of times team1 (teamIndex1) has beaten team2 (teamIndex2).
+        Retrieves the number of times team1 (team_index_1) has beaten team2 (team_index_2).
         """
-        if (teamIndex1 < 0 or teamIndex2 < 0 or 
-            teamIndex1 >= len(self.headToHead) or 
-            teamIndex2 >= len(self.headToHead)):
+        if (team_index_1 < 0 or team_index_2 < 0 or 
+            team_index_1 >= len(self.head_to_head) or 
+            team_index_2 >= len(self.head_to_head)):
             return 0
-        return self.headToHead[teamIndex1][teamIndex2]
+        return self.head_to_head[team_index_1][team_index_2]
 
 
-    def getNumTeams(self):
-        return len(self.headToHead)
+    def get_num_teams(self):
+        return len(self.head_to_head)
 
-    def displayTeamData(self, teamName):
+    def display_team_data(self, team_name):
         """
         Prints out the stored records for a specified team.
         """
-        records = self.teamDataMap.get(teamName, [])
+        records = self.team_data_map.get(team_name, [])
         if records:
-            print("Data for team:", teamName)
+            print("Data for team:", team_name)
             for record in records:
                 print(record)
         else:
-            print("No data found for team:", teamName)
+            print("No data found for team:", team_name)
 
-    def displayRankedTeams(self):
+    def display_ranked_teams(self):
         """
         Displays teams in descending order of seeding score (TeamData).
         """
-        temp_heap = self._teamRanking_heap.copy()
+        temp_heap = self.team_ranking_heap.copy()
         print("Team Rankings based on Seeding Score:")
         # Because we're storing -seedingScore, pop items and invert again
         while temp_heap:
@@ -142,47 +142,47 @@ class DataStore:
             return f"Year: {self.year}, Rank: {self.rank}, Statistic: {self.statistic}"
 
     class TeamData:
-        def __init__(self, teamName, seedingScore, pointsScored, wins, losses):
-            self.teamName = teamName
-            self.seedingScore = seedingScore
-            self.pointsScored = pointsScored
+        def __init__(self, team_name, seeding_score, points_scored, wins, losses):
+            self.team_name = team_name
+            self.seeding_score = seeding_score
+            self.points_scored = points_scored
             self.wins = wins
             self.losses = losses
 
         def __str__(self):
-            return (f"Team: {self.teamName}, Seeding Score: {self.seedingScore}, "
-                    f"Points: {self.pointsScored}, Wins: {self.wins}, Losses: {self.losses}")
+            return (f"Team: {self.team_name}, Seeding Score: {self.seeding_score}, "
+                    f"Points: {self.points_scored}, Wins: {self.wins}, Losses: {self.losses}")
 
-        def getSeedingScore(self):
-            return self.seedingScore
+        def get_seeding_score(self):
+            return self.seeding_score
 
-    def addTeamData(self, teamData):
+    def add_team_data(self, team_data):
         """
-        We push negative seedingScore for a min-heap to replicate that ordering.
+        We push negative seeding_score for a min-heap to replicate that ordering.
         """
-        heapq.heappush(self._teamRanking_heap, (-teamData.getSeedingScore(), teamData))
+        heapq.heappush(self.team_ranking_heap, (-team_data.get_seeding_score(), team_data))
 
 def main():
-    dataStore = DataStore(30)  # space for 30 teams
+    data_store = DataStore(30)  # space for 30 teams
     try:
-        dataFolderPath = "../Cleaned_Data"
-        if not os.path.exists(dataFolderPath) or not os.path.isdir(dataFolderPath):
-            print("Directory not found:", dataFolderPath)
+        data_folder_path = "../Cleaned_Data"
+        if not os.path.exists(data_folder_path) or not os.path.isdir(data_folder_path):
+            print("Directory not found:", data_folder_path)
             return
 
         # Loop over each category folder
-        for categoryName in os.listdir(dataFolderPath):
-            categoryFolder = os.path.join(dataFolderPath, categoryName)
-            if os.path.isdir(categoryFolder):
-                print("Category:", categoryName)
+        for category_name in os.listdir(data_folder_path):
+            category_folder = os.path.join(data_folder_path, category_name)
+            if os.path.isdir(category_folder):
+                print("Category:", category_name)
                 
                 # Loop over each team's CSV file
-                for teamFile in os.listdir(categoryFolder):
-                    if teamFile.endswith(".csv"):
-                        filePath = os.path.join(categoryFolder, teamFile)
-                        teamName = teamFile.replace(".csv", "")
+                for team_file in os.listdir(category_folder):
+                    if team_file.endswith(".csv"):
+                        file_path = os.path.join(category_folder, team_file)
+                        team_name = team_file.replace(".csv", "")
                         
-                        with open(filePath, "r", encoding="utf-8-sig") as f:
+                        with open(file_path, "r", encoding="utf-8-sig") as f:
                             reader = csv.reader(f)
                             next(reader, None)
                             for row in reader:
@@ -192,10 +192,10 @@ def main():
                                 statistic = float(row[1].strip())
                                 year = int(row[2].strip())
                                 record = DataStore.TeamRecord(rank, statistic, year)
-                                dataStore.addTeamRecord(teamName, record)
+                                data_store.add_team_record(team_name, record)
 
         # Test display for a specific team
-        dataStore.displayTeamData("Phoenix")  # example
+        data_store.display_team_data("Phoenix")  # example
     except Exception as e:
         print("An error occurred:", e)
 
