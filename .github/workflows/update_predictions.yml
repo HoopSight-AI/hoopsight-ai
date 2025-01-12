@@ -32,7 +32,7 @@ jobs:
       run: |
         cd Models
         python RandomForest.py 
-        cd ../Data_Gathering_&_Cleaning
+        cd "../Data_Gathering_&_Cleaning"
         python FetchInjuryAndExternalNews.py
 
     - name: Commit and Push CSV Updates
