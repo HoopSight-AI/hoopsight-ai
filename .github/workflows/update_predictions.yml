@@ -27,12 +27,12 @@ jobs:
         pip install scikit-learn numpy pandas nba-api
 
     - name: Run Predictions
+      env: 
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }} 
       run: |
-        cd Models
-        python RandomForest.py 
-        cd ..
-        cd Data_Gathering_&_Cleaning
-        python FetchInjuryAndExternalNews.py
+        python Models/RandomForest.py 
+        
+        python Data_Gathering_&_Cleaning/FetchInjuryAndExternalNews.py
 
     - name: Commit and Push CSV Updates
       run: |
