@@ -6,11 +6,11 @@ Atlanta Hawks,Cody Zeller,C,Jan 25,Out,"Jan 10: Zeller (personal) won't play in 
 Atlanta Hawks,Larry Nance Jr.,PF,Feb 20,Out,"Jan 3: Nance underwent surgery Thursday to repair the fractured fourth metacarpal bone in his right hand and will be re-evaluated in two weeks, Brad Rowland of the Locked On Podcast Network reports."
 Atlanta Hawks,Kobe Bufkin,G,Oct 1,Out,"Dec 18: Bufkin will miss the remainder of the 2024-25 season as he undergoes surgery to address his right shoulder instability, Michael Scotto of USA Today reports."
 Boston Celtics,Drew Peterson,F,Jan 15,Out,Jan 11: Peterson (concussion) won't play Sunday versus the Pelicans.
-Brooklyn Nets,Dariq Whitehead,F,Jan 12,Day-To-Day,"Jan 11: Whitehead (concussion) has been ruled out for Friday's game against Denver, Brian Lewis of the New York Post reports."
-Brooklyn Nets,Cameron Johnson,SF,Jan 14,Out,"Jan 9: Johnson (ankle) has been ruled out for Friday's game against the Nuggets, Brian Lewis of the New York Post reports."
-Brooklyn Nets,D'Angelo Russell,G,Jan 14,Out,"Jan 9: Russell (shin) has been ruled out for Friday's game against the Nuggets, Brian Lewis of the New York Post reports."
-Brooklyn Nets,Bojan Bogdanovic,SF,Jan 12,Out,Jan 7: Bogdanovic (foot) won't play in Wednesday's game versus the Pistson.
-Brooklyn Nets,Trendon Watford,PF,Jan 12,Out,Jan 4: The Nets announced Saturday that Watford (hamstring) has resumed individual on-court workouts and his status will be updated in one week.
+Brooklyn Nets,Bojan Bogdanovic,SF,Jan 14,Out,Jan 11: Bogdanovic (foot) will not play Sunday against the Jazz.
+Brooklyn Nets,Trendon Watford,PF,Jan 14,Out,Jan 11: Watford (hamstring) has been ruled out for Sunday's game against the Jazz.
+Brooklyn Nets,Cameron Johnson,SF,Jan 14,Out,"Jan 11: Johnson (ankle) will not play Sunday against the Jazz, Sharif Phillips-Keaton of USA Today reports."
+Brooklyn Nets,D'Angelo Russell,G,Jan 14,Out,"Jan 11: Russell (leg) will not play Sunday against the Jazz, Sharif Phillips-Keaton of USA Today reports."
+Brooklyn Nets,Dariq Whitehead,F,Jan 12,Day-To-Day,"Jan 11: Whitehead (concussion) is questionable for Sunday's game against the Jazz, Sharif Phillips-Keaton of USA Today reports."
 Brooklyn Nets,Cam Thomas,SG,Jan 21,Out,"Jan 4: Thomas (hamstring) won't play in Saturday's game versus the 76ers, Adam Aaronson of PhillyVoice.com reports."
 Brooklyn Nets,Maxwell Lewis,F,Feb 20,Out,"Jan 3: The Nets announced Friday that Lewis has suffered a fractured left tibia and his return timetable is to be determined, Erik Slater of ClutchPoints.com reports."
 Chicago Bulls,Adama Sanogo,C,Jan 12,Out,Jan 11: Sanogo is out for Sunday's game versus the Kings due to right knee injury management.
@@ -37,7 +37,7 @@ Golden State Warriors,Gary Payton II,SG,Jan 13,Out,"Jan 10: Payton (calf) said t
 Golden State Warriors,Jonathan Kuminga,PF,Feb 3,Out,"Jan 5: Kuminga will be re-evaluated in three weeks for a right ankle sprain that he suffered during the Warriors' 121-113 win over the Grizzlies on Saturday, Anthony Slater of The Athletic reports."
 Houston Rockets,Tari Eason,F,Jan 13,Out,Jan 10: Eason (lower leg) is listed as doubtful for Saturday's game against Atlanta.
 Houston Rockets,Jabari Smith Jr.,PF,Feb 21,Out,"Jan 3: The Rockets announced Friday that Smith broke his left hand in shootaround and will be re-evaluated in 4-6 weeks, Michael Shapiro of SI.com reports."
-Indiana Pacers,Aaron Nesmith,SF,Jan 12,Out,"Jan 4: Coach Rick Carlisle said Saturday that Nesmith (ankle) has been getting in some five-on-five work but will still need time to work on his conditioning, Dustin Dopirak of The Indianapolis Star reports."
+Indiana Pacers,Aaron Nesmith,SF,Jan 14,Out,Jan 11: Nesmith (ankle) has been ruled out for Sunday's game against the Cavaliers.
 Indiana Pacers,Isaiah Jackson,SF,Oct 1,Out,"Nov 2: Jackson suffered a torn Achilles during Friday's game against the Pelicans, Shams Charania of ESPN reports."
 Indiana Pacers,James Wiseman,C,Oct 1,Out,"Oct 25: Wiseman underwent successful surgery to repair a torn left Achilles on Thursday, Shams Charania of ESPN reports."
 LA Clippers,Jordan Miller,G,Jan 13,Day-To-Day,"Jan 10: Miller (hip) is questionable for Saturday's game against the Hornets, Law Murray of The Athletic reports."
@@ -51,7 +51,7 @@ Memphis Grizzlies,Cam Spencer,G,Feb 2,Out,Jan 10: The Grizzlies announced Friday
 Memphis Grizzlies,Marcus Smart,PG,Jan 20,Out,Jan 10: Smart (finger) is progressing well in his rehabilitation and is now considered week-to-week.
 Memphis Grizzlies,GG Jackson II,F,Jan 13,Out,Jan 9: The Grizzlies assigned Jackson to the G League's Memphis Hustle on Friday for practice but he will be recalled immediately after.
 Memphis Grizzlies,Vince Williams Jr.,G,Jan 13,Out,Dec 20: Williams is progressing well in his recovery from a Grade 3 right ankle sprain and the team expects him to return to game action in 3-to-6 weeks.
-Miami Heat,Josh Richardson,SG,Jan 11,Out,"Jan 10: Richardson (heel) is listed as questionable for Saturday's game against Portland, Ira Winderman of the South Florida Sun Sentinel reports."
+Miami Heat,Josh Richardson,SG,Jan 13,Out,"Jan 11: Richardson (heel) has been ruled out for Saturday's game against the Trail Blazers, Ira Winderman of the South Florida Sun Sentinel reports."
 Miami Heat,Dru Smith,G,Oct 1,Out,Dec 27: The Heat announced Friday that Smith underwent successful surgery to repair a ruptured left Achilles tendon and will miss the remainder of the season.
 Milwaukee Bucks,Khris Middleton,SF,Jan 12,Day-To-Day,Jan 11: Middleton (ankles) is listed as probable for Sunday's game versus the Knicks.
 Milwaukee Bucks,Gary Trent Jr.,SG,Jan 12,Day-To-Day,Jan 11: Trent is questionable for Sunday's game against the Knicks with a left hip strain.
@@ -82,14 +82,14 @@ Philadelphia 76ers,Kyle Lowry,PG,Jan 14,Out,"Jan 10: Coach Nick Nurse said Frida
 Philadelphia 76ers,Jared McCain,G,Oct 1,Out,"Jan 9: McCain was reviewed Thursday by the surgeon who performed surgery on his left knee and is progressing well. The 76ers officially ruled out for the rest of the season, Kyle Neubeck of AllPHLY.com reports."
 Philadelphia 76ers,KJ Martin,F,Jan 14,Out,"Jan 9: Martin (foot) is out of his walking boot but has yet to take the court, Ky Carlin of USA Today reports."
 Phoenix Suns,Royce O'Neale,PF,Jan 12,Out,"Jan 11: O'Neale (ankle) won't play in Saturday's game versus the Jazz, Duane Rankin of The Arizona Republic reports."
+Portland Trail Blazers,Robert Williams III,C,Jan 14,Out,"Jan 11: Williams (illness) has been ruled out for Saturday's game against the Heat, Sean Highkin of Rip City Radio 620 Portland reports."
+Portland Trail Blazers,Deandre Ayton,C,Jan 14,Out,"Jan 11: Ayton (calf) has been ruled out for Saturday's game against the Heat, Sean Highkin of Rip City Radio 620 Portland reports."
 Portland Trail Blazers,Matisse Thybulle,SG,Jan 26,Out,Jan 11: Portland announced Saturday that Thybulle (ankle) will be re-evaluated in two weeks.
-Portland Trail Blazers,Robert Williams III,C,Jan 11,Day-To-Day,Jan 11: Williams is listed as questionable for Saturday's game versus the Heat due to an illness.
-Portland Trail Blazers,Deandre Ayton,C,Jan 11,Day-To-Day,Jan 10: Ayton (calf) is listed as questionable for Saturday's game against the Heat.
 Portland Trail Blazers,Jerami Grant,SF,Jan 14,Out,Jan 10: Grant (face) has been ruled out for Saturday's game against the Heat.
 Sacramento Kings,De'Aaron Fox,PG,Jan 12,Out,Jan 11: Fox (hip) is listed as questionable for Sunday's game against the Bulls.
 San Antonio Spurs,Jeremy Sochan,F,Jan 13,Day-To-Day,"Jan 10: Sochan (back) has been listed as questionable for Saturday's game against the Lakers, Paul Garcia of The Spot Up Shot reports."
 San Antonio Spurs,Riley Minix,F,Jan 15,Out,"Jan 9: The Spurs signed Minix to a two-way contract Saturday, Michael C. Wright of ESPN.com reports."
-Utah Jazz,Johnny Juzang,G,Jan 12,Out,Jan 11: Juzang (hand) won't play in Saturday's game versus the Suns.
+Utah Jazz,Johnny Juzang,G,Jan 12,Day-To-Day,Jan 11: Juzang (hand) won't play in Saturday's game versus the Suns.
 Utah Jazz,Brice Sensabaugh,F,Jan 12,Out,Jan 11: Sensabaugh (illness) will not play Saturday against the Suns.
 Utah Jazz,John Collins,PF,Jan 12,Out,Jan 10: Collins (hip) has been ruled out for Saturday's game against the Suns.
 Utah Jazz,Keyonte George,G,Jan 12,Out,Jan 10: George (heel) has been ruled out for Saturday's game against the Suns.
