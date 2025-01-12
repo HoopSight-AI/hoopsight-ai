@@ -63,7 +63,7 @@ def predict_outcomes(team_name, schedule_path, historical_data_path, model, curr
     global prediction_writer, win_loss_writer, data_store
     if prediction_writer is None:
         prediction_writer = open("../Front/CSVFiles/prediction_results.csv", "w", encoding="utf-8-sig", newline="")
-        prediction_writer.write("Date,Team,Opponent,HSS Home,HSS Away,Win%\n")
+        prediction_writer.write("Team,Opponent,HSS Home,HSS Away,Win%\n")
     if win_loss_writer is None:
         win_loss_writer = open("../Front/CSVFiles/win_loss_records.csv", "w", encoding="utf-8-sig", newline="")
         win_loss_writer.write("Team,Wins,Losses,HSS\n")
