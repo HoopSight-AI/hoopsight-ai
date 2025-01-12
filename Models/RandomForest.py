@@ -19,20 +19,26 @@ def load_training_data(cleaned_data_path):
     X = []
     y = []
 
-    # Prepare the data_store if it hasn't been initialized
     global data_store
     if data_store is None:
         data_store = DataStore(30)
 
     team_index = 0
-    # Traverse the 'cleaned_data_path' directory
+    
+    # Check if path exists
+    if not os.path.exists(cleaned_data_path):
+        raise ValueError(f"Directory not found: {cleaned_data_path}")
+
     for stat_folder in os.listdir(cleaned_data_path):
         stat_folder_path = os.path.join(cleaned_data_path, stat_folder)
-        if os.path.isdir(stat_folder):
+        
+        # Check if it's a directory
+        if os.path.isdir(stat_folder_path):
             for team_file in os.listdir(stat_folder_path):
                 if team_file.endswith(".csv"):
                     file_path = os.path.join(stat_folder_path, team_file)
                     team = team_file.split(".")[0]
+                    
                     # Map the team to an index if we have space
                     if team_index < 30 and team not in data_store.team_index_map:
                         data_store.add_team_to_index_map(team, team_index)
@@ -41,16 +47,21 @@ def load_training_data(cleaned_data_path):
                     # Read the CSV
                     with open(file_path, "r", encoding="utf-8-sig") as f:
                         reader = csv.reader(f)
-                        # Skip header
-                        next(reader, None)
+                        next(reader, None)  # Skip header
                         for row in reader:
-                            # 0 -> rank, 1 -> weighted stat, 2 -> year, 3 -> win percentage
-                            if len(row) < 4:
-                                continue
-                            weighted_stat = float(row[1].strip())
-                            win_percentage = float(row[3].strip())
-                            X.append([weighted_stat])
-                            y.append(win_percentage)
+                            if len(row) >= 4:  # Ensure row has enough columns
+                                try:
+                                    weighted_stat = float(row[1].strip())
+                                    win_percentage = float(row[3].strip())
+                                    X.append([weighted_stat])  # Make sure X is 2D
+                                    y.append(win_percentage)
+                                except (ValueError, IndexError) as e:
+                                    print(f"Error processing row in {file_path}: {e}")
+                                    continue
+
+    if not X:
+        raise ValueError(f"No training data loaded from {cleaned_data_path}")
+        
     return X, y
 
 def predict_outcomes(team_name, schedule_path, historical_data_path, model, current_date):
