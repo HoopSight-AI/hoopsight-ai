@@ -24,12 +24,15 @@ jobs:
     - name: Install Python Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install scikit-learn numpy pandas
+        pip install scikit-learn numpy pandas nba-api
 
     - name: Run Predictions
       run: |
         cd Models
         python RandomForest.py 
+        cd ..
+        cd Data_Gathering_&_Cleaning
+        python FetchInjuryAndExternalNews.py
 
     - name: Commit and Push CSV Updates
       run: |
@@ -43,5 +46,5 @@ jobs:
         fi
         
         git add Front/CSVFiles/prediction_results.csv Front/CSVFiles/win_loss_records.csv
-        git commit -m "Update predictions and win-loss records CSVs [automated]"
+        git commit -m "Update predictions and win-loss records and Injury CSVs [automated]"
         git push
