@@ -4,7 +4,7 @@ Houston,Memphis,30.13088,27.62618,58.10823
 Houston,San Antonio,27.38088,26.49165,50.30901
 Houston,San Antonio,27.38088,26.49165,50.30901
 Houston,Dallas,27.38088,26.59694,60.80525
-Houston,Golden State,30.13088,27.10000,64.59390
+Houston,Golden State,30.13088,27.01935,60.85449
 Houston,New York,30.13088,27.08994,64.59390
 Houston,San Antonio,30.13088,26.49165,63.51847
 Houston,Oklahoma City,27.38088,28.23429,47.61033
@@ -17,17 +17,17 @@ Houston,Milwaukee,27.38088,27.05200,42.49900
 Houston,Indiana,30.13088,27.46929,58.88587
 Houston,Portland,30.13088,26.53453,63.51847
 Houston,Portland,30.13088,26.53453,63.51847
-Houston,Minnesota,27.38088,27.08506,45.90537
+Houston,Minnesota,27.38088,27.25512,54.42329
 Houston,Philadelphia,27.38088,25.95194,49.67624
 Houston,Oklahoma City,30.13088,28.23429,56.97274
 Houston,Sacramento,27.38088,27.16776,47.24958
-Houston,Golden State,27.38088,27.10000,43.16860
+Houston,Golden State,27.38088,27.01935,47.71633
 Houston,LA Clippers,27.38088,27.52241,49.27434
 Houston,New Orleans,30.13088,25.66212,67.49018
 Houston,Toronto,27.38088,26.75053,53.29722
 Houston,Charlotte,27.38088,24.95912,61.83829
 Houston,New Orleans,27.38088,25.66212,54.16484
-Houston,Minnesota,30.13088,27.08506,64.59390
+Houston,Minnesota,30.13088,27.25512,57.66184
 Houston,Miami,30.13088,26.08294,64.04047
 Houston,Dallas,30.13088,26.59694,60.83674
 Houston,Boston,30.13088,27.22894,57.69484
@@ -47,12 +47,12 @@ Houston,Memphis,27.38088,27.62618,50.08192
 Houston,Brooklyn,30.13088,25.90806,61.33334
 Houston,New York,27.38088,27.08994,50.97136
 Houston,Brooklyn,27.38088,25.90806,53.66757
-Houston,Minnesota,27.38088,27.08506,45.90537
+Houston,Minnesota,27.38088,27.25512,54.42329
 Houston,Dallas,27.38088,26.59694,60.80525
 Houston,Toronto,30.13088,26.75053,60.82743
 Houston,Phoenix,30.13088,26.80935,61.05033
-Houston,Golden State,30.13088,27.10000,64.59390
-Houston,Minnesota,30.13088,27.08506,64.59390
+Houston,Golden State,30.13088,27.01935,60.85449
+Houston,Minnesota,30.13088,27.25512,57.66184
 Houston,Utah,27.38088,26.18465,48.10257
 Houston,Milwaukee,30.13088,27.05200,60.85449
 Houston,San Antonio,30.13088,26.49165,63.51847
@@ -75,7 +75,7 @@ Houston,Phoenix,27.38088,26.80935,47.80900
 Houston,LA Lakers,27.38088,26.79312,44.16413
 Houston,Utah,30.13088,26.18465,60.67653
 Houston,Oklahoma City,30.13088,28.23429,56.97274
-Houston,Golden State,27.38088,27.10000,43.16860
+Houston,Golden State,27.38088,27.01935,47.71633
 Houston,LA Clippers,27.38088,27.52241,49.27434
 Houston,LA Lakers,27.38088,26.79312,44.16413
 Houston,Denver,30.13088,28.10941,54.73317
@@ -87,7 +87,7 @@ Boston,Indiana,27.22894,27.46929,50.08192
 Boston,Charlotte,27.22894,24.95912,58.05148
 Boston,Charlotte,27.22894,24.95912,58.05148
 Boston,Atlanta,27.22894,27.13453,60.89000
-Boston,Golden State,29.97894,27.10000,57.66184
+Boston,Golden State,29.97894,27.01935,64.52780
 Boston,Brooklyn,29.97894,25.90806,62.72791
 Boston,Milwaukee,27.22894,27.05200,50.32557
 Boston,Atlanta,29.97894,27.13453,59.12994
@@ -95,7 +95,7 @@ Boston,Brooklyn,27.22894,25.90806,51.61506
 Boston,Toronto,29.97894,26.75053,63.37811
 Boston,Cleveland,29.97894,28.43335,53.66757
 Boston,Washington,27.22894,24.98653,57.48025
-Boston,Minnesota,29.97894,27.08506,57.66184
+Boston,Minnesota,29.97894,27.25512,58.93350
 Boston,LA Clippers,29.97894,27.52241,58.10823
 Boston,Chicago,27.22894,26.68153,45.76745
 Boston,Cleveland,27.22894,28.43335,48.99458
@@ -110,7 +110,7 @@ Boston,Philadelphia,29.97894,25.95194,64.04047
 Boston,Indiana,29.97894,27.46929,58.10823
 Boston,Indiana,29.97894,27.46929,58.10823
 Boston,Toronto,29.97894,26.75053,63.37811
-Boston,Minnesota,27.22894,27.08506,38.97959
+Boston,Minnesota,27.22894,27.25512,49.88106
 Boston,Houston,27.22894,27.38088,50.08192
 Boston,Oklahoma City,27.22894,28.23429,46.84502
 Boston,Denver,27.22894,28.10941,47.61033
@@ -119,7 +119,7 @@ Boston,New Orleans,29.97894,25.66212,64.80901
 Boston,Toronto,27.22894,26.75053,50.07447
 Boston,Orlando,29.97894,26.41971,63.51847
 Boston,Atlanta,29.97894,27.13453,59.12994
-Boston,Golden State,27.22894,27.10000,47.24419
+Boston,Golden State,27.22894,27.01935,48.79506
 Boston,LA Clippers,27.22894,27.52241,48.77960
 Boston,LA Lakers,27.22894,26.79312,52.87783
 Boston,Dallas,27.22894,26.59694,53.29722
@@ -176,7 +176,7 @@ Brooklyn,New York,25.90806,27.08994,49.02241
 Brooklyn,Charlotte,28.65806,24.95912,61.47259
 Brooklyn,Philadelphia,25.90806,25.95194,49.88106
 Brooklyn,Sacramento,25.90806,27.16776,46.36346
-Brooklyn,Golden State,25.90806,27.10000,49.02241
+Brooklyn,Golden State,25.90806,27.01935,45.37374
 Brooklyn,Phoenix,25.90806,26.80935,47.61033
 Brooklyn,Orlando,28.65806,26.41971,57.48025
 Brooklyn,Orlando,28.65806,26.41971,57.48025
@@ -218,7 +218,7 @@ Brooklyn,Oklahoma City,28.65806,28.23429,43.41268
 Brooklyn,Portland,28.65806,26.53453,57.14429
 Brooklyn,Detroit,25.90806,27.21812,46.36346
 Brooklyn,San Antonio,25.90806,26.49165,48.72357
-Brooklyn,Golden State,28.65806,27.10000,57.39995
+Brooklyn,Golden State,28.65806,27.01935,57.39770
 Brooklyn,Charlotte,25.90806,24.95912,61.78700
 Brooklyn,LA Lakers,28.65806,26.79312,56.97274
 Brooklyn,Cleveland,25.90806,28.43335,40.02621
@@ -233,11 +233,11 @@ Brooklyn,Toronto,28.65806,26.75053,56.97274
 Brooklyn,LA Clippers,28.65806,27.52241,41.51440
 Brooklyn,Washington,25.90806,24.98653,67.53635
 Brooklyn,Dallas,25.90806,26.59694,48.62420
-Brooklyn,Minnesota,28.65806,27.08506,57.39995
+Brooklyn,Minnesota,28.65806,27.25512,49.67624
 Brooklyn,Toronto,28.65806,26.75053,56.97274
 Brooklyn,New Orleans,28.65806,25.66212,64.52780
 Brooklyn,Atlanta,28.65806,27.13453,53.66757
-Brooklyn,Minnesota,25.90806,27.08506,49.02241
+Brooklyn,Minnesota,25.90806,27.25512,46.36346
 Brooklyn,New York,28.65806,27.08994,57.39995
 Phoenix,LA Clippers,26.80935,27.52241,48.62420
 Phoenix,LA Lakers,26.80935,26.79312,28.57009
@@ -252,12 +252,12 @@ Phoenix,Sacramento,29.55935,27.16776,61.88658
 Phoenix,Utah,26.80935,26.18465,53.90882
 Phoenix,Sacramento,26.80935,27.16776,49.78671
 Phoenix,Oklahoma City,26.80935,28.23429,44.13476
-Phoenix,Minnesota,26.80935,27.08506,48.77960
+Phoenix,Minnesota,26.80935,27.25512,49.67678
 Phoenix,Orlando,29.55935,26.41971,60.85449
 Phoenix,New York,29.55935,27.08994,58.10823
 Phoenix,LA Lakers,29.55935,26.79312,59.12994
 Phoenix,Brooklyn,29.55935,25.90806,61.47259
-Phoenix,Golden State,29.55935,27.10000,58.10823
+Phoenix,Golden State,29.55935,27.01935,58.10823
 Phoenix,San Antonio,29.55935,26.49165,60.85449
 Phoenix,New Orleans,26.80935,25.66212,29.25279
 Phoenix,Miami,26.80935,26.08294,57.29593
@@ -267,7 +267,7 @@ Phoenix,Detroit,29.55935,27.21812,58.05148
 Phoenix,Denver,26.80935,28.10941,46.36346
 Phoenix,Denver,29.55935,28.10941,49.67624
 Phoenix,Dallas,29.55935,26.59694,64.52780
-Phoenix,Golden State,26.80935,27.10000,48.77960
+Phoenix,Golden State,26.80935,27.01935,50.08192
 Phoenix,Memphis,29.55935,27.62618,56.97274
 Phoenix,Indiana,26.80935,27.46929,48.62420
 Phoenix,Philadelphia,26.80935,25.95194,70.39335
@@ -282,8 +282,8 @@ Phoenix,Cleveland,26.80935,28.43335,43.20593
 Phoenix,Brooklyn,26.80935,25.90806,50.30901
 Phoenix,Washington,29.55935,24.98653,62.93370
 Phoenix,LA Clippers,29.55935,27.52241,54.73317
-Phoenix,Minnesota,29.55935,27.08506,58.10823
-Phoenix,Golden State,26.80935,27.10000,48.77960
+Phoenix,Minnesota,29.55935,27.25512,58.05148
+Phoenix,Golden State,26.80935,27.01935,50.08192
 Phoenix,Portland,26.80935,26.53453,43.44963
 Phoenix,Portland,26.80935,26.53453,43.44963
 Phoenix,Oklahoma City,26.80935,28.23429,44.13476
@@ -297,7 +297,7 @@ Phoenix,Toronto,26.80935,26.75053,53.43235
 Phoenix,Memphis,26.80935,27.62618,44.21894
 Phoenix,New Orleans,29.55935,25.66212,60.55540
 Phoenix,New Orleans,29.55935,25.66212,60.55540
-Phoenix,Minnesota,29.55935,27.08506,58.10823
+Phoenix,Minnesota,29.55935,27.25512,58.05148
 Phoenix,LA Clippers,29.55935,27.52241,54.73317
 Phoenix,Denver,26.80935,28.10941,46.36346
 Phoenix,Dallas,26.80935,26.59694,44.35193
@@ -310,12 +310,12 @@ Phoenix,Chicago,29.55935,26.68153,57.66184
 Phoenix,Cleveland,29.55935,28.43335,49.61408
 Phoenix,Milwaukee,29.55935,27.05200,58.10823
 Phoenix,Boston,29.55935,27.22894,58.05148
-Phoenix,Minnesota,26.80935,27.08506,48.77960
+Phoenix,Minnesota,26.80935,27.25512,49.67678
 Phoenix,Houston,29.55935,27.38088,57.48025
 Phoenix,Milwaukee,26.80935,27.05200,50.08192
 Phoenix,Boston,26.80935,27.22894,49.67678
 Phoenix,New York,26.80935,27.08994,48.77960
-Phoenix,Golden State,29.55935,27.10000,58.10823
+Phoenix,Golden State,29.55935,27.01935,58.10823
 Phoenix,Oklahoma City,29.55935,28.23429,51.61506
 Phoenix,San Antonio,29.55935,26.49165,60.85449
 Phoenix,Sacramento,26.80935,27.16776,49.78671
@@ -346,7 +346,7 @@ Indiana,Chicago,27.46929,26.68153,51.86950
 Indiana,Charlotte,30.21929,24.95912,65.55438
 Indiana,Phoenix,27.46929,26.80935,34.11040
 Indiana,Sacramento,27.46929,27.16776,45.59788
-Indiana,Golden State,27.46929,27.10000,51.71929
+Indiana,Golden State,27.46929,27.01935,40.68007
 Indiana,Oklahoma City,30.21929,28.23429,54.76412
 Indiana,Boston,27.46929,27.22894,55.23103
 Indiana,Boston,27.46929,27.22894,55.23103
@@ -355,7 +355,7 @@ Indiana,Miami,27.46929,26.08294,49.67624
 Indiana,Phoenix,30.21929,26.80935,60.83707
 Indiana,Brooklyn,27.46929,25.90806,57.39995
 Indiana,Chicago,30.21929,26.68153,60.83674
-Indiana,Golden State,30.21929,27.10000,60.85449
+Indiana,Golden State,30.21929,27.01935,63.37278
 Indiana,Cleveland,27.46929,28.43335,46.93858
 Indiana,Cleveland,30.21929,28.43335,55.25590
 Indiana,Detroit,27.46929,27.21812,47.86350
@@ -383,11 +383,11 @@ Indiana,Chicago,27.46929,26.68153,51.86950
 Indiana,Milwaukee,30.21929,27.05200,63.37278
 Indiana,Philadelphia,27.46929,25.95194,53.66757
 Indiana,Milwaukee,27.46929,27.05200,42.34000
-Indiana,Minnesota,27.46929,27.08506,52.69385
+Indiana,Minnesota,27.46929,27.25512,48.83430
 Indiana,Dallas,30.21929,26.59694,63.51847
 Indiana,Brooklyn,30.21929,25.90806,64.80901
 Indiana,Brooklyn,30.21929,25.90806,64.80901
-Indiana,Minnesota,30.21929,27.08506,60.85449
+Indiana,Minnesota,30.21929,27.25512,64.52780
 Indiana,LA Lakers,30.21929,26.79312,60.83707
 Indiana,Washington,27.46929,24.98653,58.10823
 Indiana,Oklahoma City,27.46929,28.23429,44.21894
@@ -408,7 +408,7 @@ Cleveland,Orlando,31.18335,26.41971,62.80343
 Cleveland,Milwaukee,28.43335,27.05200,49.67624
 Cleveland,Milwaukee,31.18335,27.05200,62.61843
 Cleveland,New Orleans,28.43335,25.66212,59.12994
-Cleveland,Golden State,31.18335,27.10000,62.72791
+Cleveland,Golden State,31.18335,27.01935,61.20811
 Cleveland,Brooklyn,31.18335,25.90806,65.55438
 Cleveland,Chicago,28.43335,26.68153,55.25590
 Cleveland,Philadelphia,28.43335,25.95194,58.10823
@@ -428,7 +428,7 @@ Cleveland,Milwaukee,31.18335,27.05200,62.61843
 Cleveland,Philadelphia,31.18335,25.95194,62.01173
 Cleveland,Utah,31.18335,26.18465,66.00451
 Cleveland,Denver,28.43335,28.10941,56.76314
-Cleveland,Golden State,28.43335,27.10000,51.61506
+Cleveland,Golden State,28.43335,27.01935,49.67624
 Cleveland,LA Lakers,28.43335,26.79312,57.39770
 Cleveland,Dallas,28.43335,26.59694,55.25590
 Cleveland,Charlotte,31.18335,24.95912,63.63417
@@ -437,7 +437,7 @@ Cleveland,Toronto,31.18335,26.75053,63.31124
 Cleveland,Indiana,31.18335,27.46929,61.54909
 Cleveland,Indiana,28.43335,27.46929,65.18877
 Cleveland,Oklahoma City,28.43335,28.23429,49.91353
-Cleveland,Minnesota,28.43335,27.08506,51.61506
+Cleveland,Minnesota,28.43335,27.25512,27.48960
 Cleveland,Phoenix,31.18335,26.80935,63.25269
 Cleveland,Houston,28.43335,27.38088,52.34380
 Cleveland,Philadelphia,28.43335,25.95194,58.10823
@@ -449,7 +449,7 @@ Cleveland,Dallas,31.18335,26.59694,62.93370
 Cleveland,Boston,31.18335,27.22894,63.95480
 Cleveland,Detroit,28.43335,27.21812,48.10257
 Cleveland,Washington,28.43335,24.98653,60.83707
-Cleveland,Minnesota,31.18335,27.08506,62.72791
+Cleveland,Minnesota,31.18335,27.25512,60.67653
 Cleveland,Toronto,28.43335,26.75053,54.16484
 Cleveland,Brooklyn,28.43335,25.90806,58.10823
 Cleveland,New York,31.18335,27.08994,62.72791
@@ -488,7 +488,7 @@ Oklahoma City,LA Clippers,28.23429,27.52241,44.21908
 Oklahoma City,Orlando,30.98429,26.41971,62.93370
 Oklahoma City,Denver,28.23429,28.10941,46.06392
 Oklahoma City,Houston,30.98429,27.38088,63.51847
-Oklahoma City,Golden State,30.98429,27.10000,60.55540
+Oklahoma City,Golden State,30.98429,27.01935,63.95480
 Oklahoma City,LA Clippers,30.98429,27.52241,60.83674
 Oklahoma City,New Orleans,30.98429,25.66212,65.98105
 Oklahoma City,Phoenix,30.98429,26.80935,61.20811
@@ -496,7 +496,7 @@ Oklahoma City,Dallas,30.98429,26.59694,63.25269
 Oklahoma City,San Antonio,28.23429,26.49165,54.16484
 Oklahoma City,Portland,30.98429,26.53453,63.31124
 Oklahoma City,Sacramento,28.23429,27.16776,51.25144
-Oklahoma City,Golden State,28.23429,27.10000,29.75790
+Oklahoma City,Golden State,28.23429,27.01935,48.10257
 Oklahoma City,LA Lakers,28.23429,26.79312,49.67624
 Oklahoma City,Houston,28.23429,27.38088,70.72262
 Oklahoma City,Utah,30.98429,26.18465,62.80343
@@ -508,7 +508,7 @@ Oklahoma City,Washington,30.98429,24.98653,52.95541
 Oklahoma City,Indiana,28.23429,27.46929,47.64672
 Oklahoma City,Charlotte,28.23429,24.95912,61.05033
 Oklahoma City,Memphis,30.98429,27.62618,60.82743
-Oklahoma City,Minnesota,30.98429,27.08506,60.55540
+Oklahoma City,Minnesota,30.98429,27.25512,61.54909
 Oklahoma City,LA Clippers,30.98429,27.52241,60.83674
 Oklahoma City,New York,30.98429,27.08994,60.55540
 Oklahoma City,Boston,30.98429,27.22894,63.08441
@@ -522,7 +522,7 @@ Oklahoma City,Brooklyn,30.98429,25.90806,68.60607
 Oklahoma City,Utah,30.98429,26.18465,62.80343
 Oklahoma City,Dallas,30.98429,26.59694,63.25269
 Oklahoma City,Portland,28.23429,26.53453,54.16484
-Oklahoma City,Golden State,28.23429,27.10000,29.75790
+Oklahoma City,Golden State,28.23429,27.01935,48.10257
 Oklahoma City,Sacramento,30.98429,27.16776,63.08208
 Oklahoma City,Milwaukee,30.98429,27.05200,60.67653
 Oklahoma City,Phoenix,30.98429,26.80935,61.20811
@@ -530,10 +530,10 @@ Oklahoma City,Toronto,30.98429,26.75053,61.33334
 Oklahoma City,Memphis,28.23429,27.62618,53.90882
 Oklahoma City,New Orleans,30.98429,25.66212,65.98105
 Oklahoma City,Miami,30.98429,26.08294,65.76192
-Oklahoma City,Minnesota,28.23429,27.08506,26.70779
+Oklahoma City,Minnesota,28.23429,27.25512,64.98118
 Oklahoma City,Utah,28.23429,26.18465,54.73317
-Oklahoma City,Minnesota,28.23429,27.08506,26.70779
-Oklahoma City,Minnesota,30.98429,27.08506,60.55540
+Oklahoma City,Minnesota,28.23429,27.25512,64.98118
+Oklahoma City,Minnesota,30.98429,27.25512,61.54909
 Oklahoma City,Brooklyn,28.23429,25.90806,58.05148
 Oklahoma City,Atlanta,28.23429,27.13453,51.88687
 Oklahoma City,San Antonio,28.23429,26.49165,54.16484
@@ -559,7 +559,7 @@ Oklahoma City,LA Lakers,30.98429,26.79312,61.20811
 Oklahoma City,Phoenix,28.23429,26.80935,49.67624
 Oklahoma City,Utah,28.23429,26.18465,54.73317
 Oklahoma City,New Orleans,28.23429,25.66212,60.20983
-Portland,Golden State,29.28453,27.10000,57.48025
+Portland,Golden State,29.28453,27.01935,58.05148
 Portland,New Orleans,29.28453,25.66212,63.51847
 Portland,New Orleans,29.28453,25.66212,63.51847
 Portland,Sacramento,26.53453,27.16776,48.72357
@@ -568,10 +568,10 @@ Portland,Oklahoma City,29.28453,28.23429,42.05690
 Portland,Phoenix,26.53453,26.80935,48.77960
 Portland,New Orleans,26.53453,25.66212,50.30901
 Portland,San Antonio,26.53453,26.49165,38.18276
-Portland,Minnesota,26.53453,27.08506,48.72357
+Portland,Minnesota,26.53453,27.25512,48.62420
 Portland,Memphis,29.28453,27.62618,54.16484
-Portland,Minnesota,29.28453,27.08506,57.48025
-Portland,Minnesota,29.28453,27.08506,57.48025
+Portland,Minnesota,29.28453,27.25512,54.73317
+Portland,Minnesota,29.28453,27.25512,54.73317
 Portland,Atlanta,29.28453,27.13453,57.48025
 Portland,Oklahoma City,26.53453,28.23429,44.39621
 Portland,Houston,26.53453,27.38088,44.21894
@@ -609,7 +609,7 @@ Portland,Phoenix,29.28453,26.80935,58.10823
 Portland,Phoenix,29.28453,26.80935,58.10823
 Portland,Indiana,29.28453,27.46929,55.25590
 Portland,Sacramento,29.28453,27.16776,57.14429
-Portland,Minnesota,26.53453,27.08506,48.72357
+Portland,Minnesota,26.53453,27.25512,48.62420
 Portland,Denver,26.53453,28.10941,43.20593
 Portland,Denver,26.53453,28.10941,43.20593
 Portland,LA Lakers,29.28453,26.79312,58.10823
@@ -622,7 +622,7 @@ Portland,Philadelphia,26.53453,25.95194,45.32150
 Portland,Boston,26.53453,27.22894,48.62420
 Portland,Oklahoma City,26.53453,28.23429,44.39621
 Portland,Detroit,29.28453,27.21812,57.14429
-Portland,Golden State,26.53453,27.10000,48.72357
+Portland,Golden State,26.53453,27.01935,47.21313
 Portland,New York,29.28453,27.08994,57.48025
 Portland,Toronto,29.28453,26.75053,58.10823
 Portland,Washington,29.28453,24.98653,64.80901
@@ -637,7 +637,7 @@ Portland,Toronto,26.53453,26.75053,50.08192
 Portland,Chicago,26.53453,26.68153,49.27434
 Portland,San Antonio,29.28453,26.49165,59.12994
 Portland,Utah,26.53453,26.18465,47.71633
-Portland,Golden State,29.28453,27.10000,57.48025
+Portland,Golden State,29.28453,27.01935,58.05148
 Portland,LA Lakers,29.28453,26.79312,58.10823
 Miami,Orlando,28.83294,26.41971,61.83829
 Miami,Charlotte,26.08294,24.95912,37.49848
@@ -647,7 +647,7 @@ Miami,Washington,26.08294,24.98653,59.38288
 Miami,Sacramento,28.83294,27.16776,54.16484
 Miami,Phoenix,26.08294,26.80935,48.62420
 Miami,Denver,26.08294,28.10941,46.59129
-Miami,Minnesota,26.08294,27.08506,46.84502
+Miami,Minnesota,26.08294,27.25512,49.02241
 Miami,Detroit,26.08294,27.21812,45.37374
 Miami,Indiana,26.08294,27.46929,44.11896
 Miami,Indiana,26.08294,27.46929,44.11896
@@ -671,7 +671,7 @@ Miami,New Orleans,28.83294,25.66212,63.37278
 Miami,Indiana,28.83294,27.46929,49.67624
 Miami,Utah,28.83294,26.18465,60.18778
 Miami,Sacramento,26.08294,27.16776,45.37374
-Miami,Golden State,26.08294,27.10000,46.84502
+Miami,Golden State,26.08294,27.01935,47.61033
 Miami,Utah,26.08294,26.18465,49.27434
 Miami,Portland,26.08294,26.53453,47.21313
 Miami,LA Clippers,26.08294,27.52241,44.13476
@@ -698,7 +698,7 @@ Miami,Indiana,28.83294,27.46929,49.67624
 Miami,New York,28.83294,27.08994,54.16484
 Miami,Washington,28.83294,24.98653,63.08208
 Miami,Cleveland,26.08294,28.43335,41.25592
-Miami,Minnesota,28.83294,27.08506,54.16484
+Miami,Minnesota,28.83294,27.25512,57.39995
 Miami,Chicago,28.83294,26.68153,57.48025
 Miami,Charlotte,28.83294,24.95912,60.55540
 Miami,LA Clippers,28.83294,27.52241,51.61506
@@ -708,7 +708,7 @@ Miami,New York,26.08294,27.08994,46.84502
 Miami,Detroit,28.83294,27.21812,57.39770
 Miami,Houston,28.83294,27.38088,53.66757
 Miami,Charlotte,28.83294,24.95912,60.55540
-Miami,Golden State,28.83294,27.10000,54.16484
+Miami,Golden State,28.83294,27.01935,55.25590
 Miami,Atlanta,28.83294,27.13453,54.16484
 Miami,Philadelphia,26.08294,25.95194,50.95165
 Miami,Washington,26.08294,24.98653,59.38288
@@ -731,7 +731,7 @@ Memphis,LA Lakers,30.37618,26.79312,63.51847
 Memphis,Washington,30.37618,24.98653,66.51735
 Memphis,Portland,27.62618,26.53453,40.78687
 Memphis,LA Lakers,27.62618,26.79312,70.72337
-Memphis,Golden State,27.62618,27.10000,45.44449
+Memphis,Golden State,27.62618,27.01935,53.90882
 Memphis,Denver,30.37618,28.10941,58.05148
 Memphis,Denver,30.37618,28.10941,58.05148
 Memphis,Philadelphia,30.37618,25.95194,63.31124
@@ -744,7 +744,7 @@ Memphis,Dallas,27.62618,26.59694,51.38139
 Memphis,Sacramento,30.37618,27.16776,63.37811
 Memphis,Boston,27.62618,27.22894,52.69385
 Memphis,Washington,27.62618,24.98653,60.18778
-Memphis,Golden State,30.37618,27.10000,61.05033
+Memphis,Golden State,30.37618,27.01935,60.82743
 Memphis,Atlanta,27.62618,27.13453,51.06046
 Memphis,LA Clippers,30.37618,27.52241,57.66184
 Memphis,Toronto,30.37618,26.75053,63.51847
@@ -752,14 +752,14 @@ Memphis,New Orleans,27.62618,25.66212,54.76412
 Memphis,Oklahoma City,27.62618,28.23429,48.72357
 Memphis,Phoenix,27.62618,26.80935,70.72337
 Memphis,Sacramento,27.62618,27.16776,52.11836
-Memphis,Golden State,27.62618,27.10000,45.44449
+Memphis,Golden State,27.62618,27.01935,53.90882
 Memphis,Dallas,30.37618,26.59694,63.08441
 Memphis,Houston,30.37618,27.38088,64.52780
-Memphis,Minnesota,27.62618,27.08506,46.54050
+Memphis,Minnesota,27.62618,27.25512,52.99885
 Memphis,Houston,27.62618,27.38088,53.51820
 Memphis,San Antonio,27.62618,26.49165,31.46040
 Memphis,San Antonio,27.62618,26.49165,31.46040
-Memphis,Minnesota,30.37618,27.08506,61.05033
+Memphis,Minnesota,30.37618,27.25512,60.85449
 Memphis,Charlotte,30.37618,24.95912,67.50290
 Memphis,New Orleans,30.37618,25.66212,64.95630
 Memphis,Utah,30.37618,26.18465,61.20811
@@ -792,11 +792,11 @@ Memphis,Utah,27.62618,26.18465,49.67624
 Memphis,Oklahoma City,27.62618,28.23429,48.72357
 Memphis,LA Lakers,30.37618,26.79312,63.51847
 Memphis,Boston,30.37618,27.22894,60.85449
-Memphis,Golden State,30.37618,27.10000,61.05033
+Memphis,Golden State,30.37618,27.01935,60.82743
 Memphis,Miami,27.62618,26.08294,53.66757
 Memphis,Detroit,27.62618,27.21812,21.32993
 Memphis,Charlotte,27.62618,24.95912,58.88587
-Memphis,Minnesota,30.37618,27.08506,61.05033
+Memphis,Minnesota,30.37618,27.25512,60.85449
 Memphis,Denver,27.62618,28.10941,47.21313
 Memphis,Dallas,30.37618,26.59694,63.08441
 Washington,Boston,27.73653,27.22894,45.48564
@@ -804,7 +804,7 @@ Washington,Cleveland,27.73653,28.43335,48.62420
 Washington,Atlanta,24.98653,27.13453,44.33597
 Washington,Atlanta,27.73653,27.13453,53.90882
 Washington,Miami,27.73653,26.08294,54.16484
-Washington,Golden State,27.73653,27.10000,53.29722
+Washington,Golden State,27.73653,27.01935,53.50390
 Washington,Memphis,24.98653,27.62618,43.36639
 Washington,Orlando,24.98653,26.41971,44.13476
 Washington,Houston,24.98653,27.38088,41.25592
@@ -834,9 +834,9 @@ Washington,Houston,27.73653,27.38088,47.71633
 Washington,Philadelphia,24.98653,25.95194,46.93858
 Washington,Chicago,24.98653,26.68153,44.39621
 Washington,Oklahoma City,27.73653,28.23429,47.21313
-Washington,Minnesota,27.73653,27.08506,34.11040
+Washington,Minnesota,27.73653,27.25512,51.18279
 Washington,Phoenix,27.73653,26.80935,67.90000
-Washington,Golden State,24.98653,27.10000,44.33597
+Washington,Golden State,24.98653,27.01935,46.59129
 Washington,Sacramento,24.98653,27.16776,41.72918
 Washington,LA Lakers,24.98653,26.79312,44.85487
 Washington,Utah,24.98653,26.18465,49.02241
@@ -844,7 +844,7 @@ Washington,Phoenix,24.98653,26.80935,44.85487
 Washington,Dallas,24.98653,26.59694,43.20593
 Washington,Toronto,27.73653,26.75053,61.13300
 Washington,LA Lakers,27.73653,26.79312,70.72400
-Washington,Minnesota,24.98653,27.08506,44.39097
+Washington,Minnesota,24.98653,27.25512,44.71731
 Washington,Charlotte,24.98653,24.95912,27.25100
 Washington,Brooklyn,24.98653,25.90806,47.61033
 Washington,Cleveland,27.73653,28.43335,48.62420
@@ -881,7 +881,7 @@ Washington,Chicago,24.98653,26.68153,44.39621
 Washington,Miami,24.98653,26.08294,45.37374
 LA Clippers,Phoenix,30.27241,26.80935,60.83674
 LA Clippers,Denver,27.52241,28.10941,48.72357
-LA Clippers,Golden State,27.52241,27.10000,36.40700
+LA Clippers,Golden State,27.52241,27.01935,44.11704
 LA Clippers,Portland,30.27241,26.53453,61.54909
 LA Clippers,Phoenix,30.27241,26.80935,60.83674
 LA Clippers,Oklahoma City,30.27241,28.23429,54.73317
@@ -893,26 +893,26 @@ LA Clippers,Oklahoma City,27.52241,28.23429,48.62420
 LA Clippers,Houston,27.52241,27.38088,49.08237
 LA Clippers,Houston,27.52241,27.38088,49.08237
 LA Clippers,Utah,30.27241,26.18465,62.72791
-LA Clippers,Golden State,30.27241,27.10000,63.37278
+LA Clippers,Golden State,30.27241,27.01935,61.05033
 LA Clippers,Orlando,30.27241,26.41971,60.55540
 LA Clippers,Sacramento,30.27241,27.16776,60.85449
 LA Clippers,Philadelphia,27.52241,25.95194,57.39995
 LA Clippers,Boston,27.52241,27.22894,53.12892
 LA Clippers,Washington,27.52241,24.98653,58.10823
-LA Clippers,Minnesota,27.52241,27.08506,46.19875
+LA Clippers,Minnesota,27.52241,27.25512,47.01533
 LA Clippers,Denver,30.27241,28.10941,57.48025
 LA Clippers,Portland,30.27241,26.53453,61.54909
-LA Clippers,Minnesota,30.27241,27.08506,63.37278
+LA Clippers,Minnesota,30.27241,27.25512,64.59390
 LA Clippers,Houston,30.27241,27.38088,57.66184
 LA Clippers,Dallas,27.52241,26.59694,67.90000
 LA Clippers,Dallas,27.52241,26.59694,67.90000
 LA Clippers,Memphis,27.52241,27.62618,49.27434
-LA Clippers,Golden State,30.27241,27.10000,63.37278
+LA Clippers,Golden State,30.27241,27.01935,61.05033
 LA Clippers,New Orleans,27.52241,25.66212,56.97274
 LA Clippers,San Antonio,27.52241,26.49165,53.43674
 LA Clippers,Oklahoma City,27.52241,28.23429,48.62420
 LA Clippers,Atlanta,30.27241,27.13453,60.85449
-LA Clippers,Minnesota,27.52241,27.08506,46.19875
+LA Clippers,Minnesota,27.52241,27.25512,47.01533
 LA Clippers,Denver,27.52241,28.10941,48.72357
 LA Clippers,Charlotte,30.27241,24.95912,65.98105
 LA Clippers,Miami,30.27241,26.08294,61.20811
@@ -958,14 +958,14 @@ LA Clippers,Dallas,30.27241,26.59694,61.47259
 LA Clippers,San Antonio,30.27241,26.49165,63.08441
 LA Clippers,Houston,30.27241,27.38088,57.66184
 LA Clippers,Sacramento,27.52241,27.16776,47.71633
-LA Clippers,Golden State,27.52241,27.10000,36.40700
+LA Clippers,Golden State,27.52241,27.01935,44.11704
 Charlotte,Houston,24.95912,27.38088,41.18212
 Charlotte,Atlanta,24.95912,27.13453,41.72918
 Charlotte,Miami,27.70912,26.08294,57.39770
 Charlotte,Toronto,27.70912,26.75053,57.60483
 Charlotte,Boston,27.70912,27.22894,50.28293
 Charlotte,Boston,27.70912,27.22894,50.28293
-Charlotte,Minnesota,24.95912,27.08506,44.33597
+Charlotte,Minnesota,24.95912,27.25512,44.71731
 Charlotte,Detroit,27.70912,27.21812,49.28685
 Charlotte,Indiana,27.70912,27.46929,55.23103
 Charlotte,Philadelphia,24.95912,25.95194,46.93858
@@ -1014,11 +1014,11 @@ Charlotte,Orlando,24.95912,26.41971,45.24402
 Charlotte,Denver,24.95912,28.10941,43.00881
 Charlotte,Portland,24.95912,26.53453,43.20593
 Charlotte,Sacramento,24.95912,27.16776,41.73368
-Charlotte,Golden State,24.95912,27.10000,44.33597
+Charlotte,Golden State,24.95912,27.01935,44.39097
 Charlotte,Dallas,24.95912,26.59694,43.20593
 Charlotte,Washington,27.70912,24.98653,58.93350
-Charlotte,Golden State,27.70912,27.10000,53.90882
-Charlotte,Minnesota,27.70912,27.08506,53.90882
+Charlotte,Golden State,27.70912,27.01935,44.11600
+Charlotte,Minnesota,27.70912,27.25512,46.11025
 Charlotte,Cleveland,27.70912,28.43335,48.62420
 Charlotte,Brooklyn,27.70912,25.90806,55.25590
 Charlotte,Miami,24.95912,26.08294,45.37374
@@ -1043,7 +1043,7 @@ Denver,Oklahoma City,30.85941,28.23429,60.18778
 Denver,LA Clippers,30.85941,27.52241,61.05033
 Denver,Toronto,28.10941,26.75053,49.67624
 Denver,Brooklyn,28.10941,25.90806,57.48025
-Denver,Minnesota,28.10941,27.08506,57.88602
+Denver,Minnesota,28.10941,27.25512,69.41388
 Denver,Utah,30.85941,26.18465,64.88550
 Denver,Toronto,30.85941,26.75053,62.61843
 Denver,Oklahoma City,30.85941,28.23429,60.18778
@@ -1057,7 +1057,7 @@ Denver,LA Lakers,28.10941,26.79312,51.61506
 Denver,New York,30.85941,27.08994,63.08441
 Denver,Utah,28.10941,26.18465,56.97274
 Denver,LA Clippers,28.10941,27.52241,46.01231
-Denver,Golden State,30.85941,27.10000,63.08441
+Denver,Golden State,30.85941,27.01935,63.08208
 Denver,Cleveland,28.10941,28.43335,48.77960
 Denver,Washington,28.10941,24.98653,60.85449
 Denver,Atlanta,28.10941,27.13453,57.93800
@@ -1081,7 +1081,7 @@ Denver,Miami,28.10941,26.08294,54.73317
 Denver,Orlando,28.10941,26.41971,54.16484
 Denver,Philadelphia,30.85941,25.95194,65.76192
 Denver,Sacramento,30.85941,27.16776,61.47259
-Denver,Minnesota,28.10941,27.08506,57.88602
+Denver,Minnesota,28.10941,27.25512,69.41388
 Denver,Chicago,28.10941,26.68153,49.67624
 Denver,New York,28.10941,27.08994,62.57386
 Denver,Philadelphia,28.10941,25.95194,57.48025
@@ -1102,114 +1102,114 @@ Denver,Sacramento,30.85941,27.16776,61.47259
 Denver,Phoenix,30.85941,26.80935,62.72791
 Denver,Oklahoma City,28.10941,28.23429,49.27434
 Denver,Oklahoma City,28.10941,28.23429,49.27434
-Denver,Minnesota,30.85941,27.08506,63.08441
+Denver,Minnesota,30.85941,27.25512,63.51847
 Denver,LA Lakers,30.85941,26.79312,62.72791
 Denver,Washington,30.85941,24.98653,59.05602
-Denver,Golden State,28.10941,27.10000,54.09162
+Denver,Golden State,28.10941,27.01935,50.82595
 Denver,LA Lakers,28.10941,26.79312,51.61506
 Denver,Portland,28.10941,26.53453,57.39995
 Denver,Houston,28.10941,27.38088,55.72045
 Denver,Chicago,30.85941,26.68153,61.20811
 Denver,Milwaukee,30.85941,27.05200,63.08208
 Denver,Utah,30.85941,26.18465,64.88550
-Denver,Minnesota,30.85941,27.08506,63.08441
+Denver,Minnesota,30.85941,27.25512,63.51847
 Denver,San Antonio,30.85941,26.49165,63.25269
-Denver,Golden State,28.10941,27.10000,54.09162
+Denver,Golden State,28.10941,27.01935,50.82595
 Denver,Indiana,30.85941,27.46929,60.82743
 Denver,Sacramento,28.10941,27.16776,70.72400
 Denver,Memphis,30.85941,27.62618,63.37811
 Denver,Houston,28.10941,27.38088,55.72045
-Golden State,Portland,27.10000,26.53453,61.12893
-Golden State,Utah,27.10000,26.18465,65.54947
-Golden State,LA Clippers,29.85000,27.52241,58.05148
-Golden State,New Orleans,29.85000,25.66212,61.20811
-Golden State,New Orleans,29.85000,25.66212,61.20811
-Golden State,Houston,27.10000,27.38088,48.77960
-Golden State,Washington,27.10000,24.98653,57.14429
-Golden State,Boston,27.10000,27.22894,49.27434
-Golden State,Cleveland,27.10000,28.43335,46.36346
-Golden State,Oklahoma City,27.10000,28.23429,45.37374
-Golden State,Dallas,29.85000,26.59694,61.05033
-Golden State,Memphis,29.85000,27.62618,57.48025
-Golden State,LA Clippers,27.10000,27.52241,49.67678
-Golden State,Atlanta,29.85000,27.13453,58.93350
-Golden State,New Orleans,27.10000,25.66212,49.67624
-Golden State,San Antonio,27.10000,26.49165,53.90882
-Golden State,Brooklyn,29.85000,25.90806,60.67653
-Golden State,Oklahoma City,29.85000,28.23429,57.39770
-Golden State,Phoenix,27.10000,26.80935,50.97136
-Golden State,Denver,27.10000,28.10941,46.84502
-Golden State,Houston,29.85000,27.38088,58.10823
-Golden State,Minnesota,29.85000,27.08506,59.12994
-Golden State,Minnesota,29.85000,27.08506,59.12994
-Golden State,Memphis,27.10000,27.62618,47.21313
-Golden State,Minnesota,27.10000,27.08506,31.35224
-Golden State,Indiana,29.85000,27.46929,61.88658
-Golden State,LA Lakers,29.85000,26.79312,60.85449
-Golden State,LA Clippers,27.10000,27.52241,49.67678
-Golden State,Phoenix,29.85000,26.80935,64.59390
-Golden State,Cleveland,29.85000,28.43335,49.67624
-Golden State,Philadelphia,29.85000,25.95194,60.55540
-Golden State,Memphis,29.85000,27.62618,57.48025
-Golden State,Sacramento,29.85000,27.16776,58.88587
-Golden State,Miami,29.85000,26.08294,63.08441
-Golden State,Detroit,27.10000,27.21812,49.27434
-Golden State,Indiana,27.10000,27.46929,49.78671
-Golden State,Toronto,27.10000,26.75053,47.71633
-Golden State,Minnesota,27.10000,27.08506,31.35224
-Golden State,Washington,29.85000,24.98653,64.29017
-Golden State,Boston,29.85000,27.22894,60.18778
-Golden State,Sacramento,27.10000,27.16776,49.26084
-Golden State,Chicago,29.85000,26.68153,63.37278
-Golden State,LA Lakers,29.85000,26.79312,60.85449
-Golden State,Utah,29.85000,26.18465,61.47259
-Golden State,Oklahoma City,29.85000,28.23429,57.39770
-Golden State,Phoenix,29.85000,26.80935,64.59390
-Golden State,Orlando,29.85000,26.41971,60.83707
-Golden State,Utah,27.10000,26.18465,65.54947
-Golden State,LA Lakers,27.10000,26.79312,34.66149
-Golden State,Chicago,27.10000,26.68153,41.38100
-Golden State,Milwaukee,27.10000,27.05200,44.53235
-Golden State,Dallas,27.10000,26.59694,44.11704
-Golden State,Houston,27.10000,27.38088,48.77960
-Golden State,Sacramento,27.10000,27.16776,49.26084
-Golden State,Dallas,29.85000,26.59694,61.05033
-Golden State,Charlotte,29.85000,24.95912,64.29017
-Golden State,Orlando,27.10000,26.41971,34.71540
-Golden State,Philadelphia,27.10000,25.95194,26.70779
-Golden State,Charlotte,27.10000,24.95912,57.14429
-Golden State,New York,27.10000,27.08994,49.88106
-Golden State,Brooklyn,27.10000,25.90806,48.10257
-Golden State,Detroit,29.85000,27.21812,60.18778
-Golden State,Portland,29.85000,26.53453,61.05033
-Golden State,Sacramento,29.85000,27.16776,58.88587
-Golden State,New York,29.85000,27.08994,59.12994
-Golden State,Denver,29.85000,28.10941,54.16484
-Golden State,Toronto,29.85000,26.75053,60.85449
-Golden State,Milwaukee,29.85000,27.05200,59.12994
-Golden State,Atlanta,27.10000,27.13453,49.88106
-Golden State,Miami,27.10000,26.08294,59.78052
-Golden State,New Orleans,27.10000,25.66212,49.67624
-Golden State,San Antonio,27.10000,26.49165,53.90882
-Golden State,Memphis,27.10000,27.62618,47.21313
-Golden State,LA Lakers,27.10000,26.79312,34.66149
-Golden State,Denver,29.85000,28.10941,54.16484
-Golden State,Houston,29.85000,27.38088,58.10823
-Golden State,Phoenix,27.10000,26.80935,50.97136
-Golden State,San Antonio,29.85000,26.49165,60.82743
-Golden State,Portland,27.10000,26.53453,61.12893
-Golden State,LA Clippers,29.85000,27.52241,58.05148
+Golden State,Portland,27.01935,26.53453,50.63424
+Golden State,Utah,27.01935,26.18465,70.72337
+Golden State,LA Clippers,29.76935,27.52241,57.48025
+Golden State,New Orleans,29.76935,25.66212,62.61843
+Golden State,New Orleans,29.76935,25.66212,62.61843
+Golden State,Houston,27.01935,27.38088,49.78671
+Golden State,Washington,27.01935,24.98653,54.73317
+Golden State,Boston,27.01935,27.22894,50.08192
+Golden State,Cleveland,27.01935,28.43335,44.13476
+Golden State,Oklahoma City,27.01935,28.23429,48.99458
+Golden State,Dallas,29.76935,26.59694,63.37278
+Golden State,Memphis,29.76935,27.62618,57.14429
+Golden State,LA Clippers,27.01935,27.52241,47.21313
+Golden State,Atlanta,29.76935,27.13453,60.18778
+Golden State,New Orleans,27.01935,25.66212,49.67624
+Golden State,San Antonio,27.01935,26.49165,55.47692
+Golden State,Brooklyn,29.76935,25.90806,60.55540
+Golden State,Oklahoma City,29.76935,28.23429,53.66757
+Golden State,Phoenix,27.01935,26.80935,48.79506
+Golden State,Denver,27.01935,28.10941,45.37374
+Golden State,Houston,29.76935,27.38088,61.88658
+Golden State,Minnesota,29.76935,27.25512,58.10823
+Golden State,Minnesota,29.76935,27.25512,58.10823
+Golden State,Memphis,27.01935,27.62618,48.72357
+Golden State,Minnesota,27.01935,27.25512,50.08192
+Golden State,Indiana,29.76935,27.46929,58.05148
+Golden State,LA Lakers,29.76935,26.79312,64.52780
+Golden State,LA Clippers,27.01935,27.52241,47.21313
+Golden State,Phoenix,29.76935,26.80935,64.52780
+Golden State,Cleveland,29.76935,28.43335,51.61506
+Golden State,Philadelphia,29.76935,25.95194,63.08208
+Golden State,Memphis,29.76935,27.62618,57.14429
+Golden State,Sacramento,29.76935,27.16776,60.18778
+Golden State,Miami,29.76935,26.08294,61.47259
+Golden State,Detroit,27.01935,27.21812,50.08192
+Golden State,Indiana,27.01935,27.46929,49.67678
+Golden State,Toronto,27.01935,26.75053,49.57588
+Golden State,Minnesota,27.01935,27.25512,50.08192
+Golden State,Washington,29.76935,24.98653,62.80343
+Golden State,Boston,29.76935,27.22894,58.10823
+Golden State,Sacramento,27.01935,27.16776,49.27434
+Golden State,Chicago,29.76935,26.68153,60.85449
+Golden State,LA Lakers,29.76935,26.79312,64.52780
+Golden State,Utah,29.76935,26.18465,63.51847
+Golden State,Oklahoma City,29.76935,28.23429,53.66757
+Golden State,Phoenix,29.76935,26.80935,64.52780
+Golden State,Orlando,29.76935,26.41971,61.05033
+Golden State,Utah,27.01935,26.18465,70.72337
+Golden State,LA Lakers,27.01935,26.79312,51.37615
+Golden State,Chicago,27.01935,26.68153,47.71633
+Golden State,Milwaukee,27.01935,27.05200,49.88106
+Golden State,Dallas,27.01935,26.59694,36.40700
+Golden State,Houston,27.01935,27.38088,49.78671
+Golden State,Sacramento,27.01935,27.16776,49.27434
+Golden State,Dallas,29.76935,26.59694,63.37278
+Golden State,Charlotte,29.76935,24.95912,62.87760
+Golden State,Orlando,27.01935,26.41971,53.90882
+Golden State,Philadelphia,27.01935,25.95194,51.16980
+Golden State,Charlotte,27.01935,24.95912,57.14429
+Golden State,New York,27.01935,27.08994,49.26084
+Golden State,Brooklyn,27.01935,25.90806,37.72310
+Golden State,Detroit,29.76935,27.21812,60.20983
+Golden State,Portland,29.76935,26.53453,63.37811
+Golden State,Sacramento,29.76935,27.16776,60.18778
+Golden State,New York,29.76935,27.08994,58.88587
+Golden State,Denver,29.76935,28.10941,54.16484
+Golden State,Toronto,29.76935,26.75053,64.59390
+Golden State,Milwaukee,29.76935,27.05200,58.93350
+Golden State,Atlanta,27.01935,27.13453,49.27434
+Golden State,Miami,27.01935,26.08294,71.01350
+Golden State,New Orleans,27.01935,25.66212,49.67624
+Golden State,San Antonio,27.01935,26.49165,55.47692
+Golden State,Memphis,27.01935,27.62618,48.72357
+Golden State,LA Lakers,27.01935,26.79312,51.37615
+Golden State,Denver,29.76935,28.10941,54.16484
+Golden State,Houston,29.76935,27.38088,61.88658
+Golden State,Phoenix,27.01935,26.80935,48.79506
+Golden State,San Antonio,29.76935,26.49165,61.05033
+Golden State,Portland,27.01935,26.53453,50.63424
+Golden State,LA Clippers,29.76935,27.52241,57.48025
 Dallas,San Antonio,29.34694,26.49165,57.66184
 Dallas,Phoenix,26.59694,26.80935,50.08192
 Dallas,Utah,29.34694,26.18465,63.37278
-Dallas,Minnesota,26.59694,27.08506,47.21313
+Dallas,Minnesota,26.59694,27.25512,48.62420
 Dallas,Houston,29.34694,27.38088,54.76412
 Dallas,Orlando,29.34694,26.41971,57.69484
 Dallas,Indiana,29.34694,27.46929,56.97274
 Dallas,Chicago,29.34694,26.68153,58.88587
 Dallas,Phoenix,29.34694,26.80935,58.10823
 Dallas,Denver,26.59694,28.10941,45.24402
-Dallas,Golden State,26.59694,27.10000,47.21313
+Dallas,Golden State,26.59694,27.01935,49.67678
 Dallas,Utah,26.59694,26.18465,20.47558
 Dallas,San Antonio,29.34694,26.49165,57.66184
 Dallas,Oklahoma City,26.59694,28.23429,43.20593
@@ -1226,7 +1226,7 @@ Dallas,Toronto,26.59694,26.75053,50.08192
 Dallas,LA Clippers,29.34694,27.52241,55.25590
 Dallas,LA Clippers,29.34694,27.52241,55.25590
 Dallas,Portland,29.34694,26.53453,59.12994
-Dallas,Minnesota,29.34694,27.08506,58.05148
+Dallas,Minnesota,29.34694,27.25512,57.14429
 Dallas,Phoenix,26.59694,26.80935,50.08192
 Dallas,Portland,26.59694,26.53453,49.00264
 Dallas,Sacramento,26.59694,27.16776,48.72357
@@ -1240,7 +1240,7 @@ Dallas,Denver,29.34694,28.10941,48.29557
 Dallas,New Orleans,26.59694,25.66212,71.67940
 Dallas,Oklahoma City,29.34694,28.23429,40.62181
 Dallas,Charlotte,26.59694,24.95912,57.39770
-Dallas,Minnesota,29.34694,27.08506,58.05148
+Dallas,Minnesota,29.34694,27.25512,57.14429
 Dallas,Oklahoma City,26.59694,28.23429,43.20593
 Dallas,Boston,29.34694,27.22894,57.14429
 Dallas,Washington,29.34694,24.98653,63.25269
@@ -1251,10 +1251,10 @@ Dallas,Philadelphia,26.59694,25.95194,34.11040
 Dallas,Boston,26.59694,27.22894,48.72357
 Dallas,Houston,29.34694,27.38088,54.76412
 Dallas,Sacramento,29.34694,27.16776,57.48025
-Dallas,Golden State,29.34694,27.10000,57.48025
+Dallas,Golden State,29.34694,27.01935,58.05148
 Dallas,Miami,29.34694,26.08294,61.05033
 Dallas,New Orleans,29.34694,25.66212,61.47259
-Dallas,Golden State,26.59694,27.10000,47.21313
+Dallas,Golden State,26.59694,27.01935,49.67678
 Dallas,LA Lakers,26.59694,26.79312,50.08192
 Dallas,Charlotte,29.34694,24.95912,63.25269
 Dallas,Milwaukee,29.34694,27.05200,58.05148
@@ -1279,7 +1279,7 @@ Dallas,LA Clippers,26.59694,27.52241,47.61033
 Dallas,LA Lakers,29.34694,26.79312,60.20983
 Dallas,Toronto,29.34694,26.75053,60.20983
 Dallas,Memphis,26.59694,27.62618,46.84502
-Sacramento,Minnesota,29.91776,27.08506,59.12994
+Sacramento,Minnesota,29.91776,27.25512,58.88587
 Sacramento,LA Lakers,27.16776,26.79312,52.99885
 Sacramento,Portland,29.91776,26.53453,60.82743
 Sacramento,Utah,27.16776,26.18465,70.96987
@@ -1291,13 +1291,13 @@ Sacramento,LA Clippers,29.91776,27.52241,61.88658
 Sacramento,Phoenix,27.16776,26.80935,47.71633
 Sacramento,San Antonio,27.16776,26.49165,34.11040
 Sacramento,Phoenix,29.91776,26.80935,60.85449
-Sacramento,Minnesota,29.91776,27.08506,59.12994
+Sacramento,Minnesota,29.91776,27.25512,58.88587
 Sacramento,Utah,29.91776,26.18465,61.54909
 Sacramento,Atlanta,29.91776,27.13453,59.12994
 Sacramento,LA Clippers,27.16776,27.52241,49.78671
 Sacramento,Brooklyn,29.91776,25.90806,64.04047
 Sacramento,Oklahoma City,29.91776,28.23429,54.16484
-Sacramento,Minnesota,27.16776,27.08506,53.65272
+Sacramento,Minnesota,27.16776,27.25512,49.26084
 Sacramento,Portland,27.16776,26.53453,53.29722
 Sacramento,San Antonio,29.91776,26.49165,60.83707
 Sacramento,Houston,29.91776,27.38088,58.10823
@@ -1312,27 +1312,27 @@ Sacramento,LA Lakers,27.16776,26.79312,52.99885
 Sacramento,Dallas,29.91776,26.59694,61.05033
 Sacramento,Philadelphia,29.91776,25.95194,63.95480
 Sacramento,Memphis,29.91776,27.62618,58.05148
-Sacramento,Golden State,27.16776,27.10000,49.30821
+Sacramento,Golden State,27.16776,27.01935,39.79062
 Sacramento,Miami,29.91776,26.08294,63.08208
 Sacramento,Boston,27.16776,27.22894,49.26084
 Sacramento,Chicago,27.16776,26.68153,54.01318
 Sacramento,Milwaukee,27.16776,27.05200,58.58461
 Sacramento,Houston,29.91776,27.38088,58.10823
 Sacramento,Washington,29.91776,24.98653,65.76192
-Sacramento,Golden State,29.91776,27.10000,59.12994
+Sacramento,Golden State,29.91776,27.01935,57.66184
 Sacramento,Denver,27.16776,28.10941,47.61033
 Sacramento,New York,27.16776,27.08994,56.36659
 Sacramento,Brooklyn,27.16776,25.90806,51.56294
 Sacramento,Philadelphia,27.16776,25.95194,48.10257
 Sacramento,Oklahoma City,27.16776,28.23429,45.37374
-Sacramento,Minnesota,27.16776,27.08506,53.65272
+Sacramento,Minnesota,27.16776,27.25512,49.26084
 Sacramento,Orlando,29.91776,26.41971,60.83674
 Sacramento,Portland,27.16776,26.53453,53.29722
 Sacramento,New Orleans,29.91776,25.66212,64.80901
 Sacramento,Dallas,27.16776,26.59694,60.78415
 Sacramento,New Orleans,27.16776,25.66212,53.66757
 Sacramento,New Orleans,27.16776,25.66212,53.66757
-Sacramento,Golden State,29.91776,27.10000,59.12994
+Sacramento,Golden State,29.91776,27.01935,57.66184
 Sacramento,Charlotte,29.91776,24.95912,66.00451
 Sacramento,Utah,27.16776,26.18465,70.96987
 Sacramento,Houston,27.16776,27.38088,50.08192
@@ -1341,7 +1341,7 @@ Sacramento,Denver,27.16776,28.10941,47.61033
 Sacramento,San Antonio,29.91776,26.49165,60.83707
 Sacramento,LA Clippers,27.16776,27.52241,49.78671
 Sacramento,New York,29.91776,27.08994,59.12994
-Sacramento,Golden State,27.16776,27.10000,49.30821
+Sacramento,Golden State,27.16776,27.01935,39.79062
 Sacramento,Phoenix,27.16776,26.80935,47.71633
 Sacramento,Memphis,29.91776,27.62618,58.05148
 Sacramento,Cleveland,29.91776,28.43335,53.66757
@@ -1391,10 +1391,10 @@ Detroit,Sacramento,27.21812,27.16776,46.69466
 Detroit,Denver,27.21812,28.10941,47.61033
 Detroit,Orlando,29.96812,26.41971,60.83674
 Detroit,Charlotte,29.96812,24.95912,66.10918
-Detroit,Minnesota,29.96812,27.08506,57.66184
+Detroit,Minnesota,29.96812,27.25512,58.93350
 Detroit,Portland,29.96812,26.53453,60.83707
 Detroit,Brooklyn,27.21812,25.90806,51.61506
-Detroit,Golden State,29.96812,27.10000,57.66184
+Detroit,Golden State,29.96812,27.01935,57.69484
 Detroit,Toronto,29.96812,26.75053,63.37811
 Detroit,New York,27.21812,27.08994,49.45076
 Detroit,Indiana,29.96812,27.46929,58.10823
@@ -1420,7 +1420,7 @@ Detroit,Denver,29.96812,28.10941,56.97274
 Detroit,Brooklyn,29.96812,25.90806,62.72791
 Detroit,Utah,27.21812,26.18465,57.38252
 Detroit,LA Clippers,27.21812,27.52241,48.77960
-Detroit,Golden State,27.21812,27.10000,54.49102
+Detroit,Golden State,27.21812,27.01935,49.91353
 Detroit,Portland,27.21812,26.53453,57.44417
 Detroit,Washington,29.96812,24.98653,66.00451
 Detroit,Washington,29.96812,24.98653,66.00451
@@ -1431,7 +1431,7 @@ Detroit,Dallas,27.21812,26.59694,53.90882
 Detroit,New Orleans,29.96812,25.66212,64.80901
 Detroit,San Antonio,29.96812,26.49165,60.83674
 Detroit,Cleveland,29.96812,28.43335,53.66757
-Detroit,Minnesota,27.21812,27.08506,48.18816
+Detroit,Minnesota,27.21812,27.25512,49.88106
 Detroit,Oklahoma City,27.21812,28.23429,46.84502
 Detroit,Toronto,27.21812,26.75053,56.82270
 Detroit,Memphis,29.96812,27.62618,58.05148
@@ -1463,7 +1463,7 @@ New York,Orlando,29.83994,26.41971,60.83707
 New York,Charlotte,29.83994,24.95912,64.29017
 New York,Detroit,29.83994,27.21812,60.18778
 New York,Toronto,27.08994,26.75053,47.71633
-New York,Minnesota,27.08994,27.08506,49.88106
+New York,Minnesota,27.08994,27.25512,50.08192
 New York,New Orleans,27.08994,25.66212,49.67624
 New York,Toronto,29.83994,26.75053,60.85449
 New York,San Antonio,29.83994,26.49165,61.05033
@@ -1479,7 +1479,7 @@ New York,Oklahoma City,29.83994,28.23429,57.39770
 New York,Milwaukee,29.83994,27.05200,59.12994
 New York,Detroit,29.83994,27.21812,60.18778
 New York,Philadelphia,27.08994,25.95194,41.29700
-New York,Minnesota,29.83994,27.08506,59.12994
+New York,Minnesota,29.83994,27.25512,60.20983
 New York,Atlanta,29.83994,27.13453,58.93350
 New York,Brooklyn,27.08994,25.90806,29.38233
 New York,Sacramento,29.83994,27.16776,58.88587
@@ -1497,12 +1497,12 @@ New York,Boston,27.08994,27.22894,49.27434
 New York,Philadelphia,29.83994,25.95194,60.55540
 New York,Memphis,27.08994,27.62618,47.21313
 New York,Miami,27.08994,26.08294,60.53660
-New York,Golden State,29.83994,27.10000,58.93350
+New York,Golden State,29.83994,27.01935,59.12994
 New York,LA Lakers,27.08994,26.79312,53.73707
 New York,LA Clippers,27.08994,27.52241,49.67678
 New York,Sacramento,27.08994,27.16776,49.26084
 New York,Portland,27.08994,26.53453,54.83524
-New York,Golden State,27.08994,27.10000,49.88106
+New York,Golden State,27.08994,27.01935,50.73656
 New York,Miami,29.83994,26.08294,63.08441
 New York,San Antonio,27.08994,26.49165,53.90882
 New York,Charlotte,27.08994,24.95912,57.14429
@@ -1548,7 +1548,7 @@ Philadelphia,Boston,25.95194,27.22894,46.36346
 Philadelphia,Utah,25.95194,26.18465,50.08192
 Philadelphia,Portland,25.95194,26.53453,48.72357
 Philadelphia,Sacramento,25.95194,27.16776,48.99458
-Philadelphia,Golden State,25.95194,27.10000,45.37374
+Philadelphia,Golden State,25.95194,27.01935,45.37374
 Philadelphia,Brooklyn,25.95194,25.90806,45.49879
 Philadelphia,Phoenix,28.70194,26.80935,56.97274
 Philadelphia,Washington,28.70194,24.98653,61.54909
@@ -1575,9 +1575,9 @@ Philadelphia,Boston,28.70194,27.22894,53.66757
 Philadelphia,Brooklyn,28.70194,25.90806,59.12994
 Philadelphia,Chicago,28.70194,26.68153,54.73317
 Philadelphia,New York,25.95194,27.08994,45.37374
-Philadelphia,Golden State,28.70194,27.10000,57.39770
+Philadelphia,Golden State,28.70194,27.01935,54.16484
 Philadelphia,Portland,28.70194,26.53453,57.48025
-Philadelphia,Minnesota,25.95194,27.08506,45.37374
+Philadelphia,Minnesota,25.95194,27.25512,46.36346
 Philadelphia,Boston,25.95194,27.22894,46.36346
 Philadelphia,Utah,28.70194,26.18465,58.10823
 Philadelphia,Atlanta,25.95194,27.13453,49.02241
@@ -1594,7 +1594,7 @@ Philadelphia,Miami,28.70194,26.08294,60.18778
 Philadelphia,Toronto,28.70194,26.75053,54.76412
 Philadelphia,New York,25.95194,27.08994,45.37374
 Philadelphia,Milwaukee,28.70194,27.05200,57.39770
-Philadelphia,Minnesota,28.70194,27.08506,57.39770
+Philadelphia,Minnesota,28.70194,27.25512,49.67624
 Philadelphia,Miami,25.95194,26.08294,49.27434
 Philadelphia,Washington,25.95194,24.98653,66.67487
 Philadelphia,Atlanta,28.70194,27.13453,57.39995
@@ -1604,7 +1604,7 @@ San Antonio,Houston,29.24165,27.38088,56.97274
 San Antonio,Houston,29.24165,27.38088,56.97274
 San Antonio,Oklahoma City,26.49165,28.23429,45.12894
 San Antonio,Utah,26.49165,26.18465,34.99849
-San Antonio,Minnesota,29.24165,27.08506,57.48025
+San Antonio,Minnesota,29.24165,27.25512,54.76412
 San Antonio,LA Clippers,26.49165,27.52241,46.84502
 San Antonio,Houston,26.49165,27.38088,47.61033
 San Antonio,Portland,29.24165,26.53453,58.93350
@@ -1615,7 +1615,7 @@ San Antonio,LA Lakers,29.24165,26.79312,61.83829
 San Antonio,Dallas,26.49165,26.59694,49.27434
 San Antonio,Oklahoma City,29.24165,28.23429,60.76930
 San Antonio,Utah,29.24165,26.18465,60.85449
-San Antonio,Golden State,29.24165,27.10000,57.14429
+San Antonio,Golden State,29.24165,27.01935,57.48025
 San Antonio,Utah,26.49165,26.18465,34.99849
 San Antonio,LA Lakers,29.24165,26.79312,61.83829
 San Antonio,Sacramento,26.49165,27.16776,48.62420
@@ -1628,7 +1628,7 @@ San Antonio,Portland,29.24165,26.53453,58.93350
 San Antonio,Philadelphia,26.49165,25.95194,53.65144
 San Antonio,New York,26.49165,27.08994,48.72357
 San Antonio,Brooklyn,26.49165,25.90806,45.32150
-San Antonio,Minnesota,26.49165,27.08506,48.72357
+San Antonio,Minnesota,26.49165,27.25512,44.21894
 San Antonio,LA Clippers,29.24165,27.52241,54.16484
 San Antonio,Denver,26.49165,28.10941,43.20593
 San Antonio,Denver,29.24165,28.10941,31.46675
@@ -1659,7 +1659,7 @@ San Antonio,Memphis,26.49165,27.62618,45.37374
 San Antonio,Oklahoma City,29.24165,28.23429,60.76930
 San Antonio,Brooklyn,29.24165,25.90806,61.05033
 San Antonio,Sacramento,26.49165,27.16776,48.62420
-San Antonio,Minnesota,26.49165,27.08506,48.72357
+San Antonio,Minnesota,26.49165,27.25512,44.21894
 San Antonio,Dallas,29.24165,26.59694,60.18778
 San Antonio,Dallas,29.24165,26.59694,60.18778
 San Antonio,Charlotte,29.24165,24.95912,64.80901
@@ -1671,16 +1671,16 @@ San Antonio,Toronto,26.49165,26.75053,48.77960
 San Antonio,Detroit,26.49165,27.21812,48.62420
 San Antonio,Cleveland,26.49165,28.43335,42.38882
 San Antonio,Boston,29.24165,27.22894,54.73317
-San Antonio,Golden State,29.24165,27.10000,57.14429
+San Antonio,Golden State,29.24165,27.01935,57.48025
 San Antonio,Denver,26.49165,28.10941,43.20593
 San Antonio,Cleveland,29.24165,28.43335,56.38693
 San Antonio,Portland,26.49165,26.53453,49.88106
 San Antonio,LA Clippers,26.49165,27.52241,46.84502
-San Antonio,Golden State,26.49165,27.10000,48.72357
+San Antonio,Golden State,26.49165,27.01935,47.21313
 San Antonio,Phoenix,26.49165,26.80935,48.77960
 San Antonio,Toronto,29.24165,26.75053,58.10823
 Utah,Memphis,28.93465,27.62618,51.61506
-Utah,Golden State,28.93465,27.10000,55.25590
+Utah,Golden State,28.93465,27.01935,56.97274
 Utah,Dallas,26.18465,26.59694,49.67678
 Utah,Sacramento,28.93465,27.16776,55.25590
 Utah,San Antonio,28.93465,26.49165,61.83829
@@ -1722,11 +1722,11 @@ Utah,Oklahoma City,26.18465,28.23429,46.59129
 Utah,Washington,28.93465,24.98653,60.67653
 Utah,Memphis,26.18465,27.62618,44.13476
 Utah,Milwaukee,28.93465,27.05200,56.97274
-Utah,Golden State,26.18465,27.10000,47.61033
-Utah,Minnesota,28.93465,27.08506,55.25590
+Utah,Golden State,26.18465,27.01935,44.21894
+Utah,Minnesota,28.93465,27.25512,54.16484
 Utah,Orlando,28.93465,26.41971,58.10823
 Utah,Indiana,28.93465,27.46929,53.66757
-Utah,Golden State,28.93465,27.10000,55.25590
+Utah,Golden State,28.93465,27.01935,56.97274
 Utah,Phoenix,26.18465,26.80935,48.72357
 Utah,LA Clippers,26.18465,27.52241,46.36346
 Utah,LA Lakers,26.18465,26.79312,48.72357
@@ -1735,7 +1735,7 @@ Utah,Oklahoma City,28.93465,28.23429,45.51455
 Utah,Houston,28.93465,27.38088,57.39995
 Utah,Portland,28.93465,26.53453,61.83829
 Utah,Sacramento,28.93465,27.16776,55.25590
-Utah,Minnesota,28.93465,27.08506,55.25590
+Utah,Minnesota,28.93465,27.25512,54.16484
 Utah,New Orleans,28.93465,25.66212,61.05033
 Utah,Detroit,28.93465,27.21812,54.16484
 Utah,Washington,26.18465,24.98653,48.10257
@@ -1744,7 +1744,7 @@ Utah,Philadelphia,26.18465,25.95194,48.87693
 Utah,Boston,26.18465,27.22894,46.84502
 Utah,Memphis,26.18465,27.62618,44.13476
 Utah,Toronto,28.93465,26.75053,57.48025
-Utah,Minnesota,26.18465,27.08506,47.61033
+Utah,Minnesota,26.18465,27.25512,45.37374
 Utah,Chicago,28.93465,26.68153,58.05148
 Utah,LA Clippers,28.93465,27.52241,49.67624
 Utah,Boston,28.93465,27.22894,54.16484
@@ -1758,8 +1758,8 @@ Utah,Indiana,26.18465,27.46929,46.36346
 Utah,Atlanta,26.18465,27.13453,47.61033
 Utah,Portland,28.93465,26.53453,61.83829
 Utah,Oklahoma City,28.93465,28.23429,45.51455
-Utah,Minnesota,26.18465,27.08506,47.61033
-LA Lakers,Minnesota,29.54312,27.08506,58.10823
+Utah,Minnesota,26.18465,27.25512,45.37374
+LA Lakers,Minnesota,29.54312,27.25512,58.05148
 LA Lakers,Phoenix,29.54312,26.80935,58.93350
 LA Lakers,Sacramento,29.54312,27.16776,61.88658
 LA Lakers,Phoenix,26.79312,26.80935,49.88106
@@ -1779,14 +1779,14 @@ LA Lakers,Phoenix,26.79312,26.80935,49.88106
 LA Lakers,San Antonio,26.79312,26.49165,60.72694
 LA Lakers,Oklahoma City,29.54312,28.23429,51.61506
 LA Lakers,Utah,26.79312,26.18465,53.90882
-LA Lakers,Minnesota,26.79312,27.08506,48.77960
+LA Lakers,Minnesota,26.79312,27.25512,47.21313
 LA Lakers,Miami,26.79312,26.08294,43.00274
 LA Lakers,Atlanta,26.79312,27.13453,48.77960
 LA Lakers,Portland,29.54312,26.53453,64.59390
 LA Lakers,Sacramento,26.79312,27.16776,49.78671
 LA Lakers,Sacramento,26.79312,27.16776,49.78671
 LA Lakers,Detroit,29.54312,27.21812,58.05148
-LA Lakers,Golden State,26.79312,27.10000,48.77960
+LA Lakers,Golden State,26.79312,27.01935,50.08192
 LA Lakers,Sacramento,29.54312,27.16776,61.88658
 LA Lakers,Cleveland,29.54312,28.43335,31.58524
 LA Lakers,Portland,29.54312,26.53453,64.59390
@@ -1801,20 +1801,20 @@ LA Lakers,Brooklyn,29.54312,25.90806,63.51847
 LA Lakers,LA Clippers,26.79312,27.52241,48.62420
 LA Lakers,Washington,29.54312,24.98653,62.93370
 LA Lakers,Boston,29.54312,27.22894,58.05148
-LA Lakers,Golden State,26.79312,27.10000,48.77960
+LA Lakers,Golden State,26.79312,27.01935,50.08192
 LA Lakers,Charlotte,26.79312,24.95912,55.25590
 LA Lakers,Philadelphia,26.79312,25.95194,70.72337
 LA Lakers,Washington,26.79312,24.98653,55.25590
 LA Lakers,New York,26.79312,27.08994,48.77960
 LA Lakers,LA Clippers,26.79312,27.52241,48.62420
-LA Lakers,Golden State,29.54312,27.10000,61.83829
+LA Lakers,Golden State,29.54312,27.01935,58.10823
 LA Lakers,Indiana,29.54312,27.46929,57.14429
 LA Lakers,Utah,29.54312,26.18465,60.82743
 LA Lakers,Utah,26.79312,26.18465,53.90882
 LA Lakers,Portland,26.79312,26.53453,53.55519
 LA Lakers,Denver,26.79312,28.10941,46.36346
 LA Lakers,Dallas,29.54312,26.59694,57.69484
-LA Lakers,Minnesota,29.54312,27.08506,58.10823
+LA Lakers,Minnesota,29.54312,27.25512,58.05148
 LA Lakers,LA Clippers,29.54312,27.52241,54.73317
 LA Lakers,LA Clippers,29.54312,27.52241,54.73317
 LA Lakers,New Orleans,29.54312,25.66212,60.55540
@@ -1832,7 +1832,7 @@ LA Lakers,Indiana,26.79312,27.46929,48.62420
 LA Lakers,Chicago,26.79312,26.68153,60.20944
 LA Lakers,Memphis,26.79312,27.62618,44.21894
 LA Lakers,Houston,29.54312,27.38088,57.48025
-LA Lakers,Golden State,29.54312,27.10000,61.83829
+LA Lakers,Golden State,29.54312,27.01935,58.10823
 LA Lakers,New Orleans,29.54312,25.66212,60.55540
 LA Lakers,Oklahoma City,26.79312,28.23429,44.13476
 LA Lakers,Oklahoma City,26.79312,28.23429,44.13476
@@ -1875,7 +1875,7 @@ Orlando,Detroit,26.41971,27.21812,44.21894
 Orlando,Toronto,26.41971,26.75053,48.77960
 Orlando,Utah,29.16971,26.18465,64.52780
 Orlando,New York,26.41971,27.08994,48.62420
-Orlando,Minnesota,29.16971,27.08506,57.14429
+Orlando,Minnesota,29.16971,27.25512,56.97274
 Orlando,Milwaukee,29.16971,27.05200,57.14429
 Orlando,Philadelphia,29.16971,25.95194,63.37811
 Orlando,Milwaukee,26.41971,27.05200,48.72357
@@ -1887,7 +1887,7 @@ Orlando,Detroit,29.16971,27.21812,54.76412
 Orlando,Miami,26.41971,26.08294,47.71633
 Orlando,Portland,26.41971,26.53453,49.27434
 Orlando,Utah,26.41971,26.18465,49.63325
-Orlando,Golden State,26.41971,27.10000,48.62420
+Orlando,Golden State,26.41971,27.01935,48.72357
 Orlando,Sacramento,26.41971,27.16776,48.62420
 Orlando,Denver,26.41971,28.10941,44.39621
 Orlando,San Antonio,29.16971,26.49165,58.88587
@@ -1897,13 +1897,13 @@ Orlando,Atlanta,26.41971,27.13453,48.62420
 Orlando,Memphis,29.16971,27.62618,53.66757
 Orlando,Washington,29.16971,24.98653,61.20811
 Orlando,Cleveland,29.16971,28.43335,47.69951
-Orlando,Golden State,29.16971,27.10000,57.14429
+Orlando,Golden State,29.16971,27.01935,57.48025
 Orlando,Toronto,29.16971,26.75053,61.83829
 Orlando,Toronto,29.16971,26.75053,61.83829
 Orlando,Milwaukee,26.41971,27.05200,48.72357
 Orlando,Houston,26.41971,27.38088,46.93858
 Orlando,Chicago,29.16971,26.68153,58.10823
-Orlando,Minnesota,26.41971,27.08506,48.62420
+Orlando,Minnesota,26.41971,27.25512,44.21894
 Orlando,Cleveland,26.41971,28.43335,46.59129
 Orlando,San Antonio,26.41971,26.49165,49.26084
 Orlando,Houston,29.16971,27.38088,55.25590
@@ -1919,86 +1919,86 @@ Orlando,Atlanta,29.16971,27.13453,54.73317
 Orlando,Boston,29.16971,27.22894,56.97274
 Orlando,Indiana,26.41971,27.46929,46.84502
 Orlando,Atlanta,26.41971,27.13453,48.62420
-Minnesota,LA Lakers,27.08506,26.79312,50.82205
-Minnesota,Sacramento,27.08506,27.16776,49.26084
-Minnesota,Toronto,29.83506,26.75053,60.85449
-Minnesota,Dallas,29.83506,26.59694,63.37811
-Minnesota,Denver,29.83506,28.10941,54.16484
-Minnesota,San Antonio,27.08506,26.49165,53.90882
-Minnesota,Charlotte,29.83506,24.95912,64.29017
-Minnesota,Chicago,27.08506,26.68153,52.69385
-Minnesota,Portland,29.83506,26.53453,61.05033
-Minnesota,Miami,29.83506,26.08294,63.08441
-Minnesota,Portland,27.08506,26.53453,46.27563
-Minnesota,Portland,27.08506,26.53453,46.27563
-Minnesota,Sacramento,27.08506,27.16776,49.26084
-Minnesota,Phoenix,29.83506,26.80935,64.59390
-Minnesota,Toronto,27.08506,26.75053,47.71633
-Minnesota,Boston,27.08506,27.22894,49.27434
-Minnesota,Houston,29.83506,27.38088,58.10823
-Minnesota,Sacramento,29.83506,27.16776,58.88587
-Minnesota,LA Clippers,29.83506,27.52241,58.05148
-Minnesota,LA Lakers,29.83506,26.79312,64.59390
-Minnesota,LA Clippers,27.08506,27.52241,49.67678
-Minnesota,Golden State,27.08506,27.10000,49.88106
-Minnesota,Golden State,27.08506,27.10000,49.88106
-Minnesota,New York,29.83506,27.08994,58.93350
-Minnesota,Golden State,29.83506,27.10000,58.93350
-Minnesota,Atlanta,27.08506,27.13453,49.88106
-Minnesota,Dallas,27.08506,26.59694,49.92797
-Minnesota,Houston,27.08506,27.38088,48.77960
-Minnesota,San Antonio,29.83506,26.49165,61.05033
-Minnesota,Oklahoma City,27.08506,28.23429,45.37374
-Minnesota,Boston,29.83506,27.22894,60.18778
-Minnesota,Detroit,27.08506,27.21812,49.27434
-Minnesota,LA Clippers,29.83506,27.52241,58.05148
-Minnesota,New Orleans,27.08506,25.66212,49.67624
-Minnesota,Orlando,27.08506,26.41971,34.11040
-Minnesota,Memphis,29.83506,27.62618,57.48025
-Minnesota,Washington,27.08506,24.98653,57.14429
-Minnesota,Golden State,29.83506,27.10000,58.93350
-Minnesota,New York,27.08506,27.08994,49.88106
-Minnesota,Cleveland,29.83506,28.43335,49.67624
-Minnesota,Memphis,27.08506,27.62618,47.21313
-Minnesota,Dallas,27.08506,26.59694,49.92797
-Minnesota,Denver,29.83506,28.10941,54.16484
-Minnesota,Atlanta,29.83506,27.13453,58.93350
-Minnesota,Phoenix,27.08506,26.80935,45.99226
-Minnesota,Utah,27.08506,26.18465,50.30901
-Minnesota,Washington,29.83506,24.98653,62.87760
-Minnesota,Sacramento,29.83506,27.16776,58.88587
-Minnesota,Chicago,29.83506,26.68153,63.37278
-Minnesota,Houston,29.83506,27.38088,58.10823
-Minnesota,Portland,29.83506,26.53453,61.05033
-Minnesota,Cleveland,27.08506,28.43335,46.36346
-Minnesota,Milwaukee,29.83506,27.05200,59.12994
-Minnesota,Oklahoma City,29.83506,28.23429,57.39770
-Minnesota,Houston,27.08506,27.38088,48.77960
-Minnesota,Oklahoma City,29.83506,28.23429,57.39770
-Minnesota,Oklahoma City,27.08506,28.23429,45.37374
-Minnesota,LA Lakers,27.08506,26.79312,50.82205
-Minnesota,Utah,27.08506,26.18465,50.30901
-Minnesota,Phoenix,27.08506,26.80935,45.99226
-Minnesota,Philadelphia,29.83506,25.95194,60.55540
-Minnesota,Charlotte,27.08506,24.95912,57.14429
-Minnesota,Miami,27.08506,26.08294,58.55242
-Minnesota,San Antonio,29.83506,26.49165,61.05033
-Minnesota,Denver,27.08506,28.10941,46.84502
-Minnesota,Orlando,29.83506,26.41971,60.83707
-Minnesota,Utah,29.83506,26.18465,61.47259
-Minnesota,Indiana,29.83506,27.46929,61.88658
-Minnesota,New Orleans,29.83506,25.66212,61.20811
-Minnesota,New Orleans,29.83506,25.66212,61.20811
-Minnesota,Indiana,27.08506,27.46929,49.78671
-Minnesota,Phoenix,29.83506,26.80935,64.59390
-Minnesota,Detroit,29.83506,27.21812,60.18778
-Minnesota,Denver,27.08506,28.10941,46.84502
-Minnesota,Brooklyn,27.08506,25.90806,27.35980
-Minnesota,Philadelphia,27.08506,25.95194,28.76575
-Minnesota,Milwaukee,27.08506,27.05200,33.11800
-Minnesota,Memphis,27.08506,27.62618,47.21313
-Minnesota,Brooklyn,29.83506,25.90806,60.67653
-Minnesota,Utah,29.83506,26.18465,61.47259
+Minnesota,LA Lakers,27.25512,26.79312,55.98104
+Minnesota,Sacramento,27.25512,27.16776,39.40750
+Minnesota,Toronto,30.00512,26.75053,61.05033
+Minnesota,Dallas,30.00512,26.59694,60.83707
+Minnesota,Denver,30.00512,28.10941,56.97274
+Minnesota,San Antonio,27.25512,26.49165,45.36521
+Minnesota,Charlotte,30.00512,24.95912,66.10918
+Minnesota,Chicago,27.25512,26.68153,66.98325
+Minnesota,Portland,30.00512,26.53453,60.83674
+Minnesota,Miami,30.00512,26.08294,60.67653
+Minnesota,Portland,27.25512,26.53453,39.14134
+Minnesota,Portland,27.25512,26.53453,39.14134
+Minnesota,Sacramento,27.25512,27.16776,39.40750
+Minnesota,Phoenix,30.00512,26.80935,63.37278
+Minnesota,Toronto,27.25512,26.75053,46.95883
+Minnesota,Boston,27.25512,27.22894,27.25100
+Minnesota,Houston,30.00512,27.38088,60.18778
+Minnesota,Sacramento,30.00512,27.16776,59.12994
+Minnesota,LA Clippers,30.00512,27.52241,58.10823
+Minnesota,LA Lakers,30.00512,26.79312,63.37811
+Minnesota,LA Clippers,27.25512,27.52241,48.77960
+Minnesota,Golden State,27.25512,27.01935,45.04141
+Minnesota,Golden State,27.25512,27.01935,45.04141
+Minnesota,New York,30.00512,27.08994,57.69484
+Minnesota,Golden State,30.00512,27.01935,64.52780
+Minnesota,Atlanta,27.25512,27.13453,48.55031
+Minnesota,Dallas,27.25512,26.59694,34.11040
+Minnesota,Houston,27.25512,27.38088,49.27434
+Minnesota,San Antonio,30.00512,26.49165,60.83674
+Minnesota,Oklahoma City,27.25512,28.23429,46.93858
+Minnesota,Boston,30.00512,27.22894,59.12994
+Minnesota,Detroit,27.25512,27.21812,51.66900
+Minnesota,LA Clippers,30.00512,27.52241,58.10823
+Minnesota,New Orleans,27.25512,25.66212,57.39995
+Minnesota,Orlando,27.25512,26.41971,70.72337
+Minnesota,Memphis,30.00512,27.62618,61.88658
+Minnesota,Washington,27.25512,24.98653,58.05148
+Minnesota,Golden State,30.00512,27.01935,64.52780
+Minnesota,New York,27.25512,27.08994,63.08384
+Minnesota,Cleveland,30.00512,28.43335,57.39995
+Minnesota,Memphis,27.25512,27.62618,49.78671
+Minnesota,Dallas,27.25512,26.59694,34.11040
+Minnesota,Denver,30.00512,28.10941,56.97274
+Minnesota,Atlanta,30.00512,27.13453,57.66184
+Minnesota,Phoenix,27.25512,26.80935,38.81529
+Minnesota,Utah,27.25512,26.18465,49.21631
+Minnesota,Washington,30.00512,24.98653,66.10918
+Minnesota,Sacramento,30.00512,27.16776,59.12994
+Minnesota,Chicago,30.00512,26.68153,61.05033
+Minnesota,Houston,30.00512,27.38088,60.18778
+Minnesota,Portland,30.00512,26.53453,60.83674
+Minnesota,Cleveland,27.25512,28.43335,49.02241
+Minnesota,Milwaukee,30.00512,27.05200,64.52780
+Minnesota,Oklahoma City,30.00512,28.23429,55.25590
+Minnesota,Houston,27.25512,27.38088,49.27434
+Minnesota,Oklahoma City,30.00512,28.23429,55.25590
+Minnesota,Oklahoma City,27.25512,28.23429,46.93858
+Minnesota,LA Lakers,27.25512,26.79312,55.98104
+Minnesota,Utah,27.25512,26.18465,49.21631
+Minnesota,Phoenix,27.25512,26.80935,38.81529
+Minnesota,Philadelphia,30.00512,25.95194,62.72791
+Minnesota,Charlotte,27.25512,24.95912,58.05148
+Minnesota,Miami,27.25512,26.08294,27.06330
+Minnesota,San Antonio,30.00512,26.49165,60.83674
+Minnesota,Denver,27.25512,28.10941,47.61033
+Minnesota,Orlando,30.00512,26.41971,63.51847
+Minnesota,Utah,30.00512,26.18465,63.08208
+Minnesota,Indiana,30.00512,27.46929,58.10823
+Minnesota,New Orleans,30.00512,25.66212,64.80901
+Minnesota,New Orleans,30.00512,25.66212,64.80901
+Minnesota,Indiana,27.25512,27.46929,50.08192
+Minnesota,Phoenix,30.00512,26.80935,63.37278
+Minnesota,Detroit,30.00512,27.21812,59.12994
+Minnesota,Denver,27.25512,28.10941,47.61033
+Minnesota,Brooklyn,27.25512,25.90806,51.61506
+Minnesota,Philadelphia,27.25512,25.95194,51.61506
+Minnesota,Milwaukee,27.25512,27.05200,44.12208
+Minnesota,Memphis,27.25512,27.62618,49.78671
+Minnesota,Brooklyn,30.00512,25.90806,62.72791
+Minnesota,Utah,30.00512,26.18465,63.08208
 Chicago,New Orleans,26.68153,25.66212,62.57386
 Chicago,Milwaukee,26.68153,27.05200,49.78671
 Chicago,Oklahoma City,29.43153,28.23429,48.10257
@@ -2007,7 +2007,7 @@ Chicago,Orlando,29.43153,26.41971,64.59390
 Chicago,Brooklyn,26.68153,25.90806,47.42227
 Chicago,Utah,29.43153,26.18465,63.37811
 Chicago,Dallas,26.68153,26.59694,52.31139
-Chicago,Minnesota,29.43153,27.08506,58.05148
+Chicago,Minnesota,29.43153,27.25512,57.48025
 Chicago,Atlanta,26.68153,27.13453,47.21313
 Chicago,Cleveland,29.43153,28.43335,59.87727
 Chicago,New York,26.68153,27.08994,49.67678
@@ -2041,15 +2041,15 @@ Chicago,Atlanta,29.43153,27.13453,58.05148
 Chicago,Charlotte,29.43153,24.95912,67.49018
 Chicago,Portland,26.68153,26.53453,32.95700
 Chicago,LA Clippers,26.68153,27.52241,44.21894
-Chicago,Golden State,26.68153,27.10000,49.67678
+Chicago,Golden State,26.68153,27.01935,48.77960
 Chicago,Philadelphia,29.43153,25.95194,60.83674
 Chicago,Denver,29.43153,28.10941,51.61506
 Chicago,Boston,26.68153,27.22894,47.21313
 Chicago,Toronto,26.68153,26.75053,49.26084
 Chicago,Detroit,26.68153,27.21812,47.21313
 Chicago,Miami,29.43153,26.08294,61.05033
-Chicago,Minnesota,26.68153,27.08506,49.67678
-Chicago,Golden State,29.43153,27.10000,58.05148
+Chicago,Minnesota,26.68153,27.25512,48.72357
+Chicago,Golden State,29.43153,27.01935,61.83829
 Chicago,Detroit,29.43153,27.21812,57.48025
 Chicago,Detroit,29.43153,27.21812,57.48025
 Chicago,New York,26.68153,27.08994,49.67678
@@ -2082,8 +2082,8 @@ Chicago,Philadelphia,26.68153,25.95194,41.42752
 New Orleans,Chicago,28.41212,26.68153,54.16484
 New Orleans,Portland,25.66212,26.53453,47.61033
 New Orleans,Portland,25.66212,26.53453,47.61033
-New Orleans,Golden State,25.66212,27.10000,44.13476
-New Orleans,Golden State,25.66212,27.10000,44.13476
+New Orleans,Golden State,25.66212,27.01935,44.11896
+New Orleans,Golden State,25.66212,27.01935,44.11896
 New Orleans,Indiana,28.41212,27.46929,70.72400
 New Orleans,Atlanta,28.41212,27.13453,51.56294
 New Orleans,Portland,28.41212,26.53453,56.97274
@@ -2095,7 +2095,7 @@ New Orleans,Denver,28.41212,28.10941,43.33472
 New Orleans,LA Lakers,28.41212,26.79312,57.39770
 New Orleans,Dallas,25.66212,26.59694,47.61033
 New Orleans,Cleveland,25.66212,28.43335,42.91400
-New Orleans,Golden State,28.41212,27.10000,51.61506
+New Orleans,Golden State,28.41212,27.01935,49.67624
 New Orleans,Indiana,25.66212,27.46929,44.85487
 New Orleans,Toronto,28.41212,26.75053,54.16484
 New Orleans,Memphis,25.66212,27.62618,46.37905
@@ -2113,7 +2113,7 @@ New Orleans,LA Clippers,28.41212,27.52241,50.30901
 New Orleans,Miami,25.66212,26.08294,49.67678
 New Orleans,Washington,28.41212,24.98653,60.83707
 New Orleans,Washington,25.66212,24.98653,34.11040
-New Orleans,Minnesota,28.41212,27.08506,51.61506
+New Orleans,Minnesota,28.41212,27.25512,32.25233
 New Orleans,Portland,28.41212,26.53453,56.97274
 New Orleans,Philadelphia,25.66212,25.95194,48.77960
 New Orleans,Boston,25.66212,27.22894,43.20593
@@ -2146,11 +2146,11 @@ New Orleans,Memphis,28.41212,27.62618,61.66067
 New Orleans,LA Clippers,28.41212,27.52241,50.30901
 New Orleans,San Antonio,25.66212,26.49165,44.21894
 New Orleans,Detroit,28.41212,27.21812,48.10257
-New Orleans,Minnesota,25.66212,27.08506,44.13476
-New Orleans,Minnesota,25.66212,27.08506,44.13476
+New Orleans,Minnesota,25.66212,27.25512,43.20593
+New Orleans,Minnesota,25.66212,27.25512,43.20593
 New Orleans,Detroit,25.66212,27.21812,43.20593
 New Orleans,Philadelphia,28.41212,25.95194,58.10823
-New Orleans,Golden State,28.41212,27.10000,51.61506
+New Orleans,Golden State,28.41212,27.01935,49.67624
 New Orleans,Charlotte,28.41212,24.95912,60.83674
 New Orleans,LA Clippers,25.66212,27.52241,42.18269
 New Orleans,LA Lakers,25.66212,26.79312,45.37374
@@ -2161,7 +2161,7 @@ New Orleans,Miami,28.41212,26.08294,58.05148
 New Orleans,Oklahoma City,28.41212,28.23429,46.82646
 Toronto,Cleveland,29.50053,28.43335,51.16980
 Toronto,Philadelphia,29.50053,25.95194,60.83674
-Toronto,Minnesota,26.75053,27.08506,48.77960
+Toronto,Minnesota,26.75053,27.25512,47.21313
 Toronto,Denver,29.50053,28.10941,49.67624
 Toronto,Charlotte,26.75053,24.95912,55.25590
 Toronto,LA Lakers,29.50053,26.79312,58.93350
@@ -2174,7 +2174,7 @@ Toronto,Milwaukee,26.75053,27.05200,48.77960
 Toronto,Detroit,29.50053,27.21812,58.05148
 Toronto,Boston,26.75053,27.22894,47.21313
 Toronto,Indiana,29.50053,27.46929,54.73317
-Toronto,Minnesota,29.50053,27.08506,61.83829
+Toronto,Minnesota,29.50053,27.25512,57.48025
 Toronto,Cleveland,26.75053,28.43335,44.39621
 Toronto,Detroit,26.75053,27.21812,47.21313
 Toronto,New Orleans,26.75053,25.66212,35.16742
@@ -2196,7 +2196,7 @@ Toronto,Milwaukee,29.50053,27.05200,61.83829
 Toronto,New York,26.75053,27.08994,48.77960
 Toronto,Cleveland,26.75053,28.43335,44.39621
 Toronto,Detroit,26.75053,27.21812,47.21313
-Toronto,Golden State,29.50053,27.10000,61.83829
+Toronto,Golden State,29.50053,27.01935,58.10823
 Toronto,Boston,29.50053,27.22894,58.05148
 Toronto,Milwaukee,26.75053,27.05200,48.77960
 Toronto,Orlando,29.50053,26.41971,60.85449
@@ -2226,7 +2226,7 @@ Toronto,Philadelphia,29.50053,25.95194,60.83674
 Toronto,Utah,26.75053,26.18465,46.36942
 Toronto,Portland,26.75053,26.53453,49.57553
 Toronto,Phoenix,26.75053,26.80935,49.26084
-Toronto,Golden State,26.75053,27.10000,48.77960
+Toronto,Golden State,26.75053,27.01935,48.77960
 Toronto,San Antonio,29.50053,26.49165,64.59390
 Toronto,Washington,26.75053,24.98653,55.25590
 Toronto,Brooklyn,26.75053,25.90806,70.72337
@@ -2254,7 +2254,7 @@ Atlanta,Boston,27.13453,27.22894,49.26084
 Atlanta,Washington,29.88453,24.98653,64.29017
 Atlanta,Portland,27.13453,26.53453,53.90882
 Atlanta,Sacramento,27.13453,27.16776,49.88106
-Atlanta,Golden State,27.13453,27.10000,35.26400
+Atlanta,Golden State,27.13453,27.01935,53.25260
 Atlanta,Chicago,27.13453,26.68153,50.26420
 Atlanta,Dallas,29.88453,26.59694,61.05033
 Atlanta,Cleveland,27.13453,28.43335,46.36346
@@ -2266,7 +2266,7 @@ Atlanta,LA Lakers,29.88453,26.79312,60.85449
 Atlanta,Denver,29.88453,28.10941,55.25590
 Atlanta,San Antonio,27.13453,26.49165,34.11040
 Atlanta,Memphis,29.88453,27.62618,58.05148
-Atlanta,Minnesota,29.88453,27.08506,59.12994
+Atlanta,Minnesota,29.88453,27.25512,60.18778
 Atlanta,Chicago,29.88453,26.68153,63.37811
 Atlanta,Miami,29.88453,26.08294,63.08208
 Atlanta,Toronto,27.13453,26.75053,52.69385
@@ -2283,7 +2283,7 @@ Atlanta,New York,27.13453,27.08994,46.29448
 Atlanta,Detroit,29.88453,27.21812,58.88587
 Atlanta,Toronto,29.88453,26.75053,60.85449
 Atlanta,Toronto,29.88453,26.75053,60.85449
-Atlanta,Minnesota,27.13453,27.08506,45.27569
+Atlanta,Minnesota,27.13453,27.25512,49.27434
 Atlanta,Cleveland,27.13453,28.43335,46.36346
 Atlanta,Indiana,27.13453,27.46929,48.77960
 Atlanta,Detroit,27.13453,27.21812,49.26084
@@ -2306,7 +2306,7 @@ Atlanta,Charlotte,29.88453,24.95912,65.76192
 Atlanta,LA Clippers,29.88453,27.52241,61.88658
 Atlanta,Brooklyn,27.13453,25.90806,48.10257
 Atlanta,Charlotte,27.13453,24.95912,57.48025
-Atlanta,Golden State,29.88453,27.10000,59.12994
+Atlanta,Golden State,29.88453,27.01935,57.66184
 Atlanta,Philadelphia,29.88453,25.95194,60.67653
 Atlanta,Houston,27.13453,27.38088,50.08192
 Atlanta,Miami,27.13453,26.08294,52.25245
@@ -2369,8 +2369,8 @@ Milwaukee,Oklahoma City,27.05200,28.23429,49.02241
 Milwaukee,Charlotte,27.05200,24.95912,57.14429
 Milwaukee,Atlanta,27.05200,27.13453,49.26084
 Milwaukee,Philadelphia,29.80200,25.95194,60.55540
-Milwaukee,Golden State,29.80200,27.10000,58.93350
-Milwaukee,Minnesota,27.05200,27.08506,49.88106
+Milwaukee,Golden State,29.80200,27.01935,59.12994
+Milwaukee,Minnesota,27.05200,27.25512,50.08192
 Milwaukee,LA Clippers,29.80200,27.52241,58.05148
 Milwaukee,Washington,27.05200,24.98653,57.14429
 Milwaukee,Miami,29.80200,26.08294,61.54909
@@ -2386,7 +2386,7 @@ Milwaukee,LA Lakers,29.80200,26.79312,64.59390
 Milwaukee,Indiana,29.80200,27.46929,58.05148
 Milwaukee,Oklahoma City,29.80200,28.23429,57.39995
 Milwaukee,LA Lakers,27.05200,26.79312,53.55519
-Milwaukee,Golden State,27.05200,27.10000,49.88106
+Milwaukee,Golden State,27.05200,27.01935,30.09900
 Milwaukee,Sacramento,27.05200,27.16776,49.27434
 Milwaukee,Phoenix,27.05200,26.80935,52.32696
 Milwaukee,Denver,27.05200,28.10941,45.37374
@@ -2395,7 +2395,7 @@ Milwaukee,Atlanta,29.80200,27.13453,58.88587
 Milwaukee,Phoenix,29.80200,26.80935,64.52780
 Milwaukee,Philadelphia,27.05200,25.95194,51.88687
 Milwaukee,Miami,27.05200,26.08294,68.41227
-Milwaukee,Minnesota,29.80200,27.08506,58.93350
+Milwaukee,Minnesota,29.80200,27.25512,58.10823
 Milwaukee,New Orleans,29.80200,25.66212,62.61843
 Milwaukee,Detroit,27.05200,27.21812,50.08192
 Milwaukee,Detroit,29.80200,27.21812,60.20983
