@@ -1,520 +1,381 @@
 team,player,player_id,player_score,reason
-Atlanta Hawks,De'Andre Hunter,1629631,134.915,No adjustments
-Atlanta Hawks,Clint Capela,203991,133.657,Neutral: No sentiment expressed in the title. (0)
-Atlanta Hawks,Bogdan Bogdanović,203992,131.747,No adjustments
-Atlanta Hawks,Onyeka Okongwu,1630168,116.684,No adjustments
-Atlanta Hawks,Vít Krejčí,1630249,109.061,No adjustments
-Atlanta Hawks,Zaccharie Risacher,1642258,108.707,No adjustments
-Atlanta Hawks,Dyson Daniels,1630700,105.464,Neutral: No sentiment expressed in the title. (0)
-Atlanta Hawks,Garrison Mathews,1629726,102.761,No adjustments
-Atlanta Hawks,Dominick Barlow,1631230,95.154,Neutral: No sentiment expressed in the title. (0)
-Atlanta Hawks,Keaton Wallace,1630811,88.968,No adjustments
-Atlanta Hawks,David Roddy,1631223,80.729,No adjustments
-Atlanta Hawks,Mouhamed Gueye,1631243,73.585,Neutral: No sentiment expressed in the title. (0)
-Atlanta Hawks,Jalen Johnson,1630552,0.0,"INJURED: Status: Out. Jan 10: Johnson (shoulder) remains out for Saturday's game against the Rockets, Brad Rowland of the Locked On Podcast Network reports."
-Atlanta Hawks,Kobe Bufkin,1641723,0.0,"INJURED: Status: Out. Dec 18: Bufkin will miss the remainder of the 2024-25 season as he undergoes surgery to address his right shoulder instability, Michael Scotto of USA Today reports."
-Atlanta Hawks,Larry Nance Jr.,1626204,0.0,"INJURED: Status: Out. Jan 3: Nance underwent surgery Thursday to repair the fractured fourth metacarpal bone in his right hand and will be re-evaluated in two weeks, Brad Rowland of the Locked On Podcast Network reports."
-Atlanta Hawks,Trae Young,1629027,0.0,"INJURED: Status: Day-To-Day. Jan 11: Young (Achilles) and the Hawks will not play Saturday against the Rockets due to severe weather and hazardous icy conditions in the Atlanta area, Shams Charania of ESPN reports."
-Brooklyn Nets,De'Anthony Melton,1629001,193.244,No adjustments
-Brooklyn Nets,Day'Ron Sharpe,1630549,134.897,No adjustments
-Brooklyn Nets,Cui Yongxi,1642385,103.099,No adjustments
-Brooklyn Nets,Reece Beekman,1641736,95.401,No adjustments
-Brooklyn Nets,Ben Simmons,1627732,94.556,No adjustments
-Brooklyn Nets,Jaylen Martin,1641798,88.99,No adjustments
-Brooklyn Nets,Tosan Evbuomwan,1641787,85.935,No adjustments
-Brooklyn Nets,Jalen Wilson,1630592,84.126,No adjustments
-Brooklyn Nets,Ziaire Williams,1630533,75.078,No adjustments
-Brooklyn Nets,Keon Johnson,1630553,64.345,No adjustments
-Brooklyn Nets,Tyrese Martin,1631213,63.514,No adjustments
-Brooklyn Nets,Nic Claxton,1629651,52.157,Neutral: No sentiment expressed in the title. (0)
-Brooklyn Nets,Noah Clowney,1641730,50.086,Neutral: No sentiment expressed in the title. (0)
-Brooklyn Nets,Cam Thomas,1630560,0.0,"INJURED: Status: Out. Jan 4: Thomas (hamstring) won't play in Saturday's game versus the 76ers, Adam Aaronson of PhillyVoice.com reports."
-Brooklyn Nets,Cameron Johnson,1629661,0.0,"INJURED: Status: Out. Jan 11: Johnson (ankle) will not play Sunday against the Jazz, Sharif Phillips-Keaton of USA Today reports."
-Brooklyn Nets,D'Angelo Russell,1626156,0.0,"INJURED: Status: Out. Jan 11: Russell (leg) will not play Sunday against the Jazz, Sharif Phillips-Keaton of USA Today reports."
-Brooklyn Nets,Dariq Whitehead,1641727,0.0,"INJURED: Status: Day-To-Day. Jan 11: Whitehead (concussion) is questionable for Sunday's game against the Jazz, Sharif Phillips-Keaton of USA Today reports."
-Brooklyn Nets,Maxwell Lewis,1641721,0.0,"INJURED: Status: Out. Jan 3: The Nets announced Friday that Lewis has suffered a fractured left tibia and his return timetable is to be determined, Erik Slater of ClutchPoints.com reports."
-Brooklyn Nets,Trendon Watford,1630570,0.0,INJURED: Status: Out. Jan 11: Watford (hamstring) has been ruled out for Sunday's game against the Jazz.
-Boston Celtics,Jayson Tatum,1628369,208.033,No adjustments
-Boston Celtics,Derrick White,1628401,202.871,No adjustments
-Boston Celtics,Jaylen Brown,1627759,202.065,Neutral: No sentiment expressed in the title. (0)
-Boston Celtics,Al Horford,201143,195.703,No adjustments
-Boston Celtics,Payton Pritchard,1630202,192.164,No adjustments
-Boston Celtics,Luke Kornet,1628436,188.99,No adjustments
-Boston Celtics,Neemias Queta,1629674,181.992,No adjustments
-Boston Celtics,Sam Hauser,1630573,180.088,Neutral: No sentiment expressed in the title. (0)
-Boston Celtics,Jrue Holiday,201950,173.774,No adjustments
-Boston Celtics,Jordan Walsh,1641775,165.085,No adjustments
-Boston Celtics,Kristaps Porziņģis,204001,150.129,No adjustments
-Boston Celtics,Xavier Tillman,1630214,146.604,No adjustments
-Boston Celtics,Jaden Springer,1630531,90.76,No adjustments
-Boston Celtics,Baylor Scheierman,1631248,50.689,No adjustments
-Boston Celtics,Drew Peterson,1641809,0.0,INJURED: Status: Out. Jan 11: Peterson (concussion) won't play Sunday versus the Pelicans.
-Boston Celtics,JD Davison,1631120,-66.536,Neutral: No sentiment expressed in the title. (0)
-Charlotte Hornets,Jared Rhoden,1631197,182.084,No adjustments
-Charlotte Hornets,Moussa Diabaté,1631217,147.432,No adjustments
-Charlotte Hornets,Grant Williams,1629684,137.369,No adjustments
-Charlotte Hornets,LaMelo Ball,1630163,133.444,"Neutral: No sentiment expressed in the title. (0) | Positive: The title celebrates LaMelo Ball's 'Out Of This World' game, indicating a positive sentiment. (+20)"
-Charlotte Hornets,Cody Martin,1628998,114.235,No adjustments
-Charlotte Hornets,Nick Smith Jr.,1641733,105.291,No adjustments
-Charlotte Hornets,Isaiah Wong,1631209,97.68,No adjustments
-Charlotte Hornets,Seth Curry,203552,93.582,Neutral: No sentiment expressed in the title. (0)
-Charlotte Hornets,Nick Richards,1630208,85.094,No adjustments
-Charlotte Hornets,Brandon Miller,1641706,78.787,No adjustments
-Charlotte Hornets,Josh Green,1630182,76.255,Neutral: No sentiment expressed in the title. (0)
-Charlotte Hornets,Taj Gibson,201959,76.096,No adjustments
-Charlotte Hornets,Tre Mann,1630544,75.115,No adjustments
-Charlotte Hornets,Tidjane Salaün,1642275,74.842,No adjustments
-Charlotte Hornets,Miles Bridges,1628970,73.324,Neutral: No sentiment expressed in the title. (0)
-Charlotte Hornets,Vasilije Micić,203995,70.386,No adjustments
-Charlotte Hornets,DaQuan Jeffries,1629610,58.615,No adjustments
-Charlotte Hornets,KJ Simpson,1642354,52.782,No adjustments
-Charlotte Hornets,Mark Williams,1631109,37.11,No adjustments
-Chicago Bulls,Lonzo Ball,1628366,174.229,Neutral: No sentiment expressed in the title. (0)
-Chicago Bulls,Jevon Carter,1628975,169.592,Neutral: No sentiment expressed in the title. (0)
-Chicago Bulls,E.J. Liddell,1630604,155.368,No adjustments
-Chicago Bulls,Talen Horton-Tucker,1629659,146.385,No adjustments
-Chicago Bulls,Matas Buzelis,1641824,137.399,No adjustments
-Chicago Bulls,Zach LaVine,203897,132.737,No adjustments
-Chicago Bulls,Chris Duarte,1630537,130.454,Neutral: No sentiment expressed in the title. (0)
-Chicago Bulls,Jalen Smith,1630188,124.776,No adjustments
-Chicago Bulls,Josh Giddey,1630581,114.871,Neutral: No sentiment expressed in the title. (0)
-Chicago Bulls,Nikola Vučević,202696,109.211,No adjustments
-Chicago Bulls,Julian Phillips,1641763,107.992,No adjustments
-Chicago Bulls,Dalen Terry,1631207,68.882,No adjustments
-Chicago Bulls,Adama Sanogo,1641766,0.0,INJURED: Status: Out. Jan 11: Sanogo is out for Sunday's game versus the Kings due to right knee injury management.
-Chicago Bulls,Ayo Dosunmu,1630245,0.0,INJURED: Status: Out. Jan 11: Dosunmu (calf) is listed as doubtful for Sunday's game versus the Kings.
-Chicago Bulls,Coby White,1629632,0.0,INJURED: Status: Day-To-Day. Jan 11: White is questionable for Sunday's game against the Kings due to a cervical strain.
-Chicago Bulls,Patrick Williams,1630172,0.0,INJURED: Status: Day-To-Day. Jan 11: Williams is probable for Sunday's game against the Kings with a right elbow contusion.
-Chicago Bulls,Torrey Craig,1628470,0.0,INJURED: Status: Out. Jan 11: Craig (leg) will not play Sunday against the Kings.
-Cleveland Cavaliers,Caris LeVert,1627747,229.797,No adjustments
-Cleveland Cavaliers,Evan Mobley,1630596,226.049,No adjustments
-Cleveland Cavaliers,Darius Garland,1629636,217.082,Neutral: No sentiment expressed in the title. (0)
-Cleveland Cavaliers,Dean Wade,1629731,209.398,No adjustments
-Cleveland Cavaliers,Donovan Mitchell,1628378,209.154,No adjustments
-Cleveland Cavaliers,Jarrett Allen,1628386,204.802,Neutral: No sentiment expressed in the title. (0)
-Cleveland Cavaliers,Isaac Okoro,1630171,201.15,No adjustments
-Cleveland Cavaliers,Georges Niang,1627777,198.266,No adjustments
-Cleveland Cavaliers,Max Strus,1629622,194.085,No adjustments
-Cleveland Cavaliers,Sam Merrill,1630241,181.341,No adjustments
-Cleveland Cavaliers,Craig Porter Jr.,1641854,113.849,No adjustments
-Cleveland Cavaliers,Jaylon Tyson,1642281,94.333,No adjustments
-Cleveland Cavaliers,Tristan Thompson,202684,42.925,No adjustments
-Cleveland Cavaliers,Luke Travers,1631247,0.0,"INJURED: Status: Out. Dec 21: Travers signed a two-way contract with the Cavaliers on Wednesday, Adrian Wojnarowski of ESPN reports."
-Cleveland Cavaliers,Ty Jerome,1629660,0.0,INJURED: Status: Day-To-Day. Jan 11: Jerome is doubtful for Sunday's game against the Pacers due to an illness.
-Cleveland Cavaliers,JT Thor,1630550,-6.686,No adjustments
-Dallas Mavericks,Luka Dončić,1629029,195.612,No adjustments
-Dallas Mavericks,Klay Thompson,202691,173.495,No adjustments
-Dallas Mavericks,Dereck Lively II,1641726,172.476,No adjustments
-Dallas Mavericks,P.J. Washington,1629023,166.848,No adjustments
-Dallas Mavericks,Maxi Kleber,1628467,157.822,No adjustments
-Dallas Mavericks,Quentin Grimes,1629656,147.835,Neutral: No sentiment expressed in the title. (0)
-Dallas Mavericks,Dwight Powell,203939,140.836,No adjustments
-Dallas Mavericks,Jazian Gortman,1641789,137.189,No adjustments
-Dallas Mavericks,Spencer Dinwiddie,203915,133.636,Neutral: No sentiment expressed in the title. (0)
-Dallas Mavericks,Naji Marshall,1630230,133.503,No adjustments
-Dallas Mavericks,Jaden Hardy,1630702,122.098,Neutral: No sentiment expressed in the title. (0)
-Dallas Mavericks,Daniel Gafford,1629655,117.99,Neutral: No sentiment expressed in the title. (0)
-Dallas Mavericks,Olivier-Maxence Prosper,1641765,111.152,No adjustments
-Dallas Mavericks,Brandon Williams,1630314,104.284,No adjustments
-Dallas Mavericks,Markieff Morris,202693,73.903,No adjustments
-Dallas Mavericks,Kyrie Irving,202681,0.0,"INJURED: Status: Out. Jan 6: Irving has a bulging disc in his back and is expected to miss at least one-to-two weeks, ESPN's Shams Charania reports."
-Dallas Mavericks,Kessler Edwards,1630556,-12.12,Neutral: No sentiment expressed in the title. (0)
-Denver Nuggets,Nikola Jokić,203999,253.664,Positive: Achieved a triple-double in the game mentioned (+20)
-Denver Nuggets,Christian Braun,1631128,193.67,Neutral: No sentiment expressed in the title. (0)
-Denver Nuggets,Michael Porter Jr.,1629008,184.695,No adjustments
-Denver Nuggets,Jalen Pickett,1629618,171.989,No adjustments
-Denver Nuggets,Russell Westbrook,201566,162.098,Positive: Achieved a triple-double in the game mentioned (+20)
-Denver Nuggets,Peyton Watson,1631212,136.202,No adjustments
-Denver Nuggets,PJ Hall,1641790,132.761,No adjustments
-Denver Nuggets,Trey Alexander,1641725,118.135,No adjustments
-Denver Nuggets,Julian Strawther,1631124,105.45,No adjustments
-Denver Nuggets,DeAndre Jordan,201599,88.258,No adjustments
-Denver Nuggets,Hunter Tyson,1641816,88.127,No adjustments
-Denver Nuggets,Vlatko Čančar,1628427,87.886,No adjustments
-Denver Nuggets,Dario Šarić,203967,63.856,No adjustments
-Denver Nuggets,Spencer Jones,1642461,62.02,No adjustments
-Denver Nuggets,Aaron Gordon,203932,0.0,INJURED: Status: Out. Jan 11: Gordon (calf) is questionable for Sunday's game against the Mavericks.
-Denver Nuggets,Jamal Murray,1627750,0.0,INJURED: Status: Day-To-Day. Jan 11: Murray (knee) is listed as questionable for Sunday's game versus the Mavericks.
-Denver Nuggets,Zeke Nnaji,1630192,-10.374,No adjustments
-Detroit Pistons,Alondes Williams,1631214,377.281,No adjustments
-Detroit Pistons,Cole Swider,1631306,276.891,No adjustments
-Detroit Pistons,Paul Reed,1630194,168.508,No adjustments
-Detroit Pistons,Wendell Moore Jr.,1631111,139.128,No adjustments
-Detroit Pistons,Tobias Harris,202699,137.619,Neutral: No sentiment expressed in the title. (0)
-Detroit Pistons,Malik Beasley,1627736,133.115,Neutral: No sentiment expressed in the title. (0)
-Detroit Pistons,Cade Cunningham,1630595,132.544,Neutral: No sentiment expressed in the title. (0)
-Detroit Pistons,Ausar Thompson,1641709,118.782,No adjustments
-Detroit Pistons,Simone Fontecchio,1631323,114.857,Neutral: No sentiment expressed in the title. (0)
-Detroit Pistons,Marcus Sasser,1631204,114.365,No adjustments
-Detroit Pistons,Ronald Holland II,1641842,111.354,No adjustments
-Detroit Pistons,Jalen Duren,1631105,108.302,Neutral: No sentiment expressed in the title. (0)
-Detroit Pistons,Tim Hardaway Jr.,203501,100.839,Neutral: No sentiment expressed in the title. (0)
-Detroit Pistons,Isaiah Stewart,1630191,100.611,No adjustments
-Detroit Pistons,Jaden Ivey,1631093,0.0,"INJURED: Status: Out. Jan 2: The Pistons announced Thursday that Ivey underwent successful surgery to repair a broken fibula in his left leg and he will be re-evaluated in four weeks, Keith Langlois of the Pistons' official site reports."
-Detroit Pistons,Daniss Jenkins,1642450,-99.658,No adjustments
-Detroit Pistons,Bobi Klintman,1641752,-111.975,No adjustments
-Golden State Warriors,Quinten Post,1642366,205.115,No adjustments
-Golden State Warriors,Gui Santos,1630611,180.554,No adjustments
-Golden State Warriors,Lindy Waters III,1630322,133.472,No adjustments
-Golden State Warriors,Buddy Hield,1627741,130.238,Neutral: No sentiment expressed in the title. (0)
-Golden State Warriors,Moses Moody,1630541,124.205,No adjustments
-Golden State Warriors,Kevon Looney,1626172,123.353,No adjustments
-Golden State Warriors,Trayce Jackson-Davis,1631218,117.268,No adjustments
-Golden State Warriors,Pat Spencer,1630311,111.796,No adjustments
-Golden State Warriors,Kyle Anderson,203937,96.546,Neutral: No sentiment expressed in the title. (0)
-Golden State Warriors,Dennis Schröder,203471,94.764,No adjustments
-Golden State Warriors,Andrew Wiggins,203952,0.0,"INJURED: Status: Day-To-Day. Jan 11: Wiggins (personal) won't play Friday against Indiana, Ohm Youngmisuk of ESPN.com reports."
-Golden State Warriors,Brandin Podziemski,1641764,0.0,INJURED: Status: Out. Jan 10: Podziemski (abdomen) is out for Friday's game versus the Pacers.
-Golden State Warriors,Draymond Green,203110,0.0,INJURED: Status: Day-To-Day. Jan 11: Green is out for Friday's game versus the Pacers due to a back injury.
-Golden State Warriors,Gary Payton II,1627780,0.0,"INJURED: Status: Out. Jan 10: Payton (calf) said that he's hopeful to return at some point during the Warriors' four-game road trip, which began Thursday in Detroit and runs through Wednesday at Minnesota, Danny Emerman of The San Jose Mercury News reports."
-Golden State Warriors,Jonathan Kuminga,1630228,0.0,"INJURED: Status: Out. Jan 5: Kuminga will be re-evaluated in three weeks for a right ankle sprain that he suffered during the Warriors' 121-113 win over the Grizzlies on Saturday, Anthony Slater of The Athletic reports."
-Golden State Warriors,Stephen Curry,201939,0.0,INJURED: Status: Day-To-Day. Jan 11: Curry has been ruled out for Friday's game against Indiana due to bilateral knee injury management.
-Houston Rockets,Jae'Sean Tate,1630256,200.393,No adjustments
-Houston Rockets,Alperen Sengun,1630578,187.477,No adjustments
-Houston Rockets,Fred VanVleet,1627832,183.825,No adjustments
-Houston Rockets,Dillon Brooks,1628415,176.949,Neutral: No sentiment expressed in the title. (0)
-Houston Rockets,Amen Thompson,1641708,172.301,No adjustments
-Houston Rockets,Aaron Holiday,1628988,166.107,No adjustments
-Houston Rockets,Nate Williams,1631466,159.345,No adjustments
-Houston Rockets,Jalen Green,1630224,152.815,Neutral: No sentiment expressed in the title. (0)
-Houston Rockets,Steven Adams,203500,143.041,Neutral: No sentiment expressed in the title. (0)
-Houston Rockets,Cam Whitmore,1641715,137.5,No adjustments
-Houston Rockets,Reed Sheppard,1642263,114.083,No adjustments
-Houston Rockets,Jock Landale,1629111,98.445,No adjustments
-Houston Rockets,Jack McVeigh,1629098,91.507,No adjustments
-Houston Rockets,Jeff Green,201145,41.615,Neutral: No sentiment expressed in the title. (0)
-Houston Rockets,Jabari Smith Jr.,1631095,0.0,"INJURED: Status: Out. Jan 3: The Rockets announced Friday that Smith broke his left hand in shootaround and will be re-evaluated in 4-6 weeks, Michael Shapiro of SI.com reports."
-Houston Rockets,Tari Eason,1631106,0.0,INJURED: Status: Out. Jan 10: Eason (lower leg) is listed as doubtful for Saturday's game against Atlanta.
-Indiana Pacers,Andrew Nembhard,1629614,198.102,No adjustments
-Indiana Pacers,Pascal Siakam,1627783,158.283,No adjustments
-Indiana Pacers,Bennedict Mathurin,1631097,155.888,No adjustments
-Indiana Pacers,Thomas Bryant,1628418,151.892,Neutral: No sentiment expressed in the title. (0)
-Indiana Pacers,Tyrese Haliburton,1630169,151.682,Neutral: No sentiment expressed in the title. (0)
-Indiana Pacers,Myles Turner,1626167,140.289,No adjustments
-Indiana Pacers,Obi Toppin,1630167,117.594,No adjustments
-Indiana Pacers,James Johnson,201949,114.894,No adjustments
-Indiana Pacers,T.J. McConnell,204456,106.877,No adjustments
-Indiana Pacers,Quenton Jackson,1631245,103.37,No adjustments
-Indiana Pacers,Ben Sheppard,1641767,99.385,No adjustments
-Indiana Pacers,Johnny Furphy,1642277,96.687,No adjustments
-Indiana Pacers,Moses Brown,1629650,84.266,Neutral: No sentiment expressed in the title. (0)
-Indiana Pacers,Jarace Walker,1641716,80.626,No adjustments
-Indiana Pacers,Enrique Freeman,1642402,69.28,No adjustments
-Indiana Pacers,Aaron Nesmith,1630174,0.0,INJURED: Status: Out. Jan 11: Nesmith (ankle) has been ruled out for Sunday's game against the Cavaliers.
-Indiana Pacers,Isaiah Jackson,1630543,0.0,"INJURED: Status: Out. Nov 2: Jackson suffered a torn Achilles during Friday's game against the Pelicans, Shams Charania of ESPN reports."
-Indiana Pacers,James Wiseman,1630164,0.0,"INJURED: Status: Out. Oct 25: Wiseman underwent successful surgery to repair a torn left Achilles on Thursday, Shams Charania of ESPN reports."
-Indiana Pacers,RayJ Dennis,1642484,-339.399,No adjustments
-Los Angeles Clippers,Trentyn Flowers,1642280,231.998,No adjustments
-Los Angeles Clippers,Cam Christie,1642353,176.584,No adjustments
-Los Angeles Clippers,Kawhi Leonard,202695,159.463,No adjustments
-Los Angeles Clippers,Ivica Zubac,1627826,144.853,No adjustments
-Los Angeles Clippers,Kris Dunn,1627739,144.046,Neutral: No sentiment expressed in the title. (0)
-Los Angeles Clippers,Norman Powell,1626181,140.783,No adjustments
-Los Angeles Clippers,Nicolas Batum,201587,137.262,Neutral: No sentiment expressed in the title. (0)
-Los Angeles Clippers,James Harden,201935,136.036,Neutral: No sentiment expressed in the title. (0)
-Los Angeles Clippers,Derrick Jones Jr.,1627884,123.801,No adjustments
-Los Angeles Clippers,Amir Coffey,1629599,123.743,Neutral: No sentiment expressed in the title. (0)
-Los Angeles Clippers,Kobe Brown,1641738,109.042,Neutral: No sentiment expressed in the title. (0)
-Los Angeles Clippers,Terance Mann,1629611,108.26,No adjustments
-Los Angeles Clippers,Kevin Porter Jr.,1629645,106.226,No adjustments
-Los Angeles Clippers,Kai Jones,1630539,100.822,No adjustments
-Los Angeles Clippers,Mo Bamba,1628964,89.588,Neutral: No sentiment expressed in the title. (0)
-Los Angeles Clippers,Bones Hyland,1630538,81.003,No adjustments
-Los Angeles Clippers,Jordan Miller,1641757,0.0,"INJURED: Status: Day-To-Day. Jan 10: Miller (hip) is questionable for Saturday's game against the Hornets, Law Murray of The Athletic reports."
-Los Angeles Lakers,Dorian Finney-Smith,1627827,158.673,Neutral: No sentiment expressed in the title. (0)
-Los Angeles Lakers,Austin Reaves,1630559,138.351,No adjustments
-Los Angeles Lakers,Rui Hachimura,1629060,126.948,Neutral: No sentiment expressed in the title. (0)
-Los Angeles Lakers,Christian Koloko,1631132,118.68,No adjustments
-Los Angeles Lakers,Jaxson Hayes,1629637,110.778,Neutral: No sentiment expressed in the title. (0)
-Los Angeles Lakers,Dalton Knecht,1642261,110.08,No adjustments
-Los Angeles Lakers,Gabe Vincent,1629216,107.28,No adjustments
-Los Angeles Lakers,Max Christie,1631108,102.639,Neutral: No sentiment expressed in the title. (0)
-Los Angeles Lakers,Cam Reddish,1629629,99.952,No adjustments
-Los Angeles Lakers,Shake Milton,1629003,84.015,No adjustments
-Los Angeles Lakers,Anthony Davis,203076,0.0,INJURED: Status: Day-To-Day. Jan 10: Davis and the Lakers will not play Saturday's game against the Spurs. as the game has been postponed due to the continuing wildfires in the Los Angeles area.
-Los Angeles Lakers,Jalen Hood-Schifino,1641720,0.0,INJURED: Status: Out. Jan 10: Hood-Schifino (hamstring) has been ruled out for Saturday's game against the Spurs.
-Los Angeles Lakers,LeBron James,2544,0.0,"INJURED: Status: Day-To-Day. Jan 10: James (foot) and the Lakers will not play against the Spurs on Saturday due due the ongoing wildfires in the Los Angeles area, Shams Charania of ESPN reports."
-Los Angeles Lakers,Armel Traoré,1642422,-18.754,No adjustments
-Los Angeles Lakers,Bronny James,1642355,-22.14,No adjustments
-Los Angeles Lakers,Quincy Olivari,1642439,-125.014,No adjustments
-Memphis Grizzlies,Ja Morant,1629630,200.77,No adjustments
-Memphis Grizzlies,Jaren Jackson Jr.,1628991,198.126,No adjustments
-Memphis Grizzlies,Santi Aldama,1630583,194.147,Neutral: No sentiment expressed in the title. (0)
-Memphis Grizzlies,Brandon Clarke,1629634,194.055,Neutral: No sentiment expressed in the title. (0)
-Memphis Grizzlies,Luke Kennard,1628379,189.499,No adjustments
-Memphis Grizzlies,Jake LaRavia,1631222,185.941,No adjustments
-Memphis Grizzlies,Desmond Bane,1630217,178.798,Neutral: No sentiment expressed in the title. (0)
-Memphis Grizzlies,Zach Edey,1641744,178.739,No adjustments
-Memphis Grizzlies,Jaylen Wells,1642377,161.454,No adjustments
-Memphis Grizzlies,Scotty Pippen Jr.,1630590,133.78,No adjustments
-Memphis Grizzlies,Colin Castleton,1630658,126.566,Neutral: No sentiment expressed in the title. (0)
-Memphis Grizzlies,Jay Huff,1630643,126.254,No adjustments
-Memphis Grizzlies,John Konchar,1629723,121.329,No adjustments
-Memphis Grizzlies,Yuki Kawamura,1642530,120.95,No adjustments
-Memphis Grizzlies,Cam Spencer,1642285,0.0,INJURED: Status: Out. Jan 10: The Grizzlies announced Friday that Spencer (thumb) will be re-evaluated in three weeks.
-Memphis Grizzlies,Marcus Smart,203935,0.0,INJURED: Status: Out. Jan 10: Smart (finger) is progressing well in his rehabilitation and is now considered week-to-week.
-Memphis Grizzlies,Vince Williams Jr.,1631246,0.0,INJURED: Status: Out. Dec 20: Williams is progressing well in his recovery from a Grade 3 right ankle sprain and the team expects him to return to game action in 3-to-6 weeks.
-Miami Heat,Alec Burks,202692,173.764,Neutral: No sentiment expressed in the title. (0)
-Miami Heat,Jimmy Butler,202710,163.897,Neutral: No sentiment expressed in the title. (0)
-Miami Heat,Kel'el Ware,1642276,150.719,No adjustments
-Miami Heat,Nikola Jović,1631107,147.521,No adjustments
-Miami Heat,Duncan Robinson,1629130,146.398,No adjustments
-Miami Heat,Pelle Larsson,1641796,142.421,No adjustments
-Miami Heat,Keshad Johnson,1642352,137.104,No adjustments
-Miami Heat,Tyler Herro,1629639,136.233,Neutral: No sentiment expressed in the title. (0)
-Miami Heat,Bam Adebayo,1628389,133.671,Neutral: No sentiment expressed in the title. (0)
-Miami Heat,Josh Christopher,1630528,129.054,Neutral: No sentiment expressed in the title. (0)
-Miami Heat,Haywood Highsmith,1629312,126.166,Neutral: No sentiment expressed in the title. (0)
-Miami Heat,Terry Rozier,1626179,123.752,No adjustments
-Miami Heat,Kevin Love,201567,119.633,No adjustments
-Miami Heat,Jaime Jaquez Jr.,1631170,86.847,No adjustments
-Miami Heat,Dru Smith,1630696,0.0,INJURED: Status: Out. Dec 27: The Heat announced Friday that Smith underwent successful surgery to repair a ruptured left Achilles tendon and will miss the remainder of the season.
-Miami Heat,Josh Richardson,1626196,0.0,"INJURED: Status: Out. Jan 11: Richardson (heel) has been ruled out for Saturday's game against the Trail Blazers, Ira Winderman of the South Florida Sun Sentinel reports."
-Milwaukee Bucks,AJ Johnson,1642358,190.023,No adjustments
-Milwaukee Bucks,AJ Green,1631260,157.204,Neutral: No sentiment expressed in the title. (0)
-Milwaukee Bucks,Tyler Smith,1641890,152.664,No adjustments
-Milwaukee Bucks,MarJon Beauchamp,1630699,149.833,Neutral: No sentiment expressed in the title. (0)
-Milwaukee Bucks,Chris Livingston,1641753,148.51,No adjustments
-Milwaukee Bucks,Andre Jackson Jr.,1641748,139.991,No adjustments
-Milwaukee Bucks,Ryan Rollins,1631157,136.22,No adjustments
-Milwaukee Bucks,Brook Lopez,201572,131.064,No adjustments
-Milwaukee Bucks,Delon Wright,1626153,129.277,No adjustments
-Milwaukee Bucks,Bobby Portis,1626171,122.942,No adjustments
-Milwaukee Bucks,Pat Connaughton,1626192,119.951,Neutral: No sentiment expressed in the title. (0)
-Milwaukee Bucks,Taurean Prince,1627752,116.704,No adjustments
-Milwaukee Bucks,Liam Robbins,1641857,104.589,No adjustments
-Milwaukee Bucks,Stanley Umude,1630649,85.969,No adjustments
-Milwaukee Bucks,Damian Lillard,203081,0.0,INJURED: Status: Day-To-Day. Jan 11: Lillard is probable for Sunday's game against the Knicks with a left calf contusion.
-Milwaukee Bucks,Gary Trent Jr.,1629018,0.0,INJURED: Status: Day-To-Day. Jan 11: Trent is questionable for Sunday's game against the Knicks with a left hip strain.
-Milwaukee Bucks,Giannis Antetokounmpo,203507,0.0,INJURED: Status: Day-To-Day. Jan 11: Antetokounmpo (knee) is listed as probable for Sunday's game versus the Knicks.
-Milwaukee Bucks,Khris Middleton,203114,0.0,INJURED: Status: Day-To-Day. Jan 11: Middleton (ankles) is listed as probable for Sunday's game versus the Knicks.
-Minnesota Timberwolves,Daishen Nix,1630227,183.046,No adjustments
-Minnesota Timberwolves,Nickeil Alexander-Walker,1629638,152.666,Neutral: No sentiment expressed in the title. (0)
-Minnesota Timberwolves,Naz Reid,1629675,138.422,No adjustments
-Minnesota Timberwolves,Anthony Edwards,1630162,135.777,Neutral: No sentiment expressed in the title. (0)
-Minnesota Timberwolves,Mike Conley,201144,135.62,Neutral: No sentiment expressed in the title. (0)
-Minnesota Timberwolves,Julius Randle,203944,135.566,No adjustments
-Minnesota Timberwolves,Rudy Gobert,203497,132.954,Neutral: No sentiment expressed in the title. (0)
-Minnesota Timberwolves,Donte DiVincenzo,1628978,132.167,Neutral: No sentiment expressed in the title. (0)
-Minnesota Timberwolves,Terrence Shannon Jr.,1630545,132.122,No adjustments
-Minnesota Timberwolves,Josh Minott,1631169,129.053,No adjustments
-Minnesota Timberwolves,Joe Ingles,204060,113.456,No adjustments
-Minnesota Timberwolves,Luka Garza,1630568,111.847,Neutral: No sentiment expressed in the title. (0)
-Minnesota Timberwolves,Jaden McDaniels,1630183,110.987,No adjustments
-Minnesota Timberwolves,PJ Dozier,1628408,94.994,No adjustments
-Minnesota Timberwolves,Tristen Newton,1641803,91.012,No adjustments
-Minnesota Timberwolves,Leonard Miller,1631159,49.986,No adjustments
-Minnesota Timberwolves,Rob Dillingham,1642265,0.0,INJURED: Status: Out. Jan 3: Dillingham (ankle) will miss one-to-two weeks with ankle sprain.
-Minnesota Timberwolves,Jaylen Clark,1641740,-97.565,Neutral: No sentiment expressed in the title. (0)
-New Orleans Pelicans,Karlo Matković,1631255,166.313,No adjustments
-New Orleans Pelicans,Zion Williamson,1629627,122.55,No adjustments
-New Orleans Pelicans,Daniel Theis,1628464,105.447,No adjustments
-New Orleans Pelicans,Elfrid Payton,203901,105.434,No adjustments
-New Orleans Pelicans,Antonio Reeves,1641810,102.557,No adjustments
-New Orleans Pelicans,Brandon Boston,1630527,101.305,No adjustments
-New Orleans Pelicans,Trey Jemison III,1641998,97.576,No adjustments
-New Orleans Pelicans,Jose Alvarado,1630631,93.376,Neutral: No sentiment expressed in the title. (0)
-New Orleans Pelicans,Jeremiah Robinson-Earl,1630526,86.33,No adjustments
-New Orleans Pelicans,CJ McCollum,203468,67.498,No adjustments
-New Orleans Pelicans,Jaylen Nowell,1629669,66.701,No adjustments
-New Orleans Pelicans,Jordan Hawkins,1641722,62.009,Neutral: No sentiment expressed in the title. (0)
-New Orleans Pelicans,Yves Missi,1642274,49.472,No adjustments
-New Orleans Pelicans,Trey Murphy III,1630530,49.127,No adjustments
-New Orleans Pelicans,Jamal Cain,1631288,45.861,Neutral: No sentiment expressed in the title. (0)
-New Orleans Pelicans,Javonte Green,1629750,40.782,No adjustments
-New Orleans Pelicans,Brandon Ingram,1627742,0.0,INJURED: Status: Out. Jan 11: Ingram (ankle) won't play in Sunday's game versus the Celtics.
-New Orleans Pelicans,Dejounte Murray,1627749,0.0,INJURED: Status: Day-To-Day. Jan 11: Murray (elbow/shin) is listed as questionable for Sunday's game versus the Celtics.
-New Orleans Pelicans,Herbert Jones,1630529,0.0,"INJURED: Status: Out. Jan 10: Jones (shoulder) has been diagnosed with a torn labrum, which will keep the Pelicans forward out indefinitely."
-New York Knicks,Karl-Anthony Towns,1626157,198.978,No adjustments
-New York Knicks,OG Anunoby,1628384,193.279,Neutral: No sentiment expressed in the title. (0)
-New York Knicks,Mikal Bridges,1628969,186.179,Neutral: No sentiment expressed in the title. (0)
-New York Knicks,Josh Hart,1628404,177.53,Neutral: No sentiment expressed in the title. (0)
-New York Knicks,Jalen Brunson,1628973,177.037,Neutral: No sentiment expressed in the title. (0)
-New York Knicks,Cameron Payne,1626166,167.594,No adjustments
-New York Knicks,Landry Shamet,1629013,162.266,No adjustments
-New York Knicks,Jericho Sims,1630579,142.167,No adjustments
-New York Knicks,Precious Achiuwa,1630173,132.907,Neutral: No sentiment expressed in the title. (0)
-New York Knicks,Pacôme Dadiet,1642359,110.323,No adjustments
-New York Knicks,Tyler Kolek,1642278,95.804,No adjustments
-New York Knicks,Ariel Hukporti,1630574,46.014,No adjustments
-New York Knicks,Miles McBride,1630540,0.0,INJURED: Status: Day-To-Day. Jan 11: McBride (hamstring) is listed as probable for Sunday's game against the Bucks.
-New York Knicks,Matt Ryan,1630346,-3.226,No adjustments
-New York Knicks,Jacob Toppin,1631210,-11.737,No adjustments
-Oklahoma City Thunder,Alex Reese,1642024,267.655,No adjustments
-Oklahoma City Thunder,Shai Gilgeous-Alexander,1628983,248.847,Neutral: No sentiment expressed in the title. (0)
-Oklahoma City Thunder,Isaiah Hartenstein,1628392,214.232,Neutral: No sentiment expressed in the title. (0)
-Oklahoma City Thunder,Luguentz Dort,1629652,208.354,Neutral: No sentiment expressed in the title. (0)
-Oklahoma City Thunder,Isaiah Joe,1630198,202.737,No adjustments
-Oklahoma City Thunder,Aaron Wiggins,1630598,200.033,No adjustments
-Oklahoma City Thunder,Jalen Williams,1631114,196.783,No adjustments
-Oklahoma City Thunder,Cason Wallace,1641717,193.696,No adjustments
-Oklahoma City Thunder,Kenrich Williams,1629026,189.96,No adjustments
-Oklahoma City Thunder,Branden Carlson,1642382,153.998,No adjustments
-Oklahoma City Thunder,Jaylin Williams,1631119,146.58,No adjustments
-Oklahoma City Thunder,Ousmane Dieng,1631172,131.087,Neutral: No sentiment expressed in the title. (0)
-Oklahoma City Thunder,Dillon Jones,1641794,103.713,No adjustments
-Oklahoma City Thunder,Alex Ducas,1642505,42.028,No adjustments
-Oklahoma City Thunder,Adam Flagler,1641745,0.0,"INJURED: Status: Out. Dec 9: Flagler has been diagnosed with a right fourth metacarpal fracture and will be re-evaluated in 4-to-6 weeks, Clemente Almanza of USA Today reports."
-Oklahoma City Thunder,Ajay Mitchell,1642349,0.0,"INJURED: Status: Out. Jan 10: Mitchell underwent a procedure on his turf toe sprain on his right foot and will be re-evaluated in 10 to 12 weeks,Andrew Schlecht of The Athletic reports."
-Oklahoma City Thunder,Alex Caruso,1627936,0.0,INJURED: Status: Out. Jan 11: Caruso (hip) will not play Sunday against the Wizards.
-Oklahoma City Thunder,Chet Holmgren,1631096,0.0,"INJURED: Status: Out. Jan 11: Holmgren (hip) joined the Thunder for their four-game road trip that began Wednesday and is beginning to increase his physical activity, Joel Lorenzi of The Oklahoman reports."
-Oklahoma City Thunder,Malevy Leons,1642502,-30.453,No adjustments
-Orlando Magic,Mac McClung,1630644,487.068,No adjustments
-Orlando Magic,Paolo Banchero,1631094,200.933,"Neutral: No sentiment expressed in the title. (0) | Positive: Article is about Banchero gearing up for his return, indicating a positive sentiment towards his upcoming performance. (+15)"
-Orlando Magic,Goga Bitadze,1629048,158.966,Neutral: No sentiment expressed in the title. (0)
-Orlando Magic,Wendell Carter Jr.,1628976,151.44,Neutral: No sentiment expressed in the title. (0)
-Orlando Magic,Cole Anthony,1630175,139.012,Neutral: No sentiment expressed in the title. (0)
-Orlando Magic,Tristan da Silva,1641783,135.167,No adjustments
-Orlando Magic,Anthony Black,1641710,121.364,Neutral: No sentiment expressed in the title. (0)
-Orlando Magic,Cory Joseph,202709,119.33,No adjustments
-Orlando Magic,Caleb Houstan,1631216,114.42,No adjustments
-Orlando Magic,Trevelin Queen,1630243,109.997,No adjustments
-Orlando Magic,Jonathan Isaac,1628371,94.001,No adjustments
-Orlando Magic,Franz Wagner,1630532,0.0,"INJURED: Status: Out. Jan 8: Magic head coach Jamahl Mosley said Wednesday that Wagner (oblique) hasn't yet been cleared for contact, Jason Beede of the Orlando Sentinel reports. ""He's feeling better. Just form shooting more than anything,"" Mosley said, when asked about what kind of on-court work Wagner has been doing. ""No contact at all. No conditioning pieces yet."""
-Orlando Magic,Gary Harris,203914,0.0,INJURED: Status: Out. Jan 11: Harris (hamstring) will not play Sunday against the 76ers.
-Orlando Magic,Jalen Suggs,1630591,0.0,INJURED: Status: Out. Jan 11: Suggs (back) will not play Sunday against the 76ers.
-Orlando Magic,Jett Howard,1641724,0.0,INJURED: Status: Day-To-Day. Jan 11: Howard (ankle) is questionable for Sunday's game against the 76ers.
-Orlando Magic,Kentavious Caldwell-Pope,203484,0.0,INJURED: Status: Day-To-Day. Jan 11: Caldwell-Pope (knee) is probable for Sunday's game against the 76ers.
-Orlando Magic,Moritz Wagner,1629021,0.0,INJURED: Status: Out. Jan 9: The Magic announced that Wagner underwent successful surgery to repair a torn ACL in his left knee Wednesday and will miss the remainder of the 2024-25 season.
-Philadelphia 76ers,Justin Edwards,1642348,145.17,No adjustments
-Philadelphia 76ers,Guerschon Yabusele,1627824,125.116,No adjustments
-Philadelphia 76ers,Reggie Jackson,202704,122.771,No adjustments
-Philadelphia 76ers,Tyrese Maxey,1630178,116.132,No adjustments
-Philadelphia 76ers,Paul George,202331,108.006,Neutral: No sentiment expressed in the title. (0)
-Philadelphia 76ers,Kelly Oubre Jr.,1626162,107.039,No adjustments
-Philadelphia 76ers,Adem Bona,1641737,101.062,No adjustments
-Philadelphia 76ers,Ricky Council IV,1641741,97.499,Neutral: No sentiment expressed in the title. (0)
-Philadelphia 76ers,Lester Quinones,1631311,93.141,No adjustments
-Philadelphia 76ers,Eric Gordon,201569,86.04,Neutral: No sentiment expressed in the title. (0)
-Philadelphia 76ers,Caleb Martin,1628997,80.398,No adjustments
-Philadelphia 76ers,Jeff Dowtin Jr.,1630288,77.221,No adjustments
-Philadelphia 76ers,Pete Nance,1631250,70.299,No adjustments
-Philadelphia 76ers,Andre Drummond,203083,0.0,INJURED: Status: Out. Jan 11: Drummond (toe) is out for Sunday's game versus the Magic.
-Philadelphia 76ers,Jared McCain,1642272,0.0,"INJURED: Status: Out. Jan 9: McCain was reviewed Thursday by the surgeon who performed surgery on his left knee and is progressing well. The 76ers officially ruled out for the rest of the season, Kyle Neubeck of AllPHLY.com reports."
-Philadelphia 76ers,Joel Embiid,203954,0.0,INJURED: Status: Out. Jan 11: Embiid (foot) is listed as questionable for Sunday's game against the Magic.
-Philadelphia 76ers,KJ Martin,1630231,0.0,"INJURED: Status: Out. Jan 9: Martin (foot) is out of his walking boot but has yet to take the court, Ky Carlin of USA Today reports."
-Philadelphia 76ers,Kyle Lowry,200768,0.0,"INJURED: Status: Out. Jan 10: Coach Nick Nurse said Friday that there's no timeline for Lowry's (hip) return but he will likely be out longer than day-to-day, Austin Krell of USA Today reports."
-Phoenix Suns,Collin Gillespie,1631221,157.922,Neutral: No sentiment expressed in the title. (0)
-Phoenix Suns,Monté Morris,1628420,153.722,No adjustments
-Phoenix Suns,Mason Plumlee,203486,141.556,No adjustments
-Phoenix Suns,Bol Bol,1629626,132.969,Neutral: No sentiment expressed in the title. (0)
-Phoenix Suns,TyTy Washington Jr.,1631102,132.128,No adjustments
-Phoenix Suns,Oso Ighodaro,1642345,130.108,No adjustments
-Phoenix Suns,Grayson Allen,1628960,128.679,Neutral: No sentiment expressed in the title. (0)
-Phoenix Suns,Devin Booker,1626164,123.031,Neutral: No sentiment expressed in the title. (0)
-Phoenix Suns,Ryan Dunn,1642346,122.657,No adjustments
-Phoenix Suns,Damion Lee,1627814,122.531,No adjustments
-Phoenix Suns,Jalen Bridges,1641779,119.265,No adjustments
-Phoenix Suns,Josh Okogie,1629006,117.637,No adjustments
-Phoenix Suns,Kevin Durant,201142,111.132,Neutral: No sentiment expressed in the title. (0)
-Phoenix Suns,Tyus Jones,1626145,106.414,No adjustments
-Phoenix Suns,Jusuf Nurkić,203994,93.511,No adjustments
-Phoenix Suns,Bradley Beal,203078,74.63,Neutral: No sentiment expressed in the title. (0)
-Phoenix Suns,Royce O'Neale,1626220,0.0,"INJURED: Status: Out. Jan 11: O'Neale (ankle) won't play in Saturday's game versus the Jazz, Duane Rankin of The Arizona Republic reports."
-Portland Trail Blazers,Bryce McGowens,1631121,296.506,No adjustments
-Portland Trail Blazers,Dalano Banton,1630625,140.726,Neutral: No sentiment expressed in the title. (0)
-Portland Trail Blazers,Jabari Walker,1631133,106.412,No adjustments
-Portland Trail Blazers,Donovan Clingan,1642270,100.185,No adjustments
-Portland Trail Blazers,Kris Murray,1631200,88.252,No adjustments
-Portland Trail Blazers,Rayan Rupert,1641712,80.91,No adjustments
-Portland Trail Blazers,Duop Reath,1641871,77.463,No adjustments
-Portland Trail Blazers,Scoot Henderson,1630703,76.283,Neutral: No sentiment expressed in the title. (0)
-Portland Trail Blazers,Shaedon Sharpe,1631101,74.615,No adjustments
-Portland Trail Blazers,Deni Avdija,1630166,72.964,Neutral: No sentiment expressed in the title. (0)
-Portland Trail Blazers,Anfernee Simons,1629014,62.484,No adjustments
-Portland Trail Blazers,Toumani Camara,1641739,61.724,Neutral: No sentiment expressed in the title. (0)
-Portland Trail Blazers,Justin Minaya,1631303,16.714,No adjustments
-Portland Trail Blazers,Tazé Moore,1631386,2.572,No adjustments
-Portland Trail Blazers,Deandre Ayton,1629028,0.0,"INJURED: Status: Out. Jan 11: Ayton (calf) has been ruled out for Saturday's game against the Heat, Sean Highkin of Rip City Radio 620 Portland reports."
-Portland Trail Blazers,Jerami Grant,203924,0.0,INJURED: Status: Out. Jan 10: Grant (face) has been ruled out for Saturday's game against the Heat.
-Portland Trail Blazers,Robert Williams III,1629057,0.0,"INJURED: Status: Out. Jan 11: Williams (illness) has been ruled out for Saturday's game against the Heat, Sean Highkin of Rip City Radio 620 Portland reports."
-Sacramento Kings,Keon Ellis,1631165,183.368,Neutral: No sentiment expressed in the title. (0)
-Sacramento Kings,Domantas Sabonis,1627734,174.509,No adjustments
-Sacramento Kings,Malik Monk,1628370,169.152,No adjustments
-Sacramento Kings,DeMar DeRozan,201942,155.168,Neutral: No sentiment expressed in the title. (0)
-Sacramento Kings,Trey Lyles,1626168,154.511,No adjustments
-Sacramento Kings,Keegan Murray,1631099,154.402,No adjustments
-Sacramento Kings,Orlando Robinson,1631115,144.447,No adjustments
-Sacramento Kings,Doug McDermott,203926,138.567,No adjustments
-Sacramento Kings,Devin Carter,1642269,138.165,No adjustments
-Sacramento Kings,Jordan McLaughlin,1629162,131.578,No adjustments
-Sacramento Kings,Mason Jones,1630222,125.953,No adjustments
-Sacramento Kings,Kevin Huerter,1628989,123.012,No adjustments
-Sacramento Kings,Jae Crowder,203109,113.49,Neutral: No sentiment expressed in the title. (0)
-Sacramento Kings,Isaiah Crawford,1642384,112.845,No adjustments
-Sacramento Kings,Colby Jones,1641732,108.351,No adjustments
-Sacramento Kings,Isaac Jones,1642403,78.156,No adjustments
-Sacramento Kings,Alex Len,203458,68.771,No adjustments
-Sacramento Kings,De'Aaron Fox,1628368,0.0,INJURED: Status: Out. Jan 11: Fox (hip) is listed as questionable for Sunday's game against the Bulls.
-San Antonio Spurs,Victor Wembanyama,1641705,168.287,No adjustments
-San Antonio Spurs,Chris Paul,101108,164.825,No adjustments
-San Antonio Spurs,Tre Jones,1630200,164.097,No adjustments
-San Antonio Spurs,Blake Wesley,1631104,144.356,No adjustments
-San Antonio Spurs,Harrison Barnes,203084,142.447,Neutral: No sentiment expressed in the title. (0)
-San Antonio Spurs,Julian Champagnie,1630577,140.365,Neutral: No sentiment expressed in the title. (0)
-San Antonio Spurs,Stephon Castle,1642264,127.278,No adjustments
-San Antonio Spurs,Sandro Mamukelashvili,1630572,120.014,No adjustments
-San Antonio Spurs,Harrison Ingram,1631127,106.54,No adjustments
-San Antonio Spurs,Zach Collins,1628380,98.44,Neutral: No sentiment expressed in the title. (0)
-San Antonio Spurs,Charles Bassey,1629646,94.835,Neutral: No sentiment expressed in the title. (0)
-San Antonio Spurs,Keldon Johnson,1629640,93.529,No adjustments
-San Antonio Spurs,David Duke Jr.,1630561,92.289,No adjustments
-San Antonio Spurs,Sidy Cissoko,1631321,91.813,Neutral: No sentiment expressed in the title. (0)
-San Antonio Spurs,Devin Vassell,1630170,70.821,No adjustments
-San Antonio Spurs,Malaki Branham,1631103,64.585,Neutral: No sentiment expressed in the title. (0)
-San Antonio Spurs,Jeremy Sochan,1631110,0.0,"INJURED: Status: Day-To-Day. Jan 10: Sochan (back) has been listed as questionable for Saturday's game against the Lakers, Paul Garcia of The Spot Up Shot reports."
-San Antonio Spurs,Riley Minix,1642434,0.0,"INJURED: Status: Out. Jan 9: The Spurs signed Minix to a two-way contract Saturday, Michael C. Wright of ESPN.com reports."
-Toronto Raptors,D.J. Carton,1630618,174.475,No adjustments
-Toronto Raptors,Garrett Temple,202066,149.038,No adjustments
-Toronto Raptors,Chris Boucher,1628449,113.34,Neutral: No sentiment expressed in the title. (0)
-Toronto Raptors,Gradey Dick,1641711,105.674,Neutral: No sentiment expressed in the title. (0)
-Toronto Raptors,Bruno Fernando,1628981,105.198,Neutral: No sentiment expressed in the title. (0)
-Toronto Raptors,Jakob Poeltl,1627751,94.588,No adjustments
-Toronto Raptors,Davion Mitchell,1630558,93.476,No adjustments
-Toronto Raptors,Ja'Kobe Walter,1642266,93.441,No adjustments
-Toronto Raptors,Kelly Olynyk,203482,90.131,No adjustments
-Toronto Raptors,Jamison Battle,1642419,86.881,No adjustments
-Toronto Raptors,Ochai Agbaji,1630534,83.973,Neutral: No sentiment expressed in the title. (0)
-Toronto Raptors,Jonathan Mogbo,1642367,81.086,No adjustments
-Toronto Raptors,RJ Barrett,1629628,79.232,Neutral: No sentiment expressed in the title. (0)
-Toronto Raptors,Jamal Shead,1642347,75.051,No adjustments
-Toronto Raptors,Scottie Barnes,1630567,68.017,Neutral: No sentiment expressed in the title. (0)
-Toronto Raptors,Immanuel Quickley,1630193,57.954,No adjustments
-Toronto Raptors,Ulrich Chomche,1642279,38.094,No adjustments
-Toronto Raptors,A.J. Lawson,1630639,33.329,No adjustments
-Toronto Raptors,Bruce Brown,1628971,4.566,Neutral: No sentiment expressed in the title. (0)
-Utah Jazz,Svi Mykhailiuk,1629004,138.313,No adjustments
-Utah Jazz,Micah Potter,1630695,134.566,No adjustments
-Utah Jazz,Patty Mills,201988,124.123,No adjustments
-Utah Jazz,Collin Sexton,1629012,106.451,No adjustments
-Utah Jazz,Drew Eubanks,1629234,97.988,Neutral: No sentiment expressed in the title. (0)
-Utah Jazz,Isaiah Collier,1642268,94.828,No adjustments
-Utah Jazz,Kyle Filipowski,1642271,86.74,No adjustments
-Utah Jazz,Lauri Markkanen,1628374,78.112,No adjustments
-Utah Jazz,Walker Kessler,1631117,70.743,No adjustments
-Utah Jazz,Elijah Harkless,1641989,64.423,No adjustments
-Utah Jazz,Oscar Tshiebwe,1631131,47.083,No adjustments
-Utah Jazz,Cody Williams,1642262,31.967,No adjustments
-Utah Jazz,Brice Sensabaugh,1641729,0.0,INJURED: Status: Out. Jan 11: Sensabaugh (illness) will not play Saturday against the Suns.
-Utah Jazz,John Collins,1628381,0.0,INJURED: Status: Out. Jan 10: Collins (hip) has been ruled out for Saturday's game against the Suns.
-Utah Jazz,Johnny Juzang,1630548,0.0,INJURED: Status: Day-To-Day. Jan 11: Juzang (hand) won't play in Saturday's game versus the Suns.
-Utah Jazz,Jordan Clarkson,203903,0.0,"INJURED: Status: Out. Jan 6: Clarkson underwent an MRI on his left foot Monday which confirmed a torn plantar fascia, Sarah Todd of The Deseret News reports."
-Utah Jazz,Keyonte George,1641718,0.0,INJURED: Status: Out. Jan 10: George (heel) has been ruled out for Saturday's game against the Suns.
-Utah Jazz,Taylor Hendricks,1641707,0.0,"INJURED: Status: Out. Nov 6: Hendricks underwent surgery on his broken right leg and dislocated ankle Wednesday, Andy Larsen of The Salt Lake Tribune reports."
-Washington Wizards,Patrick Baldwin Jr.,1631116,164.553,Neutral: No sentiment expressed in the title. (0)
-Washington Wizards,Richaun Holmes,1626158,134.746,No adjustments
-Washington Wizards,Johnny Davis,1631098,116.773,Neutral: No sentiment expressed in the title. (0)
-Washington Wizards,Anthony Gill,1630264,100.304,Neutral: No sentiment expressed in the title. (0)
-Washington Wizards,Jared Butler,1630215,98.319,Neutral: No sentiment expressed in the title. (0)
-Washington Wizards,Justin Champagnie,1630551,66.694,No adjustments
-Washington Wizards,Kyshawn George,1642273,64.217,No adjustments
-Washington Wizards,Corey Kispert,1630557,55.315,No adjustments
-Washington Wizards,Jonas Valančiūnas,202685,52.571,No adjustments
-Washington Wizards,Jordan Poole,1629673,33.357,No adjustments
-Washington Wizards,Alexandre Sarr,1642259,22.061,No adjustments
-Washington Wizards,Kyle Kuzma,1628398,16.011,No adjustments
-Washington Wizards,Carlton Carrington,1642267,11.835,No adjustments
-Washington Wizards,Bilal Coulibaly,1641731,4.158,Neutral: No sentiment expressed in the title. (0)
-Washington Wizards,Malcolm Brogdon,1627763,0.0,INJURED: Status: Out. Jan 11: Brogdon (foot) will not play Sunday against the Thunder.
-Washington Wizards,Marvin Bagley III,1628963,0.0,"INJURED: Status: Out. Dec 26: Coach Brian Keefe said Thursday that Bagley (knee) avoided the worst-case scenario and doesn't expect his injury to be season-ending, Varun Shankar of The Washington Post reports."
-Washington Wizards,Tristan Vukcevic,1641774,0.0,INJURED: Status: Out. Jan 11: Vukcevic (ankle) has been ruled out for Sunday's game against the Thunder.
+Atlanta Hawks,Jacob Toppin,1631210,236.96,No adjustments
+Atlanta Hawks,N'Faly Dante,1642368,196.03,No adjustments
+Atlanta Hawks,Mouhamed Gueye,1631243,192.615,No adjustments
+Atlanta Hawks,Asa Newell,1642854,182.378,No adjustments
+Atlanta Hawks,Trae Young,1629027,179.735,No adjustments
+Atlanta Hawks,Dyson Daniels,1630700,158.541,No adjustments
+Atlanta Hawks,Caleb Houstan,1631216,154.2,No adjustments
+Atlanta Hawks,Kristaps Porziņģis,204001,149.667,No adjustments
+Atlanta Hawks,Nickeil Alexander-Walker,1629638,144.347,No adjustments
+Atlanta Hawks,Luke Kennard,1628379,112.116,No adjustments
+Atlanta Hawks,Onyeka Okongwu,1630168,94.785,No adjustments
+Atlanta Hawks,Vít Krejčí,1630249,87.964,No adjustments
+Atlanta Hawks,Keaton Wallace,1630811,44.8,No adjustments
+Atlanta Hawks,Jalen Johnson,1630552,0.0,INJURED: Status: Out. Oct 25: Johnson (ankle) has been ruled out for Saturday's game against the Thunder.
+Atlanta Hawks,Zaccharie Risacher,1642258,0.0,"INJURED: Status: Out. Oct 25: Risacher (ankle) has been ruled out for Saturday's game against the Thunder, Kevin Chouinard of the Hawks' official site reports."
+Brooklyn Nets,Jalen Wilson,1630592,228.875,No adjustments
+Brooklyn Nets,Egor Dëmin,1642856,181.699,No adjustments
+Brooklyn Nets,Noah Clowney,1641730,162.992,No adjustments
+Brooklyn Nets,Ziaire Williams,1630533,159.124,No adjustments
+Brooklyn Nets,Michael Porter Jr.,1629008,154.939,No adjustments
+Brooklyn Nets,Terance Mann,1629611,137.575,No adjustments
+Brooklyn Nets,Day'Ron Sharpe,1630549,137.568,No adjustments
+Brooklyn Nets,Tyrese Martin,1631213,136.86,No adjustments
+Brooklyn Nets,Cam Thomas,1630560,125.059,No adjustments
+Brooklyn Nets,Nic Claxton,1629651,114.48,No adjustments
+Brooklyn Nets,Ben Saraf,1642879,97.023,No adjustments
+Brooklyn Nets,Drake Powell,1642962,0.0,"INJURED: Status: Out. Oct 25: Powell (ankle) has been ruled out for Sunday's game against the Spurs, Sharif Phillips-Keaton of USA Today reports."
+Brooklyn Nets,Nolan Traore,1642849,-8.619,No adjustments
+Boston Celtics,Hugo González,1642864,197.55,No adjustments
+Boston Celtics,Neemias Queta,1629674,189.195,No adjustments
+Boston Celtics,Payton Pritchard,1630202,181.914,No adjustments
+Boston Celtics,Sam Hauser,1630573,147.775,No adjustments
+Boston Celtics,Chris Boucher,1628449,141.279,No adjustments
+Boston Celtics,Anfernee Simons,1629014,135.73,No adjustments
+Boston Celtics,Xavier Tillman,1630214,127.698,No adjustments
+Boston Celtics,Baylor Scheierman,1631248,125.54,No adjustments
+Boston Celtics,Josh Minott,1631169,91.51,No adjustments
+Boston Celtics,Amari Williams,1642873,2.0,No adjustments
+Boston Celtics,Derrick White,1628401,0.0,"INJURED: Status: Day-To-Day. Oct 25: White (wrist) has been listed as probable to play in Sunday's game against the Pistons, NBA reporter Marc Stein reports."
+Boston Celtics,Jaylen Brown,1627759,0.0,"INJURED: Status: Day-To-Day. Oct 25: Brown is questionable for Sunday's game against Detroit due to left hamstring strain reconditioning, NBA reporter Marc Stein reports."
+Boston Celtics,Luka Garza,1630568,0.0,INJURED: Status: Day-To-Day. Oct 25: Garza (concussion) is questionable to play in Sunday's game against the Pistons.
+Boston Celtics,Jordan Walsh,1641775,-313.6,No adjustments
+Charlotte Hornets,LaMelo Ball,1630163,290.293,No adjustments
+Charlotte Hornets,Tre Mann,1630544,244.218,No adjustments
+Charlotte Hornets,Tidjane Salaün,1642275,239.231,No adjustments
+Charlotte Hornets,Ryan Kalkbrenner,1641750,227.185,No adjustments
+Charlotte Hornets,Miles Bridges,1628970,225.217,No adjustments
+Charlotte Hornets,Sion James,1642883,221.287,No adjustments
+Charlotte Hornets,Brandon Miller,1641706,201.12,No adjustments
+Charlotte Hornets,Kon Knueppel,1642851,198.645,No adjustments
+Charlotte Hornets,Moussa Diabaté,1631217,194.434,No adjustments
+Charlotte Hornets,Collin Sexton,1629012,169.524,No adjustments
+Charlotte Hornets,Mason Plumlee,203486,129.695,No adjustments
+Chicago Bulls,Tre Jones,1630200,261.038,No adjustments
+Chicago Bulls,Kevin Huerter,1628989,235.616,No adjustments
+Chicago Bulls,Julian Phillips,1641763,233.82,No adjustments
+Chicago Bulls,Nikola Vučević,202696,212.199,No adjustments
+Chicago Bulls,Jalen Smith,1630188,206.912,No adjustments
+Chicago Bulls,Patrick Williams,1630172,191.579,No adjustments
+Chicago Bulls,Josh Giddey,1630581,187.485,No adjustments
+Chicago Bulls,Isaac Okoro,1630171,175.665,No adjustments
+Chicago Bulls,Ayo Dosunmu,1630245,172.99,No adjustments
+Chicago Bulls,Matas Buzelis,1641824,126.68,No adjustments
+Chicago Bulls,Dalen Terry,1631207,-33.995,No adjustments
+Cleveland Cavaliers,Donovan Mitchell,1628378,262.935,No adjustments
+Cleveland Cavaliers,Jarrett Allen,1628386,235.428,No adjustments
+Cleveland Cavaliers,Sam Merrill,1630241,230.977,No adjustments
+Cleveland Cavaliers,Evan Mobley,1630596,185.955,No adjustments
+Cleveland Cavaliers,Craig Porter Jr.,1641854,177.927,No adjustments
+Cleveland Cavaliers,Lonzo Ball,1628366,147.054,No adjustments
+Cleveland Cavaliers,Jaylon Tyson,1642281,145.455,No adjustments
+Cleveland Cavaliers,Dean Wade,1629731,141.332,No adjustments
+Cleveland Cavaliers,Larry Nance Jr.,1626204,133.336,No adjustments
+Cleveland Cavaliers,Tyrese Proctor,1642878,73.84,No adjustments
+Dallas Mavericks,Anthony Davis,203076,151.122,No adjustments
+Dallas Mavericks,Dereck Lively II,1641726,130.276,No adjustments
+Dallas Mavericks,D'Angelo Russell,1626156,121.829,No adjustments
+Dallas Mavericks,P.J. Washington,1629023,97.555,No adjustments
+Dallas Mavericks,Max Christie,1631108,96.612,No adjustments
+Dallas Mavericks,Jaden Hardy,1630702,96.012,No adjustments
+Dallas Mavericks,Naji Marshall,1630230,95.37,No adjustments
+Dallas Mavericks,Cooper Flagg,1642843,81.375,No adjustments
+Dallas Mavericks,Dwight Powell,203939,51.02,No adjustments
+Dallas Mavericks,Ryan Nembhard,1642948,44.074,No adjustments
+Dallas Mavericks,Moussa Cisse,1630619,25.5,No adjustments
+Dallas Mavericks,Caleb Martin,1628997,2.83,No adjustments
+Dallas Mavericks,Brandon Williams,1630314,0.0,INJURED: Status: Out. Oct 25: Williams (personal) has been ruled out for Sunday's game against the Raptors.
+Dallas Mavericks,Klay Thompson,202691,-0.055,No adjustments
+Denver Nuggets,Nikola Jokić,203999,284.782,No adjustments
+Denver Nuggets,Aaron Gordon,203932,275.061,No adjustments
+Denver Nuggets,Spencer Jones,1642461,260.305,No adjustments
+Denver Nuggets,Bruce Brown,1628971,247.004,No adjustments
+Denver Nuggets,Jamal Murray,1627750,242.054,No adjustments
+Denver Nuggets,Christian Braun,1631128,224.65,No adjustments
+Denver Nuggets,Jonas Valančiūnas,202685,219.496,No adjustments
+Denver Nuggets,Tim Hardaway Jr.,203501,208.688,No adjustments
+Denver Nuggets,Peyton Watson,1631212,203.0,No adjustments
+Denver Nuggets,Julian Strawther,1631124,156.15,No adjustments
+Denver Nuggets,DaRon Holmes II,1641747,155.95,No adjustments
+Denver Nuggets,Cameron Johnson,1629661,155.043,No adjustments
+Denver Nuggets,Zeke Nnaji,1630192,154.05,No adjustments
+Denver Nuggets,Jalen Pickett,1629618,151.35,No adjustments
+Detroit Pistons,Daniss Jenkins,1642450,270.156,No adjustments
+Detroit Pistons,Cade Cunningham,1630595,230.532,No adjustments
+Detroit Pistons,Ronald Holland II,1641842,213.918,No adjustments
+Detroit Pistons,Isaiah Stewart,1630191,212.875,No adjustments
+Detroit Pistons,Ausar Thompson,1641709,180.773,No adjustments
+Detroit Pistons,Duncan Robinson,1629130,180.405,No adjustments
+Detroit Pistons,Paul Reed,1630194,179.449,No adjustments
+Detroit Pistons,Tobias Harris,202699,158.736,No adjustments
+Detroit Pistons,Jalen Duren,1631105,146.37,No adjustments
+Detroit Pistons,Javonte Green,1629750,118.242,No adjustments
+Detroit Pistons,Chaz Lanier,1642404,89.683,No adjustments
+Detroit Pistons,Caris LeVert,1627747,0.0,INJURED: Status: Day-To-Day. Oct 25: LeVert (hamstring) has been listed as doubtful for Sunday's game against the Celtics.
+Golden State Warriors,Stephen Curry,201939,263.587,No adjustments
+Golden State Warriors,Jimmy Butler III,202710,255.157,No adjustments
+Golden State Warriors,Draymond Green,203110,227.933,No adjustments
+Golden State Warriors,Jonathan Kuminga,1630228,210.64,No adjustments
+Golden State Warriors,Buddy Hield,1627741,188.702,No adjustments
+Golden State Warriors,Brandin Podziemski,1641764,161.228,No adjustments
+Golden State Warriors,Trayce Jackson-Davis,1631218,144.005,No adjustments
+Golden State Warriors,Gary Payton II,1627780,139.945,No adjustments
+Golden State Warriors,Quinten Post,1642366,132.785,No adjustments
+Golden State Warriors,Gui Santos,1630611,88.455,No adjustments
+Golden State Warriors,Will Richard,1642954,84.054,No adjustments
+Golden State Warriors,Pat Spencer,1630311,63.205,No adjustments
+Golden State Warriors,Moses Moody,1630541,61.844,No adjustments
+Golden State Warriors,Al Horford,201143,0.0,"INJURED: Status: Day-To-Day. Oct 25: Horford will come off the bench during Thursday's game against the Nuggets, Danny Emerman of SFStandard.com reports."
+Houston Rockets,Alperen Sengun,1630578,269.29,No adjustments
+Houston Rockets,Clint Capela,203991,254.195,No adjustments
+Houston Rockets,Kevin Durant,201142,218.183,No adjustments
+Houston Rockets,Jabari Smith Jr.,1631095,165.309,No adjustments
+Houston Rockets,Steven Adams,203500,159.743,No adjustments
+Houston Rockets,Josh Okogie,1629006,146.0,No adjustments
+Houston Rockets,Amen Thompson,1641708,133.292,No adjustments
+Houston Rockets,Tari Eason,1631106,109.755,No adjustments
+Houston Rockets,Reed Sheppard,1642263,98.302,No adjustments
+Indiana Pacers,Isaiah Jackson,1630543,190.414,No adjustments
+Indiana Pacers,Pascal Siakam,1627783,173.99,No adjustments
+Indiana Pacers,Obi Toppin,1630167,155.103,No adjustments
+Indiana Pacers,RayJ Dennis,1642484,131.431,No adjustments
+Indiana Pacers,Aaron Nesmith,1630174,110.111,No adjustments
+Indiana Pacers,Jarace Walker,1641716,99.618,No adjustments
+Indiana Pacers,Jay Huff,1630643,99.267,No adjustments
+Indiana Pacers,Ben Sheppard,1641767,95.137,No adjustments
+Indiana Pacers,Tony Bradley,1628396,25.965,No adjustments
+Indiana Pacers,Andrew Nembhard,1629614,0.0,INJURED: Status: Out. Oct 24: Nembhard (shoulder) won't play in Saturday's game against the Grizzlies.
+Indiana Pacers,Bennedict Mathurin,1631097,0.0,"INJURED: Status: Day-To-Day. Oct 25: Mathurin won't return to Saturday's game against the Grizzlies due to right foot soreness, Scott Agness of FieldhouseFiles.com reports."
+Indiana Pacers,Johnny Furphy,1642277,0.0,INJURED: Status: Out. Oct 25: Furphy (foot) has been ruled out for Saturday's game against Memphis.
+Indiana Pacers,Taelon Peter,1643007,0.0,INJURED: Status: Day-To-Day. Oct 25: Peter won't return to Saturday's game against Memphis due to right groin soreness.
+Indiana Pacers,James Wiseman,1630164,-24.601,No adjustments
+Los Angeles Clippers,Cam Christie,1642353,284.47,No adjustments
+Los Angeles Clippers,John Collins,1628381,265.154,No adjustments
+Los Angeles Clippers,James Harden,201935,244.135,No adjustments
+Los Angeles Clippers,Yanic Konan Niederhäuser,1642949,243.86,No adjustments
+Los Angeles Clippers,Kobe Brown,1641738,235.66,No adjustments
+Los Angeles Clippers,Kobe Sanders,1642920,233.76,No adjustments
+Los Angeles Clippers,Derrick Jones Jr.,1627884,203.23,No adjustments
+Los Angeles Clippers,Brook Lopez,201572,196.989,No adjustments
+Los Angeles Clippers,Ivica Zubac,1627826,179.924,No adjustments
+Los Angeles Clippers,Kris Dunn,1627739,162.648,No adjustments
+Los Angeles Clippers,Kawhi Leonard,202695,160.269,No adjustments
+Los Angeles Clippers,Chris Paul,101108,151.444,No adjustments
+Los Angeles Clippers,Nicolas Batum,201587,133.178,No adjustments
+Los Angeles Clippers,Bradley Beal,203078,0.0,"INJURED: Status: Day-To-Day. Oct 25: Beal (back) is questionable for Sunday's game against Portland, Law Murray of The Athletic reports."
+Los Angeles Lakers,Luka Dončić,1629029,328.302,No adjustments
+Los Angeles Lakers,Austin Reaves,1630559,260.771,No adjustments
+Los Angeles Lakers,Marcus Smart,203935,231.52,No adjustments
+Los Angeles Lakers,Rui Hachimura,1629060,207.283,No adjustments
+Los Angeles Lakers,Jake LaRavia,1631222,195.435,No adjustments
+Los Angeles Lakers,Deandre Ayton,1629028,193.959,No adjustments
+Los Angeles Lakers,Jarred Vanderbilt,1629020,175.7,No adjustments
+Los Angeles Lakers,Gabe Vincent,1629216,146.751,No adjustments
+Los Angeles Lakers,Dalton Knecht,1642261,63.255,No adjustments
+Los Angeles Lakers,Jaxson Hayes,1629637,0.0,"INJURED: Status: Day-To-Day. Oct 25: Hayes (knee) is questionable for Sunday's game against the Kings, Khobi Price of The Orange County Register reports."
+Los Angeles Lakers,Bronny James,1642355,-127.295,No adjustments
+Los Angeles Lakers,Christian Koloko,1631132,-169.495,No adjustments
+Memphis Grizzlies,Cedric Coward,1642907,311.14,No adjustments
+Memphis Grizzlies,John Konchar,1629723,263.349,No adjustments
+Memphis Grizzlies,Javon Small,1642914,216.154,No adjustments
+Memphis Grizzlies,Santi Aldama,1630583,199.603,No adjustments
+Memphis Grizzlies,Ja Morant,1629630,171.986,No adjustments
+Memphis Grizzlies,Jaren Jackson Jr.,1628991,170.614,No adjustments
+Memphis Grizzlies,Jock Landale,1629111,150.561,No adjustments
+Memphis Grizzlies,Jaylen Wells,1642377,146.86,No adjustments
+Memphis Grizzlies,PJ Hall,1641790,144.845,No adjustments
+Memphis Grizzlies,Kentavious Caldwell-Pope,203484,135.652,No adjustments
+Memphis Grizzlies,Cam Spencer,1642285,121.994,No adjustments
+Memphis Grizzlies,Olivier-Maxence Prosper,1641765,55.466,No adjustments
+Memphis Grizzlies,GG Jackson,1641713,-29.641,No adjustments
+Miami Heat,Jaime Jaquez Jr.,1631170,312.059,No adjustments
+Miami Heat,Nikola Jović,1631107,301.597,No adjustments
+Miami Heat,Dru Smith,1630696,292.329,No adjustments
+Miami Heat,Bam Adebayo,1628389,256.287,No adjustments
+Miami Heat,Norman Powell,1626181,253.0,No adjustments
+Miami Heat,Kel'el Ware,1642276,244.075,No adjustments
+Miami Heat,Simone Fontecchio,1631323,241.426,No adjustments
+Miami Heat,Davion Mitchell,1630558,209.0,No adjustments
+Miami Heat,Andrew Wiggins,203952,116.59,No adjustments
+Miami Heat,Pelle Larsson,1641796,34.41,No adjustments
+Miami Heat,Keshad Johnson,1642352,-10.028,No adjustments
+Miami Heat,Jahmir Young,1642443,-22.054,No adjustments
+Milwaukee Bucks,Cole Anthony,1630175,255.015,No adjustments
+Milwaukee Bucks,Myles Turner,1626167,231.005,No adjustments
+Milwaukee Bucks,AJ Green,1631260,223.929,No adjustments
+Milwaukee Bucks,Taurean Prince,1627752,204.548,No adjustments
+Milwaukee Bucks,Ryan Rollins,1631157,199.87,No adjustments
+Milwaukee Bucks,Bobby Portis,1626171,187.317,No adjustments
+Milwaukee Bucks,Gary Trent Jr.,1629018,185.143,No adjustments
+Milwaukee Bucks,Amir Coffey,1629599,79.03,No adjustments
+Milwaukee Bucks,Giannis Antetokounmpo,203507,0.0,"INJURED: Status: Day-To-Day. Oct 25: Antetokounmpo (toe) is listed as probable to play in Sunday's game against the Cavaliers, Eric Nehm of The Athletic reports."
+Milwaukee Bucks,Kevin Porter Jr.,1629645,0.0,"INJURED: Status: Out. Oct 23: The team confirmed Thursday that Porter is dealing with a left ankle sprain, and he'll miss Milwaukee's next two games against Toronto and Cleveland."
+Milwaukee Bucks,Kyle Kuzma,1628398,0.0,"INJURED: Status: Day-To-Day. Oct 25: Kuzma (ankle) is questionable to play in Sunday's game against the Cavaliers, Eric Nehm of The Athletic reports."
+Milwaukee Bucks,Jericho Sims,1630579,-43.805,No adjustments
+Milwaukee Bucks,Andre Jackson Jr.,1641748,-51.005,No adjustments
+Milwaukee Bucks,Gary Harris,203914,-51.005,No adjustments
+Milwaukee Bucks,Thanasis Antetokounmpo,203648,-51.005,No adjustments
+Minnesota Timberwolves,Johnny Juzang,1630548,304.595,No adjustments
+Minnesota Timberwolves,Anthony Edwards,1630162,229.361,No adjustments
+Minnesota Timberwolves,Leonard Miller,1631159,227.79,No adjustments
+Minnesota Timberwolves,Joe Ingles,204060,224.09,No adjustments
+Minnesota Timberwolves,Joan Beringer,1642866,216.53,No adjustments
+Minnesota Timberwolves,Julius Randle,203944,206.153,No adjustments
+Minnesota Timberwolves,Bones Hyland,1630538,143.835,No adjustments
+Minnesota Timberwolves,Jaden McDaniels,1630183,141.328,No adjustments
+Minnesota Timberwolves,Rudy Gobert,203497,140.097,No adjustments
+Minnesota Timberwolves,Donte DiVincenzo,1628978,132.622,No adjustments
+Minnesota Timberwolves,Terrence Shannon Jr.,1630545,127.683,No adjustments
+Minnesota Timberwolves,Jaylen Clark,1641740,124.408,No adjustments
+Minnesota Timberwolves,Naz Reid,1629675,106.236,No adjustments
+Minnesota Timberwolves,Mike Conley,201144,44.327,No adjustments
+Minnesota Timberwolves,Rob Dillingham,1642265,0.0,INJURED: Status: Day-To-Day. Oct 25: Dillingham (nose) is questionable for Sunday's game against the Pacers.
+New Orleans Pelicans,Zion Williamson,1629627,254.491,No adjustments
+New Orleans Pelicans,Jordan Hawkins,1641722,209.866,No adjustments
+New Orleans Pelicans,Trey Murphy III,1630530,191.372,No adjustments
+New Orleans Pelicans,Jeremiah Fears,1642847,172.475,No adjustments
+New Orleans Pelicans,Derik Queen,1642852,157.712,No adjustments
+New Orleans Pelicans,Herbert Jones,1630529,152.695,No adjustments
+New Orleans Pelicans,Jordan Poole,1629673,151.849,No adjustments
+New Orleans Pelicans,Jose Alvarado,1630631,131.235,No adjustments
+New Orleans Pelicans,Saddiq Bey,1630180,92.49,No adjustments
+New Orleans Pelicans,Yves Missi,1642274,0.0,INJURED: Status: Out. Oct 24: Missi (ankle) won't play in Friday's game against San Antonio.
+New Orleans Pelicans,Hunter Dickinson,1630621,-174.7,No adjustments
+New York Knicks,OG Anunoby,1628384,254.414,No adjustments
+New York Knicks,Jalen Brunson,1628973,252.162,No adjustments
+New York Knicks,Jordan Clarkson,203903,235.183,No adjustments
+New York Knicks,Mikal Bridges,1628969,233.13,No adjustments
+New York Knicks,Guerschon Yabusele,1627824,181.718,No adjustments
+New York Knicks,Trey Jemison III,1641998,178.32,No adjustments
+New York Knicks,Tyler Kolek,1642278,177.82,No adjustments
+New York Knicks,Ariel Hukporti,1630574,105.52,No adjustments
+New York Knicks,Landry Shamet,1629013,61.605,No adjustments
+New York Knicks,Josh Hart,1628404,0.0,INJURED: Status: Day-To-Day. Oct 25: Hart (back) has been listed as probable to play in Sunday's game against the Heat.
+New York Knicks,Karl-Anthony Towns,1626157,0.0,INJURED: Status: Day-To-Day. Oct 25: Towns (quadriceps) is questionable for Sunday's game against the Heat.
+New York Knicks,Miles McBride,1630540,0.0,INJURED: Status: Day-To-Day. Oct 25: McBride (personal) is questionable for Sunday's game against the Heat.
+Oklahoma City Thunder,Shai Gilgeous-Alexander,1628983,320.003,No adjustments
+Oklahoma City Thunder,Cason Wallace,1641717,274.523,No adjustments
+Oklahoma City Thunder,Chet Holmgren,1631096,255.021,No adjustments
+Oklahoma City Thunder,Isaiah Hartenstein,1628392,247.41,No adjustments
+Oklahoma City Thunder,Ajay Mitchell,1642349,237.162,No adjustments
+Oklahoma City Thunder,Aaron Wiggins,1630598,233.633,No adjustments
+Oklahoma City Thunder,Luguentz Dort,1629652,197.182,No adjustments
+Oklahoma City Thunder,Chris Youngblood,1642959,180.485,No adjustments
+Oklahoma City Thunder,Branden Carlson,1642382,152.3,No adjustments
+Oklahoma City Thunder,Jaylin Williams,1631119,110.755,No adjustments
+Oklahoma City Thunder,Brooks Barnhizer,1642964,74.846,No adjustments
+Oklahoma City Thunder,Ousmane Dieng,1631172,72.2,No adjustments
+Oklahoma City Thunder,Alex Caruso,1627936,0.0,"INJURED: Status: Out. Oct 22: Caruso has been put in concussion protocol Wednesday, Rylan Stiles of SI.com reports."
+Orlando Magic,Tristan da Silva,1641783,223.067,No adjustments
+Orlando Magic,Anthony Black,1641710,215.261,No adjustments
+Orlando Magic,Franz Wagner,1630532,174.821,No adjustments
+Orlando Magic,Goga Bitadze,1629048,161.355,No adjustments
+Orlando Magic,Paolo Banchero,1631094,156.611,No adjustments
+Orlando Magic,Wendell Carter Jr.,1628976,140.178,No adjustments
+Orlando Magic,Desmond Bane,1630217,136.865,No adjustments
+Orlando Magic,Jett Howard,1641724,87.993,No adjustments
+Orlando Magic,Tyus Jones,1626145,41.405,No adjustments
+Orlando Magic,Jase Richardson,1642859,20.971,No adjustments
+Orlando Magic,Jalen Suggs,1630591,0.0,INJURED: Status: Out. Oct 25: Suggs (rest) has been ruled out for Saturday's game against the Bulls.
+Orlando Magic,Jonathan Isaac,1628371,-6.119,No adjustments
+Philadelphia 76ers,Tyrese Maxey,1630178,272.171,No adjustments
+Philadelphia 76ers,Andre Drummond,203083,268.678,No adjustments
+Philadelphia 76ers,VJ Edgecombe,1642845,246.911,No adjustments
+Philadelphia 76ers,Quentin Grimes,1629656,229.97,No adjustments
+Philadelphia 76ers,Kelly Oubre Jr.,1626162,202.689,No adjustments
+Philadelphia 76ers,Joel Embiid,203954,126.281,No adjustments
+Philadelphia 76ers,Jabari Walker,1631133,112.225,No adjustments
+Philadelphia 76ers,Adem Bona,1641737,100.45,No adjustments
+Philadelphia 76ers,Justin Edwards,1642348,97.805,No adjustments
+Philadelphia 76ers,Dominick Barlow,1631230,0.0,"INJURED: Status: Day-To-Day. Oct 26: Barlow (elbow) finished Saturday's 125-121 win over Charlotte with two points (1-2 FG, 0-1 3Pt) and four rebounds across 16 minutes."
+Phoenix Suns,Grayson Allen,1628960,165.217,No adjustments
+Phoenix Suns,Devin Booker,1626164,162.164,No adjustments
+Phoenix Suns,Dillon Brooks,1628415,149.51,No adjustments
+Phoenix Suns,Ryan Dunn,1642346,145.875,No adjustments
+Phoenix Suns,Khaman Maluach,1642863,117.333,No adjustments
+Phoenix Suns,Collin Gillespie,1631221,113.102,No adjustments
+Phoenix Suns,Oso Ighodaro,1642345,110.178,No adjustments
+Phoenix Suns,Rasheer Fleming,1642853,104.707,No adjustments
+Phoenix Suns,Nigel Hayes-Davis,1628502,99.843,No adjustments
+Phoenix Suns,Royce O'Neale,1626220,96.77,No adjustments
+Phoenix Suns,Isaiah Livers,1630587,88.903,No adjustments
+Phoenix Suns,Jordan Goodwin,1630692,83.217,No adjustments
+Phoenix Suns,Nick Richards,1630208,41.946,No adjustments
+Phoenix Suns,Mark Williams,1631109,0.0,INJURED: Status: Out. Oct 25: Williams (knee) has been ruled out for Saturday's game against the Nuggets.
+Portland Trail Blazers,Toumani Camara,1641739,261.925,No adjustments
+Portland Trail Blazers,Jerami Grant,203924,261.095,No adjustments
+Portland Trail Blazers,Matisse Thybulle,1629680,257.712,No adjustments
+Portland Trail Blazers,Jrue Holiday,201950,253.219,No adjustments
+Portland Trail Blazers,Deni Avdija,1630166,249.928,No adjustments
+Portland Trail Blazers,Kris Murray,1631200,211.532,No adjustments
+Portland Trail Blazers,Shaedon Sharpe,1631101,186.781,No adjustments
+Portland Trail Blazers,Blake Wesley,1631104,177.726,No adjustments
+Portland Trail Blazers,Donovan Clingan,1642270,170.709,No adjustments
+Portland Trail Blazers,Yang Hansen,1642905,70.265,No adjustments
+Portland Trail Blazers,Duop Reath,1641871,19.105,No adjustments
+Portland Trail Blazers,Rayan Rupert,1641712,13.775,No adjustments
+Sacramento Kings,Dylan Cardwell,1642928,234.355,No adjustments
+Sacramento Kings,Dario Šarić,203967,205.82,No adjustments
+Sacramento Kings,DeMar DeRozan,201942,204.895,No adjustments
+Sacramento Kings,Malik Monk,1628370,199.504,No adjustments
+Sacramento Kings,Russell Westbrook,201566,197.038,No adjustments
+Sacramento Kings,Drew Eubanks,1629234,186.161,No adjustments
+Sacramento Kings,Keon Ellis,1631165,166.7,No adjustments
+Sacramento Kings,Dennis Schröder,203471,154.633,No adjustments
+Sacramento Kings,Domantas Sabonis,1627734,100.494,No adjustments
+Sacramento Kings,Maxime Raynaud,1642875,98.6,No adjustments
+Sacramento Kings,Nique Clifford,1642363,0.0,"INJURED: Status: Out. Oct 23: Clifford underwent an MRI that confirmed a right hamstring strain, Deuce Mason of NBC Sports California reports."
+Sacramento Kings,Zach LaVine,203897,0.0,INJURED: Status: Day-To-Day. Oct 25: LaVine (illness) is listed as questionable for Sunday's game against the Lakers.
+Sacramento Kings,Isaac Jones,1642403,-15.38,No adjustments
+San Antonio Spurs,Riley Minix,1642434,386.0,No adjustments
+San Antonio Spurs,Devin Vassell,1630170,305.942,No adjustments
+San Antonio Spurs,Victor Wembanyama,1641705,298.394,No adjustments
+San Antonio Spurs,Harrison Barnes,203084,272.612,No adjustments
+San Antonio Spurs,Stephon Castle,1642264,259.819,No adjustments
+San Antonio Spurs,David Jones Garcia,1642357,256.97,No adjustments
+San Antonio Spurs,Harrison Ingram,1631127,246.07,No adjustments
+San Antonio Spurs,Julian Champagnie,1630577,245.369,No adjustments
+San Antonio Spurs,Bismack Biyombo,202687,232.435,No adjustments
+San Antonio Spurs,Dylan Harper,1642844,215.831,No adjustments
+San Antonio Spurs,Keldon Johnson,1629640,148.884,No adjustments
+San Antonio Spurs,Carter Bryant,1642868,135.2,No adjustments
+San Antonio Spurs,Jordan McLaughlin,1629162,109.228,No adjustments
+San Antonio Spurs,Luke Kornet,1628436,0.0,"INJURED: Status: Out. Oct 25: Kornet (ankle) has been ruled out for Sunday's game against the Nets, Paul Garcia of ProjectSpurs.com reports."
+Toronto Raptors,Sandro Mamukelashvili,1630572,240.375,No adjustments
+Toronto Raptors,Gradey Dick,1641711,236.052,No adjustments
+Toronto Raptors,Jamison Battle,1642419,233.414,No adjustments
+Toronto Raptors,Immanuel Quickley,1630193,224.937,No adjustments
+Toronto Raptors,Brandon Ingram,1627742,220.5,No adjustments
+Toronto Raptors,Ochai Agbaji,1630534,204.74,No adjustments
+Toronto Raptors,RJ Barrett,1629628,197.503,No adjustments
+Toronto Raptors,Scottie Barnes,1630567,192.154,No adjustments
+Toronto Raptors,Jamal Shead,1642347,191.264,No adjustments
+Toronto Raptors,Jakob Poeltl,1627751,165.719,No adjustments
+Toronto Raptors,Jonathan Mogbo,1642367,116.535,No adjustments
+Utah Jazz,Svi Mykhailiuk,1629004,292.477,No adjustments
+Utah Jazz,Lauri Markkanen,1628374,283.323,No adjustments
+Utah Jazz,Kyle Filipowski,1642271,277.755,No adjustments
+Utah Jazz,Keyonte George,1641718,277.303,No adjustments
+Utah Jazz,Walker Kessler,1631117,264.575,No adjustments
+Utah Jazz,Brice Sensabaugh,1641729,175.447,No adjustments
+Utah Jazz,Jusuf Nurkić,203994,163.49,No adjustments
+Utah Jazz,Walter Clayton Jr.,1642383,161.303,No adjustments
+Utah Jazz,Cody Williams,1642262,121.8,No adjustments
+Utah Jazz,Taylor Hendricks,1641707,113.676,No adjustments
+Utah Jazz,Ace Bailey,1642846,75.33,No adjustments
+Washington Wizards,Anthony Gill,1630264,288.205,No adjustments
+Washington Wizards,AJ Johnson,1642358,285.705,No adjustments
+Washington Wizards,Sharife Cooper,1630536,279.805,No adjustments
+Washington Wizards,Kyshawn George,1642273,266.275,No adjustments
+Washington Wizards,Tristan Vukcevic,1641774,228.37,No adjustments
+Washington Wizards,Tre Johnson,1642848,189.225,No adjustments
+Washington Wizards,Alex Sarr,1642259,184.787,No adjustments
+Washington Wizards,Corey Kispert,1630557,183.189,No adjustments
+Washington Wizards,Cam Whitmore,1641715,176.993,No adjustments
+Washington Wizards,Will Riley,1642860,163.7,No adjustments
+Washington Wizards,Justin Champagnie,1630551,147.295,No adjustments
+Washington Wizards,Khris Middleton,203114,144.041,No adjustments
+Washington Wizards,CJ McCollum,203468,139.167,No adjustments
+Washington Wizards,Bub Carrington,1642267,104.121,No adjustments
+Washington Wizards,Marvin Bagley III,1628963,86.924,No adjustments

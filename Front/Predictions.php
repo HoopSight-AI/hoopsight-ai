@@ -13,7 +13,7 @@ class Predictions
 			return "<p>Error: CSV file not found.</p>";
 		}
 
-		$tableHTML = "<div class='table-container'><h2>2024-25 NBA Season Predictions</h2><table border='1'>";
+		$tableHTML = "<div class='table-container'><h2>2025-26 NBA Season Predictions</h2><table border='1'>";
 		$tableHTML .= "<thead><tr><th>Team</th><th>Wins</th><th>Losses</th><th>HSS</th></tr></thead><tbody>";
 
 		// Read the CSV file and generate table rows
@@ -86,7 +86,7 @@ class Predictions
 
 		// Start table HTML
 		$tableHTML = "<div class='table-container'>";
-		$tableHTML .= "<h2>2024-25 NBA Season Predictions</h2>";
+		$tableHTML .= "<h2>2025-26 NBA Season Predictions</h2>";
 		$tableHTML .= "<table>";
 		$tableHTML .= "<thead><tr>";
 		foreach ($header as $col) {

@@ -2,7 +2,8 @@ name: Update Current Data
 
 on:
   schedule:
-    - cron: "45 22 * * *" # 10:45 PM UTC
+    # Runs at 5:45 PM EST (10:45 PM UTC) - Before predictions workflow
+    - cron: "45 22 * * *"
   workflow_dispatch:        
 
 jobs:
@@ -16,15 +17,16 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: "3.8"
+        python-version: "3.11"
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pandas requests beautifulsoup4
+        pip install pandas requests beautifulsoup4 lxml
 
     - name: Run scraping script
       run: |
+        echo "=== Scraping current NBA team statistics ==="
         python ./.github/current_data_script.py
 
     - name: Commit and push changes
@@ -32,5 +34,5 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "GitHub Actions Bot"
         git add Current_Data/*
-        git commit -m "Update Current_Data [skip ci]" || echo "No changes to commit"
+        git commit -m "🤖 Update Current_Data - $(date +'%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
         git push

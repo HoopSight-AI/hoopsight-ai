@@ -1,0 +1,560 @@
+/* Predictions Dashboard Styles */
+
+.predictions-dashboard {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Stats Card */
+.stats-card {
+    background: linear-gradient(135deg, #111827 0%, #312e81 100%);
+    border-radius: 18px;
+    padding: 32px;
+    margin-bottom: 40px;
+    color: #e8edff;
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.45);
+    border: 1px solid rgba(99, 102, 241, 0.35);
+}
+
+.stats-card h2 {
+    margin: 0 0 28px 0;
+    font-size: 2.1em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #f9fafb;
+}
+
+.stats-hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: stretch;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.hero-block {
+    flex: 1 1 260px;
+    background: rgba(15, 23, 42, 0.55);
+    border-radius: 16px;
+    padding: 22px;
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.hero-block.primary {
+    background: linear-gradient(160deg, rgba(59, 130, 246, 0.5), rgba(37, 99, 235, 0.25));
+    border-color: rgba(96, 165, 250, 0.55);
+}
+
+.hero-block.secondary {
+    background: linear-gradient(160deg, rgba(251, 191, 36, 0.45), rgba(217, 119, 6, 0.22));
+    border-color: rgba(251, 191, 36, 0.55);
+}
+
+.hero-label {
+    font-size: 0.85em;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #cbd5f5;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.hero-value {
+    display: block;
+    font-size: 2.8em;
+    font-weight: 700;
+    color: #f9fafb;
+    line-height: 1.1;
+}
+
+.hero-sub {
+    font-size: 0.95em;
+    color: rgba(226, 232, 240, 0.85);
+    margin-top: 12px;
+}
+
+.hero-divider {
+    align-self: center;
+    font-size: 0.9em;
+    letter-spacing: 0.65em;
+    text-transform: uppercase;
+    color: rgba(226, 232, 240, 0.55);
+    padding: 0 12px;
+}
+
+.hero-badge {
+    flex: 0.8 1 220px;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+    background: rgba(15, 23, 42, 0.65);
+    border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+.hero-badge.winning {
+    border-color: rgba(74, 222, 128, 0.5);
+    background: rgba(34, 197, 94, 0.15);
+}
+
+.hero-badge.losing {
+    border-color: rgba(248, 113, 113, 0.5);
+    background: rgba(248, 113, 113, 0.15);
+}
+
+.hero-badge-label {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 0.14em;
+    color: rgba(226, 232, 240, 0.7);
+}
+
+.hero-badge-value {
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #facc15;
+}
+
+.hero-badge-note {
+    font-size: 0.85em;
+    color: rgba(226, 232, 240, 0.8);
+}
+
+.stats-story {
+    margin-top: 26px;
+}
+
+.story-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+}
+
+.story-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    background: rgba(15, 23, 42, 0.55);
+    border-radius: 14px;
+    padding: 16px 18px;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.story-icon {
+    font-size: 1.4em;
+    line-height: 1;
+}
+
+.story-label {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #cbd5f5;
+    display: block;
+}
+
+.story-value {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #f9fafb;
+    margin-top: 4px;
+}
+
+.story-item.winning .story-value {
+    color: #4ade80;
+}
+
+.story-item.losing .story-value {
+    color: #f87171;
+}
+
+.story-note {
+    font-size: 0.78em;
+    color: rgba(203, 213, 225, 0.75);
+    margin-top: 6px;
+    display: block;
+}
+
+/* Team Analysis Table */
+.team-analysis {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-analysis h2 {
+    margin: 0 0 20px 0;
+    color: #333;
+    font-size: 1.8em;
+}
+
+.analysis-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95em;
+}
+
+.analysis-table thead {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.analysis-table th {
+    padding: 15px 12px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    letter-spacing: 0.5px;
+}
+
+.analysis-table tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+    transition: background 0.2s ease;
+}
+
+.analysis-table tbody tr:hover {
+    background: #f5f5f5;
+}
+
+.analysis-table td {
+    padding: 15px 12px;
+    color: #333;
+}
+
+.team-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+}
+
+.team-logo-small {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.accuracy-cell {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.advantage-cell {
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+.advantage-cell.positive {
+    color: #4caf50;
+}
+
+.advantage-cell.negative {
+    color: #f44336;
+}
+
+.advantage-cell.neutral {
+    color: #757575;
+}
+
+.correct-pick {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.wrong-pick {
+    color: #f44336;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+/* Team Selector */
+.team-selector {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-selector h3 {
+    margin: 0 0 15px 0;
+    color: #333;
+}
+
+.team-selector select {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1em;
+    border: 2px solid #667eea;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.team-selector select:hover {
+    border-color: #764ba2;
+}
+
+.team-selector select:focus {
+    outline: none;
+    border-color: #764ba2;
+    box-shadow: 0 0 0 3px rgba(118, 75, 162, 0.1);
+}
+
+/* Team Games Detail */
+
+.team-games {
+    background: #111827;
+    border-radius: 16px;
+    padding: 28px;
+    box-shadow: 0 12px 35px rgba(8, 11, 22, 0.55);
+    border: 1px solid rgba(59, 130, 246, 0.25);
+    color: #eaeffb;
+}
+
+.team-games h3 {
+    margin: 0 0 20px 0;
+    color: #f8fafc;
+    font-size: 1.45em;
+    letter-spacing: 0.01em;
+}
+
+.games-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+.games-note {
+    margin: 0 0 15px 0;
+    font-size: 0.9em;
+    color: #94a3b8;
+}
+
+.games-table thead {
+    background: linear-gradient(145deg, rgba(37, 99, 235, 0.45), rgba(79, 70, 229, 0.35));
+}
+
+.games-table th {
+    padding: 12px 10px;
+    text-align: left;
+    color: #f8fafc;
+    font-weight: 700;
+    border-bottom: 2px solid rgba(165, 180, 252, 0.35);
+    letter-spacing: 0.02em;
+}
+
+.games-table tbody tr {
+    border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+    transition: background 0.2s ease;
+    background: rgba(17, 24, 39, 0.85);
+}
+
+.games-table tbody tr:nth-child(even) {
+    background: rgba(15, 23, 42, 0.85);
+}
+
+.games-table tbody tr:hover {
+    background: rgba(59, 130, 246, 0.18);
+}
+
+.games-table td {
+    padding: 12px 10px;
+    color: #e2e8f0;
+    vertical-align: top;
+}
+
+.prediction-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: rgba(15, 23, 42, 0.6);
+    border-radius: 10px;
+    padding: 8px 12px;
+    border: 1px solid rgba(71, 85, 105, 0.4);
+    min-width: 180px;
+}
+
+.prediction-cell .source-label {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #93c5fd;
+    font-weight: 600;
+}
+
+.prediction-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.prediction-team {
+    font-weight: 600;
+    color: #e2e8f0;
+}
+
+.prediction-team.favorite {
+    color: #60a5fa;
+}
+
+.prediction-pct {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    color: #e0f2fe;
+}
+
+.prediction-gap {
+    font-size: 0.75em;
+    color: #94a3b8;
+}
+
+.prediction-cell .no-data {
+    font-size: 0.85em;
+    color: #94a3b8;
+}
+
+.result-cell {
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.result-cell.both-correct {
+    background: rgba(34, 197, 94, 0.2);
+    color: #4ade80;
+    border: 1px solid rgba(34, 197, 94, 0.35);
+}
+
+.result-cell.hoopsight-correct {
+    background: rgba(37, 99, 235, 0.18);
+    color: #60a5fa;
+    border: 1px solid rgba(37, 99, 235, 0.35);
+}
+
+.result-cell.espn-correct {
+    background: rgba(251, 191, 36, 0.18);
+    color: #fbbf24;
+    border: 1px solid rgba(251, 191, 36, 0.3);
+}
+
+.result-cell.both-wrong {
+    background: rgba(248, 113, 113, 0.18);
+    color: #f87171;
+    border: 1px solid rgba(248, 113, 113, 0.3);
+}
+
+.margin-cell {
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+}
+
+.margin-positive {
+    color: #4ade80;
+}
+
+.margin-negative {
+    color: #f87171;
+}
+
+.margin-neutral {
+    color: #cbd5f5;
+}
+
+.team-chart-container {
+    margin-top: 26px;
+    background: #0b1120;
+    border-radius: 14px;
+    padding: 18px 22px 10px;
+    border: 1px solid rgba(99, 102, 241, 0.25);
+    min-height: 260px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.team-chart-container h4 {
+    margin: 0 0 12px 0;
+    font-size: 1em;
+    color: #cbd5f5;
+}
+
+.team-chart-container canvas {
+    width: 100%;
+    height: 210px;
+    display: block;
+}
+
+/* No Data Message */
+.no-data {
+    background: white;
+    border-radius: 12px;
+    padding: 60px 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.no-data h2 {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.no-data p {
+    color: #999;
+    font-size: 1.1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stats-hero {
+        gap: 16px;
+    }
+    .hero-block,
+    .hero-badge {
+        flex: 1 1 100%;
+    }
+    
+    .analysis-table,
+    .games-table {
+        font-size: 0.85em;
+    }
+    
+    .analysis-table th,
+    .analysis-table td,
+    .games-table th,
+    .games-table td {
+        padding: 10px 8px;
+    }
+    
+    .team-logo-small {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .predictions-dashboard {
+        padding: 10px;
+    }
+    
+    .stats-card,
+    .team-analysis,
+    .team-selector,
+    .team-games {
+        padding: 18px;
+    }
+}

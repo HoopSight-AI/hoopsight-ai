@@ -3,14 +3,29 @@ import asyncio
 import csv
 import logging
 import json
-from nba_api.stats.static import players, teams
-from nba_api.stats.endpoints import leaguedashplayerstats, playerestimatedmetrics
-from bs4 import BeautifulSoup
-from dotenv import load_dotenv
 import os
-import pandas as pd
+import sys
 import time
 from datetime import datetime
+from pathlib import Path
+
+import importlib
+
+import pandas as pd
+from bs4 import BeautifulSoup
+from nba_api.stats.endpoints import leaguedashplayerstats, playerestimatedmetrics
+from nba_api.stats.static import players, teams
+from dotenv import load_dotenv
+
+MODELS_PATH = Path(__file__).resolve().parents[1] / "Models"
+if str(MODELS_PATH) not in sys.path:
+    sys.path.append(str(MODELS_PATH))
+
+CURRENT_SEASON = "2025-26"
+config_spec = importlib.util.find_spec("config")  # type: ignore[attr-defined]
+if config_spec:
+    config_module = importlib.import_module("config")
+    CURRENT_SEASON = getattr(config_module, "CURRENT_SEASON", CURRENT_SEASON)
 
 
 load_dotenv()
@@ -90,18 +105,19 @@ def calculate_base_player_scores():
     try:
         time.sleep(12)
         dashboard = leaguedashplayerstats.LeagueDashPlayerStats(
-            season='2024-25',
+            season=CURRENT_SEASON,
             per_mode_detailed='PerGame',
             measure_type_detailed_defense='Base',
             plus_minus='Y',
             rank='Y',
-            pace_adjust='Y'
+            pace_adjust='Y',
+            timeout = 60
         )
         base_stats_df = dashboard.get_data_frames()[0]
         
         time.sleep(10)
         offensive_stats = leaguedashplayerstats.LeagueDashPlayerStats(
-            season='2024-25',
+            season=CURRENT_SEASON,
             per_mode_detailed='PerGame',
             measure_type_detailed_defense='Advanced',
             pace_adjust='Y'
@@ -180,11 +196,11 @@ async def analyze_article_with_groq(article_title, current_nba_players):
          "reason": string
        }}
     
-    Only respond with valid JSON.
+    Only respond with valid JSON. No ```json or anything, just pure json without markdown tag. DO NOT ever type ``` in your response. 
     """
     
     payload = {
-        "model": "mixtral-8x7b-32768",
+        "model": "llama-3.3-70b-versatile",
         "messages": [
             {"role": "system", "content": prompt}
         ],

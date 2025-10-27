@@ -1,6 +1,9 @@
 <?php
 echo '<link rel="stylesheet" href="CSS/tableStyles.css">
+	 <link rel="stylesheet" href="CSS/injuryStyles.css">
 	 <script src="JS/PredictionMuscle.js"></script>'; // Link the relevant stylesheet
+
+require_once 'InjuryReport.php';
 
 /**
  * TeamManager Class
@@ -86,6 +89,11 @@ class PredictionTable
 	private $teamManager;
 
 	/**
+	 * @var InjuryReport Instance of InjuryReport.
+	 */
+	private $injuryReport;
+
+	/**
 	 * Constructor initializes the PredictionTable.
 	 *
 	 * @param TeamManager $teamManager An instance of TeamManager.
@@ -93,6 +101,7 @@ class PredictionTable
 	public function __construct(TeamManager $teamManager)
 	{
 		$this->teamManager = $teamManager;
+		$this->injuryReport = new InjuryReport();
 	}
 
 	/**
@@ -119,12 +128,14 @@ class PredictionTable
 
 		// Start table HTML
 		$tableHTML = "<div class='table-container'>";
-		$tableHTML .= "<h2>2024-25 NBA Season Predictions</h2>";
+		$tableHTML .= "<h2>2025-26 NBA Season Predictions</h2>";
+		$tableHTML .= "<p class='subtitle'>✨ Now with <strong>Injury-Aware Intelligence</strong> ⚕️</p>";
 		$tableHTML .= "<table>";
 		$tableHTML .= "<thead><tr>";
 		foreach ($header as $col) {
 			$tableHTML .= "<th>" . htmlspecialchars($col) . "</th>";
 		}
+		$tableHTML .= "<th>Injuries</th>"; // Add injury column
 		$tableHTML .= "</tr></thead><tbody>";
 
 		// Add rows with full team names
@@ -143,6 +154,11 @@ class PredictionTable
 				if ($i == 3) $row[$i] = substr($row[$i], 0, -2); // Cut off the last two digits since its always 00
 				$tableHTML .= "<td>" . htmlspecialchars($row[$i]) . "</td>";
 			}
+
+			// Add injury badge
+			$tableHTML .= "<td class='injury-cell'>" . 
+			              $this->injuryReport->getInjuryBadge($teamFullName) . 
+			              "</td>";
 
 			$tableHTML .= "</tr>";
 		}

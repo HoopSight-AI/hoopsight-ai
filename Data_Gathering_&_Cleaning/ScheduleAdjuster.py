@@ -1,8 +1,10 @@
 import csv
 import os
 
-input_file = '../nba_schedule_2024-25.csv'
-output_file = '../cleaned_schedule.csv'
+BASE_DIR = os.path.dirname(__file__)
+ROOT_DIR = os.path.abspath(os.path.join(BASE_DIR, os.pardir))
+input_file = os.path.join(ROOT_DIR, 'nba_schedule_2025-26.csv')
+output_file = os.path.join(ROOT_DIR, 'cleaned_schedule.csv')
 
 team_map = {
     'Atlanta Hawks': 'Atlanta',
@@ -37,13 +39,15 @@ team_map = {
     'Washington Wizards': 'Washington'
 }
 
-with open(input_file, 'r') as infile, open(output_file, 'w') as outfile:
+with open(input_file, 'r', newline='') as infile, open(output_file, 'w', newline='') as outfile:
     reader = csv.reader(infile)
     writer = csv.writer(outfile)
-    next(reader, None)
     for row in reader:
-        row[2] = team_map[row[2]]
-        row[3] = team_map[row[3]]
+        if len(row) < 4:
+            continue
+        # Fall back to the original name if we already have the desired short form.
+        row[2] = team_map.get(row[2], row[2])
+        row[3] = team_map.get(row[3], row[3])
         writer.writerow(row)
 
 os.replace(output_file, input_file)

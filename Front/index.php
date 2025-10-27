@@ -14,7 +14,10 @@ $predictionTable = new PredictionTable($teamManager); // Instantiate the Predict
 $dataFile = "CSVFiles/win_loss_records.csv"; // Define the data file path
 
 echo $predictionTable->generateTable($dataFile); // Generate and display the main prediction table
-echo $predictionTable->generatePredictionDropdown(); // Generate and display the prediction dropdown
+echo "<div class='dashboard-cta'>"
+    . "<p>Want game-by-game breakdowns and accuracy analytics?</p>"
+    . "<a class='cta-button' href='PredictionsPage.php'>Open the Predictions Dashboard</a>"
+    . "</div>";
 
 
 include_once "Content/HTMLfooter.php";

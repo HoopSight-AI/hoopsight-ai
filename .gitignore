@@ -1,4 +1,4 @@
-# Compiled class file
+﻿# Compiled class file
 *.class
 
 # Log file
@@ -31,3 +31,17 @@ myenv/
 
 .DS_Store
 .env
+*.env
+.env.*
+.env.local
+.env.production.local
+.env.development.local
+
+venv/
+frontend/.env
+frontend/.env.local
+frontend/.env.production.local
+frontend/.env.development.local
+
+# Prevent any env files from being committed
+Data_Gathering_&_Cleaning/.env

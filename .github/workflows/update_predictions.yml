@@ -1,15 +1,16 @@
-name: Update Predictions CSV
+name: Update Predictions Daily
 
 on:
   schedule:
-    - cron: "49 22 * * *" # 10:49 PM UTC
+    # Runs at 6:00 AM EST (11:00 AM UTC) - After games from previous night are finalized
+    - cron: "0 11 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  run-predictions:
+  update-predictions:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,28 +25,55 @@ jobs:
     - name: Install Python Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install scikit-learn numpy pandas aiohttp nba-api beautifulsoup4 python-dotenv 
+        pip install scikit-learn numpy pandas aiohttp nba-api beautifulsoup4 python-dotenv requests lxml
 
-    - name: Run Predictions
+    - name: Step 1 - Fetch Injury Data and Player Scores
       env: 
-        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }} 
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       run: |
-        cd Models
-        python RandomForest.py 
-        cd "../Data_Gathering_&_Cleaning"
+        echo "=== Fetching current injuries and player impact scores ==="
+        cd Data_Gathering_&_Cleaning
         python FetchInjuryAndExternalNews.py
+        cd ..
 
-    - name: Commit and Push CSV Updates
+    - name: Step 2 - Update Actual Results from Previous Games
+      run: |
+        echo "=== Updating actual game results for completed games ==="
+        cd Models
+        python update_prediction_results.py
+        cd ..
+
+    - name: Step 3 - Generate New Predictions (Next Day Only)
+      run: |
+        echo "=== Generating predictions for upcoming games ==="
+        cd Models
+        python RandomForest.py
+        cd ..
+
+    - name: Commit and Push Updates
       run: |
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         
+        # Add all updated files
+        git add Data_Gathering_&_Cleaning/injuries.csv || true
+        git add Data_Gathering_&_Cleaning/individual_player_scores.csv || true
+        git add Data_Gathering_&_Cleaning/team_player_scores.csv || true
+        git add Front/CSVFiles/prediction_results.csv || true
+        git add Front/CSVFiles/win_loss_records.csv || true
+        git add Front/CSVFiles/prediction_history.json || true
+        
         # Check if there are changes to commit
         if git diff-index --quiet HEAD --; then
-          echo "No changes to commit. Exiting."
+          echo "No changes to commit. Predictions are up to date."
           exit 0
         fi
         
-        git add Front/CSVFiles/prediction_results.csv Front/CSVFiles/win_loss_records.csv
-        git commit -m "Update predictions and win-loss records and Injury CSVs [automated]"
+        # Commit with descriptive message
+        COMMIT_DATE=$(date +'%Y-%m-%d %H:%M:%S UTC')
+        git commit -m "🤖 Daily Update: Predictions, Injuries & Results - $COMMIT_DATE" \
+                   -m "- Updated injury data from ESPN" \
+                   -m "- Refreshed player impact scores" \
+                   -m "- Generated next-day predictions" \
+                   -m "- Updated actual game results"
         git push

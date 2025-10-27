@@ -1,9 +1,10 @@
 import os
 import csv
 
-input_file = './nba_schedule_2024-25.csv'
-input_dir = os.path.dirname(input_file)
-output_dir = './Schedule'
+BASE_DIR = os.path.dirname(__file__)
+ROOT_DIR = os.path.abspath(os.path.join(BASE_DIR, os.pardir))
+input_file = os.path.join(ROOT_DIR, 'nba_schedule_2025-26.csv')
+output_dir = os.path.join(ROOT_DIR, 'Schedule')
 os.makedirs(output_dir, exist_ok=True)
 
 # match schedule .csv team names to project norm
@@ -46,30 +47,32 @@ for entry in team_name_formatter:
     team_folder = os.path.join(output_dir, f'{team_name}')
     os.makedirs(team_folder, exist_ok=True)
     csv_file_name = os.path.join(team_folder, f'{team_name}.csv')
-    with open(csv_file_name, 'w') as file:
+    with open(csv_file_name, 'w', newline='') as file:
         csv_writer = csv.writer(file)
         csv_writer.writerow(['Date', 'Start Time (ET)', 'Opponent', 'Location (Home/Away)', 'Arena', 'Notes'])
 
-with open(input_file, 'r') as schedule:
+with open(input_file, 'r', newline='') as schedule:
     csv_reader = csv.reader(schedule)
-    # skip the first line
-    next(csv_reader)
     for row in csv_reader:
+        if len(row) < 4:
+            continue
+        if row[0].strip().lower() == 'date':
+            continue
         # put the data values into easy-use variables
         date = row[0]
         time = row[1]
-        away_team = team_name_formatter[row[2]]
-        home_team = team_name_formatter[row[3]]
-        arena = row[4]
-        note = row[5]
+        away_team = team_name_formatter.get(row[2], row[2])
+        home_team = team_name_formatter.get(row[3], row[3])
+        arena = row[4] if len(row) > 4 else ''
+        note = row[5] if len(row) > 5 else ''
         home_team_folder = os.path.join(output_dir, home_team)
         home_team_csv = os.path.join(home_team_folder, f'{home_team}.csv')
-        with open(home_team_csv, 'a') as file:
+        with open(home_team_csv, 'a', newline='') as file:
             csv_writer = csv.writer(file)
             csv_writer.writerow([date, time, away_team, 'H', arena, note])
         away_team_folder = os.path.join(output_dir, away_team)
         away_team_csv = os.path.join(away_team_folder, f'{away_team}.csv')
-        with open(away_team_csv, 'a') as file:
+        with open(away_team_csv, 'a', newline='') as file:
             csv_writer = csv.writer(file)
             csv_writer.writerow([date, time, home_team, 'A', arena, note])
     

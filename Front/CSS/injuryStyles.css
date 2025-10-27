@@ -1,0 +1,162 @@
+/* Injury Report Styles */
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 1.1em;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.injury-report {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.injury-report h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.injury-report.healthy {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+}
+
+.injury-impact {
+    font-size: 1.2em;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.injury-table {
+    width: 100%;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.injury-table thead {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.injury-table th {
+    color: #333;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.injury-table td {
+    padding: 10px 12px;
+    color: #333;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.injury-table tr:last-child td {
+    border-bottom: none;
+}
+
+.injury-table tr:hover {
+    background: rgba(102, 126, 234, 0.1);
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-out {
+    background: #ff4444;
+    color: white;
+}
+
+.status-daytoday {
+    background: #ffaa00;
+    color: white;
+}
+
+.penalty {
+    color: #ff4444 !important;
+    font-weight: bold;
+}
+
+.injury-note {
+    font-size: 0.9em;
+    opacity: 0.9;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+/* Injury Badge in Main Table */
+.injury-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: help;
+}
+
+.injury-badge.healthy {
+    background: #38ef7d;
+    color: white;
+}
+
+.injury-badge.minor {
+    background: #ffaa00;
+    color: white;
+}
+
+.injury-badge.moderate {
+    background: #ff8800;
+    color: white;
+}
+
+.injury-badge.severe {
+    background: #ff4444;
+    color: white;
+}
+
+.injury-cell {
+    text-align: center;
+}
+
+.info-text {
+    text-align: center;
+    color: #666;
+    font-size: 0.95em;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .injury-report {
+        padding: 15px;
+    }
+    
+    .injury-table th,
+    .injury-table td {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+    
+    .injury-impact {
+        font-size: 1em;
+    }
+}

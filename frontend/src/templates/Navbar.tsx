@@ -34,6 +34,9 @@ export const Navbar = () => {
         )}
       >
         <li>
+          <Link href="/predictions">{t('predictions')}</Link>
+        </li>
+        <li>
           <Link href="/sign-up">{t('product')}</Link>
         </li>
 
