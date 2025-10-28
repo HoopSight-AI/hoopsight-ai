@@ -56,9 +56,9 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         
         # Add all updated files
-        git add Data_Gathering_&_Cleaning/injuries.csv || true
-        git add Data_Gathering_&_Cleaning/individual_player_scores.csv || true
-        git add Data_Gathering_&_Cleaning/team_player_scores.csv || true
+        git add "Data_Gathering_&_Cleaning"/injuries.csv || true
+        git add "Data_Gathering_&_Cleaning"/individual_player_scores.csv || true
+        git add "Data_Gathering_&_Cleaning"/team_player_scores.csv || true
         git add Front/CSVFiles/prediction_results.csv || true
         git add Front/CSVFiles/win_loss_records.csv || true
         git add Front/CSVFiles/prediction_history.json || true
