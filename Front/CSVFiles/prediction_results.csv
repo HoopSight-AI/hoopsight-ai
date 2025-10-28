@@ -1,161 +1,21 @@
-﻿Team,Date,Tipoff (ET),Opponent,Location,Team HSS (Adj),Opponent HSS (Adj),Team Win %,Opponent Win %,Predicted Winner,Expected Margin,Team ESPN Win %,Opponent ESPN Win %
-Atlanta,"Wed, Oct 22, 2025",11:00a,Toronto,H,29.30359,26.69876,60.10,39.90,Atlanta,4.04,N/A,N/A
-Atlanta,"Fri, Oct 24, 2025",11:00a,Orlando,A,26.55359,26.16424,52.28,47.72,Atlanta,0.91,N/A,N/A
-Atlanta,"Sat, Oct 25, 2025",11:00a,Oklahoma City,H,29.30359,26.08806,63.30,36.70,Atlanta,5.32,N/A,N/A
-Atlanta,"Mon, Oct 27, 2025",11:00a,Chicago,A,26.55359,26.22947,56.24,43.76,Atlanta,2.50,53.40,46.60
-Atlanta,"Wed, Oct 29, 2025",11:00a,Brooklyn,A,27.05359,25.83835,48.16,51.84,Brooklyn,0.73,70.80,29.20
-Atlanta,"Fri, Oct 31, 2025",11:00a,Indiana,A,27.05359,27.04388,50.13,49.87,Atlanta,0.05,56.80,43.20
-Boston,"Wed, Oct 22, 2025",11:00a,Philadelphia,H,29.84582,25.51518,64.87,35.13,Boston,5.95,N/A,N/A
-Boston,"Fri, Oct 24, 2025",11:00a,New York,A,27.09582,27.41135,48.57,51.43,New York,0.57,N/A,N/A
-Boston,"Sun, Oct 26, 2025",11:00a,Detroit,A,27.09582,26.53365,28.00,72.00,Detroit,8.80,N/A,N/A
-Boston,"Mon, Oct 27, 2025",11:00a,New Orleans,A,27.09582,24.96571,57.23,42.77,Boston,2.89,N/A,N/A
-Boston,"Wed, Oct 29, 2025",11:00a,Cleveland,H,29.84582,28.12806,54.12,45.88,Boston,1.65,39.40,60.60
-Boston,"Fri, Oct 31, 2025",11:00a,Philadelphia,A,27.09582,26.01518,36.44,63.56,Philadelphia,5.42,36.70,63.30
-Brooklyn,"Wed, Oct 22, 2025",11:00a,Charlotte,A,25.33835,25.62300,48.57,51.43,Charlotte,0.57,N/A,N/A
-Brooklyn,"Fri, Oct 24, 2025",11:00a,Cleveland,H,28.08835,27.87806,48.35,51.65,Cleveland,0.66,N/A,N/A
-Brooklyn,"Sun, Oct 26, 2025",11:00a,San Antonio,A,25.33835,24.98759,47.25,52.75,San Antonio,1.10,N/A,N/A
-Brooklyn,"Mon, Oct 27, 2025",11:00a,Houston,A,25.33835,27.22382,42.23,57.77,Houston,3.11,9.40,90.60
-Brooklyn,"Wed, Oct 29, 2025",11:00a,Atlanta,H,28.58835,27.05359,53.67,46.33,Brooklyn,1.47,29.20,70.80
-Charlotte,"Wed, Oct 22, 2025",11:00a,Brooklyn,H,28.37300,25.33835,64.52,35.48,Charlotte,5.81,N/A,N/A
-Charlotte,"Sat, Oct 25, 2025",11:00a,Philadelphia,A,25.62300,25.51518,51.39,48.61,Charlotte,0.55,N/A,N/A
-Charlotte,"Sun, Oct 26, 2025",11:00a,Washington,A,25.62300,24.98171,33.54,66.46,Washington,6.59,N/A,N/A
-Charlotte,"Tue, Oct 28, 2025",11:00a,Miami,A,25.62300,25.67100,50.13,49.87,Charlotte,0.05,30.50,69.50
-Charlotte,"Thu, Oct 30, 2025",11:00a,Orlando,H,28.37300,26.66424,54.12,45.88,Charlotte,1.65,37.20,62.80
-Chicago,"Wed, Oct 22, 2025",11:00a,Detroit,H,28.97947,26.53365,62.08,37.92,Chicago,4.83,N/A,N/A
-Chicago,"Sat, Oct 25, 2025",11:00a,Orlando,A,26.22947,26.16424,50.82,49.18,Chicago,0.33,N/A,N/A
-Chicago,"Mon, Oct 27, 2025",11:00a,Atlanta,H,28.97947,26.55359,62.08,37.92,Chicago,4.83,46.60,53.40
-Chicago,"Wed, Oct 29, 2025",11:00a,Sacramento,H,28.97947,27.05082,56.95,43.05,Chicago,2.78,59.30,40.70
-Chicago,"Fri, Oct 31, 2025",11:00a,New York,H,28.97947,27.66135,52.45,47.55,Chicago,0.98,N/A,N/A
-Cleveland,"Wed, Oct 22, 2025",11:00a,New York,A,27.87806,27.41135,46.43,53.57,New York,1.43,N/A,N/A
-Cleveland,"Fri, Oct 24, 2025",11:00a,Brooklyn,A,27.87806,25.33835,57.84,42.16,Cleveland,3.14,N/A,N/A
-Cleveland,"Sun, Oct 26, 2025",11:00a,Milwaukee,H,30.62806,26.84312,63.34,36.66,Cleveland,5.33,N/A,N/A
-Cleveland,"Mon, Oct 27, 2025",11:00a,Detroit,A,28.12806,26.78365,52.45,47.55,Cleveland,0.98,57.00,43.00
-Cleveland,"Wed, Oct 29, 2025",11:00a,Boston,A,28.12806,27.09582,61.37,38.63,Cleveland,4.55,60.60,39.40
-Cleveland,"Fri, Oct 31, 2025",11:00a,Toronto,H,30.87806,26.69876,61.34,38.66,Cleveland,4.54,72.50,27.50
-Dallas,"Wed, Oct 22, 2025",11:00a,San Antonio,H,29.53747,24.98759,67.56,32.44,Dallas,7.02,N/A,N/A
-Dallas,"Fri, Oct 24, 2025",11:00a,Washington,H,29.53747,24.98171,62.87,37.13,Dallas,5.15,N/A,N/A
-Dallas,"Sun, Oct 26, 2025",11:00a,Toronto,H,29.53747,26.69876,58.73,41.27,Dallas,3.49,49.40,50.60
-Dallas,"Mon, Oct 27, 2025",11:00a,Oklahoma City,H,29.78747,26.08806,61.77,38.23,Dallas,4.71,25.50,74.50
-Dallas,"Wed, Oct 29, 2025",11:00a,Indiana,H,30.28747,26.79388,60.78,39.22,Dallas,4.31,57.10,42.90
-Denver,"Thu, Oct 23, 2025",11:00a,Golden State,A,28.17012,26.43276,54.12,45.88,Denver,1.65,N/A,N/A
-Denver,"Sat, Oct 25, 2025",11:00a,Phoenix,H,30.92012,26.24135,64.62,35.38,Denver,5.85,N/A,N/A
-Denver,"Mon, Oct 27, 2025",11:00a,Minnesota,A,28.17012,26.60324,57.34,42.66,Denver,2.94,51.90,48.10
-Denver,"Wed, Oct 29, 2025",11:00a,New Orleans,H,30.92012,25.46571,70.35,29.65,Denver,8.14,N/A,N/A
-Denver,"Fri, Oct 31, 2025",11:00a,Portland,A,28.17012,25.78853,62.06,37.94,Denver,4.82,62.10,37.90
-Detroit,"Wed, Oct 22, 2025",11:00a,Chicago,A,26.53365,26.22947,52.31,47.69,Detroit,0.92,N/A,N/A
-Detroit,"Fri, Oct 24, 2025",11:00a,Houston,A,26.53365,27.22382,48.52,51.48,Houston,0.59,N/A,N/A
-Detroit,"Sun, Oct 26, 2025",11:00a,Boston,H,29.28365,27.09582,57.85,42.15,Detroit,3.14,N/A,N/A
-Detroit,"Mon, Oct 27, 2025",11:00a,Cleveland,H,29.53365,28.12806,49.23,50.77,Cleveland,0.31,43.00,57.00
-Detroit,"Wed, Oct 29, 2025",11:00a,Orlando,H,29.53365,26.66424,57.61,42.39,Detroit,3.04,52.50,47.50
-Golden State,"Tue, Oct 21, 2025",11:00a,LA Lakers,A,26.43276,26.70476,48.57,51.43,LA Lakers,0.57,N/A,N/A
-Golden State,"Thu, Oct 23, 2025",11:00a,Denver,H,29.18276,28.17012,59.59,40.41,Golden State,3.84,N/A,N/A
-Golden State,"Fri, Oct 24, 2025",11:00a,Portland,A,26.43276,25.53853,50.39,49.61,Golden State,0.16,N/A,N/A
-Golden State,"Mon, Oct 27, 2025",11:00a,Memphis,H,29.18276,27.49582,54.12,45.88,Golden State,1.65,N/A,N/A
-Golden State,"Tue, Oct 28, 2025",11:00a,LA Clippers,H,29.18276,26.78229,62.08,37.92,Golden State,4.83,N/A,N/A
-Golden State,"Thu, Oct 30, 2025",11:00a,Milwaukee,A,26.43276,27.09312,48.52,51.48,Milwaukee,0.59,N/A,N/A
-Houston,"Tue, Oct 21, 2025",11:00a,Oklahoma City,A,27.22382,26.08806,41.34,58.66,Oklahoma City,3.47,N/A,N/A
-Houston,"Fri, Oct 24, 2025",11:00a,Detroit,H,29.97382,26.53365,61.27,38.73,Houston,4.51,N/A,N/A
-Houston,"Mon, Oct 27, 2025",11:00a,Brooklyn,H,29.97382,25.33835,62.83,37.17,Houston,5.13,90.60,9.40
-Houston,"Wed, Oct 29, 2025",11:00a,Toronto,A,27.47382,26.69876,56.98,43.02,Houston,2.79,58.30,41.70
-Indiana,"Thu, Oct 23, 2025",11:00a,Oklahoma City,H,29.04388,26.08806,64.47,35.53,Indiana,5.79,N/A,N/A
-Indiana,"Sat, Oct 25, 2025",11:00a,Memphis,A,26.29388,27.49582,48.89,51.11,Memphis,0.45,N/A,N/A
-Indiana,"Sun, Oct 26, 2025",11:00a,Minnesota,A,26.29388,26.60324,48.57,51.43,Minnesota,0.57,25.50,74.50
-Indiana,"Wed, Oct 29, 2025",11:00a,Dallas,A,26.79388,27.53747,48.52,51.48,Dallas,0.59,42.90,57.10
-Indiana,"Fri, Oct 31, 2025",11:00a,Atlanta,H,29.79388,27.05359,58.56,41.44,Indiana,3.42,43.20,56.80
-LA Clippers,"Wed, Oct 22, 2025",11:00a,Utah,A,26.78229,25.98453,56.96,43.04,LA Clippers,2.78,N/A,N/A
-LA Clippers,"Fri, Oct 24, 2025",11:00a,Phoenix,H,29.53229,26.24135,61.12,38.88,LA Clippers,4.45,N/A,N/A
-LA Clippers,"Sun, Oct 26, 2025",11:00a,Portland,H,29.53229,25.53853,63.85,36.15,LA Clippers,5.54,69.60,30.40
-LA Clippers,"Tue, Oct 28, 2025",11:00a,Golden State,A,26.78229,26.43276,47.25,52.75,Golden State,1.10,N/A,N/A
-LA Clippers,"Fri, Oct 31, 2025",11:00a,New Orleans,H,29.78229,25.46571,64.87,35.13,LA Clippers,5.95,N/A,N/A
-LA Lakers,"Tue, Oct 21, 2025",11:00a,Golden State,H,29.45476,26.43276,64.52,35.48,LA Lakers,5.81,N/A,N/A
-LA Lakers,"Fri, Oct 24, 2025",11:00a,Minnesota,H,29.45476,26.60324,57.61,42.39,LA Lakers,3.04,N/A,N/A
-LA Lakers,"Sun, Oct 26, 2025",11:00a,Sacramento,A,26.70476,27.05082,48.57,51.43,Sacramento,0.57,35.80,64.20
-LA Lakers,"Mon, Oct 27, 2025",11:00a,Portland,H,29.45476,25.53853,60.70,39.30,LA Lakers,4.28,43.10,56.90
-LA Lakers,"Wed, Oct 29, 2025",11:00a,Minnesota,A,26.70476,26.60324,47.30,52.70,Minnesota,1.08,22.20,77.80
-LA Lakers,"Fri, Oct 31, 2025",11:00a,Memphis,A,26.70476,27.49582,44.26,55.74,Memphis,2.29,29.80,70.20
-Memphis,"Wed, Oct 22, 2025",11:00a,New Orleans,H,30.24582,24.96571,65.88,34.12,Memphis,6.35,N/A,N/A
-Memphis,"Fri, Oct 24, 2025",11:00a,Miami,H,30.24582,25.67100,62.87,37.13,Memphis,5.15,N/A,N/A
-Memphis,"Sat, Oct 25, 2025",11:00a,Indiana,H,30.24582,26.29388,63.85,36.15,Memphis,5.54,N/A,N/A
-Memphis,"Mon, Oct 27, 2025",11:00a,Golden State,A,27.49582,26.43276,43.99,56.01,Golden State,2.40,N/A,N/A
-Memphis,"Wed, Oct 29, 2025",11:00a,Phoenix,A,27.49582,26.74135,42.90,57.10,Phoenix,2.84,55.50,44.50
-Memphis,"Fri, Oct 31, 2025",11:00a,LA Lakers,H,30.24582,26.70476,60.79,39.21,Memphis,4.32,70.20,29.80
-Miami,"Wed, Oct 22, 2025",11:00a,Orlando,A,25.67100,26.16424,47.32,52.68,Orlando,1.07,N/A,N/A
-Miami,"Fri, Oct 24, 2025",11:00a,Memphis,A,25.67100,27.49582,45.05,54.95,Memphis,1.98,N/A,N/A
-Miami,"Sun, Oct 26, 2025",11:00a,New York,H,28.42100,27.41135,56.04,43.96,Miami,2.42,N/A,N/A
-Miami,"Tue, Oct 28, 2025",11:00a,Charlotte,H,28.42100,25.62300,58.74,41.26,Miami,3.50,69.50,30.50
-Miami,"Thu, Oct 30, 2025",11:00a,San Antonio,A,25.92100,25.73759,49.30,50.70,San Antonio,0.28,N/A,N/A
-Milwaukee,"Wed, Oct 22, 2025",11:00a,Washington,H,29.59312,24.98171,62.83,37.17,Milwaukee,5.13,N/A,N/A
-Milwaukee,"Fri, Oct 24, 2025",11:00a,Toronto,A,26.84312,26.69876,39.02,60.98,Toronto,4.39,N/A,N/A
-Milwaukee,"Sun, Oct 26, 2025",11:00a,Cleveland,A,26.84312,27.87806,46.43,53.57,Cleveland,1.43,N/A,N/A
-Milwaukee,"Tue, Oct 28, 2025",11:00a,New York,H,29.59312,27.41135,57.85,42.15,Milwaukee,3.14,N/A,N/A
-Milwaukee,"Thu, Oct 30, 2025",11:00a,Golden State,H,29.84312,26.43276,61.27,38.73,Milwaukee,4.51,N/A,N/A
-Minnesota,"Wed, Oct 22, 2025",11:00a,Portland,A,26.60324,25.53853,36.11,63.89,Portland,5.55,N/A,N/A
-Minnesota,"Fri, Oct 24, 2025",11:00a,LA Lakers,A,26.60324,26.70476,49.09,50.91,LA Lakers,0.36,N/A,N/A
-Minnesota,"Sun, Oct 26, 2025",11:00a,Indiana,H,29.35324,26.29388,60.61,39.39,Minnesota,4.24,74.50,25.50
-Minnesota,"Mon, Oct 27, 2025",11:00a,Denver,H,29.35324,28.17012,48.16,51.84,Denver,0.73,48.10,51.90
-Minnesota,"Wed, Oct 29, 2025",11:00a,LA Lakers,H,29.35324,26.70476,60.10,39.90,Minnesota,4.04,77.80,22.20
-New Orleans,"Wed, Oct 22, 2025",11:00a,Memphis,A,24.96571,27.49582,39.82,60.18,Memphis,4.07,N/A,N/A
-New Orleans,"Fri, Oct 24, 2025",11:00a,San Antonio,H,27.71571,24.98759,58.56,41.44,New Orleans,3.42,N/A,N/A
-New Orleans,"Mon, Oct 27, 2025",11:00a,Boston,H,27.71571,27.09582,53.90,46.10,New Orleans,1.56,N/A,N/A
-New Orleans,"Wed, Oct 29, 2025",11:00a,Denver,A,25.46571,28.17012,40.78,59.22,Denver,3.69,N/A,N/A
-New Orleans,"Fri, Oct 31, 2025",11:00a,LA Clippers,A,25.46571,27.03229,43.31,56.69,LA Clippers,2.67,N/A,N/A
-New York,"Wed, Oct 22, 2025",11:00a,Cleveland,H,30.16135,27.87806,58.28,41.72,New York,3.31,N/A,N/A
-New York,"Fri, Oct 24, 2025",11:00a,Boston,H,30.16135,27.09582,60.61,39.39,New York,4.24,N/A,N/A
-New York,"Sun, Oct 26, 2025",11:00a,Miami,A,27.41135,25.67100,54.12,45.88,New York,1.65,N/A,N/A
-New York,"Tue, Oct 28, 2025",11:00a,Milwaukee,A,27.41135,26.84312,64.49,35.51,New York,5.80,N/A,N/A
-New York,"Fri, Oct 31, 2025",11:00a,Chicago,A,27.66135,26.22947,49.23,50.77,Chicago,0.31,N/A,N/A
-Oklahoma City,"Tue, Oct 21, 2025",11:00a,Houston,H,28.83806,27.22382,57.34,42.66,Oklahoma City,2.94,N/A,N/A
-Oklahoma City,"Thu, Oct 23, 2025",11:00a,Indiana,A,26.08806,26.29388,50.01,49.99,Oklahoma City,0.00,N/A,N/A
-Oklahoma City,"Sat, Oct 25, 2025",11:00a,Atlanta,A,26.08806,26.55359,47.32,52.68,Atlanta,1.07,N/A,N/A
-Oklahoma City,"Mon, Oct 27, 2025",11:00a,Dallas,A,26.08806,27.03747,47.38,52.62,Dallas,1.05,74.50,25.50
-Oklahoma City,"Tue, Oct 28, 2025",11:00a,Sacramento,H,29.33806,27.05082,58.28,41.72,Oklahoma City,3.31,82.40,17.60
-Oklahoma City,"Thu, Oct 30, 2025",11:00a,Washington,H,29.33806,24.98171,63.35,36.65,Oklahoma City,5.34,N/A,N/A
-Orlando,"Wed, Oct 22, 2025",11:00a,Miami,H,28.91424,25.67100,63.30,36.70,Orlando,5.32,N/A,N/A
-Orlando,"Fri, Oct 24, 2025",11:00a,Atlanta,H,28.91424,26.55359,62.06,37.94,Orlando,4.82,N/A,N/A
-Orlando,"Sat, Oct 25, 2025",11:00a,Chicago,H,28.91424,26.22947,58.63,41.37,Orlando,3.45,N/A,N/A
-Orlando,"Mon, Oct 27, 2025",11:00a,Philadelphia,A,26.16424,25.51518,33.54,66.46,Philadelphia,6.59,55.60,44.40
-Orlando,"Wed, Oct 29, 2025",11:00a,Detroit,A,26.66424,26.78365,49.09,50.91,Detroit,0.36,47.50,52.50
-Orlando,"Thu, Oct 30, 2025",11:00a,Charlotte,A,26.66424,25.62300,39.81,60.19,Charlotte,4.08,62.80,37.20
-Philadelphia,"Wed, Oct 22, 2025",11:00a,Boston,A,25.51518,27.09582,43.31,56.69,Boston,2.67,N/A,N/A
-Philadelphia,"Sat, Oct 25, 2025",11:00a,Charlotte,H,28.26518,25.62300,60.10,39.90,Philadelphia,4.04,N/A,N/A
-Philadelphia,"Mon, Oct 27, 2025",11:00a,Orlando,H,28.26518,26.16424,57.23,42.77,Philadelphia,2.89,44.40,55.60
-Philadelphia,"Tue, Oct 28, 2025",11:00a,Washington,A,26.01518,24.98171,57.79,42.21,Philadelphia,3.12,N/A,N/A
-Philadelphia,"Fri, Oct 31, 2025",11:00a,Boston,H,28.76518,27.09582,54.12,45.88,Philadelphia,1.65,63.30,36.70
-Phoenix,"Wed, Oct 22, 2025",11:00a,Sacramento,H,28.99135,27.05082,56.95,43.05,Phoenix,2.78,N/A,N/A
-Phoenix,"Fri, Oct 24, 2025",11:00a,LA Clippers,A,26.24135,26.78229,47.32,52.68,LA Clippers,1.07,N/A,N/A
-Phoenix,"Sat, Oct 25, 2025",11:00a,Denver,A,26.24135,28.17012,42.36,57.64,Denver,3.06,N/A,N/A
-Phoenix,"Mon, Oct 27, 2025",11:00a,Utah,A,26.24135,25.98453,47.97,52.03,Utah,0.81,N/A,N/A
-Phoenix,"Wed, Oct 29, 2025",11:00a,Memphis,H,29.49135,27.49582,54.90,45.10,Phoenix,1.96,44.50,55.50
-Phoenix,"Fri, Oct 31, 2025",11:00a,Utah,H,29.49135,26.48453,64.52,35.48,Phoenix,5.81,N/A,N/A
-Portland,"Wed, Oct 22, 2025",11:00a,Minnesota,H,28.28853,26.60324,54.12,45.88,Portland,1.65,N/A,N/A
-Portland,"Fri, Oct 24, 2025",11:00a,Golden State,H,28.28853,26.43276,56.97,43.03,Portland,2.79,N/A,N/A
-Portland,"Sun, Oct 26, 2025",11:00a,LA Clippers,A,25.53853,26.78229,48.89,51.11,LA Clippers,0.45,30.40,69.60
-Portland,"Mon, Oct 27, 2025",11:00a,LA Lakers,A,25.53853,26.70476,48.90,51.10,LA Lakers,0.44,56.90,43.10
-Portland,"Wed, Oct 29, 2025",11:00a,Utah,A,25.78853,25.98453,50.07,49.93,Portland,0.03,N/A,N/A
-Portland,"Fri, Oct 31, 2025",11:00a,Denver,H,28.53853,28.17012,51.60,48.40,Portland,0.64,37.90,62.10
-Sacramento,"Wed, Oct 22, 2025",11:00a,Phoenix,A,27.05082,26.24135,55.59,44.41,Sacramento,2.24,N/A,N/A
-Sacramento,"Fri, Oct 24, 2025",11:00a,Utah,H,29.80082,25.98453,63.34,36.66,Sacramento,5.33,N/A,N/A
-Sacramento,"Sun, Oct 26, 2025",11:00a,LA Lakers,H,29.80082,26.70476,60.61,39.39,Sacramento,4.24,64.20,35.80
-Sacramento,"Tue, Oct 28, 2025",11:00a,Oklahoma City,A,27.05082,26.58806,53.80,46.20,Sacramento,1.52,17.60,82.40
-Sacramento,"Wed, Oct 29, 2025",11:00a,Chicago,A,27.05082,26.22947,68.79,31.21,Sacramento,7.52,40.70,59.30
-San Antonio,"Wed, Oct 22, 2025",11:00a,Dallas,A,24.98759,26.78747,45.12,54.88,Dallas,1.95,N/A,N/A
-San Antonio,"Fri, Oct 24, 2025",11:00a,New Orleans,A,24.98759,24.96571,26.98,73.02,New Orleans,9.21,N/A,N/A
-San Antonio,"Sun, Oct 26, 2025",11:00a,Brooklyn,H,27.73759,25.33835,62.06,37.94,San Antonio,4.82,N/A,N/A
-San Antonio,"Mon, Oct 27, 2025",11:00a,Toronto,H,27.73759,26.69876,43.56,56.44,Toronto,2.58,N/A,N/A
-San Antonio,"Thu, Oct 30, 2025",11:00a,Miami,H,28.48759,25.92100,60.10,39.90,San Antonio,4.04,N/A,N/A
-Toronto,"Wed, Oct 22, 2025",11:00a,Atlanta,A,26.69876,26.55359,41.88,58.12,Atlanta,3.25,N/A,N/A
-Toronto,"Fri, Oct 24, 2025",11:00a,Milwaukee,H,29.44876,26.84312,60.10,39.90,Toronto,4.04,N/A,N/A
-Toronto,"Sun, Oct 26, 2025",11:00a,Dallas,A,26.69876,26.78747,49.09,50.91,Dallas,0.36,50.60,49.40
-Toronto,"Mon, Oct 27, 2025",11:00a,San Antonio,A,26.69876,24.98759,54.12,45.88,Toronto,1.65,N/A,N/A
-Toronto,"Wed, Oct 29, 2025",11:00a,Houston,H,29.44876,27.47382,54.90,45.10,Toronto,1.96,41.70,58.30
-Toronto,"Fri, Oct 31, 2025",11:00a,Cleveland,A,26.69876,28.12806,44.11,55.89,Cleveland,2.36,27.50,72.50
-Utah,"Wed, Oct 22, 2025",11:00a,LA Clippers,H,28.73453,26.78229,54.90,45.10,Utah,1.96,N/A,N/A
-Utah,"Fri, Oct 24, 2025",11:00a,Sacramento,A,25.98453,27.05082,45.77,54.23,Sacramento,1.69,N/A,N/A
-Utah,"Mon, Oct 27, 2025",11:00a,Phoenix,H,28.73453,26.24135,57.84,42.16,Utah,3.14,N/A,N/A
-Utah,"Wed, Oct 29, 2025",11:00a,Portland,H,28.73453,25.78853,57.61,42.39,Utah,3.04,N/A,N/A
-Utah,"Fri, Oct 31, 2025",11:00a,Phoenix,A,26.48453,26.74135,48.57,51.43,Phoenix,0.57,N/A,N/A
-Washington,"Wed, Oct 22, 2025",11:00a,Milwaukee,A,24.98171,26.84312,42.23,57.77,Milwaukee,3.11,N/A,N/A
-Washington,"Fri, Oct 24, 2025",11:00a,Dallas,A,24.98171,26.78747,45.05,54.95,Dallas,1.98,N/A,N/A
-Washington,"Sun, Oct 26, 2025",11:00a,Charlotte,H,27.73171,25.62300,57.23,42.77,Washington,2.89,N/A,N/A
-Washington,"Tue, Oct 28, 2025",11:00a,Philadelphia,H,27.73171,26.01518,54.12,45.88,Washington,1.65,N/A,N/A
-Washington,"Thu, Oct 30, 2025",11:00a,Oklahoma City,A,24.98171,26.58806,43.31,56.69,Oklahoma City,2.67,N/A,N/A
+﻿Team,Date,Tipoff (ET),Opponent,Location,Team HSS (Adj),Opponent HSS (Adj),Team Win %,Opponent Win %,Predicted Winner,Projected Margin (pts),Confidence Gap %,Team ESPN Win %,Opponent ESPN Win %
+Minnesota,"Wed, Oct 29, 2025",11:00a,LA Lakers,H,12.27137,28.00776,17.62,82.38,LA Lakers,12.95,32.38,71.30,28.70
+Brooklyn,"Wed, Oct 29, 2025",11:00a,Atlanta,H,20.77451,25.87047,34.22,65.78,Atlanta,6.31,15.78,25.60,74.40
+Chicago,"Wed, Oct 29, 2025",11:00a,Sacramento,H,30.44829,25.66212,63.03,36.97,Chicago,5.21,13.03,60.60,39.40
+Orlando,"Wed, Oct 29, 2025",11:00a,Detroit,A,27.18829,25.99124,47.63,52.37,Detroit,0.95,2.37,45.20,54.80
+Sacramento,"Wed, Oct 29, 2025",11:00a,Chicago,A,25.66212,27.69829,46.61,53.39,Chicago,1.36,3.39,39.40,60.60
+Detroit,"Wed, Oct 29, 2025",11:00a,Orlando,H,28.74124,27.18829,57.35,42.65,Detroit,2.94,7.35,54.80,45.20
+Portland,"Wed, Oct 29, 2025",11:00a,Utah,A,14.71628,28.46835,17.62,82.38,Utah,12.95,32.38,56.60,43.40
+LA Lakers,"Wed, Oct 29, 2025",11:00a,Minnesota,A,28.00776,9.52137,72.56,27.44,LA Lakers,9.02,22.56,28.70,71.30
+Boston,"Wed, Oct 29, 2025",11:00a,Cleveland,H,29.00976,14.94740,65.65,34.35,Boston,6.26,15.65,41.30,58.70
+Denver,"Wed, Oct 29, 2025",11:00a,New Orleans,H,28.66969,12.27686,66.74,33.26,Denver,6.69,16.74,83.80,16.20
+Cleveland,"Wed, Oct 29, 2025",11:00a,Boston,A,14.94740,26.25976,27.94,72.06,Boston,8.82,22.06,58.70,41.30
+Utah,"Wed, Oct 29, 2025",11:00a,Portland,H,31.21835,14.71628,70.24,29.76,Utah,8.10,20.24,43.40,56.60
+Memphis,"Wed, Oct 29, 2025",11:00a,Phoenix,A,26.07924,18.81832,45.79,54.21,Phoenix,1.68,4.21,56.80,43.20
+Indiana,"Wed, Oct 29, 2025",11:00a,Dallas,A,21.37725,16.65412,64.76,35.24,Indiana,5.90,14.76,45.20,54.80
+Atlanta,"Wed, Oct 29, 2025",11:00a,Brooklyn,A,25.87047,18.02451,34.81,65.19,Brooklyn,6.08,15.19,74.40,25.60
+Phoenix,"Wed, Oct 29, 2025",11:00a,Memphis,H,21.56832,26.07924,29.60,70.40,Memphis,8.16,20.40,43.20,56.80
+New Orleans,"Wed, Oct 29, 2025",11:00a,Denver,A,12.27686,25.91969,17.62,82.38,Denver,12.95,32.38,16.20,83.80
+Toronto,"Wed, Oct 29, 2025",11:00a,Houston,H,26.73591,28.51335,44.86,55.14,Houston,2.06,5.14,37.20,62.80
+Houston,"Wed, Oct 29, 2025",11:00a,Toronto,A,28.51335,23.98591,67.43,32.57,Houston,6.97,17.43,62.80,37.20
+Dallas,"Wed, Oct 29, 2025",11:00a,Indiana,H,19.40412,21.37725,46.50,53.50,Indiana,1.40,3.50,54.80,45.20
