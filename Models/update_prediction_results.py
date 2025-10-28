@@ -1,6 +1,7 @@
 from datetime import date, datetime, timedelta
 from typing import Dict, Iterable, Optional, Sequence
 
+import requests
 from nba_api.stats.endpoints import scoreboardv2
 
 from config import CURRENT_SEASON
@@ -72,6 +73,170 @@ def _build_game_lookup(
     return lookup
 
 
+def _safe_parse_int(value: object) -> Optional[int]:
+    if value is None:
+        return None
+    if isinstance(value, (int, float)):
+        return int(value)
+    if isinstance(value, str):
+        stripped = value.strip()
+        if not stripped:
+            return None
+        try:
+            return int(float(stripped))
+        except ValueError:
+            return None
+    return None
+
+
+def _fetch_espn_scoreboard(game_date: date) -> Optional[Dict[str, Dict[str, object]]]:
+    """Fetch scoreboard data from ESPN's public scoreboard API."""
+
+    params = {"dates": game_date.strftime("%Y%m%d")}
+    headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; HoopSightBot/1.0)",
+        "Accept": "application/json",
+        "Referer": "https://www.espn.com/",
+    }
+
+    try:
+        response = requests.get(
+            "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
+            params=params,
+            headers=headers,
+            timeout=15,
+        )
+        response.raise_for_status()
+        payload = response.json()
+    except Exception as exc:  # pylint: disable=broad-except
+        print(f"Unable to fetch ESPN scoreboard for {params['dates']}: {exc}")
+        return None
+
+    events = payload.get("events", [])
+    if not events:
+        return {}
+
+    lookup: Dict[str, Dict[str, object]] = {}
+    for event in events:
+        competitions = event.get("competitions") or []
+        if not competitions:
+            continue
+        competition = competitions[0]
+        game_id = competition.get("id") or event.get("id") or f"espn-{len(lookup)}"
+
+        status = competition.get("status", {}).get("type", {})
+        status_text = (
+            status.get("shortDetail")
+            or status.get("detail")
+            or status.get("description")
+            or status.get("name", "")
+        )
+
+        home_entry = None
+        away_entry = None
+        for competitor in competition.get("competitors", []):
+            team_info = competitor.get("team") or {}
+            entry = {
+                "abbr": team_info.get("abbreviation"),
+                "pts": _safe_parse_int(competitor.get("score")),
+                "team_id": _safe_parse_int(team_info.get("id")),
+            }
+            home_away = (competitor.get("homeAway") or "").lower()
+            if home_away == "home":
+                home_entry = entry
+            elif home_away == "away":
+                away_entry = entry
+
+        lookup[game_id] = {
+            "status": status_text,
+            "home_team_id": home_entry.get("team_id") if home_entry else None,
+            "away_team_id": away_entry.get("team_id") if away_entry else None,
+            "home": home_entry,
+            "away": away_entry,
+        }
+
+    return lookup
+
+
+def _fetch_cdn_scoreboard(game_date: date) -> Optional[Dict[str, Dict[str, object]]]:
+    """Fetch scoreboard data from the public NBA CDN."""
+
+    ymd = game_date.strftime("%Y%m%d")
+    url = f"https://cdn.nba.com/static/json/liveData/scoreboard/scoreboard_{ymd}.json"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; HoopSightBot/1.0)",
+        "Accept": "application/json",
+    }
+
+    try:
+        response = requests.get(url, headers=headers, timeout=15)
+        response.raise_for_status()
+        payload = response.json()
+    except Exception as exc:  # pylint: disable=broad-except
+        print(f"Unable to fetch CDN scoreboard for {ymd}: {exc}")
+        return None
+
+    games = payload.get("scoreboard", {}).get("games", [])
+    if not games:
+        return {}
+
+    lookup: Dict[str, Dict[str, object]] = {}
+    for game in games:
+        game_id = game.get("gameId")
+        if not game_id:
+            continue
+
+        home = game.get("homeTeam", {})
+        away = game.get("awayTeam", {})
+
+        home_team_id = _safe_parse_int(home.get("teamId"))
+        away_team_id = _safe_parse_int(away.get("teamId"))
+
+        lookup[game_id] = {
+            "status": game.get("gameStatusText", ""),
+            "home_team_id": home_team_id,
+            "away_team_id": away_team_id,
+            "home": {
+                "abbr": home.get("teamTricode") or home.get("triCode"),
+                "pts": _safe_parse_int(home.get("score")),
+                "team_id": home_team_id,
+            },
+            "away": {
+                "abbr": away.get("teamTricode") or away.get("triCode"),
+                "pts": _safe_parse_int(away.get("score")),
+                "team_id": away_team_id,
+            },
+        }
+
+    return lookup
+
+
+def _fetch_scoreboard_lookup(game_date: date) -> Dict[str, Dict[str, object]]:
+    """Fetch scoreboard data with fallback mechanisms."""
+
+    espn_lookup = _fetch_espn_scoreboard(game_date)
+    if espn_lookup is not None:
+        if espn_lookup:
+            return espn_lookup
+
+    cdn_lookup = _fetch_cdn_scoreboard(game_date)
+    if cdn_lookup is not None:
+        if cdn_lookup:
+            return cdn_lookup
+
+    formatted_date = game_date.strftime("%m/%d/%Y")
+    try:
+        scoreboard = scoreboardv2.ScoreboardV2(game_date=formatted_date, league_id="00")
+    except Exception as exc:  # pylint: disable=broad-except
+        print(f"Unable to fetch NBA Stats scoreboard for {formatted_date}: {exc}")
+        return {}
+
+    normalized = scoreboard.get_normalized_dict()
+    line_scores = normalized.get("LineScore", [])
+    game_headers = normalized.get("GameHeader", [])
+    return _build_game_lookup(game_headers, line_scores)
+
+
 def _ensure_date_string(value: str) -> str:
     if "/" in value:
         # Already mm/dd/yyyy
@@ -101,17 +266,9 @@ def update_recent_results(days_back: int = 5, days_forward: int = 1) -> None:
         targets.setdefault(record_date, []).append(record)
 
     for game_date, records in sorted(targets.items()):
-        formatted_date = game_date.strftime("%m/%d/%Y")
-        try:
-            scoreboard = scoreboardv2.ScoreboardV2(game_date=formatted_date, league_id="00")
-        except Exception as exc:  # pylint: disable=broad-except
-            print(f"Unable to fetch scoreboard for {formatted_date}: {exc}")
+        lookup = _fetch_scoreboard_lookup(game_date)
+        if not lookup:
             continue
-
-        normalized = scoreboard.get_normalized_dict()
-        line_scores = normalized.get("LineScore", [])
-        game_headers = normalized.get("GameHeader", [])
-        lookup = _build_game_lookup(game_headers, line_scores)
 
         for record in records:
             match = None

@@ -501,6 +501,15 @@ class PredictionsDashboard
             $rowsHtml .= "</tr>";
         }
 
+        $maxChartPoints = 30;
+        if (count($chartLabels) > $maxChartPoints) {
+            $offset = count($chartLabels) - $maxChartPoints;
+            $chartLabels = array_slice($chartLabels, $offset);
+            $chartHoopsightEdge = array_slice($chartHoopsightEdge, $offset);
+            $chartEspnEdge = array_slice($chartEspnEdge, $offset);
+            $chartActualMargin = array_slice($chartActualMargin, $offset);
+        }
+
         $seriesHasData = false;
         foreach ([$chartHoopsightEdge, $chartEspnEdge, $chartActualMargin] as $series) {
             if (count(array_filter($series, static function ($value) { return $value !== null; })) > 0) {
