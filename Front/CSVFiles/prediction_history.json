@@ -22,7 +22,7 @@
     "confidence_gap_pct": 5.145,
     "confidence_bucket": "Low",
     "expected_margin": 2.06,
-    "generated_at": "2025-10-28T06:52:20+0000",
+    "generated_at": "2025-10-28T06:56:38+0000",
     "model_version": "rf-1.1.0",
     "actual_home_score": null,
     "actual_away_score": null,
@@ -41,8 +41,8 @@
     "espn_confidence_gap": 12.8,
     "espn_model_delta_pct": -7.655,
     "espn_alignment": "Agree",
-    "espn_last_checked": "2025-10-28T06:52:20+0000",
-    "last_updated": "2025-10-28T06:52:20+0000"
+    "espn_last_checked": "2025-10-28T06:56:38+0000",
+    "last_updated": "2025-10-28T06:56:38+0000"
   },
   {
     "season": "2025-26",
@@ -67,7 +67,7 @@
     "confidence_gap_pct": 15.653,
     "confidence_bucket": "Medium",
     "expected_margin": 6.26,
-    "generated_at": "2025-10-28T06:52:18+0000",
+    "generated_at": "2025-10-28T06:56:36+0000",
     "model_version": "rf-1.1.0",
     "actual_home_score": null,
     "actual_away_score": null,
@@ -86,8 +86,8 @@
     "espn_confidence_gap": 8.7,
     "espn_model_delta_pct": 24.353,
     "espn_alignment": "Disagree",
-    "espn_last_checked": "2025-10-28T06:52:18+0000",
-    "last_updated": "2025-10-28T06:52:18+0000"
+    "espn_last_checked": "2025-10-28T06:56:36+0000",
+    "last_updated": "2025-10-28T06:56:36+0000"
   },
   {
     "season": "2025-26",
@@ -112,7 +112,7 @@
     "confidence_gap_pct": 7.351,
     "confidence_bucket": "Low",
     "expected_margin": 2.94,
-    "generated_at": "2025-10-28T06:52:17+0000",
+    "generated_at": "2025-10-28T06:56:35+0000",
     "model_version": "rf-1.1.0",
     "actual_home_score": null,
     "actual_away_score": null,
@@ -131,8 +131,8 @@
     "espn_confidence_gap": 4.8,
     "espn_model_delta_pct": 2.551,
     "espn_alignment": "Agree",
-    "espn_last_checked": "2025-10-28T06:52:17+0000",
-    "last_updated": "2025-10-28T06:52:17+0000"
+    "espn_last_checked": "2025-10-28T06:56:35+0000",
+    "last_updated": "2025-10-28T06:56:35+0000"
   },
   {
     "season": "2025-26",
@@ -157,7 +157,7 @@
     "confidence_gap_pct": 15.783,
     "confidence_bucket": "Medium",
     "expected_margin": 6.31,
-    "generated_at": "2025-10-28T06:52:16+0000",
+    "generated_at": "2025-10-28T06:56:34+0000",
     "model_version": "rf-1.1.0",
     "actual_home_score": null,
     "actual_away_score": null,
@@ -176,8 +176,8 @@
     "espn_confidence_gap": 24.4,
     "espn_model_delta_pct": -8.617,
     "espn_alignment": "Agree",
-    "espn_last_checked": "2025-10-28T06:52:16+0000",
-    "last_updated": "2025-10-28T06:52:16+0000"
+    "espn_last_checked": "2025-10-28T06:56:34+0000",
+    "last_updated": "2025-10-28T06:56:34+0000"
   },
   {
     "season": "2025-26",
@@ -202,7 +202,7 @@
     "confidence_gap_pct": 13.035,
     "confidence_bucket": "Medium",
     "expected_margin": 5.21,
-    "generated_at": "2025-10-28T06:52:17+0000",
+    "generated_at": "2025-10-28T06:56:35+0000",
     "model_version": "rf-1.1.0",
     "actual_home_score": null,
     "actual_away_score": null,
@@ -221,8 +221,8 @@
     "espn_confidence_gap": 10.6,
     "espn_model_delta_pct": 2.435,
     "espn_alignment": "Agree",
-    "espn_last_checked": "2025-10-28T06:52:17+0000",
-    "last_updated": "2025-10-28T06:52:17+0000"
+    "espn_last_checked": "2025-10-28T06:56:35+0000",
+    "last_updated": "2025-10-28T06:56:35+0000"
   },
   {
     "season": "2025-26",
@@ -247,7 +247,7 @@
     "confidence_gap_pct": 3.501,
     "confidence_bucket": "Low",
     "expected_margin": 1.4,
-    "generated_at": "2025-10-28T06:52:20+0000",
+    "generated_at": "2025-10-28T06:56:38+0000",
     "model_version": "rf-1.1.0",
     "actual_home_score": null,
     "actual_away_score": null,
@@ -266,8 +266,8 @@
     "espn_confidence_gap": 4.8,
     "espn_model_delta_pct": 8.301,
     "espn_alignment": "Disagree",
-    "espn_last_checked": "2025-10-28T06:52:20+0000",
-    "last_updated": "2025-10-28T06:52:20+0000"
+    "espn_last_checked": "2025-10-28T06:56:38+0000",
+    "last_updated": "2025-10-28T06:56:38+0000"
   },
   {
     "season": "2025-26",
@@ -292,7 +292,7 @@
     "confidence_gap_pct": 16.735,
     "confidence_bucket": "Medium",
     "expected_margin": 6.69,
-    "generated_at": "2025-10-28T06:52:18+0000",
+    "generated_at": "2025-10-28T06:56:36+0000",
     "model_version": "rf-1.1.0",
     "actual_home_score": null,
     "actual_away_score": null,
@@ -311,8 +311,8 @@
     "espn_confidence_gap": 33.8,
     "espn_model_delta_pct": -17.065,
     "espn_alignment": "Agree",
-    "espn_last_checked": "2025-10-28T06:52:18+0000",
-    "last_updated": "2025-10-28T06:52:18+0000"
+    "espn_last_checked": "2025-10-28T06:56:36+0000",
+    "last_updated": "2025-10-28T06:56:36+0000"
   },
   {
     "season": "2025-26",
@@ -337,7 +337,7 @@
     "confidence_gap_pct": 20.24,
     "confidence_bucket": "High",
     "expected_margin": 8.1,
-    "generated_at": "2025-10-28T06:52:18+0000",
+    "generated_at": "2025-10-28T06:56:36+0000",
     "model_version": "rf-1.1.0",
     "actual_home_score": null,
     "actual_away_score": null,
@@ -356,8 +356,8 @@
     "espn_confidence_gap": 6.6,
     "espn_model_delta_pct": 26.84,
     "espn_alignment": "Disagree",
-    "espn_last_checked": "2025-10-28T06:52:18+0000",
-    "last_updated": "2025-10-28T06:52:18+0000"
+    "espn_last_checked": "2025-10-28T06:56:36+0000",
+    "last_updated": "2025-10-28T06:56:36+0000"
   },
   {
     "season": "2025-26",
@@ -382,7 +382,7 @@
     "confidence_gap_pct": 32.376,
     "confidence_bucket": "High",
     "expected_margin": 12.95,
-    "generated_at": "2025-10-28T06:52:16+0000",
+    "generated_at": "2025-10-28T06:56:34+0000",
     "model_version": "rf-1.1.0",
     "actual_home_score": null,
     "actual_away_score": null,
@@ -401,8 +401,8 @@
     "espn_confidence_gap": 21.3,
     "espn_model_delta_pct": 53.676,
     "espn_alignment": "Disagree",
-    "espn_last_checked": "2025-10-28T06:52:16+0000",
-    "last_updated": "2025-10-28T06:52:16+0000"
+    "espn_last_checked": "2025-10-28T06:56:34+0000",
+    "last_updated": "2025-10-28T06:56:34+0000"
   },
   {
     "season": "2025-26",
@@ -427,7 +427,7 @@
     "confidence_gap_pct": 20.397,
     "confidence_bucket": "High",
     "expected_margin": 8.16,
-    "generated_at": "2025-10-28T06:52:19+0000",
+    "generated_at": "2025-10-28T06:56:37+0000",
     "model_version": "rf-1.1.0",
     "actual_home_score": null,
     "actual_away_score": null,
@@ -446,8 +446,8 @@
     "espn_confidence_gap": 6.8,
     "espn_model_delta_pct": 13.597,
     "espn_alignment": "Agree",
-    "espn_last_checked": "2025-10-28T06:52:19+0000",
-    "last_updated": "2025-10-28T06:52:19+0000"
+    "espn_last_checked": "2025-10-28T06:56:37+0000",
+    "last_updated": "2025-10-28T06:56:37+0000"
   },
   {
     "season": "2025-26",
