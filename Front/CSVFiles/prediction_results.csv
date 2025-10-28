@@ -1,21 +1,21 @@
 ﻿Team,Date,Tipoff (ET),Opponent,Location,Team HSS (Adj),Opponent HSS (Adj),Team Win %,Opponent Win %,Predicted Winner,Projected Margin (pts),Confidence Gap %,Team ESPN Win %,Opponent ESPN Win %
-Minnesota,"Wed, Oct 29, 2025",11:00a,LA Lakers,H,12.27137,28.00776,17.62,82.38,LA Lakers,12.95,32.38,71.30,28.70
-Brooklyn,"Wed, Oct 29, 2025",11:00a,Atlanta,H,20.77451,25.87047,34.22,65.78,Atlanta,6.31,15.78,25.60,74.40
-Chicago,"Wed, Oct 29, 2025",11:00a,Sacramento,H,30.44829,25.66212,63.03,36.97,Chicago,5.21,13.03,60.60,39.40
-Orlando,"Wed, Oct 29, 2025",11:00a,Detroit,A,27.18829,25.99124,47.63,52.37,Detroit,0.95,2.37,45.20,54.80
-Sacramento,"Wed, Oct 29, 2025",11:00a,Chicago,A,25.66212,27.69829,46.61,53.39,Chicago,1.36,3.39,39.40,60.60
-Detroit,"Wed, Oct 29, 2025",11:00a,Orlando,H,28.74124,27.18829,57.35,42.65,Detroit,2.94,7.35,54.80,45.20
-Portland,"Wed, Oct 29, 2025",11:00a,Utah,A,14.71628,28.46835,17.62,82.38,Utah,12.95,32.38,56.60,43.40
-LA Lakers,"Wed, Oct 29, 2025",11:00a,Minnesota,A,28.00776,9.52137,72.56,27.44,LA Lakers,9.02,22.56,28.70,71.30
-Boston,"Wed, Oct 29, 2025",11:00a,Cleveland,H,29.00976,14.94740,65.65,34.35,Boston,6.26,15.65,41.30,58.70
-Denver,"Wed, Oct 29, 2025",11:00a,New Orleans,H,28.66969,12.27686,66.74,33.26,Denver,6.69,16.74,83.80,16.20
-Cleveland,"Wed, Oct 29, 2025",11:00a,Boston,A,14.94740,26.25976,27.94,72.06,Boston,8.82,22.06,58.70,41.30
-Utah,"Wed, Oct 29, 2025",11:00a,Portland,H,31.21835,14.71628,70.24,29.76,Utah,8.10,20.24,43.40,56.60
-Memphis,"Wed, Oct 29, 2025",11:00a,Phoenix,A,26.07924,18.81832,45.79,54.21,Phoenix,1.68,4.21,56.80,43.20
-Indiana,"Wed, Oct 29, 2025",11:00a,Dallas,A,21.37725,16.65412,64.76,35.24,Indiana,5.90,14.76,45.20,54.80
-Atlanta,"Wed, Oct 29, 2025",11:00a,Brooklyn,A,25.87047,18.02451,34.81,65.19,Brooklyn,6.08,15.19,74.40,25.60
-Phoenix,"Wed, Oct 29, 2025",11:00a,Memphis,H,21.56832,26.07924,29.60,70.40,Memphis,8.16,20.40,43.20,56.80
-New Orleans,"Wed, Oct 29, 2025",11:00a,Denver,A,12.27686,25.91969,17.62,82.38,Denver,12.95,32.38,16.20,83.80
-Toronto,"Wed, Oct 29, 2025",11:00a,Houston,H,26.73591,28.51335,44.86,55.14,Houston,2.06,5.14,37.20,62.80
-Houston,"Wed, Oct 29, 2025",11:00a,Toronto,A,28.51335,23.98591,67.43,32.57,Houston,6.97,17.43,62.80,37.20
-Dallas,"Wed, Oct 29, 2025",11:00a,Indiana,H,19.40412,21.37725,46.50,53.50,Indiana,1.40,3.50,54.80,45.20
+Minnesota,"Wed, Oct 29, 2025",11:00a,LA Lakers,H,12.27137,28.00776,17.62,82.38,LA Lakers,12.95,32.38,72.40,27.60
+Brooklyn,"Wed, Oct 29, 2025",11:00a,Atlanta,H,20.77451,25.87047,34.22,65.78,Atlanta,6.31,15.78,26.50,73.50
+Chicago,"Wed, Oct 29, 2025",11:00a,Sacramento,H,30.44829,25.66212,63.03,36.97,Chicago,5.21,13.03,62.00,38.00
+Orlando,"Wed, Oct 29, 2025",11:00a,Detroit,A,27.18829,25.99124,47.63,52.37,Detroit,0.95,2.37,45.80,54.20
+Sacramento,"Wed, Oct 29, 2025",11:00a,Chicago,A,25.66212,27.69829,46.61,53.39,Chicago,1.36,3.39,38.00,62.00
+Detroit,"Wed, Oct 29, 2025",11:00a,Orlando,H,28.74124,27.18829,57.35,42.65,Detroit,2.94,7.35,54.20,45.80
+Portland,"Wed, Oct 29, 2025",11:00a,Utah,A,14.71628,28.46835,17.62,82.38,Utah,12.95,32.38,57.60,42.40
+LA Lakers,"Wed, Oct 29, 2025",11:00a,Minnesota,A,28.00776,9.52137,72.56,27.44,LA Lakers,9.02,22.56,27.60,72.40
+Boston,"Wed, Oct 29, 2025",11:00a,Cleveland,H,29.00976,14.94740,65.65,34.35,Boston,6.26,15.65,40.80,59.20
+Denver,"Wed, Oct 29, 2025",11:00a,New Orleans,H,28.66969,12.27686,66.74,33.26,Denver,6.69,16.74,84.70,15.30
+Cleveland,"Wed, Oct 29, 2025",11:00a,Boston,A,14.94740,26.25976,27.94,72.06,Boston,8.82,22.06,59.20,40.80
+Utah,"Wed, Oct 29, 2025",11:00a,Portland,H,31.21835,14.71628,70.24,29.76,Utah,8.10,20.24,42.40,57.60
+Memphis,"Wed, Oct 29, 2025",11:00a,Phoenix,A,26.07924,18.81832,45.79,54.21,Phoenix,1.68,4.21,55.50,44.50
+Indiana,"Wed, Oct 29, 2025",11:00a,Dallas,A,21.37725,16.65412,64.76,35.24,Indiana,5.90,14.76,43.80,56.20
+Atlanta,"Wed, Oct 29, 2025",11:00a,Brooklyn,A,25.87047,18.02451,34.81,65.19,Brooklyn,6.08,15.19,73.50,26.50
+Phoenix,"Wed, Oct 29, 2025",11:00a,Memphis,H,21.56832,26.07924,29.60,70.40,Memphis,8.16,20.40,44.50,55.50
+New Orleans,"Wed, Oct 29, 2025",11:00a,Denver,A,12.27686,25.91969,17.62,82.38,Denver,12.95,32.38,15.30,84.70
+Toronto,"Wed, Oct 29, 2025",11:00a,Houston,H,26.73591,28.51335,44.86,55.14,Houston,2.06,5.14,37.50,62.50
+Houston,"Wed, Oct 29, 2025",11:00a,Toronto,A,28.51335,23.98591,67.43,32.57,Houston,6.97,17.43,62.50,37.50
+Dallas,"Wed, Oct 29, 2025",11:00a,Indiana,H,19.40412,21.37725,46.50,53.50,Indiana,1.40,3.50,56.20,43.80
