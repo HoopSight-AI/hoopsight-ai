@@ -1,8 +1,7 @@
 team,player,position,estimated_return_date,status,comment
 Atlanta Hawks,N'Faly Dante,C,Nov 26,Out,Nov 23: The Hawks recalled Dante (knee) from the G League's College Park Skyhawks on Sunday.
-Atlanta Hawks,Eli John N'Diaye,C,Nov 26,Out,Nov 21: Ndiaye (coach's decision) has been ruled out for Saturday's game against the Thunder.
 Atlanta Hawks,Trae Young,G,Nov 30,Out,"Nov 1: Young (knee) will be re-evaluated in four weeks, ESPN's Shams Charania reports."
-Boston Celtics,Neemias Queta,C,Nov 29,Out,"Nov 25: Queta (ankle) won't play in Wednesday's game against the Pistons, Justin Turpin of WEEI.com reports."
+Boston Celtics,Neemias Queta,C,Nov 29,Day-To-Day,"Nov 26: Queta (ankle) won't play in Wednesday's game against the Pistons, Justin Turpin of WEEI.com reports."
 Boston Celtics,Jayson Tatum,F,Apr 1,Out,"Oct 9: The Celtics have not ruled Tatum (Achilles) out for the 2025-26 season, ESPN's Shams Charania reported on the Pat McAfee Show on Thursday."
 Brooklyn Nets,Ben Saraf,G,Nov 28,Out,"Nov 18: Brooklyn recalled Saraf from the G League's Long Island Nets on Monday after the team announced that he will be sidelined at least 10 days with a left ankle injury, Meghan Triplett of YES Network reports."
 Brooklyn Nets,Cam Thomas,G,Dec 18,Out,"Nov 7: Thomas has been diagnosed with a left hamstring strain and he will be re-evaluated in 3-4 weeks, Marc J. Spears of ESPN.com reports."
@@ -24,8 +23,8 @@ Cleveland Cavaliers,Sam Merrill,G,Nov 28,Out,Nov 24: Merrill (hand) is out for M
 Cleveland Cavaliers,Jarrett Allen,C,Nov 28,Out,Nov 24: Allen (finger) will miss Monday's game against the Raptors.
 Cleveland Cavaliers,Chris Livingston,F,Nov 28,Day-To-Day,"Nov 23: Livingston agreed to a two-way contract with the Cavaliers on Friday, Shams Charania of ESPN reports."
 Cleveland Cavaliers,Max Strus,G,Dec 1,Out,"Sep 30: Strus (foot) is no longer wearing a walking boot on Tuesday, but still has a lengthy recovery process ahead, Chris Fedor of The Cleveland Plain Dealer reports."
+Dallas Mavericks,Anthony Davis,F,Nov 28,Out,"Nov 26: Davis (calf) will be listed as questionable for Friday's game against the Lakers, according to NBA reporter Marc Stein."
 Dallas Mavericks,Dereck Lively II,C,Dec 3,Out,"Nov 25: Lively (foot) will miss the next three games and will be re-evaluated in seven-to-ten days, the Mavericks announced Tuesday."
-Dallas Mavericks,Anthony Davis,F,Nov 28,Out,"Nov 25: Davis (calf) is scheduled to practice on Wednesday, according to NBA reporter Marc Stein."
 Dallas Mavericks,Dante Exum,G,Oct 1,Out,Nov 20: The Mavericks announced Thursday that Exum will undergo season-ending knee surgery.
 Dallas Mavericks,Kyrie Irving,G,Jan 1,Out,"Sep 29: At Media Day on Monday, Mavericks head coach Jason Kidd refuted the report that Irving (knee) is ahead of schedule in his recovery, Christian Clark reports."
 Denver Nuggets,Julian Strawther,G,Nov 28,Out,Nov 23: Strawther (back) has been ruled out for Monday's game against the Grizzlies.
@@ -33,11 +32,12 @@ Denver Nuggets,Aaron Gordon,F,Jan 2,Out,"Nov 23: Gordon (hamstring) will be re-e
 Denver Nuggets,Christian Braun,G,Jan 9,Out,"Nov 14: Christian Braun (ankle) will be re-evaluated in six weeks after suffering a left ankle sprain during Wednesday's win over the Clippers, Shams Charania of ESPN reports."
 Detroit Pistons,Bobi Klintman,F,Nov 28,Out,Nov 25: Klintman (ankle) has been ruled out for Wednesday's game against the Celtics.
 Detroit Pistons,Marcus Sasser,G,Dec 18,Out,Nov 8: Sasser (hip) will remain on the inactive list for Sunday's game in Philadelphia.
-Golden State Warriors,Draymond Green,F,Nov 26,Day-To-Day,Nov 25: Green (foot) is probable  for Wednesday's game against the Rockets.
+Golden State Warriors,Stephen Curry,G,Nov 29,Day-To-Day,"Nov 27: Curry has been diagnosed with a right quad contusion and is scheduled to undergo an MRI, Sam Gordon of the San Francisco Chronicle reports."
+Golden State Warriors,Gary Payton II,G,Nov 29,Day-To-Day,"Nov 27: Payton will not return to Wednesday's game against the Rockets due to a sprained left ankle, Dalton Johnson of NBC Sports Bay Area reports."
+Golden State Warriors,De'Anthony Melton,G,Nov 29,Out,Nov 26: Golden State recalled Melton (knee) from the G League's Santa Cruz Warriors on Wednesday.
+Golden State Warriors,Jonathan Kuminga,F,Dec 2,Out,"Nov 26: Head coach Steve Kerr said Kuminga (knee) was ""moving well"" during a 5-on-5 scrimmage and the team has a check-in scheduled for Friday, but there remains no timetable for return, Monte Poole of NBC Sports Bay Area reports."
 Golden State Warriors,Alex Toohey,F,Nov 28,Day-To-Day,Nov 24: Toohey (knee) is not listed on the injury report for Friday's game against Denver.
 Golden State Warriors,Al Horford,C,Dec 2,Out,"Nov 23: Horford will miss at least three games due to sciatica, Sam Gordon of the San Francisco Chronicle reports."
-Golden State Warriors,Jonathan Kuminga,F,Dec 2,Out,"Nov 23: Head coach Steve Kerr said Sunday that Kuminga (knee) didn't participate much in practice, and he isn't sure when the forward will play next, Sam Gordon of the San Francisco Chronicle reports. He has also been ruled out for Monday's game against the Jazz, according to Monte Poole of NBC Sports Bay Area."
-Golden State Warriors,De'Anthony Melton,G,Dec 2,Out,Nov 19: Melton (knee) will be re-evaluated in 10 days.
 Houston Rockets,Steven Adams,C,Nov 30,Out,Nov 25: Adams (ankle) has been ruled out for Wednesday's game against the Warriors.
 Houston Rockets,Dorian Finney-Smith,F,Nov 30,Out,Nov 23: Finney-Smith (ankle) has been ruled out for Monday's game against the Suns.
 Houston Rockets,Kevin Durant,F,Nov 30,Out,"Nov 23: Durant (personal) will miss Monday's game against the Suns and Wednesday's game against the Warriors, Shams Charania of ESPN reports."
@@ -54,29 +54,22 @@ LA Clippers,Jordan Miller,G,Nov 28,Out,"Nov 24: Miller (hamstring) will remain o
 LA Clippers,Derrick Jones Jr.,F,Dec 30,Out,"Nov 17: Jones sustained a sprained MCL in his right knee and will be re-evaluated in six weeks, Shams Charania of ESPN reports."
 LA Clippers,Bradley Beal,G,Oct 1,Out,"Nov 12: Beal will undergo season-ending surgery on his left hip, ESPN's Shams Charania reports."
 Los Angeles Lakers,Deandre Ayton,C,Nov 28,Day-To-Day,"Nov 26: Ayton (knee) has been ruled out for Tuesday's game against the Clippers, Law Murray of The Athletic reports."
-Memphis Grizzlies,Zach Edey,C,Nov 26,Day-To-Day,Nov 25: Edey is questionable for Wednesday's game against the Pelicans due to a migraine.
 Memphis Grizzlies,Ty Jerome,G,Jan 15,Out,Nov 22: Jerome (calf) will be held out of games for at least 6-to-9 weeks.
 Memphis Grizzlies,Ja Morant,G,Dec 2,Out,"Nov 17: Morant will miss at least two weeks with a right calf strain, the Grizzlies announced Monday."
 Memphis Grizzlies,Javon Small,G,Dec 7,Out,"Nov 15: Small (toe) will be re-evaluated in three weeks, the Grizzlies announced Saturday."
 Memphis Grizzlies,Brandon Clarke,F,Dec 30,Out,"Nov 11: The Grizzlies announced Tuesday that Clarke (knee) is progressing well, but he will be sidelined for another six-to-nine weeks."
 Memphis Grizzlies,Scotty Pippen Jr.,G,Jan 15,Out,"Oct 18: Pippen will undergo a procedure for a left big toe injury and will be re-evaluated in 12 weeks, ESPN's Shams Charania reported Saturday."
-Miami Heat,Dru Smith,G,Nov 26,Day-To-Day,"Nov 25: Smith (hip) is questionable for Wednesday's game against the Bucks, Anthony Chiang of the Miami Herald reports."
-Miami Heat,Nikola Jovic,F,Nov 26,Out,"Nov 25: Jovic (hip) is questionable for Wednesday's game against Milwaukee, Anthony Chiang of the Miami Herald reports."
-Miami Heat,Andrew Wiggins,F,Nov 26,Out,"Nov 25: Wiggins (hip) is questionable for Wednesday's game against the Bucks, Anthony Chiang of the Miami Herald reports."
-Miami Heat,Jaime Jaquez Jr.,F,Nov 26,Day-To-Day,"Nov 25: Jaquez (hip) is questionable for Wednesday's game against the Bucks, Anthony Chiang of the Miami Herald reports."
-Miami Heat,Norman Powell,G,Nov 26,Day-To-Day,"Nov 25: Powell (groin) is probable for Wednesday's game against the Bucks, Anthony Chiang of the Miami Herald reports."
 Miami Heat,Terry Rozier,G,Dec 18,Out,"Oct 23: The NBA placed Rozier on immediate leave from the Heat on Thursday, ESPN's Shams Charania reports."
-Milwaukee Bucks,Kevin Porter Jr.,G,Nov 28,Out,"Nov 25: Head coach Doc Rivers said Monday that Porter (knee), who has been ruled out for Wednesday's game against the Heat, is ""getting close"" to a return, Eric Nehm of The Athletic reports."
-Milwaukee Bucks,Giannis Antetokounmpo,F,Nov 26,Out,"Nov 25: Antetokounmpo (adductor) is questionable for Wednesday's game against the Heat, Eric Nehm of The Athletic reports."
+Milwaukee Bucks,Giannis Antetokounmpo,F,Nov 28,Out,"Nov 26: Antetokounmpo (groin) won't play in Wednesday's game against the Heat, Eric Nehm of The Athletic reports."
+Milwaukee Bucks,Kevin Porter Jr.,G,Nov 28,Out,Nov 26: The Bucks recalled Porter from the team's G League affiliate Wednesday.
 Milwaukee Bucks,Taurean Prince,F,Jan 2,Out,Nov 13: Prince underwent surgery Thursday to repair the herniated disc in his neck and will remain out indefinitely.
 New Orleans Pelicans,Karlo Matkovic,F,Nov 29,Out,Nov 25: Matkovic (calf) has been ruled out for Wednesday's game against the Grizzlies.
 New Orleans Pelicans,Jordan Poole,G,Nov 29,Out,Nov 25: Poole (quadriceps) won't play in Wednesday's game against the Grizzlies.
 New Orleans Pelicans,Herbert Jones,F,Dec 2,Out,"Nov 24: Jones (calf) will be out for at least one week, NBA reporter Marc Stein reports."
 New Orleans Pelicans,Dejounte Murray,G,Jan 2,Out,"Sep 25: ESPN's Shams Charania reported Wednesday that Murray (Achilles) could return right after New Years, according to Pelicans Film Room."
-New York Knicks,Landry Shamet,G,Nov 28,Out,Nov 25: Shamet is out for Wednesday's game against the Hornets with a sprained right shoulder.
+New York Knicks,Landry Shamet,G,Dec 24,Out,"Nov 26: Shamet (shoulder) will be re-evaluated in four weeks, Shams Charania of ESPN reports."
 New York Knicks,OG Anunoby,F,Dec 2,Out,"Nov 16: Anunoby (hamstring) will be re-evaluated in two weeks, Shams Charania of ESPN reports."
 Oklahoma City Thunder,Jalen Williams,G,Nov 28,Out,Nov 25: Williams (wrist) is out for Wednesday's game against Minnesota.
-Oklahoma City Thunder,Shai Gilgeous-Alexander,G,Nov 26,Day-To-Day,Nov 25: Gilgeous-Alexander is questionable for Wednesday's game against the Timberwolves due to an illness.
 Oklahoma City Thunder,Aaron Wiggins,G,Nov 30,Out,Nov 22: Wiggins (thigh) will remain on the inactive list for Sunday's game against the Trail Blazers.
 Oklahoma City Thunder,Nikola Topic,G,Feb 20,Out,"Oct 30: Topic has been diagnosed with testicular cancer, Thunder general manager Sam Presti announced Thursday, Justin Martinez of The Oklahoman reports."
 Oklahoma City Thunder,Thomas Sorber,C,Oct 1,Out,"Sep 5: The Thunder announced Friday that Sorber has sustained a torn ACL in his right knee during an offseason workout, NBA reporter Marc Stein reports."
@@ -84,29 +77,28 @@ Orlando Magic,Jonathan Isaac,F,Nov 28,Day-To-Day,Nov 25: Isaac won't play Tuesda
 Orlando Magic,Moritz Wagner,F,Dec 3,Out,Nov 24: Wagner (knee) is out for Tuesday's game against the 76ers.
 Orlando Magic,Paolo Banchero,F,Nov 28,Out,Nov 24: Banchero (groin) is out for Tuesday's game against the 76ers.
 Orlando Magic,Colin Castleton,C,Nov 29,Out,"Nov 24: The Magic plan to sign Castleton to a two-way deal, Michael Scotto of USA Today reports."
-Philadelphia 76ers,Paul George,F,Nov 28,Day-To-Day,Nov 25: George (ankle) has been downgraded to out for Tuesday's game against Orlando.
-Philadelphia 76ers,VJ Edgecombe,G,Nov 28,Day-To-Day,"Nov 25: Edgecombe (calf) won't play in Tuesday's game against the Magic, Adam Aaronson of PhillyVoice.comreports."
-Philadelphia 76ers,Trendon Watford,F,Nov 28,Day-To-Day,"Nov 25: Watford has ruled out for the rest of Tuesday's game against Orlando due to a left adductor strain, Derek Bodner of AllPHLY.com reports. He recorded eight points (2-2 FG, 4-4 FT), one rebound and one assist in 11 minutes before exiting."
-Philadelphia 76ers,Joel Embiid,C,Nov 28,Out,Nov 25: Embiid (knee) will not play Tuesday against Orlando.
+Philadelphia 76ers,VJ Edgecombe,G,Nov 28,Day-To-Day,"Nov 26: Edgecombe (calf) practiced Wednesday, Noah Levick of NBC Sports Philadelphia reports."
+Philadelphia 76ers,Paul George,F,Nov 28,Day-To-Day,"Nov 26: George (ankle) was a full participant at Wednesday's practice, Noah Levick of NBC Sports Philadelphia reports."
+Philadelphia 76ers,Trendon Watford,F,Dec 18,Out,"Nov 26: Watford (adductor) will be re-evaluated in two weeks, Noah Levick of NBC Sports Philadelphia reports."
+Philadelphia 76ers,Joel Embiid,C,Nov 28,Out,"Nov 26: Embiid (knee) was limited to an individual strength and conditioning session Wednesday, Noah Levick of NBC Sports Philadelphia reports."
 Philadelphia 76ers,Adem Bona,C,Nov 28,Out,"Nov 22: Bona (ankle) will miss two more games before being re-evaluated, Adam Aaronson of PhillyVoice.com reports."
 Philadelphia 76ers,Kelly Oubre Jr.,G,Dec 4,Out,"Nov 19: Oubre (knee) will miss at least two weeks, Tony Jones of The Athletic reports."
 Phoenix Suns,Ryan Dunn,F,Nov 28,Out,Nov 25: Dunn (wrist) has been ruled out for Wednesday's game against the Kings.
 Phoenix Suns,Grayson Allen,G,Nov 28,Out,Nov 25: Allen (quadriceps) has been ruled out for Wednesday's game against the Kings.
 Phoenix Suns,Jalen Green,G,Dec 18,Out,"Nov 11: Green (hamstring) will be re-evaluated in four-to-six weeks, Shams Charania of ESPN reports."
-Portland Trail Blazers,Shaedon Sharpe,G,Nov 26,Out,Nov 25: Sharpe (calf) is questionable for Wednesday's game against the Spurs.
 Portland Trail Blazers,Scoot Henderson,G,Dec 20,Out,Nov 21: Henderson (hamstring) will be re-evaluated in 2-4 weeks.
 Portland Trail Blazers,Jrue Holiday,G,Dec 5,Out,Nov 21: Holiday (calf) will be re-evaluated in 1-2 weeks.
 Portland Trail Blazers,Blake Wesley,G,Jan 30,Out,"Nov 5: Wesley underwent a successful procedure to repair a fracture of the fifth metatarsal base in his right foot Wednesday, and he's expected to be sidelined for 8-12 weeks, Brett Siegel of ClutchPoints.com reports."
 Portland Trail Blazers,Matisse Thybulle,G,Dec 2,Out,Oct 31: Thybulle underwent surgery Friday to repair torn UCL in his left thumb and will miss 4-6 weeks.
 Portland Trail Blazers,Damian Lillard,G,Oct 1,Out,"Sep 25: Lillard won't be back on the court for the 2025-26 season, as he made clear during an interview with YouTube influencer Speed on Wednesday."
-Sacramento Kings,Dennis Schroder,G,Nov 26,Day-To-Day,Nov 25: Schroder is questionable for Wednesday's game against the Suns.
+Sacramento Kings,Dennis Schroder,G,Nov 28,Out,"Nov 26: Schroder (hip) has been ruled out for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports."
 Sacramento Kings,Domantas Sabonis,F,Dec 18,Out,"Nov 20: Sabonis has been diagnosed with a partially torn meniscus in his left knee and is expected to be evaluated in 3-to-4 weeks, Shams Charania of ESPN reports."
 San Antonio Spurs,Jordan McLaughlin,G,Nov 28,Out,"Nov 25: McLaughlin (hamstring) has been ruled out for Wednesday's game against the Trail Blazers, Jeff Garcia of KENS 5 San Antonio reports."
-San Antonio Spurs,Dylan Harper,G,Nov 26,Out,"Nov 25: Harper (calf) is questionable for Wednesday's game against the Trail Blazers, NBA reporter Matthew Tynan reports."
 San Antonio Spurs,Harrison Ingram,F,Nov 28,Day-To-Day,"Nov 25: Ingram has signed a two-way contract with the Spurs, Michael Scotto of USA Today reports."
 San Antonio Spurs,Stephon Castle,G,Nov 30,Out,"Nov 18: Castle sustained a left hip flexor strain and will be re-evaluated in 1-2 weeks, Shams Charania of ESPN reports."
 San Antonio Spurs,Victor Wembanyama,F,Dec 2,Out,"Nov 17: Wembanyama (calf) is expected to miss multiple weeks, Shams Charania of ESPN reports."
-Toronto Raptors,RJ Barrett,F,Nov 29,Out,"Nov 25: Barrett (knee) won't play in Wednesday's game against the Pacers, Esfandiar Baraheni of The Athletic reports."
+Toronto Raptors,Gradey Dick,G,Nov 29,Out,"Nov 26: Dick (head) has been ruled out for the remainder of Wednesday's game against the Pacers, Esfandiar Baraheni of The Athletic reports."
+Toronto Raptors,RJ Barrett,F,Dec 5,Out,"Nov 26: The Raptors announced Wednesday that an MRI on Barrett's right knee revealed no structural damage, Esfandiar Baraheni of The Athletic reports. He has been diagnosed with a sprain and will be re-evaluated in seven days before the team updates his status."
 Utah Jazz,Kevin Love,F,Nov 28,Day-To-Day,Nov 25: Love (rest) is out for Monday's game against the Warriors.
 Utah Jazz,Georges Niang,F,Dec 7,Out,"Nov 22: Niang will have his left foot injury re-evaluated by Jazz medical staff in 10-to-14 days, Ben Anderson of KSL News Salt Lake City reports."
 Utah Jazz,Walker Kessler,C,Oct 1,Out,"Nov 5: Kessler will undergo left shoulder surgery and will miss the remainder of the 2025-26 season, Tony Jones of The Athletic reports."
